@@ -5,4 +5,6 @@ tsconfig.json
 next-env.d.ts
 *.config.ts
 *.config.js
-storybook-static/
+*.setup.js
+storybook-static
+__mocks__
