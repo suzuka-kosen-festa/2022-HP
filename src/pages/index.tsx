@@ -1,9 +1,10 @@
 import type { NextPage } from 'next'
 import tw from 'twin.macro'
+import { Text } from '../components/atoms/text'
 
 const Home: NextPage = () => (
   <div>
-    <p tw={'text-center text-xl'}>Hello World</p>
+    <Text css={tw`text-xl`}>Hello Next.js</Text>
   </div>
 )
 
