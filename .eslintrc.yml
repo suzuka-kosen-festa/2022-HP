@@ -3,6 +3,7 @@ extends:
   - re-taro/next
   - re-taro/typescript
   - re-taro/prettier
+  - plugin:storybook/recommended
 rules:
   no-duplicate-imports: 0
 parserOptions:

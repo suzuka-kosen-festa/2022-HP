@@ -1,7 +1,8 @@
 package.json
-tsconfig.json]
+tsconfig.json
 .next
-pnpm-lock.yaml
+.yarn
 next-env.d.ts
 *.config.ts
 *.config.js
+storybook-static/
