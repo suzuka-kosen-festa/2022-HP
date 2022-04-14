@@ -12,5 +12,5 @@ const data = {
 }
 
 export const Default: Story = {
-  args: { children: data.sentence, css: data.style },
+  args: { children: data.sentence, css: data.style }
 }
