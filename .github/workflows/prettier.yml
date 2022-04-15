@@ -1,0 +1,16 @@
+name: Prettier
+
+on:
+  pull_request:
+    branches:
+      - dev
+
+jobs:
+  run-prettier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install packages
+        run: yarn install --frozen-lockfile
+      - name: Format the code
+        run: yarn run fmt
