@@ -8,6 +8,9 @@ module.exports = {
         "categories:seo": ["error", { "minScore": 0.9 }]
       }
     },
+    collect: {
+      staticDistDir: './.next/'
+    },
     upload: {
       target: 'temporary-public-storage',
     }
