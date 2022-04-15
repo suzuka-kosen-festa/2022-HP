@@ -8,25 +8,25 @@ on:
 jobs:
   run-type-check:
     runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v2
-        - name: Install packages
-          run: yarn install --frozen-lockfile
-        - name: Check codes types
-          run: yarn run type
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install packages
+        run: yarn install --frozen-lockfile
+      - name: Check codes types
+        run: yarn run type
   run-build:
     runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v2
-        - name: Install packages
-          run: yarn install --frozen-lockfile
-        - name: Build the project
-          run: yarn run build
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install packages
+        run: yarn install --frozen-lockfile
+      - name: Build the project
+        run: yarn run build
   run-snapshot-test:
     runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v2
-        - name: Install packages
-          run: yarn install --frozen-lockfile
-        - name: Test snapshots
-          run: yarn run test
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install packages
+        run: yarn install --frozen-lockfile
+      - name: Test snapshots
+        run: yarn run test
