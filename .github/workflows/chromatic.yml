@@ -21,9 +21,10 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v2
         with:
+          ref: ${{ github.event.pull_request.head.ref }}
           fetch-depth: 0
       - name: Install dependencies
         run: yarn install --frozen-lockfile
