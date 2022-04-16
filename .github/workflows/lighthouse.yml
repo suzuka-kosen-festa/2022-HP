@@ -1,0 +1,56 @@
+name: CodeQL
+
+on:
+  pull_request:
+    branches:
+      - dev
+      - main
+
+jobs:
+  run-lighthouse-ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
+      - uses: actions/cache@v3
+        id: yarn-cache
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+      - name: Install Dependencies
+        run: yarn install --frozen-lockfile
+      - name: production build
+        run: yarn run build
+      - name: install Lighthouse cli
+        run: |
+          yarn add @lhci/cli@0.8.x
+      - name: run Lighthouse cli
+        id: lhci
+        run: |
+          mkdir dist
+          touch dist/autorun.txt
+          yarn lhci autorun | grep 'storage.googleapis.com' > ./dist/autorun.txt
+          report_url=$(cat ./dist/autorun.txt)
+          echo $report_url
+          echo "::set-output name=report_url::$report_url"
+        continue-on-error: true
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+      - name: json to markdown
+        uses: shoma3571/lhci-format-action@v1.3
+        id: parse
+        with:
+          json-file-path: .lighthouseci/assertion-results.json
+          report-url: ${{ steps.lhci.outputs.report_url }}
+      - name: post comment
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          URL: ${{ github.event.pull_request.html_url }}
+        run: gh pr comment -F ./result-markdown.md "${URL}"

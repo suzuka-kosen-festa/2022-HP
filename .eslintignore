@@ -8,3 +8,4 @@ next-env.d.ts
 *.setup.js
 storybook-static
 __mocks__
+lighthouserc.js
