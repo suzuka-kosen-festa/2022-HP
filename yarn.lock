@@ -1736,7 +1736,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/react@npm:^11.8.2":
+"@emotion/react@npm:11.9.0":
   version: 11.9.0
   resolution: "@emotion/react@npm:11.9.0"
   dependencies:
@@ -1814,20 +1814,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/styled@npm:^10.0.27":
-  version: 10.3.0
-  resolution: "@emotion/styled@npm:10.3.0"
-  dependencies:
-    "@emotion/styled-base": ^10.3.0
-    babel-plugin-emotion: ^10.0.27
-  peerDependencies:
-    "@emotion/core": ^10.0.27
-    react: ">=16.3.0"
-  checksum: 9d9609c008c009d8b9249fdbb2017a404b1fc6c9118c84ec9a916e86670d4c61f03fee24297ad10b460dab628ff8260066338617ee99ede3ae7969ce5995e9bc
-  languageName: node
-  linkType: hard
-
-"@emotion/styled@npm:^11.8.1":
+"@emotion/styled@npm:11.8.1":
   version: 11.8.1
   resolution: "@emotion/styled@npm:11.8.1"
   dependencies:
@@ -1846,6 +1833,19 @@ __metadata:
     "@types/react":
       optional: true
   checksum: 67150fa788785c34e285b90acecc91fe7a63babceaefbeffd053bed0fa31f72a05bfeeb9d15620766e543e007b9ccac2e836812eec2e791f962ec4e52731ae4c
+  languageName: node
+  linkType: hard
+
+"@emotion/styled@npm:^10.0.27":
+  version: 10.3.0
+  resolution: "@emotion/styled@npm:10.3.0"
+  dependencies:
+    "@emotion/styled-base": ^10.3.0
+    babel-plugin-emotion: ^10.0.27
+  peerDependencies:
+    "@emotion/core": ^10.0.27
+    react: ">=16.3.0"
+  checksum: 9d9609c008c009d8b9249fdbb2017a404b1fc6c9118c84ec9a916e86670d4c61f03fee24297ad10b460dab628ff8260066338617ee99ede3ae7969ce5995e9bc
   languageName: node
   linkType: hard
 
@@ -13737,9 +13737,9 @@ __metadata:
     "@emotion/babel-plugin": 11.9.2
     "@emotion/babel-plugin-jsx-pragmatic": 0.1.5
     "@emotion/babel-preset-css-prop": 11.2.0
-    "@emotion/react": ^11.8.2
+    "@emotion/react": 11.9.0
     "@emotion/serialize": 1.0.3
-    "@emotion/styled": ^11.8.1
+    "@emotion/styled": 11.8.1
     "@mdx-js/react": 1.6.22
     "@storybook/addon-actions": 6.4.21
     "@storybook/addon-docs": 6.4.21
@@ -13773,9 +13773,9 @@ __metadata:
     eslint-plugin-storybook: 0.5.8
     identity-obj-proxy: 3.0.0
     jest: 27.5.1
-    next: ^12.1.0
+    next: 12.1.4
     postcss: 8.4.12
-    preact: ^10.6.6
+    preact: 10.7.1
     preact-render-to-string: 5.1.21
     prettier: 2.6.2
     react: 17.0.2
@@ -13788,7 +13788,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"next@npm:^12.1.0":
+"next@npm:12.1.4":
   version: 12.1.4
   resolution: "next@npm:12.1.4"
   dependencies:
@@ -15021,7 +15021,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"preact@npm:^10.6.6":
+"preact@npm:10.7.1":
   version: 10.7.1
   resolution: "preact@npm:10.7.1"
   checksum: e99d08bd38372e78ce1c84e68685cad66adf076bd95069bc8bcd32c9903a4df09c01d5b04aad849527362b67cc2c09446b647f72de4e67d0578fdea0f904f28f
