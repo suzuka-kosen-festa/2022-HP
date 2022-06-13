@@ -32,10 +32,10 @@
     "chromatic": "npx chromatic --project-token=$CHROMATIC_PROJECT_TOKEN"
   },
   "dependencies": {
-    "@emotion/react": "11.9.0",
-    "@emotion/styled": "11.8.1",
+    "@emotion/react": "11.9.3",
+    "@emotion/styled": "11.9.3",
     "next": "12.1.6",
-    "preact": "10.7.2"
+    "preact": "10.7.3"
   },
   "devDependencies": {
     "@babel/core": "7.17.9",
