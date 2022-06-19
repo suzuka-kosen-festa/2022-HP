@@ -27,7 +27,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
 
       - name: Install Dependencies
-        run: yarn install
+        run: yarn install --frozen-lockfile
 
       - name: yarn add -D style-dictionary
         run: yarn add -D style-dictionary
