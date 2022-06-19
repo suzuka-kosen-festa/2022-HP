@@ -9,7 +9,7 @@ jobs:
     # 'figma' という名前を含むブランチのみ動くように設定
     if: contains(github.head_ref, 'figma')
     steps:
-     - name: Get yarn cache directory path
+      - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
 
