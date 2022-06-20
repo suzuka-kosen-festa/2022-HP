@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Atoms/Text/Text Default 1`] = `
+exports[`Storyshots atoms/text Default 1`] = `
 <span
   className="css-lz71gy-Text e8xjir80"
 >

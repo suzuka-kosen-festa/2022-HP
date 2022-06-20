@@ -33,7 +33,7 @@ jobs:
         run: yarn add -D style-dictionary
 
       - name: run style-dictionary
-        run: yarn style-dictionary build --config ./data/tokens.json
+        run: yarn style-dictionary build
 
       - name: add and commit
         uses: stefanzweifel/git-auto-commit-action@v4
