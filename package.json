@@ -34,7 +34,7 @@
   "dependencies": {
     "@emotion/react": "11.9.3",
     "@emotion/styled": "11.9.3",
-    "next": "12.1.6",
+    "next": "12.2.0",
     "preact": "10.8.2"
   },
   "devDependencies": {
