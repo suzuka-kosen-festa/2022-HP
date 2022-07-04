@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ESNext",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -16,7 +16,8 @@
     "noImplicitReturns": true,
     "noImplicitAny": true,
     "incremental": true,
-    "baseUrl": "./"
+    "baseUrl": "./",
+    "types": ["vitest/globals"]
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next.config.js", "src"],
   "exclude": ["node_modules"]
