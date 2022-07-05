@@ -3,9 +3,9 @@ import tw from 'twin.macro'
 import { Text } from '../components/atoms/text'
 
 const Home: NextPage = () => (
-  <div>
+  <main>
     <Text css={tw`text-xl`}>Hello Next.js</Text>
-  </div>
+  </main>
 )
 
 export default Home
