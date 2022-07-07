@@ -28,14 +28,6 @@ jobs:
       - name: Format the code
         run: yarn run fmt
       - name: auto commit
-        run: |
-          git remote set-url origin https://github-actions:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
-          git config --global user.name "${GITHUB_ACTOR}"
-          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          if (git diff --shortstat | grep '[0-9]'); then \
-            git add .; \
-            git commit -m "🤖 auto-fixable format by github-actions"; \
-            git push origin HEAD:${GITHUB_REF}; \
-          fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 🤖 auto-fixable format by github-actions
