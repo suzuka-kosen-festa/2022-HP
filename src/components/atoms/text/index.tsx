@@ -1,5 +1,5 @@
-import tw from 'twin.macro'
+import tw from "twin.macro";
 
-const Text = tw.span`text-indigo-900`
+const Text = tw.span`text-indigo-900`;
 
-export { Text }
+export { Text };
