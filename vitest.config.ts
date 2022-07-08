@@ -1,15 +1,15 @@
 /// <reference types="vitest" />
 
-import { defineConfig } from 'vitest/config'
-import react from '@vitejs/plugin-react'
-import macros from 'vite-plugin-babel-macros'
+import { defineConfig } from "vitest/config";
+import react from "@vitejs/plugin-react";
+import macros from "vite-plugin-babel-macros";
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), macros()],
   test: {
-    environment: 'happy-dom',
+    environment: "happy-dom",
     globals: true,
-    setupFiles: "./vitest.setup.ts"
-  }
-})
+    setupFiles: "./vitest.setup.ts",
+  },
+});
