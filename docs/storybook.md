@@ -19,32 +19,32 @@ UI コンポーネントとページを分離して構築するためのオー�
 [Storybook 公式チュートリアル](https://storybook.js.org/tutorials/ui-testing-handbook/react/en/composition-testing/)にある TaskItem を TS 化&CSF3.0 に書き換えたものを例に書きます。
 
 ```ts
-import type { ComponentStoryObj } from '@storybook/react'
-import { TaskItem } from '.'
-import type { task } from '.'
+import type { ComponentStoryObj } from "@storybook/react";
+import { TaskItem } from ".";
+import type { task } from ".";
 
-type Story = ComponentStoryObj<typeof TaskItem>
+type Story = ComponentStoryObj<typeof TaskItem>;
 
-export default { component: TaskItem }
+export default { component: TaskItem };
 
 const defaultTask: task = {
-  id: '1',
-  title: 'OK Test Task',
-  state: 'TASK_INBOX',
-  updatedAt: new Date(2021, 0, 10, 10, 0)
-}
+  id: "1",
+  title: "OK Test Task",
+  state: "TASK_INBOX",
+  updatedAt: new Date(2021, 0, 10, 10, 0),
+};
 
 export const Default: Story = {
-  args: { task: defaultTask }
-}
+  args: { task: defaultTask },
+};
 
 export const Pinned: Story = {
-  args: { task: { ...defaultTask, state: 'TASK_PINNED' } }
-}
+  args: { task: { ...defaultTask, state: "TASK_PINNED" } },
+};
 
 export const Archived: Story = {
-  args: { task: { ...defaultTask, state: 'TASK_ARCHIVED' } }
-}
+  args: { task: { ...defaultTask, state: "TASK_ARCHIVED" } },
+};
 ```
 
 &nbsp;
@@ -52,8 +52,8 @@ export const Archived: Story = {
 ## \*.test.ts の書き方
 
 ```ts
-import initStoryshots from '@storybook/addon-storyshots'
-initStoryshots()
+import initStoryshots from "@storybook/addon-storyshots";
+initStoryshots();
 ```
 
 これだけ

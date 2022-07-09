@@ -20,10 +20,14 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ref: ${{ github.event.pull_request.head.ref }}
       - name: Install Dependencies
         run: yarn install --frozen-lockfile
       - name: Format the code
         run: yarn run fmt
+      - name: auto commit
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 🤖 auto-fixable format by github-actions

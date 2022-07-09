@@ -1,21 +1,18 @@
-name: chromatic
-
+name: 'figma-tokens style-dictionary actions'
 on:
   pull_request:
-    branches:
-      - dev
-    paths:
-      - '**.stories.tsx'
 
 jobs:
-  chromatic-deployment:
-    name: Deploy Storybook to chromatic
+  generate_scss:
+    name: generate_scss
     runs-on: ubuntu-latest
-    timeout-minutes: 7
+    # 'figma' という名前を含むブランチのみ動くように設定
+    if: contains(github.head_ref, 'figma')
     steps:
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
+
       - uses: actions/cache@v3
         id: yarn-cache
         with:
@@ -23,15 +20,22 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
+
       - name: Checkout
         uses: actions/checkout@v3
         with:
           ref: ${{ github.event.pull_request.head.ref }}
-          fetch-depth: 0
-      - name: Install dependencies
+
+      - name: Install Dependencies
         run: yarn install --frozen-lockfile
-      - name: Publish to Chromatic
-        uses: chromaui/action@v1
+
+      - name: yarn add -D style-dictionary
+        run: yarn add -D style-dictionary
+
+      - name: run style-dictionary
+        run: yarn style-dictionary build
+
+      - name: add and commit
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          commit_message: generate scss by style-dictionary

@@ -23,7 +23,7 @@ lib-cov
 coverage
 *.lcov
 
-# nyc test coverage
+# nyc tests coverage
 .nyc_output
 
 # Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
@@ -211,11 +211,7 @@ secring.*
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/**/usage.statistics.xml
-.idea/**/dictionaries
-.idea/**/shelf
+.idea
 
 # Generated files
 .idea/**/contentModel.xml
@@ -314,7 +310,7 @@ tags
 *.so
 *.dylib
 
-# Test binary, built with `go test -c`
+# Test binary, built with `go tests -c`
 *.test
 
 # Output of the go coverage tool, specifically when used with LiteIDE
