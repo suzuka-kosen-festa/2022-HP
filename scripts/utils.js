@@ -4,5 +4,5 @@ function createArray({ dictionary }) {
 }
 
 module.exports = {
-  createArray
+  createArray,
 };

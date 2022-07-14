@@ -5,13 +5,7 @@ StyleDictionaryPackage.registerTransform({
   name: "sizes/rem",
   type: "value",
   matcher(prop) {
-    return [
-      "fontSizes",
-      "spacing",
-      "borderRadius",
-      "borderWidth",
-      "sizing",
-    ].includes(prop.attributes.category);
+    return ["fontSizes", "spacing", "borderRadius", "borderWidth", "sizing"].includes(prop.attributes.category);
   },
   transformer(prop) {
     return `${parseFloat(prop.original.value) / 16}rem`;
