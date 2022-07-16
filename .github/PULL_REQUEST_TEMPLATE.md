@@ -15,4 +15,4 @@
 
 # ℹ️ issue
 
-close: #番号
+close #番号
