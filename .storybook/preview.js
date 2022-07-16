@@ -5,5 +5,5 @@ module.exports = {
       color: /(background|color)$/i,
       date: /Date$/,
     },
-  }
+  },
 };

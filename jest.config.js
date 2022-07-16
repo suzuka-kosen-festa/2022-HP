@@ -1,23 +1,23 @@
 module.exports = {
-  coverageProvider: 'v8',
+  coverageProvider: "v8",
   collectCoverageFrom: [
-    '**/*.{js,jsx,ts,tsx}',
-    '!**/*.d.ts',
-    '!**/node_modules/**',
-    '!<rootDir>/out/**',
-    '!<rootDir>/.next/**',
-    '!<rootDir>/*.config.js',
-    '!<rootDir>/coverage/**',
+    "**/*.{js,jsx,ts,tsx}",
+    "!**/*.d.ts",
+    "!**/node_modules/**",
+    "!<rootDir>/out/**",
+    "!<rootDir>/.next/**",
+    "!<rootDir>/*.config.js",
+    "!<rootDir>/coverage/**",
   ],
   moduleDirectories: ["node_modules", "<rootDir>/"],
   testEnvironment: "jest-environment-jsdom",
   setupFiles: ["./jest.setup.js"],
   //setupFilesAfterEnv: ["<rootDir>/src/tests/jest.customMatchers.ts"],
   testMatch: ["**/?(*.)+(test).[jt]s?(x)"],
-  testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/.next/'],
+  testPathIgnorePatterns: ["<rootDir>/node_modules/", "<rootDir>/.next/"],
   transform: {
-    '^.+\\.(ts|tsx)$': [
-      'babel-jest',
+    "^.+\\.(ts|tsx)$": [
+      "babel-jest",
       {
         presets: [
           [
@@ -46,7 +46,5 @@ module.exports = {
       },
     ],
   },
-  transformIgnorePatterns: [
-    '/node_modules/'
-  ],
-}
+  transformIgnorePatterns: ["/node_modules/"],
+};
