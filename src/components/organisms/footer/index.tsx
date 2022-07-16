@@ -1,5 +1,9 @@
 import tw, { css } from "twin.macro";
-
+import { Text } from "../../atoms/text";
 const Footer: React.FC = () => {
-  return <p>&copy; 第57回鈴鹿高専祭実行委員会</p>;
+  return (
+    <footer>
+      <Text css={tw`text-gray-500`}>&copy; 第57回鈴鹿高専祭実行委員会</Text>
+    </footer>
+  );
 };
