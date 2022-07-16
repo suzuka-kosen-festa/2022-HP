@@ -14589,6 +14589,7 @@ __metadata:
     twin.macro: 2.8.2
     typescript: 4.7.4
     webpack: ^5.73.0
+    yaml: 2.1.1
   languageName: unknown
   linkType: soft
 
