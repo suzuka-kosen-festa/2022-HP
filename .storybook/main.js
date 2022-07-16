@@ -2,7 +2,7 @@ const path = require("path");
 const toPath = _path => path.join(process.cwd(), _path);
 
 module.exports = {
-  stories: ["../src/components/**/**/*.stories.@(ts|tsx)"],
+  stories: ["../src/components/**/*.stories.@(ts|tsx)"],
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
@@ -18,7 +18,30 @@ module.exports = {
   ],
   babel: async options => ({
     ...options,
-    presets: ["@emotion/babel-preset-css-prop"],
+    presets: [
+      [
+        "next/babel",
+        {
+          "preset-react": {
+            runtime: "automatic",
+            importSource: "@emotion/react",
+          },
+        },
+      ],
+    ],
+    plugins: [
+      "@emotion",
+      "macros",
+      [
+        "@emotion/babel-plugin-jsx-pragmatic",
+        {
+          export: "jsx",
+          import: "__cssprop",
+          module: "@emotion/react",
+        },
+      ],
+      ["@babel/plugin-transform-react-jsx", { pragma: "__cssprop" }, "twin.macro"],
+    ],
   }),
   framework: "@storybook/react",
   core: {

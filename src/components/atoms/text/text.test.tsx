@@ -1,7 +1,13 @@
+import { composeStories } from "@storybook/testing-react";
+import "@testing-library/jest-dom";
 import { render } from "@testing-library/react";
-import { Text } from ".";
+import * as stories from "./text.stories";
 
-it("(components) Text snap shot", () => {
-  const tree = render(<Text>Test</Text>);
-  expect(tree).toMatchSnapshot();
+const { Default } = composeStories(stories);
+
+describe("(components) atoms/text", () => {
+  test("snap shot", () => {
+    const { container } = render(<Default />);
+    expect(container).toMatchSnapshot();
+  });
 });

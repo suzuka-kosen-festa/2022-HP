@@ -1,4 +1,4 @@
-export const parameters = {
+module.exports = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
     matchers: {

@@ -11,8 +11,8 @@ module.exports = {
     ],
   ],
   plugins: [
-    "@emotion/babel-plugin",
-    "babel-plugin-macros",
+    "@emotion",
+    "macros",
     [
       "@emotion/babel-plugin-jsx-pragmatic",
       {
