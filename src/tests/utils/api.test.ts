@@ -4,37 +4,37 @@ import { readYaml, getDataByField } from "../../utils/api";
 
 describe("API test", () => {
   it("(utils)read yaml", () => {
-    const result = readYaml<_Test>("_test")
+    const result = readYaml<_Test>("_test");
     expect(result).toStrictEqual({
       data: [
         {
           id: 1,
-          name: "Hoge"
+          name: "Hoge",
         },
         {
           id: 2,
-          name: "Fuga"
-        }
+          name: "Fuga",
+        },
       ],
-      field: "_test"
-    })
-  })
+      field: "_test",
+    });
+  });
   it("(utils) get data from field", () => {
-    const result1 = getDataByField<_Test>([{__typename: TEST, name: "_test"}])
+    const result1 = getDataByField<_Test>([{ __typename: TEST, name: "_test" }]);
     expect(result1).toStrictEqual([
       {
         data: [
           {
             id: 1,
-            name: "Hoge"
+            name: "Hoge",
           },
           {
             id: 2,
-            name: "Fuga"
-          }
+            name: "Fuga",
+          },
         ],
-        field: "_test"
-      }
-    ])
-  })
-})
+        field: "_test",
+      },
+    ]);
+  });
+});
