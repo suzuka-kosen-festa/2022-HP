@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`(components) atom/text snap shot 1`] = `
+exports[`(components) atoms/text snap shot 1`] = `
 <div>
   <span
     class="css-lz71gy-Text e8xjir80"
