@@ -5,7 +5,7 @@ import * as stories from "./text.stories";
 
 const { Default } = composeStories(stories);
 
-describe("(components) atom/text", () => {
+describe("(components) atoms/text", () => {
   test("snap shot", () => {
     const { container } = render(<Default />);
     expect(container).toMatchSnapshot();
