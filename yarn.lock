@@ -14205,6 +14205,7 @@ __metadata:
     vite-plugin-babel-macros: 1.0.6
     vitest: 0.18.0
     webpack: 5.73.0
+    yaml: 2.1.1
   languageName: unknown
   linkType: soft
 
@@ -19736,6 +19737,13 @@ __metadata:
     lodash: ^4.17.21
     yaml: ^1.10.2
   checksum: f4b316407fa3a98e35808c3321617be8d01333df23e5ac5c00b1bd2c497845aeebab4bd506209f38b1e48c3d0483ade8b2c2f0251d131924435ed718d88b2c26
+  languageName: node
+  linkType: hard
+
+"yaml@npm:2.1.1":
+  version: 2.1.1
+  resolution: "yaml@npm:2.1.1"
+  checksum: f48bb209918aa57cfaf78ef6448d1a1f8187f45c746f933268b7023dc59e5456004611879126c9bb5ea55b0a2b1c2b392dfde436931ece0c703a3d754562bb96
   languageName: node
   linkType: hard
 
