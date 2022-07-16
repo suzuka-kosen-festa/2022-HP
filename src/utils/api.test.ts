@@ -1,6 +1,6 @@
-import { TEST } from "../../models/constant";
-import type { _Test } from "../../models/type";
-import { readYaml, getDataByField } from "../../utils/api";
+import { TEST } from "../models/constant";
+import type { _Test } from "../models/type";
+import { readYaml, getDataByField } from "./api";
 
 describe("API test", () => {
   it("(utils)read yaml", () => {
