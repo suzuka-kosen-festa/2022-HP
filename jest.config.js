@@ -13,7 +13,7 @@ module.exports = {
   moduleDirectories: ["node_modules", "<rootDir>/"],
   testEnvironment: "jest-environment-jsdom",
   setupFiles: ["./jest.setup.js"],
-  //setupFilesAfterEnv: ["<rootDir>/src/tests/jest.customMatchers.ts"],
+  setupFilesAfterEnv: ["<rootDir>/src/tests/jest.custom-matchers.ts"],
   testMatch: ["**/?(*.)+(test).[jt]s?(x)"],
   testPathIgnorePatterns: ["<rootDir>/node_modules/", "<rootDir>/.next/"],
   transformIgnorePatterns: ["/node_modules/(?!yaml)/"],
