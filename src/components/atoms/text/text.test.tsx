@@ -14,9 +14,9 @@ describe("(components) atoms/text", () => {
       expect(container).not.toBeOrganism();
       expect(container).not.toBeTemplate();
     };
-    const { container } = render(<Default />)
-    asserts(container)
-  })
+    const { container } = render(<Default />);
+    asserts(container);
+  });
   test("snap shot", () => {
     const { container } = render(<Default />);
     expect(container).toMatchSnapshot();
