@@ -23,4 +23,18 @@ module.exports = {
     ],
     ["@babel/plugin-transform-react-jsx", { pragma: "__cssprop" }, "twin.macro"],
   ],
+  env: {
+    test: {
+      presets: [
+        [
+          "@babel/preset-env",
+          {
+            targets: {
+              node: "current",
+            },
+          },
+        ],
+      ],
+    },
+  },
 };
