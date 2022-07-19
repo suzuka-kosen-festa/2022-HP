@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { parse } from "yaml";
-import type { Field, RField, RYaml } from "../models/type";
+import type { Field, RField, RYaml } from "../../models/type";
 
 const getAssetsDirectory = () => join(process.cwd(), "assets");
 
