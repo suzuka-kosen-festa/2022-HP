@@ -2,10 +2,10 @@
 
 exports[`(components) atoms/text snap shot 1`] = `
 <div>
-  <span
+  <p
     class="css-lz71gy-Text e8xjir80"
   >
     This is test
-  </span>
+  </p>
 </div>
 `;
