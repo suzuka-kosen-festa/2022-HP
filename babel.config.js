@@ -11,8 +11,8 @@ module.exports = {
     ],
   ],
   plugins: [
-    "@emotion/babel-plugin",
-    "babel-plugin-macros",
+    "@emotion",
+    "macros",
     [
       "@emotion/babel-plugin-jsx-pragmatic",
       {
@@ -23,4 +23,18 @@ module.exports = {
     ],
     ["@babel/plugin-transform-react-jsx", { pragma: "__cssprop" }, "twin.macro"],
   ],
+  env: {
+    test: {
+      presets: [
+        [
+          "@babel/preset-env",
+          {
+            targets: {
+              node: "current",
+            },
+          },
+        ],
+      ],
+    },
+  },
 };

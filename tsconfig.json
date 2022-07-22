@@ -16,8 +16,7 @@
     "noImplicitReturns": true,
     "noImplicitAny": true,
     "incremental": true,
-    "baseUrl": "./",
-    "types": ["vitest/globals"]
+    "baseUrl": "./"
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next.config.js", "src"],
   "exclude": ["node_modules"]

@@ -1,16 +1,15 @@
-import type { ComponentStoryObj } from "@storybook/react";
+import type { ComponentStoryObj, ComponentMeta } from "@storybook/react";
 import tw from "twin.macro";
-import { Text } from "./";
+import { Text } from ".";
 
-type Story = ComponentStoryObj<typeof Text>;
-
-export default { component: Text };
+type T = typeof Text;
+type Story = ComponentStoryObj<T>;
 
 const data = {
   sentence: "This is test",
   style: tw`text-xs`,
 };
 
-export const Default: Story = {
-  args: { children: data.sentence, css: data.style },
-};
+export default { args: { children: data.sentence, css: data.style }, component: Text } as ComponentMeta<T>;
+
+export const Default: Story = {};

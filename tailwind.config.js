@@ -2,7 +2,7 @@
 module.exports = {
   darkMode: "class",
   plugins: [],
-  content: ["./src/**/**/**/*.{ts,tsx}"],
+  content: ["./src/**/*.{ts,tsx}"],
   theme: {},
   variants: {
     extend: {},
