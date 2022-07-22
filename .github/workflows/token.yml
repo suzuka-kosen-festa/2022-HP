@@ -3,7 +3,7 @@ on:
   pull_request:
 
 jobs:
-  generate_scss:
+  generate_json:
     name: generate_scss
     runs-on: ubuntu-latest
     # 'figma' という名前を含むブランチのみ動くように設定
@@ -30,4 +30,4 @@ jobs:
       - name: add and commit
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: generate scss by style-dictionary
+          commit_message: "[skip ci] generate json by style-dictionary"
