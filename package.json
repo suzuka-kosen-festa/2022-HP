@@ -29,6 +29,7 @@
     "test": "jest",
     "test:watch": "jest watch",
     "test:update": "jest -u",
+    "gen:style": "node ./scripts/build.js",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "chromatic": "npx chromatic --project-token=$CHROMATIC_PROJECT_TOKEN"
