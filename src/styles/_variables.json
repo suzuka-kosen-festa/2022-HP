@@ -1,0 +1,12 @@
+{
+  "global": {
+    "color": {
+      "white": "#FFFFFF",
+      "black": "#000000",
+      "photo-layer": "rgba(34,31,31, 0.9)",
+      "button-hover": "#EBEBEB",
+      "background-gray": "#211A1A"
+    }
+  },
+  "$themes": []
+}
