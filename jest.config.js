@@ -16,5 +16,13 @@ module.exports = {
   setupFilesAfterEnv: ["<rootDir>/src/tests/jest.custom-matchers.ts"],
   testMatch: ["**/?(*.)+(test).[jt]s?(x)"],
   testPathIgnorePatterns: ["<rootDir>/node_modules/", "<rootDir>/.next/"],
+  transform: {
+    "^.+\\.(js|ts|tsx)$": [
+      "babel-jest",
+      {
+        configFile: "./babel.config.js",
+      },
+    ],
+  },
   transformIgnorePatterns: ["/node_modules/(?!yaml)/"],
 };
