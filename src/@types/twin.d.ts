@@ -2,7 +2,7 @@ import "twin.macro";
 import { css as cssImport } from "@emotion/react";
 import { CSSInterpolation } from "@emotion/serialize";
 import styledImport from "@emotion/styled";
-import { DOMAttributes } from "react";
+import React, { DOMAttributes } from "react";
 
 declare global {
   namespace JSX {
@@ -14,8 +14,10 @@ declare global {
 
 declare module "twin.macro" {
   // The styled and css imports
+  /* eslint-disable init-declarations */
   const styled: typeof styledImport;
   const css: typeof cssImport;
+  /* eslint-enable */
 }
 
 declare module "react" {
