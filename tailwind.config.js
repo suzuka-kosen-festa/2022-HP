@@ -3,7 +3,13 @@ module.exports = {
   darkMode: "class",
   plugins: [],
   content: ["./src/**/*.{ts,tsx}"],
-  theme: {},
+  theme: {
+    extend: {
+      fontFamily: {
+        zen: ["Zen Kurenaido", "sans-serif"],
+      },
+    },
+  },
   variants: {
     extend: {},
   },
