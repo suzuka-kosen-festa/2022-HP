@@ -1,11 +1,12 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
+import { match, P } from "ts-pattern";
 import { parse } from "yaml";
-import type { Field, RField, RYaml } from "../../models/type";
+import type { _Field, Fields, RYaml, RDataByField, Sponsors, Tests } from "../../models/type";
 
 const getAssetsDirectory = () => join(process.cwd(), "assets");
 
-export const readYaml = <T extends RField>(path: string): RYaml<T> => {
+export const readYaml = <T extends Fields>(path: string): RYaml<T> => {
   const fullpath = join(getAssetsDirectory(), `${path}.yaml`);
   const raw = readFileSync(fullpath, "utf8");
   const result = parse<T>(raw);
@@ -15,5 +16,15 @@ export const readYaml = <T extends RField>(path: string): RYaml<T> => {
   };
 };
 
-export const getDataByField = <T extends RField>(fields: Array<Field<T>>): Array<RYaml<T>> =>
-  fields.map(field => readYaml<typeof field.__typename>(field.name));
+export const getDataByField = (fields: Array<_Field>): RDataByField => {
+  const result: RDataByField = [];
+  for (const field of fields) {
+    result.push(
+      match(field)
+        .with({ __typename: "Sponsors", path: P.select() }, path => readYaml<Sponsors>(path))
+        .with({ __typename: "Tests", path: P.select() }, path => readYaml<Tests>(path))
+        .exhaustive(),
+    );
+  }
+  return result;
+};
