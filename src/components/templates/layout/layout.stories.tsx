@@ -1,12 +1,12 @@
 import type { ComponentStoryObj, ComponentMeta } from "@storybook/react";
 import { Layout } from ".";
 
-type T = typeof Layout
-type Story = ComponentStoryObj<T>
+type T = typeof Layout;
+type Story = ComponentStoryObj<T>;
 
 const data = {
-  node: <main />
-}
+  node: <main />,
+};
 
 export default { args: { children: data.node }, component: Layout, title: "Layout" } as ComponentMeta<T>;
 

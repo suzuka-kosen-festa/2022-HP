@@ -14,4 +14,4 @@ describe("(components) templates/layout", () => {
     const { container } = render(<Default />);
     expect(container).toMatchSnapshot();
   });
-})
+});
