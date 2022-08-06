@@ -10,6 +10,7 @@ exports[`(components) templates/layout snap shot 1`] = `
     >
       <div
         class="css-1vrhv8u-Main exwm4bw0"
+        role="main"
       >
         <main />
       </div>

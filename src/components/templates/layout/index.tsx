@@ -11,7 +11,7 @@ const Main = tw.div`mr-auto ml-64.75`;
 const Layout: React.FC<LayoutProperties> = ({ children, ...rest }) => (
   <LayoutBox {...rest}>
     <MainBox>
-      <Main>{children}</Main>
+      <Main role={"main"}>{children}</Main>
     </MainBox>
   </LayoutBox>
 );
