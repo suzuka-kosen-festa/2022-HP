@@ -3,7 +3,13 @@ module.exports = {
   darkMode: "class",
   plugins: [],
   content: ["./src/**/*.{ts,tsx}"],
-  theme: {},
+  theme: {
+    extend: {
+      margin: {
+        64.75: "16.1875rem",
+      },
+    },
+  },
   variants: {
     extend: {},
   },
