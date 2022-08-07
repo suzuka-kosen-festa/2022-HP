@@ -1,3 +1,5 @@
+import React from "react";
+
 export type _Field = {
   __typename: FieldsKey;
   path: string;
@@ -22,3 +24,7 @@ type _Test = {
 };
 
 export type Tests = Array<_Test>;
+
+export type LayoutProperties = React.ComponentProps<React.ReactHTML["div"]> & {
+  children: React.ReactNode;
+};
