@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         zen: ["Zen Kurenaido", "sans-serif"],
       },
+      margin: {
+        64.75: "16.1875rem",
+      },
     },
   },
   variants: {

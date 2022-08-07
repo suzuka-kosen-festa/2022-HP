@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { match, P } from "ts-pattern";
 import { parse } from "yaml";
-import type { _Field, Fields, RYaml, RDataByField, Sponsors, Tests } from "../../models/type";
+import type { _Field, Fields, RYaml, RDataByField, Sponsors, Tests } from "../../models";
 
 const getAssetsDirectory = () => join(process.cwd(), "assets");
 

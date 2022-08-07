@@ -1,6 +1,6 @@
 import type { ParseOptions, DocumentOptions, SchemaOptions, ToJSOptions } from "yaml";
 import type { Reviver } from "yaml/dist/doc/applyReviver";
-import type { RField } from "../models/type";
+import type { RField } from "../models";
 
 declare module "yaml" {
   function parse<T extends RField>(

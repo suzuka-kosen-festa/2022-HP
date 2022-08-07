@@ -1,4 +1,4 @@
-import type { Tests } from "../../models/type";
+import type { Tests } from "../../models";
 import { readYaml, getDataByField } from ".";
 
 describe("(utils)API test", () => {
