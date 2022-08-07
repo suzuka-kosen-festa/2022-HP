@@ -5,6 +5,9 @@ module.exports = {
   content: ["./src/**/*.{ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        zen: ["Zen Kurenaido", "sans-serif"],
+      },
       margin: {
         64.75: "16.1875rem",
       },

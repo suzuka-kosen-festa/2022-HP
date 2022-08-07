@@ -1,11 +1,18 @@
-const path = require("path");
-const toPath = _path => path.join(process.cwd(), _path);
-
 module.exports = {
   stories: ["../src/components/**/*.stories.@(ts|tsx)"],
   addons: [
     "@storybook/addon-links",
-    "@storybook/addon-essentials",
+    {
+      name: "@storybook/addon-essentials",
+      options: {
+        actions: true,
+        backgrounds: true,
+        controls: true,
+        docs: true,
+        viewport: true,
+        toolbars: false,
+      },
+    },
     "@storybook/addon-interactions",
     {
       name: "@storybook/addon-postcss",
@@ -15,50 +22,15 @@ module.exports = {
         },
       },
     },
+    "@storybook/addon-a11y",
   ],
+  staticDirs: ["../public"],
   babel: async options => ({
     ...options,
-    presets: [
-      [
-        "next/babel",
-        {
-          "preset-react": {
-            runtime: "automatic",
-            importSource: "@emotion/react",
-          },
-        },
-      ],
-    ],
-    plugins: [
-      "@emotion",
-      "macros",
-      [
-        "@emotion/babel-plugin-jsx-pragmatic",
-        {
-          export: "jsx",
-          import: "__cssprop",
-          module: "@emotion/react",
-        },
-      ],
-      ["@babel/plugin-transform-react-jsx", { pragma: "__cssprop" }, "twin.macro"],
-    ],
+    presets: ["@emotion/babel-preset-css-prop"],
   }),
   framework: "@storybook/react",
   core: {
     builder: "@storybook/builder-webpack5",
-  },
-  webpackFinal: async config => {
-    return {
-      ...config,
-      resolve: {
-        ...config.resolve,
-        alias: {
-          ...config.resolve.alias,
-          "@emotion/core": toPath("node_modules/@emotion/react"),
-          "@emotion/styled": toPath("node_modules/@emotion/styled"),
-          "emotion-theming": toPath("node_modules/@emotion/react"),
-        },
-      },
-    };
   },
 };
