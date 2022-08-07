@@ -3,16 +3,29 @@
 exports[`(components) templates/layout snap shot 1`] = `
 <div>
   <div
-    class="css-1m2qlh2-LayoutBox exwm4bw2"
+    class="twin-1m2qlh2-LayoutBox exwm4bw2"
   >
     <div
-      class="css-12mee5r-MainBox exwm4bw1"
+      class="twin-12mee5r-MainBox exwm4bw1"
     >
       <div
-        class="css-1vrhv8u-Main exwm4bw0"
+        class="twin-1vrhv8u-Main exwm4bw0"
         role="main"
       >
-        <main />
+        <div
+          class="twin-1m2qlh2-LayoutBox exwm4bw2"
+        >
+          <div
+            class="twin-12mee5r-MainBox exwm4bw1"
+          >
+            <div
+              class="twin-1vrhv8u-Main exwm4bw0"
+              role="main"
+            >
+              <main />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

@@ -2,10 +2,23 @@
 
 exports[`(components) atoms/text snap shot 1`] = `
 <div>
-  <p
-    class="twin-fqc7rr-Text e8xjir80"
+  <div
+    class="twin-1m2qlh2-LayoutBox exwm4bw2"
   >
-    This is test
-  </p>
+    <div
+      class="twin-12mee5r-MainBox exwm4bw1"
+    >
+      <div
+        class="twin-1vrhv8u-Main exwm4bw0"
+        role="main"
+      >
+        <p
+          class="twin-fqc7rr-Text e8xjir80"
+        >
+          test
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
 `;
