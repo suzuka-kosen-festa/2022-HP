@@ -10,7 +10,7 @@ class Document extends NextDocument {
   // eslint-disable-next-line class-methods-use-this
   render(): ReactElement {
     return (
-      <Html lang="en">
+      <Html lang="ja">
         <Head />
         <body>
           <Main />
