@@ -8,7 +8,7 @@ const { Default } = composeStories(stories);
 describe("(components) atoms/text", () => {
   test("to be atoms", () => {
     const { container } = render(<Default />);
-    expect(container).toBeAtom()
+    expect(container).toBeAtom();
   });
   test("take snap shot", () => {
     const { container } = render(<Default />);

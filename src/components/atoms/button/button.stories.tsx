@@ -2,7 +2,7 @@ import type { ComponentStoryObj, ComponentMeta } from "@storybook/react";
 import { Button } from ".";
 
 type T = typeof Button;
-type Story = ComponentStoryObj<T>
+type Story = ComponentStoryObj<T>;
 
 const data = {
   sentence: "This is test",
@@ -15,6 +15,6 @@ export const Default: Story = {};
 export const LinkButton: Story = {
   args: {
     as: "a",
-    role: "link"
-  }
-}
+    role: "link",
+  },
+};
