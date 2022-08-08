@@ -1,3 +1,4 @@
+import type { CSSInterpolation } from "@emotion/serialize";
 import React from "react";
 
 export type _Field = {
@@ -24,6 +25,15 @@ type _Test = {
 };
 
 export type Tests = Array<_Test>;
+
+export type ButtonProperties<T extends AnyComponent> = React.PropsWithChildren<
+  PropertiesOf<T> & {
+    boxStyles?: CSSInterpolation;
+    textStyles?: CSSInterpolation;
+    ref?: never;
+    as?: T;
+  }
+>;
 
 export type LayoutProperties = React.ComponentProps<React.ReactHTML["div"]> & {
   children: React.ReactNode;
