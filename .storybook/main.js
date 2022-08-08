@@ -12,7 +12,7 @@ module.exports = {
         },
       },
     },
-    "@storybook/addon-a11y"
+    "@storybook/addon-a11y",
   ],
   staticDirs: ["../public"],
   babel: async options => ({
