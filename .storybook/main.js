@@ -2,17 +2,7 @@ module.exports = {
   stories: ["../src/components/**/*.stories.@(ts|tsx)"],
   addons: [
     "@storybook/addon-links",
-    {
-      name: "@storybook/addon-essentials",
-      options: {
-        actions: true,
-        backgrounds: true,
-        controls: true,
-        docs: true,
-        viewport: true,
-        toolbars: false,
-      },
-    },
+    "@storybook/addon-essentials",
     "@storybook/addon-interactions",
     {
       name: "@storybook/addon-postcss",
