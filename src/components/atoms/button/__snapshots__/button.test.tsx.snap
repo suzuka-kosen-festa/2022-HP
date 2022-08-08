@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(components) atoms/button take default button's snap shot 1`] = `
+<div>
+  <button
+    class="twin-vl5t9g-ButtonBox ewpnij50"
+  >
+    <p
+      class="twin-hqjyc8-Text-Button e8xjir80"
+    >
+      This is test
+    </p>
+  </button>
+</div>
+`;
+
+exports[`(components) atoms/button take link button's snap shot 1`] = `
+<div>
+  <a
+    class="twin-vl5t9g-ButtonBox ewpnij50"
+    role="link"
+  >
+    <p
+      class="twin-hqjyc8-Text-Button e8xjir80"
+    >
+      This is test
+    </p>
+  </a>
+</div>
+`;
