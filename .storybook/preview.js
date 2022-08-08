@@ -1,7 +1,6 @@
 import { CacheProvider } from "@emotion/react";
 import createCache from "@emotion/cache";
 import { GlobalStyles } from "../src/styles/global";
-import { Layout } from "../src/components/templates/layout";
 
 const cache = createCache({ prepend: true, key: "twin" });
 
@@ -13,15 +12,22 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  backgrounds: {
+    default: "kosen-fes",
+    values: [
+      {
+        name: "kosen-fes",
+        value: "#211A1A",
+      },
+    ],
+  },
 };
 
 export const decorators = [
   Story => (
     <CacheProvider value={cache}>
       <GlobalStyles />
-      <Layout>
-        <Story />
-      </Layout>
+      <Story />
     </CacheProvider>
   ),
 ];
