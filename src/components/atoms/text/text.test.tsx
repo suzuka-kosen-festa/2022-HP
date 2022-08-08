@@ -7,17 +7,10 @@ const { Default } = composeStories(stories);
 
 describe("(components) atoms/text", () => {
   test("to be atoms", () => {
-    // eslint-disable-next-line unicorn/consistent-function-scoping
-    const asserts = (container: HTMLElement) => {
-      expect(container).toBeAtom();
-      expect(container).not.toBeMolecule();
-      expect(container).not.toBeOrganism();
-      expect(container).not.toBeTemplate();
-    };
     const { container } = render(<Default />);
-    asserts(container);
+    expect(container).toBeAtom()
   });
-  test("snap shot", () => {
+  test("take snap shot", () => {
     const { container } = render(<Default />);
     expect(container).toMatchSnapshot();
   });
