@@ -3,7 +3,7 @@ on:
   pull_request:
 
 jobs:
-  generate_scss:
+  generate_json:
     name: generate_scss
     runs-on: ubuntu-latest
     # 'figma' という名前を含むブランチのみ動くように設定
@@ -26,8 +26,8 @@ jobs:
       - name: Install Dependencies
         run: yarn install --frozen-lockfile
       - name: run style-dictionary
-        run: node scripts/build.js
+        run: yarn run gen:style
       - name: add and commit
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: generate scss by style-dictionary
+          commit_message: "[skip ci] generate json by style-dictionary"

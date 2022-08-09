@@ -1,10 +1,9 @@
-import { TEST } from "../models/constant";
-import type { _Test } from "../models/type";
-import { readYaml, getDataByField } from "./api";
+import type { Tests } from "../../models";
+import { readYaml, getDataByField } from ".";
 
-describe("API test", () => {
-  it("(utils)read yaml", () => {
-    const result = readYaml<_Test>("_test");
+describe("(utils)API test", () => {
+  test("to return data in _test.yaml", () => {
+    const result = readYaml<Tests>("_test");
     expect(result).toStrictEqual({
       data: [
         {
@@ -19,8 +18,8 @@ describe("API test", () => {
       field: "_test",
     });
   });
-  it("(utils) get data from field", () => {
-    const result1 = getDataByField<_Test>([{ __typename: TEST, name: "_test" }]);
+  test("to return data from field", () => {
+    const result1 = getDataByField([{ __typename: "Tests", path: "_test" }]);
     expect(result1).toStrictEqual([
       {
         data: [

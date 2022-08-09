@@ -1,3 +1,4 @@
+/** @type {import('@jest/types').Config.InitialOptions} */
 module.exports = {
   coverageProvider: "v8",
   collectCoverageFrom: [
@@ -12,39 +13,16 @@ module.exports = {
   moduleDirectories: ["node_modules", "<rootDir>/"],
   testEnvironment: "jest-environment-jsdom",
   setupFiles: ["./jest.setup.js"],
-  //setupFilesAfterEnv: ["<rootDir>/src/tests/jest.customMatchers.ts"],
+  setupFilesAfterEnv: ["<rootDir>/src/tests/jest.custom-matchers.ts"],
   testMatch: ["**/?(*.)+(test).[jt]s?(x)"],
   testPathIgnorePatterns: ["<rootDir>/node_modules/", "<rootDir>/.next/"],
   transform: {
-    "^.+\\.(ts|tsx)$": [
+    "^.+\\.(js|ts|tsx)$": [
       "babel-jest",
       {
-        presets: [
-          [
-            "next/babel",
-            {
-              "preset-react": {
-                runtime: "automatic",
-                importSource: "@emotion/react",
-              },
-            },
-          ],
-        ],
-        plugins: [
-          "@emotion",
-          "macros",
-          [
-            "@emotion/babel-plugin-jsx-pragmatic",
-            {
-              export: "jsx",
-              import: "__cssprop",
-              module: "@emotion/react",
-            },
-          ],
-          ["@babel/plugin-transform-react-jsx", { pragma: "__cssprop" }, "twin.macro"],
-        ],
+        configFile: "./babel.config.js",
       },
     ],
   },
-  transformIgnorePatterns: ["/node_modules/"],
+  transformIgnorePatterns: ["/node_modules/(?!yaml)/"],
 };

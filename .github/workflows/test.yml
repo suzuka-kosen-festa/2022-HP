@@ -45,7 +45,7 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Build the project
         run: yarn run build
-  run-snapshot-test:
+  run-test:
     runs-on: ubuntu-latest
     steps:
       - name: Get yarn cache directory path
