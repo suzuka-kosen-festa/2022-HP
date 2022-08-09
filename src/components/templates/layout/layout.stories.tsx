@@ -5,7 +5,7 @@ type T = typeof Layout;
 type Story = ComponentStoryObj<T>;
 
 const data = {
-  node: <main />,
+  node: <section />,
 };
 
 export default { args: { children: data.node }, component: Layout } as ComponentMeta<T>;

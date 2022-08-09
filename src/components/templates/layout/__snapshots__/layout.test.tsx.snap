@@ -12,7 +12,7 @@ exports[`(components) templates/layout take snap shot 1`] = `
         class="twin-1vrhv8u-Main exwm4bw0"
         role="main"
       >
-        <main />
+        <section />
       </div>
     </div>
   </div>
