@@ -8,6 +8,6 @@ const data = {
   node: <main />,
 };
 
-export default { args: { children: data.node }, component: Layout, title: "Layout" } as ComponentMeta<T>;
+export default { args: { children: data.node }, component: Layout } as ComponentMeta<T>;
 
 export const Default: Story = {};
