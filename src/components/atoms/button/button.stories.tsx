@@ -8,13 +8,13 @@ const data = {
   sentence: "This is test",
 };
 
-export default { args: { children: data.sentence }, component: Button, title: "Button" } as ComponentMeta<T>;
+export default { args: { children: data.sentence }, component: Button } as ComponentMeta<T>;
 
 export const Default: Story = {};
 
-export const LinkButton: Story = {
+export const AnchorButton: Story = {
   args: {
     as: "a",
-    role: "link",
+    role: "button"
   },
 };
