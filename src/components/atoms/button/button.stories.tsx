@@ -15,6 +15,6 @@ export const Default: Story = {};
 export const AnchorButton: Story = {
   args: {
     as: "a",
-    role: "button"
+    role: "button",
   },
 };
