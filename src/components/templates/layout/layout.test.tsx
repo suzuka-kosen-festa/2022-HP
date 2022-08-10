@@ -10,7 +10,7 @@ describe("(components) templates/layout", () => {
     const { container } = render(<Default />);
     expect(container).toBeTemplate();
   });
-  test("snap shot", () => {
+  test("take snap shot", () => {
     const { container } = render(<Default />);
     expect(container).toMatchSnapshot();
   });
