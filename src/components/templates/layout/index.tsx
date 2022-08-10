@@ -1,4 +1,5 @@
 import React from "react";
+import { Footer } from "src/components/organisms/footer";
 import tw from "twin.macro";
 import type { LayoutProperties } from "../../../models";
 
@@ -12,6 +13,7 @@ const Layout: React.FC<LayoutProperties> = ({ children, ...rest }) => (
   <LayoutBox {...rest}>
     <MainBox>
       <Main role={"main"}>{children}</Main>
+      <Footer />
     </MainBox>
   </LayoutBox>
 );
