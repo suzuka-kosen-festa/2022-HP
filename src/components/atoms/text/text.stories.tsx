@@ -8,6 +8,6 @@ const data = {
   sentence: "This is test",
 };
 
-export default { args: { children: data.sentence }, component: Text, title: "Text" } as ComponentMeta<T>;
+export default { args: { children: data.sentence }, component: Text } as ComponentMeta<T>;
 
 export const Default: Story = {};
