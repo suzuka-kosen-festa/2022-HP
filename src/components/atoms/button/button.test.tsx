@@ -16,7 +16,7 @@ describe("(components) atoms/button", () => {
     const { getByRole } = render(<Default />);
     expect(getByRole("button", options)).toBeInTheDocument();
   });
-  test("tobe [role=button]", () => {
+  test("to be [role=button]", () => {
     const { getByRole } = render(<AnchorButton />);
     expect(getByRole("button", options)).toBeInTheDocument();
   });
