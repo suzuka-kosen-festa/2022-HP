@@ -10,12 +10,13 @@ describe("(components) organisms/footer", () => {
     const { container } = render(<Default />);
     expect(container).toBeOrganisms();
   });
+  test("to be [role=organisms]", () => {
+    const { getByRole } = render(<Default />);
+    expect(getByRole("footer")).toBeInTheDocument();
+  });
+
   test("take snap shot", () => {
     const { container } = render(<Default />);
     expect(container).toMatchSnapshot();
-  });
-  test("to be [role=footer]", () => {
-    const { getByRole } = render(<Default />);
-    expect(getByRole("footer")).toBeInTheDocument();
   });
 });
