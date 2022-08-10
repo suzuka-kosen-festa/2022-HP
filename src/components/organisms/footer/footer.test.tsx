@@ -6,7 +6,7 @@ import * as stories from "./footer.stories";
 const { Default } = composeStories(stories);
 
 describe("(components) organisms/footer", () => {
-  test("default footer should be organisms", () => {
+  test("to be organisms", () => {
     const { container } = render(<Default />);
     expect(container).toBeOrganisms();
   });
