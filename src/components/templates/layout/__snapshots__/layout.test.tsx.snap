@@ -14,6 +14,17 @@ exports[`(components) templates/layout take snap shot 1`] = `
       >
         <section />
       </div>
+      <footer
+        class="twin-fas8s8-Footer"
+        role="contentinfo"
+      >
+        <a
+          class="twin-e5kbv9-Text-Footer e8xjir80"
+          role="link"
+        >
+          © 第57回鈴鹿高専祭実行委員会
+        </a>
+      </footer>
     </div>
   </div>
 </div>
