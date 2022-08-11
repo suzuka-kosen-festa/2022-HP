@@ -1,5 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`(components) atoms/footer take snap shot 1`] = `
+<div>
+  <footer
+    class="twin-fas8s8-Footer"
+  >
+    <p
+      class="twin-e5kbv9-Text-Footer e8xjir80"
+    >
+      © 第57回鈴鹿高専祭実行委員会
+    </p>
+  </footer>
+</div>
+`;
+
 exports[`(components) organisms/footer take snap shot 1`] = `
 <div>
   <footer
