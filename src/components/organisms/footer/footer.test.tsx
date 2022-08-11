@@ -15,6 +15,11 @@ describe("(components) organisms/footer", () => {
     expect(getByRole("contentinfo")).toBeInTheDocument();
   });
 
+  test("to be [role=link]", () => {
+    const { getByRole } = render(<Default />);
+    expect(getByRole("link")).toBeInTheDocument();
+  });
+
   test("take snap shot", () => {
     const { container } = render(<Default />);
     expect(container).toMatchSnapshot();
