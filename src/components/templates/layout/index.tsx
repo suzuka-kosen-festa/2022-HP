@@ -1,7 +1,7 @@
 import React from "react";
-import { Footer } from "src/components/organisms/footer";
 import tw from "twin.macro";
 import type { LayoutProperties } from "../../../models";
+import { Footer } from "../../organisms/footer";
 
 const LayoutBox = tw.div`min-h-screen bg-background-gray`;
 
