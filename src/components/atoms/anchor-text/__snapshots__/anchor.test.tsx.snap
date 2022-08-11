@@ -3,19 +3,7 @@
 exports[`(components) atoms/anchor take snap shot 1`] = `
 <div>
   <a
-    class="twin-1w1mmlr-AnchorText e6k86bd0"
-    href="#"
-    role="link"
-  >
-    This is test
-  </a>
-</div>
-`;
-
-exports[`(components) atoms/text take snap shot 1`] = `
-<div>
-  <a
-    class="twin-1w1mmlr-AnchorText e6k86bd0"
+    class="twin-1w1mmlr-AnchorText e1n95ynn0"
     href="#"
     role="link"
   >
