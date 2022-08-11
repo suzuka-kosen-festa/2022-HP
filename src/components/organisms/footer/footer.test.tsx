@@ -5,10 +5,10 @@ import * as stories from "./footer.stories";
 
 const { Default } = composeStories(stories);
 
-describe("(components) atoms/footer", () => {
-  test("to be atoms", () => {
+describe("(components) organisms/footer", () => {
+  test("to be organisms", () => {
     const { container } = render(<Default />);
-    expect(container).toBeAtom();
+    expect(container).toBeOrganism();
   });
   test("to be [role=contentinfo]", () => {
     const { getByRole } = render(<Default />);
