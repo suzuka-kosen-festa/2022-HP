@@ -16,6 +16,6 @@ export const AnchorButton: Story = {
   args: {
     as: "a",
     href: "#",
-    role: "button"
+    role: "button",
   },
 };
