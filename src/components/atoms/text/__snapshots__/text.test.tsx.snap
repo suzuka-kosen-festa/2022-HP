@@ -5,7 +5,7 @@ exports[`(components) atoms/text take snap shot 1`] = `
   <p
     class="twin-fqc7rr-Text e8xjir80"
   >
-    This is test
+    test
   </p>
 </div>
 `;

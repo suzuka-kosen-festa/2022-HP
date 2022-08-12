@@ -5,7 +5,7 @@ import * as stories from "./button.stories";
 
 const { Default, AnchorButton } = composeStories(stories);
 
-const options = { name: "This is test" };
+const options = { name: "test" };
 
 describe("(components) atoms/button", () => {
   test("default button should be atom", () => {

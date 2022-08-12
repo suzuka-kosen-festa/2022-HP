@@ -10,7 +10,7 @@ exports[`(components) atoms/button take anchor button's snap shot 1`] = `
     <p
       class="twin-i22tqs-Text-Button e8xjir80"
     >
-      This is test
+      test
     </p>
   </a>
 </div>
@@ -24,7 +24,7 @@ exports[`(components) atoms/button take default button's snap shot 1`] = `
     <p
       class="twin-i22tqs-Text-Button e8xjir80"
     >
-      This is test
+      test
     </p>
   </button>
 </div>

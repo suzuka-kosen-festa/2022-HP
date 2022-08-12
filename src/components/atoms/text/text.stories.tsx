@@ -5,7 +5,7 @@ type T = typeof Text;
 type Story = ComponentStoryObj<T>;
 
 const data = {
-  sentence: "This is test",
+  sentence: "test",
 };
 
 export default { args: { children: data.sentence }, component: Text } as ComponentMeta<T>;
