@@ -38,3 +38,8 @@ export type ButtonProperties<T extends AnyComponent> = React.PropsWithChildren<
 export type LayoutProperties = React.ComponentProps<React.ReactHTML["div"]> & {
   children: React.ReactNode;
 };
+
+export type FooterProperties = React.ComponentProps<React.ReactHTML["footer"]> & {
+  link: string;
+  children: string;
+};
