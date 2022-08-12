@@ -5,11 +5,13 @@ type T = typeof AnchorText;
 type Story = ComponentStoryObj<T>;
 
 const data = {
+  link: "#",
+  role: "link",
   sentence: "This is test",
 };
 
 export default {
-  args: { children: data.sentence, href: "#", role: "link" },
+  args: { children: data.sentence, href: data.link, role: data.role },
   component: AnchorText,
 } as ComponentMeta<T>;
 

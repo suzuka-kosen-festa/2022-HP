@@ -3,6 +3,11 @@ import { Footer } from ".";
 type T = typeof Footer;
 type Story = ComponentStoryObj<T>;
 
-export default { component: Footer } as ComponentMeta<T>;
+const data = {
+  link: "#",
+  sentence: "This is test",
+};
+
+export default { args: { children: data.sentence, link: data.link }, component: Footer } as ComponentMeta<T>;
 
 export const Default: Story = {};
