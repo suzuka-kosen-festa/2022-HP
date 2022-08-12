@@ -4,6 +4,7 @@ exports[`(components) atoms/button take anchor button's snap shot 1`] = `
 <div>
   <a
     class="twin-1fs6bgp-ButtonBox ewpnij50"
+    href="#"
     role="button"
   >
     <p
