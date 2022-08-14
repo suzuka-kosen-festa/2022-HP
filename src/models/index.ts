@@ -40,7 +40,7 @@ export type LayoutProperties = React.ComponentProps<React.ReactHTML["div"]> & {
 };
 
 export type SeoProperties = {
-  title: string
-  description: string
-  pageRelPath?: string
-}
+  title: string;
+  description: string;
+  pageRelPath?: string;
+};
