@@ -2,11 +2,11 @@ import Head from "next/head";
 import React from "react";
 import type { SeoProperties } from "../../models";
 
-const OGP = "/seo/ogp.png"
+const OGP = "/seo/ogp.png";
 
 const SeoMetas = ({ title, description }: Omit<SeoProperties, "pageRelPath">): JSX.Element => (
   <React.Fragment>
-    <meta charSet={"utf8"}/>
+    <meta charSet={"utf8"} />
     <meta httpEquiv={"X-UA-Compatible"} content={"IE=edge"} />
     <meta name={"viewport"} content={"width=device-width,initial-scale=1"} />
     <meta name={"description"} content={description} lang={"ja"} />
@@ -14,19 +14,23 @@ const SeoMetas = ({ title, description }: Omit<SeoProperties, "pageRelPath">): J
     <meta name={"image"} content={OGP} />
     <link rel={"icon"} href={"/seo/favicon.ico"} />
   </React.Fragment>
-)
+);
 
 const OgpMetas = ({ title, description, pageRelPath }: SeoProperties): JSX.Element => (
   <React.Fragment>
     <meta property={"og:title"} content={title} />
     <meta property={"og:description"} content={description} />
     <meta property={"og:type"} content={"webpage"} />
-    { pageRelPath ? <meta property={"og:url"} content={`https://reroad.site${pageRelPath}`} /> : <meta property={"og:url"} content={"https://reroad.site/"} /> }
+    {pageRelPath ? (
+      <meta property={"og:url"} content={`https://reroad.site${pageRelPath}`} />
+    ) : (
+      <meta property={"og:url"} content={"https://reroad.site/"} />
+    )}
     <meta property={"og:image"} content={OGP} />
     <meta property={"og:locale"} content={"ja_JP"} />
     <meta property={"og:site_name"} content={"Re:ROAD"} />
   </React.Fragment>
-)
+);
 
 const TwMetas = ({ title, description }: Omit<SeoProperties, "pageRelPath">): JSX.Element => (
   <React.Fragment>
@@ -37,7 +41,7 @@ const TwMetas = ({ title, description }: Omit<SeoProperties, "pageRelPath">): JS
     <meta name={"twitter:site"} content={"@KOSENFESTA"} />
     <meta name={"twitter:creator"} content={"@KOSENFESTA"} />
   </React.Fragment>
-)
+);
 
 const IconMetas = (): JSX.Element => (
   <React.Fragment>
@@ -48,7 +52,7 @@ const IconMetas = (): JSX.Element => (
     <meta name={"msapplication-TileColor"} content={"#000000"} />
     <meta name={"theme-color"} content={"#000000"} />
   </React.Fragment>
-)
+);
 
 const Seo: React.FC<SeoProperties> = ({ title, description, pageRelPath }) => (
   <Head>
@@ -59,6 +63,6 @@ const Seo: React.FC<SeoProperties> = ({ title, description, pageRelPath }) => (
     <IconMetas />
     <link rel={"manifest"} href={"/seo/site.webmanifest"} />
   </Head>
-)
+);
 
-export { Seo }
+export { Seo };
