@@ -38,3 +38,9 @@ export type ButtonProperties<T extends AnyComponent> = React.PropsWithChildren<
 export type LayoutProperties = React.ComponentProps<React.ReactHTML["div"]> & {
   children: React.ReactNode;
 };
+
+export type SeoProperties = {
+  title: string
+  description: string
+  pageRelPath?: string
+}
