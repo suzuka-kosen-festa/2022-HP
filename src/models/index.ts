@@ -39,6 +39,12 @@ export type LayoutProperties = React.ComponentProps<React.ReactHTML["div"]> & {
   children: React.ReactNode;
 };
 
+export type SeoProperties = {
+  title: string;
+  description: string;
+  pageRelPath?: string;
+};
+
 export type FooterProperties = React.ComponentProps<React.ReactHTML["footer"]> & {
   link: string;
   children: string;

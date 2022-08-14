@@ -1,7 +1,7 @@
 import type { Tests } from "../../models";
 import { readYaml, getDataByField } from ".";
 
-describe("(utils)API test", () => {
+describe("(utils) API test", () => {
   test("to return data in _test.yaml", () => {
     const result = readYaml<Tests>("_test");
     expect(result).toStrictEqual({
