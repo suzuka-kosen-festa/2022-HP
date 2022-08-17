@@ -4,9 +4,9 @@ import type { LayoutProperties } from "../../../models";
 
 const LayoutBox = tw.div`min-h-screen bg-[#211A1A]`;
 
-const MainBox = tw.div`flex flex-col items-center`;
+const MainBox = tw.div`flex flex-col`;
 
-const Main = tw.div`mr-auto ml-64.75`;
+const Main = tw.div`mx-[calc(800vw / 63)]`;
 
 const Layout: React.FC<LayoutProperties> = ({ children, ...rest }) => (
   <LayoutBox {...rest}>
