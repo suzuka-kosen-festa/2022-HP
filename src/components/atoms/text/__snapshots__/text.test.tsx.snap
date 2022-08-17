@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`(components) atoms/text snap shot 1`] = `
+exports[`(components) atoms/text take snap shot 1`] = `
 <div>
   <p
-    class="twin-fqc7rr-Text e8xjir80"
+    class="twin-fqc7rr-Text epv4mo00"
   >
     This is test
   </p>

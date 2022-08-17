@@ -1,18 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`(components) templates/layout snap shot 1`] = `
+exports[`(components) templates/layout take snap shot 1`] = `
 <div>
   <div
-    class="twin-1m2qlh2-LayoutBox exwm4bw2"
+    class="twin-1m2qlh2-LayoutBox e1o6lh2y2"
   >
     <div
-      class="twin-4lz3vw-MainBox exwm4bw1"
+      class="twin-4lz3vw-MainBox e1o6lh2y1"
     >
       <div
-        class="twin-115a0sk-Main exwm4bw0"
+        class="twin-115a0sk-Main e1o6lh2y0"
         role="main"
       >
-        <main />
+        <section />
       </div>
     </div>
   </div>

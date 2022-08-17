@@ -1,21 +1,14 @@
 {
-  "name": "next-typescript-template",
+  "name": "webpage",
   "version": "1.0.0",
-  "description": "Template for personal Next projects",
-  "keywords": [
-    "next",
-    "typescript",
-    "template"
-  ],
+  "description": "第57回鈴鹿高専祭 公式HP",
   "repository": {
     "type": "git",
-    "url": "https://github.com/re-taro/next-typescript-template"
+    "url": "https://github.com/suzuka-kosen-festa/2022-HP"
   },
   "license": "MIT",
   "author": {
-    "name": "Rintaro Itokawa",
-    "email": "me@re-taro.dev",
-    "url": "https://re-taro.dev"
+    "name": "suzuka-kosen-festa"
   },
   "scripts": {
     "dev": "next dev",
@@ -37,7 +30,7 @@
   "dependencies": {
     "@emotion/react": "11.10.0",
     "@emotion/styled": "11.10.0",
-    "next": "12.2.4",
+    "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "ts-pattern": "4.0.5",
@@ -68,7 +61,7 @@
     "@storybook/testing-react": "1.3.0",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.3.0",
-    "@testing-library/user-event": "14.4.2",
+    "@testing-library/user-event": "14.4.3",
     "@types/node": "17.0.21",
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
@@ -76,11 +69,11 @@
     "autoprefixer": "10.4.8",
     "babel-jest": "28.1.3",
     "babel-loader": "8.2.5",
-    "chromatic": "6.7.3",
+    "chromatic": "6.7.4",
     "cross-env": "7.0.3",
-    "eslint": "8.21.0",
+    "eslint": "8.22.0",
     "eslint-config-re-taro": "1.1.3",
-    "eslint-plugin-storybook": "0.6.3",
+    "eslint-plugin-storybook": "0.6.4",
     "jest": "28.1.3",
     "jest-environment-jsdom": "28.1.3",
     "postcss": "8.4.16",

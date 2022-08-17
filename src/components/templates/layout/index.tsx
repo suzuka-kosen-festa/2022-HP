@@ -2,7 +2,7 @@ import React from "react";
 import tw from "twin.macro";
 import type { LayoutProperties } from "../../../models";
 
-const LayoutBox = tw.div`min-h-screen bg-[#211A1A]`;
+const LayoutBox = tw.div`min-h-screen bg-background-gray`;
 
 const MainBox = tw.div`flex flex-col`;
 
