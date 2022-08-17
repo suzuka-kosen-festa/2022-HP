@@ -6,8 +6,8 @@ import * as stories from "./heading.stories";
 const { Default } = composeStories(stories);
 
 const options = {
-  name: "This is test"
-}
+  name: "This is test",
+};
 
 describe("(components) atoms/heading", () => {
   test("to be atoms", () => {
@@ -15,9 +15,9 @@ describe("(components) atoms/heading", () => {
     expect(container).toBeAtom();
   });
   test("to be [role=heading]", () => {
-    const { getByRole } = render(<Default />)
-    expect(getByRole("heading", options))
-  })
+    const { getByRole } = render(<Default />);
+    expect(getByRole("heading", options));
+  });
   test("take snap shot", () => {
     const { container } = render(<Default />);
     expect(container).toMatchSnapshot();
