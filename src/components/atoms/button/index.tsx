@@ -13,7 +13,7 @@ const Button = <T extends AnyComponent>({
   ...rest
 }: ButtonProperties<T>): JSX.Element => (
   <ButtonBox css={boxStyles} as={as} {...rest}>
-    <Text css={[tw`text-xs font-bold text-black`, textStyles]}>{children}</Text>
+    <Text css={[tw`text-[calc(8px + 16 * ((100vw - 378px) / 1134))] font-bold text-black`, textStyles]}>{children}</Text>
   </ButtonBox>
 );
 
