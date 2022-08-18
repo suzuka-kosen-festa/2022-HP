@@ -44,3 +44,9 @@ export type SeoProperties = {
   description: string;
   pageRelPath?: string;
 };
+
+export type MapProperties = React.ComponentProps<React.ReactHTML["iframe"]> & {
+  center: google.maps.LatLngLiteral;
+  title: string;
+  zoom: number;
+};
