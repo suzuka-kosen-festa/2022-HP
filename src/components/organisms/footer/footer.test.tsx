@@ -5,6 +5,15 @@ import * as stories from "./footer.stories";
 
 const { Default } = composeStories(stories);
 
+const footeroptions = {
+  name: ""
+}
+
+const linkoptions = {
+  name: "This is test"
+}
+
+
 describe("(components) organisms/footer", () => {
   test("to be organisms", () => {
     const { container } = render(<Default />);
@@ -12,12 +21,12 @@ describe("(components) organisms/footer", () => {
   });
   test("to be [role=contentinfo]", () => {
     const { getByRole } = render(<Default />);
-    expect(getByRole("contentinfo")).toBeInTheDocument();
+    expect(getByRole("contentinfo", footeroptions)).toBeInTheDocument();
   });
 
   test("to be [role=link]", () => {
     const { getByRole } = render(<Default />);
-    expect(getByRole("link")).toBeInTheDocument();
+    expect(getByRole("link", linkoptions)).toBeInTheDocument();
   });
 
   test("take snap shot", () => {
