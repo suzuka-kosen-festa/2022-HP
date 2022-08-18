@@ -6,9 +6,10 @@ exports[`(components) atoms/button take anchor button's snap shot 1`] = `
     class="twin-1fs6bgp-ButtonBox elv5i9d0"
     href="#"
     role="button"
+    tabindex="0"
   >
     <p
-      class="twin-i22tqs-Text-Button epv4mo00"
+      class="twin-1u06aab-Text-Button epv4mo00"
     >
       This is test
     </p>
@@ -20,9 +21,10 @@ exports[`(components) atoms/button take default button's snap shot 1`] = `
 <div>
   <button
     class="twin-1fs6bgp-ButtonBox elv5i9d0"
+    tabindex="0"
   >
     <p
-      class="twin-i22tqs-Text-Button epv4mo00"
+      class="twin-1u06aab-Text-Button epv4mo00"
     >
       This is test
     </p>
