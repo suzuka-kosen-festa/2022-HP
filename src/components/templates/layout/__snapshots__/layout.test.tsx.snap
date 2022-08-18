@@ -23,6 +23,7 @@ exports[`(components) templates/layout take snap shot 1`] = `
           href="https://github.com/suzuka-kosen-festa/2022-HP/blob/main/LICENSE"
           rel="noopener noreferrer"
           role="link"
+          tabindex="0"
           target="_blank"
         >
           © 第57回鈴鹿高専祭実行委員会
