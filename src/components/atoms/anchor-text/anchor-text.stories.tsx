@@ -7,8 +7,8 @@ type Story = ComponentStoryObj<T>;
 const data = {
   link: "#",
   role: "link",
-  tabindex: 0,
   sentence: "This is test",
+  tabindex: 0,
 };
 
 export default {
