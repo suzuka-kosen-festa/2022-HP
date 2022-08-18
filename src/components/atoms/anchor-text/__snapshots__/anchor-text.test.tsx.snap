@@ -6,6 +6,7 @@ exports[`(components) atoms/anchor take snap shot 1`] = `
     class="twin-1w1mmlr-AnchorText ey6ijqd0"
     href="#"
     role="link"
+    tabindex="0"
   >
     This is test
   </a>
