@@ -7,7 +7,7 @@ const FooterBox = tw.footer`bg-black text-center p-2 w-screen`;
 
 const Footer: React.FC<FooterProperties> = ({ link, children, ...rest }) => (
   <FooterBox role={"contentinfo"} {...rest}>
-    <AnchorText href={link} target={"_blank"} rel={"noopener noreferrer"} role={"link"}>
+    <AnchorText href={link} target={"_blank"} rel={"noopener noreferrer"} role={"link"} tabIndex={0}>
       {children}
     </AnchorText>
   </FooterBox>
