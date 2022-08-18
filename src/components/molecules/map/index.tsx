@@ -4,9 +4,9 @@ import type { MapProperties } from "../../../models";
 
 const GOOGLE_MAP_API_KEY = process.env.GOOGLE_MAP_API_KEY || "";
 
-const MapContainer = tw.figure`w-full lg:w-6/12`
+const MapContainer = tw.figure`w-full lg:w-6/12`;
 
-const MapWrapper = tw.div`relative w-full h-0 pt-[100%] lg:pt-[56.25%]`
+const MapWrapper = tw.div`relative w-full h-0 pt-[100%] lg:pt-[56.25%]`;
 
 const Map: React.FC<MapProperties> = ({ center, title, zoom, ...rest }) => (
   <MapContainer>

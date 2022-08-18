@@ -1,5 +1,5 @@
 import type { ComponentStoryObj, ComponentMeta } from "@storybook/react";
-import { Map } from "."
+import { Map } from ".";
 
 type T = typeof Map;
 type Story = ComponentStoryObj<T>;
@@ -10,9 +10,12 @@ const data = {
     lng: 136.581_323_097_843_55,
   },
   title: "鈴鹿工業高等専門学校",
-  zoom: 15
-}
+  zoom: 15,
+};
 
-export default { args: { center: data.center, title: data.title, zoom: data.zoom }, component: Map } as ComponentMeta<T>;
+export default {
+  args: { center: data.center, title: data.title, zoom: data.zoom },
+  component: Map,
+} as ComponentMeta<T>;
 
 export const Default: Story = {};

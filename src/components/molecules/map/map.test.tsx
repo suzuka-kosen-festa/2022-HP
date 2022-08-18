@@ -6,12 +6,12 @@ import * as stories from "./map.stories";
 const { Default } = composeStories(stories);
 
 const figureoptions = {
-  name: ""
-}
+  name: "",
+};
 
 const documentoptions = {
-  name: "鈴鹿工業高等専門学校の地図"
-}
+  name: "鈴鹿工業高等専門学校の地図",
+};
 
 describe("(components) molecules/map", () => {
   test("to be molecules", () => {
@@ -20,12 +20,12 @@ describe("(components) molecules/map", () => {
   });
   test("to be [role=figure]", () => {
     const { getByRole } = render(<Default />);
-    expect(getByRole("figure", figureoptions))
-  })
+    expect(getByRole("figure", figureoptions));
+  });
   test("to be [role=document]", () => {
-    const { getByRole } = render(<Default />)
-    expect(getByRole("document", documentoptions))
-  })
+    const { getByRole } = render(<Default />);
+    expect(getByRole("document", documentoptions));
+  });
   test("take snap shot", () => {
     const { container } = render(<Default />);
     expect(container).toMatchSnapshot();
