@@ -58,7 +58,7 @@ jobs:
       - name: Build the project
         run: yarn run build
   run-test:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
