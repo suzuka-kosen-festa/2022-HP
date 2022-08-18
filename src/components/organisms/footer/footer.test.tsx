@@ -6,13 +6,12 @@ import * as stories from "./footer.stories";
 const { Default } = composeStories(stories);
 
 const footeroptions = {
-  name: ""
-}
+  name: "",
+};
 
 const linkoptions = {
-  name: "This is test"
-}
-
+  name: "This is test",
+};
 
 describe("(components) organisms/footer", () => {
   test("to be organisms", () => {
