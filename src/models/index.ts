@@ -49,3 +49,16 @@ export type FooterProperties = React.ComponentProps<React.ReactHTML["footer"]> &
   link: string;
   children: string;
 };
+
+export type MapProperties = Omit<React.ComponentProps<React.ReactHTML["iframe"]>, "children"> & {
+  center: google.maps.LatLngLiteral;
+  title: string;
+  zoom: number;
+};
+
+export type MapSectionProperties = Omit<React.ComponentProps<React.ReactHTML["section"]>, "children"> &
+  Omit<MapProperties, "title" | "children"> & {
+    title: string;
+    label: string;
+    children: string;
+  };

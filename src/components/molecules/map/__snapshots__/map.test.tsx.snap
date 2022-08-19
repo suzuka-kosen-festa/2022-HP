@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(components) molecules/map take snap shot 1`] = `
+<div>
+  <figure
+    class="twin-oubtkh-MapContainer e105lmtd1"
+  >
+    <div
+      class="twin-1xoy3t5-MapWrapper e105lmtd0"
+    >
+      <iframe
+        allowfullscreen=""
+        class="twin-u695ll-Map"
+        id="map"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        role="document"
+        src="https://www.google.com/maps/embed/v1/view?key=&center=34.85167124241317%2C136.58132309784355&zoom=15"
+        title="鈴鹿工業高等専門学校の地図"
+      />
+    </div>
+  </figure>
+</div>
+`;
