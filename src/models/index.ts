@@ -35,9 +35,7 @@ export type ButtonProperties<T extends AnyComponent> = React.PropsWithChildren<
   }
 >;
 
-export type LayoutProperties = React.ComponentProps<React.ReactHTML["div"]> & {
-  children: React.ReactNode;
-};
+export type LayoutProperties = React.ComponentProps<React.ReactHTML["div"]>;
 
 export type SeoProperties = {
   title: string;
@@ -45,8 +43,15 @@ export type SeoProperties = {
   pageRelPath?: string;
 };
 
-export type MapProperties = React.ComponentProps<React.ReactHTML["iframe"]> & {
+export type MapProperties = Omit<React.ComponentProps<React.ReactHTML["iframe"]>, "children"> & {
   center: google.maps.LatLngLiteral;
   title: string;
   zoom: number;
 };
+
+export type MapSectionProperties = Omit<React.ComponentProps<React.ReactHTML["section"]>, "children"> &
+  Omit<MapProperties, "title" | "children"> & {
+    title: string;
+    label: string;
+    children: string;
+  };
