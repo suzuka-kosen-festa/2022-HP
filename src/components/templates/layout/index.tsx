@@ -2,7 +2,7 @@ import React from "react";
 import tw from "twin.macro";
 import type { LayoutProperties } from "../../../models";
 import { Footer } from "../../organisms/footer";
-import {HeroSection} from "../../organisms/hero-section";
+import { HeroSection } from "../../organisms/hero-section";
 
 const LayoutBox = tw.div`min-h-screen bg-background-gray`;
 
