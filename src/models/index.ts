@@ -1,5 +1,5 @@
 import type { CSSInterpolation } from "@emotion/serialize";
-import React from "react";
+import React, { ReactNode } from "react";
 
 export type _Field = {
   __typename: FieldsKey;
@@ -57,3 +57,10 @@ export type MapSectionProperties = Omit<React.ComponentProps<React.ReactHTML["se
     label: string;
     children: string;
   };
+
+export type AboutSectionProperties = {
+  children: ReactNode;
+  link: string;
+  text: string;
+  title: string;
+};
