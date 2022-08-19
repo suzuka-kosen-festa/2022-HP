@@ -5,7 +5,7 @@ import * as stories from "./map-section.stories";
 
 const { Default } = composeStories(stories);
 
-const regionoptions = {
+const options = {
   name: "アクセス",
 };
 
@@ -16,7 +16,7 @@ describe("(components) organisms/map-section", () => {
   });
   test("to be [role=region]", () => {
     const { getByRole } = render(<Default />);
-    expect(getByRole("region", regionoptions));
+    expect(getByRole("region", options));
   });
   test("take snap shot", () => {
     const { container } = render(<Default />);
