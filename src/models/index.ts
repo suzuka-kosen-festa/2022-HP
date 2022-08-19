@@ -44,3 +44,16 @@ export type SeoProperties = {
   description: string;
   pageRelPath?: string;
 };
+
+export type MapProperties = Omit<React.ComponentProps<React.ReactHTML["iframe"]>, "children"> & {
+  center: google.maps.LatLngLiteral;
+  title: string;
+  zoom: number;
+};
+
+export type MapSectionProperties = Omit<React.ComponentProps<React.ReactHTML["section"]>, "children"> &
+  Omit<MapProperties, "title" | "children"> & {
+    title: string;
+    label: string;
+    children: string;
+  };
