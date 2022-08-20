@@ -5,7 +5,7 @@ type T = typeof AboutSection;
 type Story = ComponentStoryObj<T>;
 
 const data = {
-  children: `鈴鹿高専については本稿ホームページをご覧ください。`,
+  children: `鈴鹿高専については本校ホームページをご覧ください。`,
   link: "#",
   text: "鈴鹿高専ホームページ",
   title: "鈴鹿高専について",
