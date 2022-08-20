@@ -1,15 +1,15 @@
 import { composeStories } from "@storybook/testing-react";
 import "@testing-library/jest-dom";
 import { render } from "@testing-library/react";
-import * as stories from "./map-section.stories";
+import * as stories from "./hero-section.stories";
 
 const { Default } = composeStories(stories);
 
 const options = {
-  name: "アクセス",
+  name: "第57回鈴鹿高専祭",
 };
 
-describe("(components) organisms/map-section", () => {
+describe("(components) organisms/hero-section", () => {
   test("to be organisms", () => {
     const { container } = render(<Default />);
     expect(container).toBeOrganism();
