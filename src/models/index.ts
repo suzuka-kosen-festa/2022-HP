@@ -71,4 +71,4 @@ export type HeroSectionProperties = Omit<React.ComponentProps<React.ReactHTML["s
 export type FestaSectionProperties = Omit<React.ComponentProps<React.ReactHTML["section"]>, "children"> & {
   title: string;
   children: string;
-}
+};
