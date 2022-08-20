@@ -15,7 +15,13 @@ const HeroSection: React.FC<HeroSectionProperties> = ({ date, title, ...rest }) 
       `}
     >
       <Text css={tw`text-[calc(12px + 36 * ((100vw - 378px) / 1134))]`}>{title}</Text>
-      <img src={"/statics/logo.webp"} alt={"第57回鈴鹿高専祭、Re:ROADのロゴ"} width={1212} height={247} css={tw`w-[calc(8200vw / 189)]`} />
+      <img
+        src={"/statics/logo.webp"}
+        alt={"第57回鈴鹿高専祭、Re:ROADのロゴ"}
+        width={1212}
+        height={247}
+        css={tw`w-[calc(8200vw / 189)]`}
+      />
       <Text css={tw`text-[calc(12px + 36 * ((100vw - 378px) / 1134))]`}>{date}</Text>
     </Backgorund>
   </HeroSectionContainer>
