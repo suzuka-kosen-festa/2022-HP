@@ -1,5 +1,5 @@
 import type { CSSInterpolation } from "@emotion/serialize";
-import React, { ReactNode } from "react";
+import React from "react";
 
 export type _Field = {
   __typename: FieldsKey;
@@ -69,8 +69,8 @@ export type HeroSectionProperties = Omit<React.ComponentProps<React.ReactHTML["s
 };
 
 export type AboutSectionProperties = Omit<React.ComponentProps<React.ReactHTML["section"]>, "children"> & {
+  buttonText: string;
   children: string;
   link: string;
-  text: string;
   title: string;
 };
