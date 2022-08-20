@@ -1,5 +1,4 @@
 import React from "react";
-import { AnchorButton } from "src/components/atoms/button/button.stories";
 import tw from "twin.macro";
 import { AboutSectionProperties } from "../../../models";
 import { Button } from "../../atoms/button";
