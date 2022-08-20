@@ -5,7 +5,7 @@ import * as stories from "./about-section.stories";
 
 const { Default } = composeStories(stories);
 
-const regionoptions = {
+const options = {
   name: "鈴鹿高専について",
 };
 
@@ -16,7 +16,7 @@ describe("(components) organisms/about-section", () => {
   });
   test("to be [role=region]", () => {
     const { getByRole } = render(<Default />);
-    expect(getByRole("region", regionoptions));
+    expect(getByRole("region", options));
   });
   test("take snap shot", () => {
     const { container } = render(<Default />);
