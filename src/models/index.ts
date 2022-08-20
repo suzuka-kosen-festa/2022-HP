@@ -62,3 +62,8 @@ export type MapSectionProperties = Omit<React.ComponentProps<React.ReactHTML["se
     label: string;
     children: string;
   };
+
+export type HeroSectionProperties = Omit<React.ComponentProps<React.ReactHTML["section"]>, "children"> & {
+  date: string;
+  title: string;
+};
