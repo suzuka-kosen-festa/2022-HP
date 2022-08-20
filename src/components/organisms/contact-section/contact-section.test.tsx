@@ -5,13 +5,13 @@ import * as stories from "./contact-section.stories";
 
 const { Default } = composeStories(stories);
 
-const regionoptions={
-  name: "お問い合わせ"
-}
+const regionoptions = {
+  name: "お問い合わせ",
+};
 
-const buttonoptions={
-  name: "お問い合わせ"
-}
+const buttonoptions = {
+  name: "お問い合わせ",
+};
 
 describe("(components) organisms/contact-section", () => {
   test("to be organisms", () => {
