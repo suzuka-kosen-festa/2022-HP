@@ -67,3 +67,10 @@ export type HeroSectionProperties = Omit<React.ComponentProps<React.ReactHTML["s
   date: string;
   title: string;
 };
+
+export type ContactSectionProperties = Omit<React.ComponentProps<React.ReactHTML["section"]>, "children"> & {
+  buttonText: string;
+  title: string;
+  link: string;
+  children: string;
+};
