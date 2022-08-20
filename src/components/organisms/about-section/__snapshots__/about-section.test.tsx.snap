@@ -7,12 +7,12 @@ exports[`(components) organisms/about-section take snap shot 1`] = `
     class="twin-3urxqw-AboutSectionContainer e1cvkk860"
   >
     <h1
-      class="twin-1bh7ayn-Heading ebaq0s80"
+      class="twin-f7kb4u-Heading ebaq0s80"
     >
       鈴鹿高専について
     </h1>
     <p
-      class="twin-11l9qz8-Text epv4mo00"
+      class="twin-w53v7j-Text epv4mo00"
     >
       鈴鹿高専については本校ホームページをご覧ください。
     </p>
@@ -25,7 +25,7 @@ exports[`(components) organisms/about-section take snap shot 1`] = `
       target="_brank"
     >
       <p
-        class="twin-1u06aab-Text-Button epv4mo00"
+        class="twin-cryf0r-Text-Button epv4mo00"
       >
         鈴鹿高専ホームページ
       </p>
