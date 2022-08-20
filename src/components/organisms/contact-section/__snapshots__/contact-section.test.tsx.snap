@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(components) organisms/contact-section take snap shot 1`] = `
+<div>
+  <section
+    aria-label="お問い合わせ"
+    class="twin-12f1jxy-ContactSectionContainer e544b1k0"
+  >
+    <h1
+      class="twin-f7kb4u-Heading ebaq0s80"
+    >
+      お問い合わせ
+    </h1>
+    <p
+      class="twin-w53v7j-Text epv4mo00"
+    >
+      第57回鈴鹿高専祭に関するお問い合わせは下のボタンからお願いいたします。(google formsが開きます)
+    </p>
+    <a
+      class="twin-1fs6bgp-ButtonBox elv5i9d0"
+      href="#"
+      rel="noopener noreferrer"
+      role="button"
+      tabindex="0"
+      target="_blank"
+    >
+      <p
+        class="twin-cryf0r-Text-Button epv4mo00"
+      >
+        お問い合わせ
+      </p>
+    </a>
+  </section>
+</div>
+`;
