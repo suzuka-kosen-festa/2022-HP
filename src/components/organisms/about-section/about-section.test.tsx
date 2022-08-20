@@ -5,8 +5,12 @@ import * as stories from "./about-section.stories";
 
 const { Default } = composeStories(stories);
 
-const options = {
+const regionOptions = {
   name: "鈴鹿高専について",
+};
+
+const buttonOptions = {
+  name: "鈴鹿高専ホームページ",
 };
 
 describe("(components) organisms/about-section", () => {
@@ -16,7 +20,11 @@ describe("(components) organisms/about-section", () => {
   });
   test("to be [role=region]", () => {
     const { getByRole } = render(<Default />);
-    expect(getByRole("region", options));
+    expect(getByRole("region", regionOptions));
+  });
+  test("to be [role=button]", () => {
+    const { getByRole } = render(<Default />);
+    expect(getByRole("button", buttonOptions));
   });
   test("take snap shot", () => {
     const { container } = render(<Default />);
