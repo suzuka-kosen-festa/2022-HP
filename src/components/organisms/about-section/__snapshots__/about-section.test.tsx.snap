@@ -4,7 +4,7 @@ exports[`(components) organisms/about-section take snap shot 1`] = `
 <div>
   <section
     aria-label="鈴鹿高専について"
-    class="twin-3urxqw-AboutSectionContainer e1cvkk860"
+    class="twin-1wua6j6-AboutSectionContainer e1cvkk860"
   >
     <h1
       class="twin-f7kb4u-Heading ebaq0s80"
@@ -20,7 +20,7 @@ exports[`(components) organisms/about-section take snap shot 1`] = `
       class="twin-1fs6bgp-ButtonBox elv5i9d0"
       href="#"
       rel="noopener noreferrer"
-      role="link"
+      role="button"
       tabindex="0"
       target="_brank"
     >
