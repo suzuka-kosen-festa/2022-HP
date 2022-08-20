@@ -7,10 +7,10 @@ exports[`(components) organisms/hero-section take snap shot 1`] = `
     class="twin-1khm9dj-HeroSectionContainer e1bk5cli1"
   >
     <div
-      class="twin-1oco9r8-Backgorund-HeroSection e1bk5cli0"
+      class="twin-so5o4z-Backgorund-HeroSection e1bk5cli0"
     >
       <p
-        class="twin-bukov0-Text-HeroSection epv4mo00"
+        class="twin-1h43r6k-Text-HeroSection epv4mo00"
       >
         第57回鈴鹿高専祭
       </p>
@@ -22,7 +22,7 @@ exports[`(components) organisms/hero-section take snap shot 1`] = `
         width="1212"
       />
       <p
-        class="twin-bukov0-Text-HeroSection epv4mo00"
+        class="twin-1h43r6k-Text-HeroSection epv4mo00"
       >
         2022.10.30-31
       </p>
