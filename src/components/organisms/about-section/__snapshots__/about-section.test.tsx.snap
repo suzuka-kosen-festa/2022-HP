@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(components) organisms/about-section take snap shot 1`] = `
+<div>
+  <section
+    aria-label="鈴鹿高専について"
+    class="twin-1wua6j6-AboutSectionContainer e1cvkk860"
+  >
+    <h1
+      class="twin-f7kb4u-Heading ebaq0s80"
+    >
+      鈴鹿高専について
+    </h1>
+    <p
+      class="twin-w53v7j-Text epv4mo00"
+    >
+      鈴鹿高専については本校ホームページをご覧ください。
+    </p>
+    <a
+      class="twin-1fs6bgp-ButtonBox elv5i9d0"
+      href="#"
+      rel="noopener noreferrer"
+      role="button"
+      tabindex="0"
+      target="_brank"
+    >
+      <p
+        class="twin-cryf0r-Text-Button epv4mo00"
+      >
+        鈴鹿高専ホームページ
+      </p>
+    </a>
+  </section>
+</div>
+`;

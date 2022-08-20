@@ -68,6 +68,13 @@ export type HeroSectionProperties = Omit<React.ComponentProps<React.ReactHTML["s
   title: string;
 };
 
+export type AboutSectionProperties = Omit<React.ComponentProps<React.ReactHTML["section"]>, "children"> & {
+  buttonText: string;
+  children: string;
+  link: string;
+  title: string;
+};
+
 export type FestaSectionProperties = Omit<React.ComponentProps<React.ReactHTML["section"]>, "children"> & {
   title: string;
   children: string;
