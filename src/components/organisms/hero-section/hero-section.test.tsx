@@ -6,7 +6,7 @@ import * as stories from "./hero-section.stories";
 const { Default } = composeStories(stories);
 
 const options = {
-  name: "第57回鈴鹿高専祭",
+  name: "",
 };
 
 describe("(components) organisms/hero-section", () => {
@@ -14,9 +14,9 @@ describe("(components) organisms/hero-section", () => {
     const { container } = render(<Default />);
     expect(container).toBeOrganism();
   });
-  test("to be [role=region]", () => {
+  test("to be [role=banner]", () => {
     const { getByRole } = render(<Default />);
-    expect(getByRole("region", options));
+    expect(getByRole("banner", options));
   });
   test("take snap shot", () => {
     const { container } = render(<Default />);

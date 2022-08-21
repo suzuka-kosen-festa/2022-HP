@@ -2,8 +2,7 @@
 
 exports[`(components) organisms/hero-section take snap shot 1`] = `
 <div>
-  <section
-    aria-label="第57回鈴鹿高専祭"
+  <header
     class="twin-1khm9dj-HeroSectionContainer e1bk5cli1"
   >
     <div
@@ -27,6 +26,6 @@ exports[`(components) organisms/hero-section take snap shot 1`] = `
         2022.10.30-31
       </p>
     </div>
-  </section>
+  </header>
 </div>
 `;

@@ -8,8 +8,7 @@ exports[`(components) templates/layout take snap shot 1`] = `
     <div
       class="twin-4lz3vw-MainBox e1o6lh2y1"
     >
-      <section
-        aria-label="第57回鈴鹿高専祭"
+      <header
         class="twin-1khm9dj-HeroSectionContainer e1bk5cli1"
       >
         <div
@@ -33,7 +32,7 @@ exports[`(components) templates/layout take snap shot 1`] = `
             2022.10.30-31
           </p>
         </div>
-      </section>
+      </header>
       <div
         class="twin-115a0sk-Main e1o6lh2y0"
         role="main"
