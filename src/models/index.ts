@@ -90,5 +90,5 @@ export type ContactSectionProperties = Omit<React.ComponentProps<React.ReactHTML
 export type SponsorSectionProperties = Omit<React.ComponentProps<React.ReactHTML["section"]>, "children"> & {
   title: string;
   children: string;
-  sponsors: string;
+  sponsors: Sponsors;
 };
