@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(components) molecules/twitter take snap shot 1`] = `
+<div>
+  <figure>
+    <a
+      class="twitter-timeline"
+      data-height="410"
+      data-width="288"
+      href="https://twitter.com/KOSENFESTA?ref_src=twsrc%5Etfw"
+    >
+      Tweets by KOSENFESTA
+    </a>
+  </figure>
+</div>
+`;
