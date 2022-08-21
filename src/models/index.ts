@@ -86,3 +86,7 @@ export type ContactSectionProperties = Omit<React.ComponentProps<React.ReactHTML
   link: string;
   children: string;
 };
+
+export type SnsSectionProperties = Omit<React.ComponentProps<React.ReactHTML["section"]>, "children"> & {
+  title: string;
+};
