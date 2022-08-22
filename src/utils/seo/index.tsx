@@ -61,7 +61,7 @@ const Seo: React.FC<SeoProperties> = ({ title, description, pageRelPath }) => (
     <OgpMetas title={title} description={description} pageRelPath={pageRelPath} />
     <TwMetas title={title} description={description} />
     <IconMetas />
-    <link rel={"manifest"} href={"/seo/site.webmanifest"} />
+    <link rel={"manifest"} href={"/manifest.json"} />
   </Head>
 );
 
