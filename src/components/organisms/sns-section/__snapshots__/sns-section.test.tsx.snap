@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(components) organisms/sns-section take snap shot 1`] = `
+<div>
+  <section
+    aria-label="SNS"
+    class="twin-n3idj0-SnsSectionContainer e1n4xvz70"
+  >
+    <h1
+      class="twin-f7kb4u-Heading ebaq0s80"
+    >
+      SNS
+    </h1>
+    <figure>
+      <a
+        class="twitter-timeline"
+        data-height="410"
+        data-width="288"
+        href="https://twitter.com/KOSENFESTA?ref_src=twsrc%5Etfw"
+      >
+        Tweets by KOSENFESTA
+      </a>
+    </figure>
+  </section>
+</div>
+`;

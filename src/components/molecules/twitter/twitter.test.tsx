@@ -1,7 +1,7 @@
 import { composeStories } from "@storybook/testing-react";
 import "@testing-library/jest-dom";
 import { render } from "@testing-library/react";
-import * as stories from "./hero-section.stories";
+import * as stories from "./twitter.stories";
 
 const { Default } = composeStories(stories);
 
@@ -9,14 +9,14 @@ const options = {
   name: "",
 };
 
-describe("(components) organisms/hero-section", () => {
-  test("to be organisms", () => {
+describe("(components) molecules/twitter", () => {
+  test("to be molecules", () => {
     const { container } = render(<Default />);
-    expect(container).toBeOrganism();
+    expect(container).toBeMolecule();
   });
-  test("to be [role=banner]", () => {
+  test("to be [role=figure]", () => {
     const { getByRole } = render(<Default />);
-    expect(getByRole("banner", options));
+    expect(getByRole("figure", options));
   });
   test("take snap shot", () => {
     const { container } = render(<Default />);
