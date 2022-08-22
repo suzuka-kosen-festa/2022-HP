@@ -17,12 +17,20 @@ exports[`(components) organisms/sponsor-section take snap shot 1`] = `
       今年の高専祭は3年ぶりの開催。
 以下の企業様が鈴鹿高専祭を応援してくれています！
     </p>
-    <p
-      class="twin-zuqn7z-Text-SponsorSection epv4mo00"
+    <ul
+      class="twin-4njzar-SponsorSection"
     >
-      ・株式会社xx
-・...
-    </p>
+      <li
+        class="twin-y76ykx-SponsorSection"
+      >
+        株式会社xx
+      </li>
+      <li
+        class="twin-y76ykx-SponsorSection"
+      >
+        ...
+      </li>
+    </ul>
   </section>
 </div>
 `;
