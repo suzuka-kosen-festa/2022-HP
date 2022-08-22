@@ -1,6 +1,6 @@
 import { composeStories } from "@storybook/testing-react";
 import "@testing-library/jest-dom";
-import { getByRole, render } from "@testing-library/react";
+import { render } from "@testing-library/react";
 import * as stories from "./sponsor-section.stories";
 
 const { Default } = composeStories(stories);
@@ -27,7 +27,6 @@ describe("(components) organisms/sponsor-section", () => {
   });
   test("take snap shot", () => {
     const { container } = render(<Default />);
-    expect(getByRole);
     expect(container).toMatchSnapshot();
   });
 });
