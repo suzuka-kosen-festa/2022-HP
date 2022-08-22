@@ -4,7 +4,7 @@ exports[`(components) organisms/sponsor-section take snap shot 1`] = `
 <div>
   <section
     aria-label="協賛企業"
-    class="twin-1utt4d5-SponsorSectionContainar e1he0e0u0"
+    class="twin-1utt4d5-SponsorSectionContainar e1he0e0u1"
   >
     <h1
       class="twin-f7kb4u-Heading ebaq0s80"
@@ -18,17 +18,12 @@ exports[`(components) organisms/sponsor-section take snap shot 1`] = `
 以下の企業様が鈴鹿高専祭を応援してくれています！
     </p>
     <ul
-      class="twin-4njzar-SponsorSection"
+      class="twin-1xejwjl-SponsorList e1he0e0u0"
     >
       <li
-        class="twin-y76ykx-SponsorSection"
+        class="twin-1g46zvu-Text-SponsorSection epv4mo00"
       >
         株式会社xx
-      </li>
-      <li
-        class="twin-y76ykx-SponsorSection"
-      >
-        ...
       </li>
     </ul>
   </section>
