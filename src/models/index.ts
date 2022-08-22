@@ -63,7 +63,7 @@ export type MapSectionProperties = Omit<React.ComponentProps<React.ReactHTML["se
     children: string;
   };
 
-export type HeroSectionProperties = Omit<React.ComponentProps<React.ReactHTML["section"]>, "children"> & {
+export type HeroSectionProperties = Omit<React.ComponentProps<React.ReactHTML["header"]>, "children"> & {
   date: string;
   title: string;
 };
@@ -91,4 +91,8 @@ export type SponsorSectionProperties = Omit<React.ComponentProps<React.ReactHTML
   title: string;
   children: string;
   sponsors: Sponsors;
+};
+
+export type SnsSectionProperties = Omit<React.ComponentProps<React.ReactHTML["section"]>, "children"> & {
+  title: string;
 };

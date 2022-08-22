@@ -3,12 +3,12 @@ import tw, { css } from "twin.macro";
 import type { HeroSectionProperties } from "../../../models";
 import { Text } from "../../atoms/text";
 
-const HeroSectionContainer = tw.section`flex flex-col`;
+const HeroSectionContainer = tw.header`flex flex-col`;
 
 const Backgorund = tw.div`flex flex-col items-center justify-center space-y-[calc(200vw / 63)] w-full h-[calc(200vw / 3)] lg:h-screen bg-center bg-cover`;
 
 const HeroSection: React.FC<HeroSectionProperties> = ({ date, title, ...rest }) => (
-  <HeroSectionContainer aria-label={"第57回鈴鹿高専祭"} {...rest}>
+  <HeroSectionContainer {...rest}>
     <Backgorund
       css={css`
         background-image: linear-gradient(rgba(34, 31, 31, 0.9), rgba(34, 31, 31, 0.9)), url("/statics/gogo.webp");
