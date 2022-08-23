@@ -45,12 +45,10 @@ const TwMetas = ({ title, description }: Omit<SeoProperties, "pageRelPath">): JS
 
 const IconMetas = (): JSX.Element => (
   <React.Fragment>
-    <link rel={"apple-touch-icon"} sizes={"180x180"} href={"/seo/apple-touch-icon.png"} />
     <link rel={"icon"} type={"image/png"} sizes={"32x32"} href={"/seo/favicon-32x32.png"} />
     <link rel={"icon"} type={"image/png"} sizes={"16x16"} href={"/seo/favicon-16x16.png"} />
     <link rel={"mask-icon"} href={"/seo/safari-pinned-tab.svg"} color={"#000000"} />
     <meta name={"msapplication-TileColor"} content={"#000000"} />
-    <meta name={"theme-color"} content={"#000000"} />
   </React.Fragment>
 );
 
