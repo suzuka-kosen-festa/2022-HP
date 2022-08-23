@@ -116,7 +116,7 @@ exports[`(utils) Seo test take snap shot 1`] = `
     name="theme-color"
   />
   <link
-    href="/manifest.json"
+    href="/seo/manifest.json"
     rel="manifest"
   />
 </head>
