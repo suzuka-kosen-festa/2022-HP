@@ -86,11 +86,6 @@ exports[`(utils) Seo test take snap shot 1`] = `
     name="twitter:creator"
   />
   <link
-    href="/seo/apple-touch-icon.png"
-    rel="apple-touch-icon"
-    sizes="180x180"
-  />
-  <link
     href="/seo/favicon-32x32.png"
     rel="icon"
     sizes="32x32"
@@ -110,10 +105,6 @@ exports[`(utils) Seo test take snap shot 1`] = `
   <meta
     content="#000000"
     name="msapplication-TileColor"
-  />
-  <meta
-    content="#000000"
-    name="theme-color"
   />
   <link
     href="/seo/manifest.json"
