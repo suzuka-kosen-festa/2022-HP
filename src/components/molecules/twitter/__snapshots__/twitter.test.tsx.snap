@@ -2,15 +2,33 @@
 
 exports[`(components) molecules/twitter take snap shot 1`] = `
 <div>
-  <figure>
-    <a
-      class="twitter-timeline"
-      data-height="410"
-      data-width="288"
-      href="https://twitter.com/KOSENFESTA?ref_src=twsrc%5Etfw"
+  <figure
+    class="twin-v60la1-TwitterContainer euts3j72"
+  >
+    <div
+      class="twin-xhqua6-TwitterMB euts3j71"
     >
-      Tweets by KOSENFESTA
-    </a>
+      <a
+        class="twitter-timeline"
+        data-height="420"
+        data-width="240"
+        href="https://twitter.com/KOSENFESTA?ref_src=twsrc%5Etfw"
+      >
+        Tweets by KOSENFESTA
+      </a>
+    </div>
+    <div
+      class="twin-1jh3ske-TwitterPC euts3j70"
+    >
+      <a
+        class="twitter-timeline"
+        data-height="410"
+        data-width="288"
+        href="https://twitter.com/KOSENFESTA?ref_src=twsrc%5Etfw"
+      >
+        Tweets by KOSENFESTA
+      </a>
+    </div>
   </figure>
 </div>
 `;
