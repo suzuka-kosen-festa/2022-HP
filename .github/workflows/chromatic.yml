@@ -5,7 +5,7 @@ on:
     branches:
       - dev
     paths:
-      - '**.stories.tsx'
+      - 'components/**/index.tsx'
 
 jobs:
   chromatic-deployment:
