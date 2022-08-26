@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import tw from "twin.macro";
-import {AnchorText} from "../../atoms/anchor-text";
+import { AnchorText } from "../../atoms/anchor-text";
 
 const TwitterContainer = tw.figure`w-[300px] h-[420px]`;
 
