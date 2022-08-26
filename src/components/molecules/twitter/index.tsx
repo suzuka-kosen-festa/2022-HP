@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import tw from "twin.macro";
+import {AnchorText} from "../../atoms/anchor-text";
 
 const TwitterContainer = tw.figure`w-[300px] h-[420px]`;
 
@@ -19,24 +20,24 @@ const Twitter: React.FC = () => {
   return (
     <TwitterContainer>
       <TwitterMB>
-        <a
+        <AnchorText
           className={"twitter-timeline"}
           data-width={"240"}
           data-height={"420"}
           href={"https://twitter.com/KOSENFESTA?ref_src=twsrc%5Etfw"}
         >
           Tweets by KOSENFESTA
-        </a>
+        </AnchorText>
       </TwitterMB>
       <TwitterPC>
-        <a
+        <AnchorText
           className={"twitter-timeline"}
           data-width={"288"}
           data-height={"410"}
           href={"https://twitter.com/KOSENFESTA?ref_src=twsrc%5Etfw"}
         >
           Tweets by KOSENFESTA
-        </a>
+        </AnchorText>
       </TwitterPC>
     </TwitterContainer>
   );
