@@ -41,7 +41,7 @@ const Home: NextPage<Properties> = ({ result }) => (
       </SponsorSection>
     )}
     <SnsSection title={"SNS"} />
-    <ContactSection buttonText={"お問い合わせ"} title={"お問い合わせ"} link={"https://example.com"}>
+    <ContactSection buttonText={"お問い合わせ"} title={"お問い合わせ"} link={"https://docs.google.com/forms/d/e/1FAIpQLSeMMA1YJbqClu_6ktzhV8u9hjwfOtJAMT3OLiIpyJJsqzGbdw/viewform"}>
       第57回鈴鹿高専祭に関するお問い合わせは下のボタンからお願いいたします。(google formsが開きます)
     </ContactSection>
     <MapSection
