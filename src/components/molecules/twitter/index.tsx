@@ -1,4 +1,12 @@
 import React, { useEffect } from "react";
+import tw from "twin.macro";
+import { AnchorText } from "../../atoms/anchor-text";
+
+const TwitterContainer = tw.figure`w-[300px] h-[420px]`;
+
+const TwitterMB = tw.div`inline sm:hidden`;
+
+const TwitterPC = tw.div`hidden sm:inline`;
 
 const Twitter: React.FC = () => {
   useEffect(() => {
@@ -10,16 +18,28 @@ const Twitter: React.FC = () => {
     };
   }, []);
   return (
-    <figure>
-      <a
-        className={"twitter-timeline"}
-        data-width={"288"}
-        data-height={"410"}
-        href={"https://twitter.com/KOSENFESTA?ref_src=twsrc%5Etfw"}
-      >
-        Tweets by KOSENFESTA
-      </a>
-    </figure>
+    <TwitterContainer>
+      <TwitterMB>
+        <AnchorText
+          className={"twitter-timeline"}
+          data-width={"240"}
+          data-height={"420"}
+          href={"https://twitter.com/KOSENFESTA?ref_src=twsrc%5Etfw"}
+        >
+          Tweets by KOSENFESTA
+        </AnchorText>
+      </TwitterMB>
+      <TwitterPC>
+        <AnchorText
+          className={"twitter-timeline"}
+          data-width={"288"}
+          data-height={"410"}
+          href={"https://twitter.com/KOSENFESTA?ref_src=twsrc%5Etfw"}
+        >
+          Tweets by KOSENFESTA
+        </AnchorText>
+      </TwitterPC>
+    </TwitterContainer>
   );
 };
 
