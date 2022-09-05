@@ -57,7 +57,7 @@ const Home: NextPage<Properties> = ({ result }) => (
       title={"アクセス"}
       label={"鈴鹿工業高等専門学校"}
     >
-      {"510-0294 三重県鈴鹿市白子町\n近鉄白子駅から徒歩約30分\n近くのバス停から約7分"}
+      {"510-0294 三重県鈴鹿市白子町\n近鉄白子駅から徒歩約30分\n三重交通バス東旭が丘3丁目から徒歩約7分"}
     </MapSection>
     <AboutSection buttonText={"鈴鹿高専ホームページ"} link={"https://www.suzuka-ct.ac.jp/"} title={"鈴鹿高専について"}>
       詳しくは本校ホームページをご覧ください。
