@@ -22,7 +22,7 @@ module.exports = {
       },
     ],
     ["@babel/plugin-transform-react-jsx", { pragma: "__cssprop" }, "twin.macro"],
-    ['@babel/plugin-proposal-private-methods', { loose: false }],
+    ["@babel/plugin-proposal-private-methods", { loose: false }],
   ],
   env: {
     test: {
