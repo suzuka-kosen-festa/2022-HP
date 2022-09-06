@@ -6,5 +6,7 @@ extends:
   - plugin:storybook/recommended
 rules:
   no-duplicate-imports: 0
+  "@next/next/no-img-element": off
+  no-secrets/no-secrets: off
 parserOptions:
   project: ./tsconfig.json

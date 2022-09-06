@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(components) organisms/footer take snap shot 1`] = `
+<div>
+  <footer
+    class="twin-1h92n56-FooterBox e1cwxp960"
+    role="contentinfo"
+  >
+    <a
+      class="twin-1yx28h9-AnchorText ey6ijqd0"
+      href="#"
+      rel="noopener noreferrer"
+      role="link"
+      tabindex="0"
+      target="_blank"
+    >
+      This is test
+    </a>
+  </footer>
+</div>
+`;

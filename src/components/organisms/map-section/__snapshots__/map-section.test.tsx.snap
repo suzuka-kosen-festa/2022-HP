@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(components) organisms/map-section take snap shot 1`] = `
+<div>
+  <section
+    aria-label="アクセス"
+    class="twin-1xd1333-MapSectionContainer eo5dcy1"
+  >
+    <h1
+      class="twin-f7kb4u-Heading ebaq0s80"
+    >
+      アクセス
+    </h1>
+    <div
+      class="twin-takigz-MapBox eo5dcy0"
+    >
+      <p
+        class="twin-n0izib-Text-MapSection epv4mo00"
+      >
+        〒
+        510-0294 三重県鈴鹿市白子町
+近鉄白子駅から徒歩約30分
+三重交通バス東旭が丘3丁目から徒歩約7分
+      </p>
+      <figure
+        class="twin-oubtkh-MapContainer e105lmtd1"
+      >
+        <div
+          class="twin-1xoy3t5-MapWrapper e105lmtd0"
+        >
+          <iframe
+            allowfullscreen=""
+            class="twin-u695ll-Map"
+            id="map"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            role="document"
+            src="https://www.google.com/maps/embed/v1/view?key=&center=34.85167124241317%2C136.58132309784355&zoom=15"
+            title="鈴鹿工業高等専門学校の地図"
+          />
+        </div>
+      </figure>
+    </div>
+  </section>
+</div>
+`;

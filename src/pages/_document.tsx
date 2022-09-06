@@ -10,8 +10,11 @@ class Document extends NextDocument {
   // eslint-disable-next-line class-methods-use-this
   render(): ReactElement {
     return (
-      <Html lang="en">
-        <Head />
+      <Html lang="ja">
+        <Head>
+          <link rel="apple-touch-icon" href="/seo/apple-touch-icon.png"></link>
+          <meta name="theme-color" content="#fff" />
+        </Head>
         <body>
           <Main />
           <NextScript />

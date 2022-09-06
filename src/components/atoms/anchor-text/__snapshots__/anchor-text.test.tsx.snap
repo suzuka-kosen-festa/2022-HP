@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(components) atoms/anchor take snap shot 1`] = `
+<div>
+  <a
+    class="twin-1yx28h9-AnchorText ey6ijqd0"
+    href="#"
+    role="link"
+    tabindex="0"
+  >
+    This is test
+  </a>
+</div>
+`;

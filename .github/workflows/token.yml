@@ -3,7 +3,7 @@ on:
   pull_request:
 
 jobs:
-  generate_scss:
+  generate_json:
     name: generate_scss
     runs-on: ubuntu-latest
     # 'figma' という名前を含むブランチのみ動くように設定
@@ -12,7 +12,6 @@ jobs:
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
-
       - uses: actions/cache@v3
         id: yarn-cache
         with:
@@ -20,22 +19,20 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
-
       - name: Checkout
         uses: actions/checkout@v3
         with:
           ref: ${{ github.event.pull_request.head.ref }}
-
+          fetch-depth: 0
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
       - name: Install Dependencies
-        run: yarn install --frozen-lockfile
-
-      - name: yarn add -D style-dictionary
-        run: yarn add -D style-dictionary
-
+        run: yarn install --immutable
       - name: run style-dictionary
-        run: yarn style-dictionary build
-
+        run: yarn run gen:style
       - name: add and commit
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: generate scss by style-dictionary
+          commit_message: "[skip ci] generate json by style-dictionary"
