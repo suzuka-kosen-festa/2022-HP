@@ -1,10 +1,24 @@
+import { extractCritical } from "@emotion/server";
 import NextDocument, { Html, Head, Main, NextScript, DocumentInitialProps } from "next/document";
 import type { DocumentContext } from "next/document";
 import type { ReactElement } from "react";
+import { Fragment } from "react";
 
 class Document extends NextDocument {
-  static getInitialProps(context: DocumentContext): Promise<DocumentInitialProps> {
-    return NextDocument.getInitialProps(context);
+  static async getInitialProps(context: DocumentContext): Promise<DocumentInitialProps> {
+    const initialProperties = await NextDocument.getInitialProps(context);
+    const page = await context.renderPage();
+    const styles = extractCritical(page.html);
+    return {
+      ...initialProperties,
+      ...page,
+      styles: (
+        <Fragment>
+          {initialProperties.styles}
+          <style data-emotion-css={styles.ids.join(" ")} dangerouslySetInnerHTML={{ __html: styles.css }} />
+        </Fragment>
+      ),
+    };
   }
 
   // eslint-disable-next-line class-methods-use-this
