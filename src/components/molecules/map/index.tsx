@@ -2,7 +2,7 @@ import React from "react";
 import tw from "twin.macro";
 import type { MapProperties } from "../../../models";
 
-const GOOGLE_MAP_API_KEY = process.env.GOOGLE_MAP_API_KEY || "";
+const GOOGLE_MAP_API_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAP_API_KEY || "";
 
 const MapContainer = tw.figure`w-full lg:w-6/12`;
 
