@@ -28,10 +28,10 @@
     "chromatic": "npx chromatic --project-token=$CHROMATIC_PROJECT_TOKEN"
   },
   "dependencies": {
-    "@emotion/react": "11.10.0",
-    "@emotion/styled": "11.10.0",
+    "@emotion/react": "11.10.4",
+    "@emotion/styled": "11.10.4",
     "next": "12.2.5",
-    "next-pwa": "5.5.4",
+    "next-pwa": "5.6.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "ts-pattern": "4.0.5",
