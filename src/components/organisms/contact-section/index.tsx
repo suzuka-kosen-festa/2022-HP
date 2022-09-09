@@ -1,5 +1,6 @@
 import React from "react";
 import tw from "twin.macro";
+import { sendTransitionToOutsideOfHomepage } from "../../../infrastructures/gtm";
 import { ContactSectionProperties } from "../../../models";
 import { Button } from "../../atoms/button";
 import { Heading } from "../../atoms/heading";
@@ -11,7 +12,14 @@ const ContactSection: React.FC<ContactSectionProperties> = ({ buttonText, title,
   <ContactSectionContainer aria-label={"お問い合わせ"} {...rest}>
     <Heading>{title}</Heading>
     <Text>{children}</Text>
-    <Button as={"a"} href={link} target={"_blank"} rel={"noopener noreferrer"} role={"button"}>
+    <Button
+      as={"a"}
+      href={link}
+      target={"_blank"}
+      rel={"noopener noreferrer"}
+      role={"button"}
+      onClick={() => sendTransitionToOutsideOfHomepage("jump_to_inquiry_form")}
+    >
       {buttonText}
     </Button>
   </ContactSectionContainer>
