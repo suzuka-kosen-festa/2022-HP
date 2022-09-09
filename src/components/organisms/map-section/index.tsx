@@ -13,7 +13,7 @@ const MapSection: React.FC<MapSectionProperties> = ({ center, children, label, t
   <MapSectionContainer aria-label={"アクセス"} {...rest}>
     <Heading>{title}</Heading>
     <MapBox>
-      <Text css={tw`whitespace-pre-wrap`}>&#12306;{children}</Text>
+      <Text css={tw`whitespace-pre-wrap select-text`}>&#12306;{children}</Text>
       <Map center={center} title={label} zoom={zoom} />
     </MapBox>
   </MapSectionContainer>
