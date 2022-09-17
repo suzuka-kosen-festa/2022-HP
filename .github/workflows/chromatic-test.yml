@@ -1,28 +1,33 @@
-name: ESLint
+name: Chromatic test
 
 on:
   pull_request:
     branches:
       - dev
+    paths:
+      - src/components/**
+      - src/stories/**
+      - package.json
+      - yarn.lock
 
 jobs:
-  run-eslint:
+  run-chromatic-test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Setup Node.js
+      - name: Setup Node.js environment
         uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: yarn
       - name: Install Dependencies
         run: yarn install --immutable
-      - name: eslint
-        run: yarn run lint --max-warnings=0
-  run-eslint-check:
+      - name: Build Storybook
+        run: yarn run build-storybook
+  run-chromatic-test-check:
     if: ${{ ! failure() }}
-    needs: run-eslint
+    needs: run-chromatic-test
     runs-on: ubuntu-latest
     steps:
-      - run: echo "ESLint is successfully executed."
+      - run: echo "Chromatic test is successfully executed."
