@@ -22,7 +22,7 @@
     "test": "jest",
     "test:watch": "jest watch",
     "test:update": "jest -u",
-    "gen:style": "node ./scripts/build.js",
+    "gen:style": "token-transformer data/tokens.json data/tmp.json && node ./scripts/build.js && rimraf data/tmp.json",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "chromatic": "npx chromatic --project-token=$CHROMATIC_PROJECT_TOKEN"
@@ -84,8 +84,10 @@
     "jest-environment-jsdom": "29.0.3",
     "postcss": "8.4.16",
     "prettier": "2.7.1",
+    "rimraf": "^3.0.2",
     "style-dictionary": "3.7.1",
     "tailwindcss": "3.1.8",
+    "token-transformer": "^0.0.27",
     "twin.macro": "2.8.2",
     "typescript": "4.8.3",
     "webpack": "5.74.0"
