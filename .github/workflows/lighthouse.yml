@@ -23,13 +23,13 @@ jobs:
         run: yarn run build
       - name: install Lighthouse cli
         run: |
-          yarn add @lhci/cli@0.8.x
+          yarn add -g @lhci/cli@0.9.x
       - name: run Lighthouse cli
         id: lhci
         run: |
           mkdir dist
           touch dist/autorun.txt
-          yarn lhci autorun | grep 'storage.googleapis.com' > ./dist/autorun.txt
+          lhci autorun | grep 'storage.googleapis.com' > ./dist/autorun.txt
           report_url=$(cat ./dist/autorun.txt)
           echo $report_url
           echo "::set-output name=report_url::$report_url"
