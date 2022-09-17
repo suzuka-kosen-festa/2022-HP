@@ -23,7 +23,7 @@ jobs:
         run: yarn run build
       - name: install Lighthouse cli
         run: |
-          yarn add -g @lhci/cli@0.9.x
+          npm install -g @lhci/cli@0.9.x
       - name: run Lighthouse cli
         id: lhci
         run: |
