@@ -3,15 +3,14 @@ name: figma-tokens style-dictionary actions
 on:
   workflow_run:
     workflows:
-      - Test
+      - figma-tokens test
     types:
       - completed
 
 jobs:
   generate_json:
-    name: generate_scss
     runs-on: ubuntu-latest
-    if: contains(github.head_ref, 'figma') && github.event.workflow_run.conclusion == 'success'
+    if: github.event.workflow_run.conclusion == 'success'
     permissions:
       contents: write
     steps:
