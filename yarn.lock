@@ -2737,9 +2737,9 @@ __metadata:
   linkType: hard
 
 "@sinclair/typebox@npm:^0.24.1":
-  version: 0.24.41
-  resolution: "@sinclair/typebox@npm:0.24.41"
-  checksum: eb9861ad7bc5a29d5a6be27732757210edfcfa73fca386e303b0363af31c7ad16ebad75cf0c3fdf6444663dda5884ba0de333fc7a8ab8680c1c01e1e91089c1d
+  version: 0.24.42
+  resolution: "@sinclair/typebox@npm:0.24.42"
+  checksum: 83a3083b71063ad270669308634f7c5b473272da71cbc405343b2ff774d641ec2be0993e0a61386f8ef3f8b786c173dc01921a5bc6627d95657eb98f19f1a4c4
   languageName: node
   linkType: hard
 
@@ -4208,8 +4208,8 @@ __metadata:
   linkType: hard
 
 "@testing-library/dom@npm:^8.3.0, @testing-library/dom@npm:^8.5.0":
-  version: 8.17.1
-  resolution: "@testing-library/dom@npm:8.17.1"
+  version: 8.18.0
+  resolution: "@testing-library/dom@npm:8.18.0"
   dependencies:
     "@babel/code-frame": ^7.10.4
     "@babel/runtime": ^7.12.5
@@ -4219,7 +4219,7 @@ __metadata:
     dom-accessibility-api: ^0.5.9
     lz-string: ^1.4.4
     pretty-format: ^27.0.2
-  checksum: e4df091fcf84c9eac4a6ee4c76674c1d562bf98732f0ac8820972d7718ab10397b672b9f082aace3cacd1f610fc77de6e1b6094e67afe1df0443bf22eb9deab2
+  checksum: 24fd4fad91a5939a300f8a6c0c79d49dc7576823a2c0713d8ee67fea4f41e47e6a3122c04d45cc2844a25ed12bbe59a299d1e2055d53c707c8cad4d672767d13
   languageName: node
   linkType: hard
 
@@ -4417,10 +4417,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/google.maps@npm:3.50.1":
-  version: 3.50.1
-  resolution: "@types/google.maps@npm:3.50.1"
-  checksum: 817119f9297122a95ba58fe48c963ff7603f9f9f9e132c864f4456664d98dbd2e39d42338a0aea31fbdbec1ed9118fbbaae16bd9a086ead7a562521381d84330
+"@types/google.maps@npm:3.49.2":
+  version: 3.49.2
+  resolution: "@types/google.maps@npm:3.49.2"
+  checksum: ca2cb7842dfbc10551b5a33a052bd1c90dab21c13d5632601d87bc908064516a3f90b0b7eb517ce1024ea98734e490e2a90028c5534c52a82ceffb2e1b241fc9
   languageName: node
   linkType: hard
 
@@ -4433,7 +4433,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/gtag.js@npm:0.0.11":
+"@types/gtag.js@npm:^0.0.11":
   version: 0.0.11
   resolution: "@types/gtag.js@npm:0.0.11"
   checksum: fe3f0550f609a903fd23b2b7eae2771ad6c9f314c7458320759e8e328b2c148b7d3bff0462d05e3ffe6e800dbd4dfacf174cbeb29796b31813a8bb2fbecca1cc
@@ -8880,9 +8880,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-mdx@npm:^2.0.4":
-  version: 2.0.4
-  resolution: "eslint-mdx@npm:2.0.4"
+"eslint-mdx@npm:^2.0.5":
+  version: 2.0.5
+  resolution: "eslint-mdx@npm:2.0.5"
   dependencies:
     acorn: ^8.8.0
     acorn-jsx: ^5.3.2
@@ -8900,7 +8900,7 @@ __metadata:
     vfile: ^5.3.4
   peerDependencies:
     eslint: ">=8.0.0"
-  checksum: 143f1511066af983444602d264e988d7d383d7a4360022cdb7509d763cb743b79d00a70dbb59969a273bb7473fac825c044127ebd149551956ed9f9ad5e783e0
+  checksum: f03009d2c19440e5687584d895ba9e0ababd501531ad539838a5b3d81b5aec2632321fa2cd748fe1041f1ce1d0955581b4fabe4cd7d0ff9a4b2582b7f5871de6
   languageName: node
   linkType: hard
 
@@ -9076,10 +9076,10 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-mdx@npm:^2.0.0":
-  version: 2.0.4
-  resolution: "eslint-plugin-mdx@npm:2.0.4"
+  version: 2.0.5
+  resolution: "eslint-plugin-mdx@npm:2.0.5"
   dependencies:
-    eslint-mdx: ^2.0.4
+    eslint-mdx: ^2.0.5
     eslint-plugin-markdown: ^3.0.0
     remark-mdx: ^2.1.3
     remark-parse: ^10.0.1
@@ -9089,7 +9089,7 @@ __metadata:
     vfile: ^5.3.4
   peerDependencies:
     eslint: ">=8.0.0"
-  checksum: be2e825f2aa56825dc787df9aacdd8f1882ad27aa3b21c0a64028b52379a8b14eda545d3135a95db87d6e3dff3e494bce479b9a2468deef9d7d000ca0b0b0384
+  checksum: dee06fbd3a3b1383b5cabdfeb006c9ce5ecc7c53ee8ef313757d1432db6a2e0599d80bde1125d83ec3c9e7d50b05be98ab620a43332b640149fd51230248971e
   languageName: node
   linkType: hard
 
@@ -19940,9 +19940,9 @@ __metadata:
   linkType: hard
 
 "webpack-virtual-modules@npm:^0.4.1":
-  version: 0.4.4
-  resolution: "webpack-virtual-modules@npm:0.4.4"
-  checksum: 6720b4c47d76dc9cbaff557562506c192da7560a90395e9918a418e257a0c0cda9f5e3ac92107ec0789f8f23ad942313bd8cdebc95031d0adef1032bf6142bc7
+  version: 0.4.5
+  resolution: "webpack-virtual-modules@npm:0.4.5"
+  checksum: 0ae9a8b50d0cb1e43da5ff8acaa7b99c34a42f0d6cc83a82908fb6e131e574a949d19948df4fdd3de0dbfdbadb2b93ceb4a740c55727a4236eb3b2bbc8f785a6
   languageName: node
   linkType: hard
 
@@ -20055,8 +20055,8 @@ __metadata:
     "@testing-library/jest-dom": 5.16.5
     "@testing-library/react": 13.4.0
     "@testing-library/user-event": 14.4.3
-    "@types/google.maps": 3.50.1
-    "@types/gtag.js": 0.0.11
+    "@types/google.maps": 3.49.2
+    "@types/gtag.js": ^0.0.11
     "@types/node": 17.0.21
     "@types/react": 18.0.20
     "@types/react-dom": 18.0.6
