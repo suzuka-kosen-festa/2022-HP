@@ -17,7 +17,7 @@ const scssTransforms = baseTransforms.concat(["name/cti/kebab"]);
 
 function getStyleDictionaryConfig() {
   return {
-    source: [`data/tokens.json`],
+    source: ["data/tmp.json"],
     format: {
       createArray,
     },

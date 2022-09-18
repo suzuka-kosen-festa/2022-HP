@@ -18831,6 +18831,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"token-transformer@npm:^0.0.27":
+  version: 0.0.27
+  resolution: "token-transformer@npm:0.0.27"
+  dependencies:
+    yargs: ^17.4.1
+  bin:
+    token-transformer: index.js
+  checksum: 8bc157a42faba5ced132520440d91b7966e1ec60919d18a4a03e4064a9bb8727970fbfa51292f71097870f558d8b3780c2aad145df3da83d495ee4fe3e9cb4ae
+  languageName: node
+  linkType: hard
+
 "toml-eslint-parser@npm:^0.4.0":
   version: 0.4.0
   resolution: "toml-eslint-parser@npm:0.4.0"
@@ -20066,8 +20077,10 @@ __metadata:
     prettier: 2.7.1
     react: 18.2.0
     react-dom: 18.2.0
+    rimraf: ^3.0.2
     style-dictionary: 3.7.1
     tailwindcss: 3.1.8
+    token-transformer: ^0.0.27
     ts-pattern: 4.0.5
     twin.macro: 2.8.2
     typescript: 4.8.3
@@ -20621,7 +20634,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs@npm:^17.3.1":
+"yargs@npm:^17.3.1, yargs@npm:^17.4.1":
   version: 17.5.1
   resolution: "yargs@npm:17.5.1"
   dependencies:
