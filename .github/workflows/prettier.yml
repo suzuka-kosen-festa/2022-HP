@@ -36,9 +36,3 @@ jobs:
             git commit -m "chore: コードを整形"; \
             git push origin HEAD:${GITHUB_REF}; \
           fi
-  run-prettier-check:
-    if: ${{ ! failure() }}
-    needs: run-prettier
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Format is successfully executed."

@@ -1,0 +1,12 @@
+name: figma-tokens test
+
+on:
+  pull_request:
+    branches:
+      - figma
+
+jobs:
+  figma_tokens_test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "There are some updates to the design token."
