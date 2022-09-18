@@ -3,9 +3,11 @@ name: figma-tokens style-dictionary actions
 on:
   workflow_run:
     workflows:
-      - figma-tokens test
+      - Test
     types:
       - completed
+    branches:
+      - figma
 
 jobs:
   generate_json:
