@@ -1,4 +1,5 @@
 .next
+out
 .yarn
 storybook-static
 .github
