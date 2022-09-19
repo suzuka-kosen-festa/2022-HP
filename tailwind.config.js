@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        ...valiables.global.color,
+        ...valiables.color,
       },
       fontFamily: {
         zen: ["Zen Kurenaido", "sans-serif"],
