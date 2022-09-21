@@ -1,13 +1,13 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`(components) organisms/footer take snap shot 1`] = `
+exports[`(components) organisms/footer > take snap shot 1`] = `
 <div>
   <footer
-    class="twin-1h92n56-FooterBox e1cwxp960"
+    class="css-143yzj5"
     role="contentinfo"
   >
     <a
-      class="twin-1yx28h9-AnchorText ey6ijqd0"
+      class="css-hr7d9o"
       href="#"
       rel="noopener noreferrer"
       role="link"

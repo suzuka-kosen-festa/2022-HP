@@ -1,25 +1,25 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`(components) organisms/sponsor-section take snap shot 1`] = `
+exports[`(components) organisms/sponsor-section > take snap shot 1`] = `
 <div>
   <section
     aria-label="協賛企業"
-    class="twin-1utt4d5-SponsorSectionContainar e1he0e0u0"
+    class="css-1ei48q8"
   >
     <h1
-      class="twin-f7kb4u-Heading ebaq0s80"
+      class="css-6if9cu"
     >
       協賛企業
     </h1>
     <p
-      class="twin-zuqn7z-Text-SponsorSection epv4mo00"
+      class="css-15wajwd-SponsorSection"
     >
       今年の高専祭は3年ぶりの開催。
 以下の企業様が鈴鹿高専祭を応援してくれています！
     </p>
     <ul>
       <li
-        class="twin-1g46zvu-Text-SponsorSection epv4mo00"
+        class="css-1cftlzc-SponsorSection"
       >
         株式会社xx
       </li>
