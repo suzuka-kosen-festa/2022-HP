@@ -1,5 +1,4 @@
-.next
-out
+dist
 .yarn
 storybook-static
 .github
