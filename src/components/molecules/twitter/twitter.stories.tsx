@@ -1,5 +1,5 @@
 import type { ComponentStoryObj, ComponentMeta } from "@storybook/react";
-import { Twitter } from ".";
+import Twitter from ".";
 
 type T = typeof Twitter;
 type Story = ComponentStoryObj<T>;

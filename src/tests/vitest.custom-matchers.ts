@@ -1,4 +1,7 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import { getRoles } from "@testing-library/react";
+import { expect } from "vitest";
+/* eslint-enable import/no-extraneous-dependencies */
 
 interface CustomMatchers<R = unknown> {
   toBeAtom: () => R;
@@ -9,11 +12,10 @@ interface CustomMatchers<R = unknown> {
 
 declare global {
   // eslint-disable-next-line @typescript-eslint/no-namespace
-  namespace jest {
+  namespace Vi {
     /* eslint-disable @typescript-eslint/no-empty-interface */
-    interface Expect extends CustomMatchers {}
-    interface Matchers<R> extends CustomMatchers<R> {}
-    interface InverseAsymmetricMatchers extends CustomMatchers {}
+    interface Assertion extends CustomMatchers {}
+    interface AsymmetricMatchersContaining extends CustomMatchers {}
     /* eslint-enable @typescript-eslint/no-empty-interface */
   }
 }

@@ -1,9 +1,9 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`(components) atoms/anchor take snap shot 1`] = `
+exports[`(components) atoms/anchor > take snap shot 1`] = `
 <div>
   <a
-    class="twin-1yx28h9-AnchorText ey6ijqd0"
+    class="css-hr7d9o"
     href="#"
     role="link"
     tabindex="0"

@@ -1,6 +1,9 @@
-/* eslint-disable unicorn/consistent-function-scoping */
+/* eslint-disable react/button-has-type, jsx-a11y/label-has-associated-control, jsx-a11y/img-redundant-alt,
+ jsx-a11y/control-has-associated-label, jsx-a11y/no-noninteractive-element-to-interactive-role, jsx-a11y/anchor-is-valid */
+
 import { render } from "@testing-library/react";
 import React from "react";
+import { expect, describe, test } from "vitest";
 
 describe("Template", () => {
   test("<main>(role=main)", () => {
@@ -126,7 +129,7 @@ describe("Molecules", () => {
   test("<ul>(role=list)", () => {
     const { container } = render(
       <ul>
-        <li></li>
+        <li />
       </ul>,
     );
     asserts(container);
@@ -134,7 +137,7 @@ describe("Molecules", () => {
   test("<ol>(role=list)", () => {
     const { container } = render(
       <ol>
-        <li></li>
+        <li />
       </ol>,
     );
     asserts(container);
@@ -142,8 +145,8 @@ describe("Molecules", () => {
   test("<dl>(role=term)", () => {
     const { container } = render(
       <dl>
-        <dt></dt>
-        <dd></dd>
+        <dt />
+        <dd />
       </dl>,
     );
     asserts(container);
@@ -151,7 +154,7 @@ describe("Molecules", () => {
   test("<div>(role=tablist)", () => {
     const { container } = render(
       <div role="tablist">
-        <p role="tab"></p>
+        <p role="tab" />
       </div>,
     );
     asserts(container);
@@ -260,7 +263,6 @@ describe("Atoms", () => {
   test("<div>(single role)", () => {
     const { container } = render(
       <div>
-        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img alt="picture" />
         <p>test</p>
       </div>,
@@ -275,10 +277,10 @@ describe("Atoms", () => {
       </label>,
     );
     const { container: htmlFor } = render(
-      <React.Fragment>
+      <>
         <label htmlFor="check">Test</label>
         <input type="checkbox" id="check" />
-      </React.Fragment>,
+      </>,
     );
     asserts(container);
     asserts(htmlFor);
@@ -293,4 +295,5 @@ describe("Atoms", () => {
   });
 });
 
-/* eslint-enable unicorn/consistent-function-scoping */
+/* eslint-enable react/button-has-type, jsx-a11y/label-has-associated-control, jsx-a11y/img-redundant-alt,
+ jsx-a11y/control-has-associated-label, jsx-a11y/no-noninteractive-element-to-interactive-role, jsx-a11y/anchor-is-valid */

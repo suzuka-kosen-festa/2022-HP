@@ -1,18 +1,18 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`(components) organisms/festa-section take snap shot 1`] = `
+exports[`(components) organisms/festa-section > take snap shot 1`] = `
 <div>
   <section
     aria-label="今年のテーマ「Re:ROAD」について"
-    class="twin-3zsgd5-FestaSectionContainer efthwpx0"
+    class="css-1648j2y"
   >
     <h1
-      class="twin-f7kb4u-Heading ebaq0s80"
+      class="css-6if9cu"
     >
       今年のテーマ「Re:ROAD」について
     </h1>
     <p
-      class="twin-dcmtlm-Text-FestaSection epv4mo00"
+      class="css-z92nkr-FestaSection"
     >
       第57回鈴鹿高専祭、テーマは「Re:ROAD」
 今回のテーマ「Re:ROAD」には「道（Road）」を創り直す（Re）という意味と、「弾をこめる・再補填する（Reload）」という意味を使い、「今年の準備をする」「来年以降、これから先のための高専祭を行う」という想いが込められています。

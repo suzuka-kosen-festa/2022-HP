@@ -23,7 +23,9 @@ jobs:
       - name: Build the project
         run: yarn run build
       - name: Test
-        run: yarn run test --no-cache
+        run: yarn run test
+        env:
+          VITE_GOOGLE_MAP_API_KEY: ${{ secrets.VITE_GOOGLE_MAP_API_KEY }}
   run-test-check:
     if: ${{ ! failure() }}
     needs: run-test

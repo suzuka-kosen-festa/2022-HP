@@ -1,21 +1,21 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`(components) organisms/map-section take snap shot 1`] = `
+exports[`(components) organisms/map-section > take snap shot 1`] = `
 <div>
   <section
     aria-label="アクセス"
-    class="twin-1xd1333-MapSectionContainer eo5dcy1"
+    class="css-1648j2y"
   >
     <h1
-      class="twin-f7kb4u-Heading ebaq0s80"
+      class="css-6if9cu"
     >
       アクセス
     </h1>
     <div
-      class="twin-takigz-MapBox eo5dcy0"
+      class="css-rwuboe"
     >
       <p
-        class="twin-x4zvw-Text-MapSection epv4mo00"
+        class="css-1c4qfhf-MapSection"
       >
         〒
         510-0294 三重県鈴鹿市白子町
@@ -23,19 +23,19 @@ exports[`(components) organisms/map-section take snap shot 1`] = `
 三重交通バス東旭が丘3丁目から徒歩約7分
       </p>
       <figure
-        class="twin-oubtkh-MapContainer e105lmtd1"
+        class="css-s3afwo"
       >
         <div
-          class="twin-1xoy3t5-MapWrapper e105lmtd0"
+          class="css-1yuaof5"
         >
           <iframe
             allowfullscreen=""
-            class="twin-u695ll-Map"
+            class="css-u7aauf"
             id="map"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
             role="document"
-            src="https://www.google.com/maps/embed/v1/view?key=&center=34.85167124241317%2C136.58132309784355&zoom=15"
+            src="https://www.google.com/maps/embed/v1/view?key=AIzaSyCk9WMilIT2wiBMqcn1YZQKJz5Lzy9ipQg&center=34.85167124241317%2C136.58132309784355&zoom=15"
             title="鈴鹿工業高等専門学校の地図"
           />
         </div>

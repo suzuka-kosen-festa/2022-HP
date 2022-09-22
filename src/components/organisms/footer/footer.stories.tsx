@@ -1,5 +1,6 @@
-import { ComponentStoryObj, ComponentMeta } from "@storybook/react";
+import type { ComponentStoryObj, ComponentMeta } from "@storybook/react";
 import { Footer } from ".";
+
 type T = typeof Footer;
 type Story = ComponentStoryObj<T>;
 
