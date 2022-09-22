@@ -2420,7 +2420,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-a11y@npm:^6.5.12":
+"@storybook/addon-a11y@npm:6.5.12":
   version: 6.5.12
   resolution: "@storybook/addon-a11y@npm:6.5.12"
   dependencies:
@@ -2452,7 +2452,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-actions@npm:6.5.12, @storybook/addon-actions@npm:^6.5.12":
+"@storybook/addon-actions@npm:6.5.12":
   version: 6.5.12
   resolution: "@storybook/addon-actions@npm:6.5.12"
   dependencies:
@@ -2544,7 +2544,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-docs@npm:6.5.12, @storybook/addon-docs@npm:^6.5.12":
+"@storybook/addon-docs@npm:6.5.12":
   version: 6.5.12
   resolution: "@storybook/addon-docs@npm:6.5.12"
   dependencies:
@@ -2591,7 +2591,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-essentials@npm:^6.5.12":
+"@storybook/addon-essentials@npm:6.5.12":
   version: 6.5.12
   resolution: "@storybook/addon-essentials@npm:6.5.12"
   dependencies:
@@ -2651,7 +2651,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-interactions@npm:^6.5.12":
+"@storybook/addon-interactions@npm:6.5.12":
   version: 6.5.12
   resolution: "@storybook/addon-interactions@npm:6.5.12"
   dependencies:
@@ -2682,7 +2682,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-links@npm:^6.5.12":
+"@storybook/addon-links@npm:6.5.12":
   version: 6.5.12
   resolution: "@storybook/addon-links@npm:6.5.12"
   dependencies:
@@ -2760,7 +2760,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-postcss@npm:^2.0.0":
+"@storybook/addon-postcss@npm:2.0.0":
   version: 2.0.0
   resolution: "@storybook/addon-postcss@npm:2.0.0"
   dependencies:
@@ -2873,7 +2873,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/builder-vite@npm:^0.2.2":
+"@storybook/builder-vite@npm:0.2.2":
   version: 0.2.2
   resolution: "@storybook/builder-vite@npm:0.2.2"
   dependencies:
@@ -3491,7 +3491,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react@npm:^6.5.12":
+"@storybook/react@npm:6.5.12":
   version: 6.5.12
   resolution: "@storybook/react@npm:6.5.12"
   dependencies:
@@ -3651,7 +3651,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/testing-library@npm:^0.0.13":
+"@storybook/testing-library@npm:0.0.13":
   version: 0.0.13
   resolution: "@storybook/testing-library@npm:0.0.13"
   dependencies:
@@ -3664,7 +3664,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/testing-react@npm:^1.3.0":
+"@storybook/testing-react@npm:1.3.0":
   version: 1.3.0
   resolution: "@storybook/testing-react@npm:1.3.0"
   dependencies:
@@ -17046,17 +17046,17 @@ __metadata:
     "@emotion/server": 11.10.0
     "@emotion/styled": 11.10.4
     "@mdx-js/react": 1.6.22
-    "@storybook/addon-a11y": ^6.5.12
-    "@storybook/addon-actions": ^6.5.12
-    "@storybook/addon-docs": ^6.5.12
-    "@storybook/addon-essentials": ^6.5.12
-    "@storybook/addon-interactions": ^6.5.12
-    "@storybook/addon-links": ^6.5.12
-    "@storybook/addon-postcss": ^2.0.0
-    "@storybook/builder-vite": ^0.2.2
-    "@storybook/react": ^6.5.12
-    "@storybook/testing-library": ^0.0.13
-    "@storybook/testing-react": ^1.3.0
+    "@storybook/addon-a11y": 6.5.12
+    "@storybook/addon-actions": 6.5.12
+    "@storybook/addon-docs": 6.5.12
+    "@storybook/addon-essentials": 6.5.12
+    "@storybook/addon-interactions": 6.5.12
+    "@storybook/addon-links": 6.5.12
+    "@storybook/addon-postcss": 2.0.0
+    "@storybook/builder-vite": 0.2.2
+    "@storybook/react": 6.5.12
+    "@storybook/testing-library": 0.0.13
+    "@storybook/testing-react": 1.3.0
     "@testing-library/dom": 8.18.1
     "@testing-library/jest-dom": 5.16.5
     "@testing-library/react": 13.4.0
