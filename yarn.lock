@@ -14455,7 +14455,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:2.79.1":
+"rollup@npm:2.79.1, rollup@npm:^2.79.0":
   version: 2.79.1
   resolution: "rollup@npm:2.79.1"
   dependencies:
@@ -14469,7 +14469,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^2.43.1, rollup@npm:^2.75.7":
+"rollup@npm:^2.43.1":
   version: 2.79.0
   resolution: "rollup@npm:2.79.0"
   dependencies:
@@ -16715,21 +16715,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-pwa@npm:0.12.8":
-  version: 0.12.8
-  resolution: "vite-plugin-pwa@npm:0.12.8"
+"vite-plugin-pwa@npm:0.13.1":
+  version: 0.13.1
+  resolution: "vite-plugin-pwa@npm:0.13.1"
   dependencies:
     debug: ^4.3.4
     fast-glob: ^3.2.11
     pretty-bytes: ^6.0.0
-    rollup: ^2.75.7
-    workbox-build: ^6.5.3
-    workbox-window: ^6.5.3
+    rollup: ^2.79.0
+    workbox-build: ^6.5.4
+    workbox-window: ^6.5.4
   peerDependencies:
-    vite: ^2.0.0 || ^3.0.0-0
-    workbox-build: ^6.4.0
-    workbox-window: ^6.4.0
-  checksum: a7ea6c4ec29eace2931f8b37e51506c33ad73eb3dd9153958c9fec8137a21059eeed2e9455ba851de4829540dbd920590c4395d99c23b1cdb8c69c468a293535
+    vite: ^3.1.0
+    workbox-build: ^6.5.4
+    workbox-window: ^6.5.4
+  checksum: 705bb4593cbdfef0ea375af420fd46cdb301a3298abe41e80aa6ec08e793112960179d14c567f3c7c4d0bdde0702b4b1864a3aff23ceaedf7687d649172e5e62
   languageName: node
   linkType: hard
 
@@ -17145,7 +17145,7 @@ __metadata:
     twin.macro: 2.8.2
     typescript: 4.8.3
     vite: 3.1.2
-    vite-plugin-pwa: 0.12.8
+    vite-plugin-pwa: 0.13.1
     vitest: 0.23.4
     wouter: 2.8.0-alpha.2
   languageName: unknown
@@ -17284,7 +17284,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workbox-build@npm:^6.5.3":
+"workbox-build@npm:^6.5.4":
   version: 6.5.4
   resolution: "workbox-build@npm:6.5.4"
   dependencies:
@@ -17445,7 +17445,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workbox-window@npm:6.5.4, workbox-window@npm:^6.5.3":
+"workbox-window@npm:6.5.4, workbox-window@npm:^6.5.4":
   version: 6.5.4
   resolution: "workbox-window@npm:6.5.4"
   dependencies:
