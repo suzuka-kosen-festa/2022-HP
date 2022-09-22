@@ -1234,7 +1234,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-react-jsx@npm:^7.12.12, @babel/plugin-transform-react-jsx@npm:^7.18.10, @babel/plugin-transform-react-jsx@npm:^7.18.6, @babel/plugin-transform-react-jsx@npm:^7.19.0":
+"@babel/plugin-transform-react-jsx@npm:7.19.0, @babel/plugin-transform-react-jsx@npm:^7.12.12, @babel/plugin-transform-react-jsx@npm:^7.18.10, @babel/plugin-transform-react-jsx@npm:^7.18.6":
   version: 7.19.0
   resolution: "@babel/plugin-transform-react-jsx@npm:7.19.0"
   dependencies:
@@ -2199,7 +2199,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdx-js/react@npm:^1.6.22":
+"@mdx-js/react@npm:1.6.22, @mdx-js/react@npm:^1.6.22":
   version: 1.6.22
   resolution: "@mdx-js/react@npm:1.6.22"
   peerDependencies:
@@ -3731,7 +3731,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:^8.18.1, @testing-library/dom@npm:^8.3.0":
+"@testing-library/dom@npm:8.18.1, @testing-library/dom@npm:^8.3.0":
   version: 8.18.1
   resolution: "@testing-library/dom@npm:8.18.1"
   dependencies:
@@ -4393,7 +4393,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitejs/plugin-react@npm:^2.0.0, @vitejs/plugin-react@npm:^2.1.0":
+"@vitejs/plugin-react@npm:2.1.0, @vitejs/plugin-react@npm:^2.0.0":
   version: 2.1.0
   resolution: "@vitejs/plugin-react@npm:2.1.0"
   dependencies:
@@ -4410,7 +4410,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/ui@npm:^0.23.4":
+"@vitest/ui@npm:0.23.4":
   version: 0.23.4
   resolution: "@vitest/ui@npm:0.23.4"
   dependencies:
@@ -5422,7 +5422,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-loader@npm:^8.0.0, babel-loader@npm:^8.2.5":
+"babel-loader@npm:8.2.5, babel-loader@npm:^8.0.0":
   version: 8.2.5
   resolution: "babel-loader@npm:8.2.5"
   dependencies:
@@ -5487,6 +5487,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"babel-plugin-macros@npm:3.1.0, babel-plugin-macros@npm:^3.0.1, babel-plugin-macros@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "babel-plugin-macros@npm:3.1.0"
+  dependencies:
+    "@babel/runtime": ^7.12.5
+    cosmiconfig: ^7.0.0
+    resolve: ^1.19.0
+  checksum: 765de4abebd3e4688ebdfbff8571ddc8cd8061f839bb6c3e550b0344a4027b04c60491f843296ce3f3379fb356cc873d57a9ee6694262547eb822c14a25be9a6
+  languageName: node
+  linkType: hard
+
 "babel-plugin-macros@npm:^2.8.0":
   version: 2.8.0
   resolution: "babel-plugin-macros@npm:2.8.0"
@@ -5495,17 +5506,6 @@ __metadata:
     cosmiconfig: ^6.0.0
     resolve: ^1.12.0
   checksum: 59b09a21cf3ae1e14186c1b021917d004b49b953824b24953a54c6502da79e8051d4ac31cfd4a0ae7f6ea5ddf1f7edd93df4895dd3c3982a5b2431859c2889ac
-  languageName: node
-  linkType: hard
-
-"babel-plugin-macros@npm:^3.0.1, babel-plugin-macros@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "babel-plugin-macros@npm:3.1.0"
-  dependencies:
-    "@babel/runtime": ^7.12.5
-    cosmiconfig: ^7.0.0
-    resolve: ^1.19.0
-  checksum: 765de4abebd3e4688ebdfbff8571ddc8cd8061f839bb6c3e550b0344a4027b04c60491f843296ce3f3379fb356cc873d57a9ee6694262547eb822c14a25be9a6
   languageName: node
   linkType: hard
 
@@ -11032,7 +11032,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsdom@npm:^20.0.0":
+"jsdom@npm:20.0.0":
   version: 20.0.0
   resolution: "jsdom@npm:20.0.0"
   dependencies:
@@ -14397,7 +14397,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^2.43.1, rollup@npm:^2.75.7, rollup@npm:^2.79.0":
+"rollup@npm:2.79.0, rollup@npm:^2.43.1, rollup@npm:^2.75.7":
   version: 2.79.0
   resolution: "rollup@npm:2.79.0"
   dependencies:
@@ -16037,7 +16037,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"twin.macro@npm:^2.8.2":
+"twin.macro@npm:2.8.2":
   version: 2.8.2
   resolution: "twin.macro@npm:2.8.2"
   dependencies:
@@ -16643,7 +16643,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-pwa@npm:^0.12.8":
+"vite-plugin-pwa@npm:0.12.8":
   version: 0.12.8
   resolution: "vite-plugin-pwa@npm:0.12.8"
   dependencies:
@@ -16658,6 +16658,38 @@ __metadata:
     workbox-build: ^6.4.0
     workbox-window: ^6.4.0
   checksum: a7ea6c4ec29eace2931f8b37e51506c33ad73eb3dd9153958c9fec8137a21059eeed2e9455ba851de4829540dbd920590c4395d99c23b1cdb8c69c468a293535
+  languageName: node
+  linkType: hard
+
+"vite@npm:3.1.2":
+  version: 3.1.2
+  resolution: "vite@npm:3.1.2"
+  dependencies:
+    esbuild: ^0.15.6
+    fsevents: ~2.3.2
+    postcss: ^8.4.16
+    resolve: ^1.22.1
+    rollup: ~2.78.0
+  peerDependencies:
+    less: "*"
+    sass: "*"
+    stylus: "*"
+    terser: ^5.4.0
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  peerDependenciesMeta:
+    less:
+      optional: true
+    sass:
+      optional: true
+    stylus:
+      optional: true
+    terser:
+      optional: true
+  bin:
+    vite: bin/vite.js
+  checksum: 90f645853f53efaddfa216eaf42ed93afe6b43f849889a7716ef9c04623b9ae244f391ed17ed0c41189422060cad5e78eb17583ac5a3759988f54b7412e18cb7
   languageName: node
   linkType: hard
 
@@ -16693,39 +16725,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^3.1.2":
-  version: 3.1.2
-  resolution: "vite@npm:3.1.2"
-  dependencies:
-    esbuild: ^0.15.6
-    fsevents: ~2.3.2
-    postcss: ^8.4.16
-    resolve: ^1.22.1
-    rollup: ~2.78.0
-  peerDependencies:
-    less: "*"
-    sass: "*"
-    stylus: "*"
-    terser: ^5.4.0
-  dependenciesMeta:
-    fsevents:
-      optional: true
-  peerDependenciesMeta:
-    less:
-      optional: true
-    sass:
-      optional: true
-    stylus:
-      optional: true
-    terser:
-      optional: true
-  bin:
-    vite: bin/vite.js
-  checksum: 90f645853f53efaddfa216eaf42ed93afe6b43f849889a7716ef9c04623b9ae244f391ed17ed0c41189422060cad5e78eb17583ac5a3759988f54b7412e18cb7
-  languageName: node
-  linkType: hard
-
-"vitest@npm:^0.23.4":
+"vitest@npm:0.23.4":
   version: 0.23.4
   resolution: "vitest@npm:0.23.4"
   dependencies:
@@ -17012,7 +17012,7 @@ __metadata:
   resolution: "webpage@workspace:."
   dependencies:
     "@babel/core": 7.19.1
-    "@babel/plugin-transform-react-jsx": ^7.19.0
+    "@babel/plugin-transform-react-jsx": 7.19.0
     "@emotion/babel-plugin-jsx-pragmatic": ^0.2.0
     "@emotion/cache": 11.10.3
     "@emotion/css": ^11.10.0
@@ -17020,7 +17020,7 @@ __metadata:
     "@emotion/serialize": ^1.1.0
     "@emotion/server": 11.10.0
     "@emotion/styled": 11.10.4
-    "@mdx-js/react": ^1.6.22
+    "@mdx-js/react": 1.6.22
     "@storybook/addon-a11y": ^6.5.12
     "@storybook/addon-actions": ^6.5.12
     "@storybook/addon-docs": ^6.5.12
@@ -17032,7 +17032,7 @@ __metadata:
     "@storybook/react": ^6.5.12
     "@storybook/testing-library": ^0.0.13
     "@storybook/testing-react": ^1.3.0
-    "@testing-library/dom": ^8.18.1
+    "@testing-library/dom": 8.18.1
     "@testing-library/jest-dom": 5.16.5
     "@testing-library/react": 13.4.0
     "@testing-library/user-event": 14.4.3
@@ -17044,11 +17044,11 @@ __metadata:
     "@types/tailwindcss": 3.0.11
     "@typescript-eslint/eslint-plugin": ^5.38.0
     "@typescript-eslint/parser": ^5.38.0
-    "@vitejs/plugin-react": ^2.1.0
-    "@vitest/ui": ^0.23.4
+    "@vitejs/plugin-react": 2.1.0
+    "@vitest/ui": 0.23.4
     autoprefixer: 10.4.11
-    babel-loader: ^8.2.5
-    babel-plugin-macros: ^3.1.0
+    babel-loader: 8.2.5
+    babel-plugin-macros: 3.1.0
     chromatic: 6.9.0
     cross-env: 7.0.3
     eslint: 8.22.0
@@ -17060,22 +17060,22 @@ __metadata:
     eslint-plugin-react: ^7.31.8
     eslint-plugin-react-hooks: ^4.6.0
     eslint-plugin-storybook: ^0.6.4
-    jsdom: ^20.0.0
+    jsdom: 20.0.0
     postcss: 8.4.16
     prettier: 2.7.1
     react: 18.2.0
     react-dom: 18.2.0
     rimraf: 3.0.2
-    rollup: ^2.79.0
+    rollup: 2.79.0
     style-dictionary: 3.7.1
     tailwindcss: 3.1.8
     token-transformer: 0.0.27
-    twin.macro: ^2.8.2
+    twin.macro: 2.8.2
     typescript: 4.8.3
-    vite: ^3.1.2
-    vite-plugin-pwa: ^0.12.8
-    vitest: ^0.23.4
-    wouter: ^2.8.0-alpha.2
+    vite: 3.1.2
+    vite-plugin-pwa: 0.12.8
+    vitest: 0.23.4
+    wouter: 2.8.0-alpha.2
   languageName: unknown
   linkType: soft
 
@@ -17401,7 +17401,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wouter@npm:^2.8.0-alpha.2":
+"wouter@npm:2.8.0-alpha.2":
   version: 2.8.0-alpha.2
   resolution: "wouter@npm:2.8.0-alpha.2"
   peerDependencies:
