@@ -15,7 +15,7 @@ exports[`(components) templates/layout > take snap shot 1`] = `
           class="css-bg20hz-HeroSection"
         >
           <p
-            class="css-8shmws-HeroSection"
+            class="css-c6teuq-HeroSection"
           >
             第57回鈴鹿高専祭
           </p>
@@ -27,7 +27,7 @@ exports[`(components) templates/layout > take snap shot 1`] = `
             width="1212"
           />
           <p
-            class="css-8shmws-HeroSection"
+            class="css-c6teuq-HeroSection"
           >
             2022.10.30-31
           </p>
@@ -43,7 +43,7 @@ exports[`(components) templates/layout > take snap shot 1`] = `
         role="contentinfo"
       >
         <a
-          class="css-hr7d9o"
+          class="css-vle9m6"
           href="https://github.com/suzuka-kosen-festa/2022-HP/blob/main/LICENSE"
           rel="noopener noreferrer"
           role="link"
