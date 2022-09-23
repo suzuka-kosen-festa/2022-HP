@@ -1,9 +1,49 @@
 // Vitest Snapshot v1
 
-exports[`(components) atoms/heading > take snap shot 1`] = `
+exports[`(components) atoms/heading > (blue) take snap shot 1`] = `
 <div>
   <h1
-    class="css-aqf8g7"
+    class="css-t0j2mw-Heading"
+  >
+    This is test
+  </h1>
+</div>
+`;
+
+exports[`(components) atoms/heading > (default) take snap shot 1`] = `
+<div>
+  <h1
+    class="css-j0m3h4-Heading"
+  >
+    This is test
+  </h1>
+</div>
+`;
+
+exports[`(components) atoms/heading > (green) take snap shot 1`] = `
+<div>
+  <h1
+    class="css-1u60hok-Heading"
+  >
+    This is test
+  </h1>
+</div>
+`;
+
+exports[`(components) atoms/heading > (purple) take snap shot 1`] = `
+<div>
+  <h1
+    class="css-hcdy3c-Heading"
+  >
+    This is test
+  </h1>
+</div>
+`;
+
+exports[`(components) atoms/heading > (red) take snap shot 1`] = `
+<div>
+  <h1
+    class="css-1fir9ar-Heading"
   >
     This is test
   </h1>
