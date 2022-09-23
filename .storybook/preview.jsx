@@ -17,7 +17,7 @@ export const parameters = {
     values: [
       {
         name: "kosen-fes",
-        value: "#211A1A",
+        value: "#FFFFFF",
       },
     ],
   },
