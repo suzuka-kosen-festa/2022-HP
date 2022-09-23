@@ -9,7 +9,7 @@ exports[`(components) molecules/twitter > take snap shot 1`] = `
       class="css-g9iroc"
     >
       <a
-        class="twitter-timeline css-hr7d9o"
+        class="twitter-timeline css-vle9m6"
         data-height="420"
         data-width="240"
         href="https://twitter.com/KOSENFESTA?ref_src=twsrc%5Etfw"
@@ -21,7 +21,7 @@ exports[`(components) molecules/twitter > take snap shot 1`] = `
       class="css-1uvl77q"
     >
       <a
-        class="twitter-timeline css-hr7d9o"
+        class="twitter-timeline css-vle9m6"
         data-height="410"
         data-width="288"
         href="https://twitter.com/KOSENFESTA?ref_src=twsrc%5Etfw"

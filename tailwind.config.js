@@ -10,7 +10,7 @@ module.exports = {
         ...valiables.color,
       },
       fontFamily: {
-        zen: ["Zen Kurenaido", "sans-serif"],
+        zen: ["Zen KakuGothic New", "sans-serif"],
       },
       margin: {
         64.75: "16.1875rem",
