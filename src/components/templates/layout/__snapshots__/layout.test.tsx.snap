@@ -1,49 +1,49 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`(components) templates/layout take snap shot 1`] = `
+exports[`(components) templates/layout > take snap shot 1`] = `
 <div>
   <div
-    class="twin-1m2qlh2-LayoutBox e1o6lh2y2"
+    class="css-1hq8773"
   >
     <div
-      class="twin-1xz4r0p-MainBox e1o6lh2y1"
+      class="css-h1gvs3"
     >
       <header
-        class="twin-1khm9dj-HeroSectionContainer e1bk5cli1"
+        class="css-j7qwjs"
       >
         <div
-          class="twin-so5o4z-Backgorund-HeroSection e1bk5cli0"
+          class="css-bg20hz-HeroSection"
         >
           <p
-            class="twin-1h43r6k-Text-HeroSection epv4mo00"
+            class="css-8shmws-HeroSection"
           >
             第57回鈴鹿高専祭
           </p>
           <img
             alt="第57回鈴鹿高専祭、Re:ROADのロゴ"
-            class="twin-gjrcqc-HeroSection"
+            class="css-1ysdsd"
             height="247"
             src="/statics/logo.webp"
             width="1212"
           />
           <p
-            class="twin-1h43r6k-Text-HeroSection epv4mo00"
+            class="css-8shmws-HeroSection"
           >
             2022.10.30-31
           </p>
         </div>
       </header>
       <main
-        class="twin-197sar1-Main e1o6lh2y0"
+        class="css-p8s7gt"
       >
         <section />
       </main>
       <footer
-        class="twin-1h92n56-FooterBox e1cwxp960"
+        class="css-143yzj5"
         role="contentinfo"
       >
         <a
-          class="twin-1yx28h9-AnchorText ey6ijqd0"
+          class="css-hr7d9o"
           href="https://github.com/suzuka-kosen-festa/2022-HP/blob/main/LICENSE"
           rel="noopener noreferrer"
           role="link"

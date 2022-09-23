@@ -1,12 +1,45 @@
 {
-  "global": {
-    "color": {
-      "white": "#FFFFFF",
-      "black": "#000000",
-      "photo-layer": "rgba(34,31,31, 0.9)",
-      "button-hover": "#EBEBEB",
-      "background-gray": "#211A1A"
-    }
+  "tokenSetOrder": {
+    "0": "global"
   },
-  "$themes": []
+  "color": {
+    "white": "#FFFFFF",
+    "black": "#000000",
+    "photo-layer": "#221f1fe6",
+    "button-hover": "#EBEBEB",
+    "background-gray": "#211A1A",
+    "primary-red": "#e02459",
+    "primary-yellow": "#ffcb00",
+    "primary-green": "#6eb35a",
+    "primary-purple": "#5d417e",
+    "primary-blue": "#0184a6",
+    "text": "#171020"
+  },
+  "red": {
+    "500": "#e02459"
+  },
+  "yellow": {
+    "400": "#ffcb00"
+  },
+  "green": {
+    "400": "#6eb35a"
+  },
+  "purple": {
+    "700": "#5d417e"
+  },
+  "blue": {
+    "500": "#0184a6"
+  },
+  "gray": {
+    "50": "#1710201a",
+    "100": "#17102033",
+    "200": "#1710204d",
+    "300": "#17102066",
+    "400": "#17102080",
+    "500": "#17102099",
+    "600": "#171020b3",
+    "700": "#171020cc",
+    "800": "#171020e6",
+    "900": "#171020"
+  }
 }

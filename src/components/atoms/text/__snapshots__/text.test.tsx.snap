@@ -1,9 +1,9 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`(components) atoms/text take snap shot 1`] = `
+exports[`(components) atoms/text > take snap shot 1`] = `
 <div>
   <p
-    class="twin-w53v7j-Text epv4mo00"
+    class="css-111zbk5"
   >
     This is test
   </p>

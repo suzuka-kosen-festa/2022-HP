@@ -1,15 +1,19 @@
-import React from "react";
+import type { FC } from "react";
+import { Suspense, lazy } from "react";
 import tw from "twin.macro";
 import type { SnsSectionProperties } from "../../../models";
 import { Heading } from "../../atoms/heading";
-import { Twitter } from "../../molecules/twitter";
+
+const Twitter = lazy(() => import("../../molecules/twitter"));
 
 const SnsSectionContainer = tw.section`flex flex-col space-y-[calc(200vw / 63)]`;
 
-const SnsSection: React.FC<SnsSectionProperties> = ({ title, ...rest }) => (
-  <SnsSectionContainer aria-label={"SNS"} {...rest}>
+const SnsSection: FC<SnsSectionProperties> = ({ title, ...rest }) => (
+  <SnsSectionContainer aria-label="SNS" {...rest}>
     <Heading>{title}</Heading>
-    <Twitter />
+    <Suspense fallback={<div>Loading...</div>}>
+      <Twitter />
+    </Suspense>
   </SnsSectionContainer>
 );
 

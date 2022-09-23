@@ -1,12 +1,11 @@
 package.json
 tsconfig.json
-.next
+dist
 .yarn
-next-env.d.ts
 *.config.ts
 *.config.js
-*.setup.js
+*.setup.ts
+vite-env.d.ts
 storybook-static
-__mocks__
 lighthouserc.js
 scripts

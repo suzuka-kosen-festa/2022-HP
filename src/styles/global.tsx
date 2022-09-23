@@ -15,10 +15,10 @@ const customStyle = css`
 `;
 
 const GlobalStyles = (): JSX.Element => (
-  <React.Fragment>
+  <>
     <BaseStyles />
     <Global styles={customStyle} />
-  </React.Fragment>
+  </>
 );
 
 export { GlobalStyles };

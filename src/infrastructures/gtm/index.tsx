@@ -1,4 +1,3 @@
-import Script from "next/script";
 import type { FC } from "react";
 import type { GoogleTagManagerId, GoogleTagManagerProperties, SendTransitionToOutsideOfHomepage } from "./type/model";
 
@@ -15,16 +14,16 @@ const isGoogleTagManagerId = (value: unknown): value is GoogleTagManagerId => {
 };
 
 export const googleTagManagerId = (): GoogleTagManagerId => {
-  if (isGoogleTagManagerId(process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID)) {
-    return process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID;
+  if (isGoogleTagManagerId(import.meta.env.VITE_GOOGLE_TAG_MANAGER_ID)) {
+    return import.meta.env.VITE_GOOGLE_TAG_MANAGER_ID;
   }
   return "GTM-";
 };
 
+/* eslint-disable react/no-danger */
 export const GoogleTagManager: FC<GoogleTagManagerProperties> = ({ id }) => (
-  <Script
+  <script
     id="gtm"
-    strategy="afterInteractive"
     dangerouslySetInnerHTML={{
       __html: `
       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -36,6 +35,7 @@ export const GoogleTagManager: FC<GoogleTagManagerProperties> = ({ id }) => (
     }}
   />
 );
+/* eslint-enable react/no-danger */
 
 export const sendTransitionToOutsideOfHomepage = (label: SendTransitionToOutsideOfHomepage): void => {
   window.dataLayer.push({

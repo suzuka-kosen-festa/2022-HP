@@ -1,27 +1,27 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
 
-exports[`(components) organisms/hero-section take snap shot 1`] = `
+exports[`(components) organisms/hero-section > take snap shot 1`] = `
 <div>
   <header
-    class="twin-1khm9dj-HeroSectionContainer e1bk5cli1"
+    class="css-j7qwjs"
   >
     <div
-      class="twin-so5o4z-Backgorund-HeroSection e1bk5cli0"
+      class="css-bg20hz-HeroSection"
     >
       <p
-        class="twin-1h43r6k-Text-HeroSection epv4mo00"
+        class="css-8shmws-HeroSection"
       >
         第57回鈴鹿高専祭
       </p>
       <img
         alt="第57回鈴鹿高専祭、Re:ROADのロゴ"
-        class="twin-gjrcqc-HeroSection"
+        class="css-1ysdsd"
         height="247"
         src="/statics/logo.webp"
         width="1212"
       />
       <p
-        class="twin-1h43r6k-Text-HeroSection epv4mo00"
+        class="css-8shmws-HeroSection"
       >
         2022.10.30-31
       </p>

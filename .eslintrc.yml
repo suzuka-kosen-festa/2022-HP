@@ -1,12 +1,35 @@
+root: true
+env:
+  browser: true
+  es2020: true
+plugins:
+  - "@typescript-eslint"
 extends:
-  - re-taro
-  - re-taro/next
-  - re-taro/typescript
-  - re-taro/prettier
-  - plugin:storybook/recommended
-rules:
-  no-duplicate-imports: 0
-  "@next/next/no-img-element": off
-  no-secrets/no-secrets: off
+  - airbnb
+  - airbnb/hooks
+  - airbnb-typescript
+  - eslint:recommended
+  - plugin:@typescript-eslint/recommended
+  - plugin:react/recommended
+  - prettier
+overrides:
+  - files:
+      - "*.stories.tsx"
+    extends:
+      - plugin:storybook/recommended
+    rules:
+      import/no-default-export: off
+      import/no-extraneous-dependencies:
+        - error
+        - devDependencies: true
+          optionalDependencies: false
+parser: "@typescript-eslint/parser"
 parserOptions:
   project: ./tsconfig.json
+rules:
+  import/prefer-default-export: off
+  react/react-in-jsx-scope: off
+  react/function-component-definition:
+    - 2
+    - namedComponents: arrow-function
+  react/jsx-props-no-spreading: off

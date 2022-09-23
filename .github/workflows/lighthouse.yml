@@ -27,10 +27,10 @@ jobs:
       - name: run Lighthouse cli
         id: lhci
         run: |
-          mkdir dist
-          touch dist/autorun.txt
-          lhci autorun | grep 'storage.googleapis.com' > ./dist/autorun.txt
-          report_url=$(cat ./dist/autorun.txt)
+          mkdir lhci
+          touch lhci/autorun.txt
+          lhci autorun | grep 'storage.googleapis.com' > ./lhci/autorun.txt
+          report_url=$(cat ./lhci/autorun.txt)
           echo $report_url
           echo "::set-output name=report_url::$report_url"
         continue-on-error: true
