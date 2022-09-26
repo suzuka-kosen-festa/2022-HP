@@ -3,7 +3,7 @@ import tw, { css } from "twin.macro";
 import type { TwStyle } from "twin.macro";
 import type { HeadingProperties, ColorVariant } from "./type/model";
 
-const HeadingBase = tw.h1`font-zen text-text text-5xl select-none`;
+const HeadingBase = tw.h1`font-zen text-text text-xl sm:text-5xl select-none`;
 
 // eslint-disable-next-line consistent-return
 const getColor = (color: ColorVariant): TwStyle => {
