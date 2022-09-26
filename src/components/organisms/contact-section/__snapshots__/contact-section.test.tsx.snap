@@ -12,12 +12,12 @@ exports[`(components) organisms/contact-section > take snap shot 1`] = `
       お問い合わせ
     </h1>
     <p
-      class="css-1x10uum"
+      class="css-199inpx"
     >
       第57回鈴鹿高専祭に関するお問い合わせは下のボタンからお願いいたします。(google formsが開きます)
     </p>
     <a
-      class="css-1a492j3"
+      class="css-104abqd"
       href="#"
       rel="noopener noreferrer"
       role="button"
@@ -25,7 +25,7 @@ exports[`(components) organisms/contact-section > take snap shot 1`] = `
       target="_blank"
     >
       <p
-        class="css-hr6n41-Button"
+        class="css-oc644a-Button"
       >
         お問い合わせ
       </p>

@@ -12,12 +12,12 @@ exports[`(components) organisms/about-section > take snap shot 1`] = `
       鈴鹿高専について
     </h1>
     <p
-      class="css-1x10uum"
+      class="css-199inpx"
     >
       鈴鹿高専については本校ホームページをご覧ください。
     </p>
     <a
-      class="css-1a492j3"
+      class="css-104abqd"
       href="#"
       rel="noopener noreferrer"
       role="button"
@@ -25,7 +25,7 @@ exports[`(components) organisms/about-section > take snap shot 1`] = `
       target="_brank"
     >
       <p
-        class="css-hr6n41-Button"
+        class="css-oc644a-Button"
       >
         鈴鹿高専ホームページ
       </p>
