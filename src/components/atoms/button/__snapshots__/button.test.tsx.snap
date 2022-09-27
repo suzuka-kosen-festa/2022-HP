@@ -3,13 +3,13 @@
 exports[`(components) atoms/button > take anchor button's snap shot 1`] = `
 <div>
   <a
-    class="css-1a492j3"
+    class="css-104abqd"
     href="#"
     role="button"
     tabindex="0"
   >
     <p
-      class="css-hr6n41-Button"
+      class="css-oc644a-Button"
     >
       This is test
     </p>
@@ -20,11 +20,11 @@ exports[`(components) atoms/button > take anchor button's snap shot 1`] = `
 exports[`(components) atoms/button > take default button's snap shot 1`] = `
 <div>
   <button
-    class="css-1a492j3"
+    class="css-104abqd"
     tabindex="0"
   >
     <p
-      class="css-hr6n41-Button"
+      class="css-oc644a-Button"
     >
       This is test
     </p>

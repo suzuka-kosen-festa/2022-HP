@@ -1,5 +1,5 @@
 import tw from "twin.macro";
 
-const AnchorText = tw.a`font-zen text-white text-[calc(12px + 4 * ((100vw - 378px) / 1134))]`;
+const AnchorText = tw.a`font-zen text-xs sm:text-text text-base`;
 
 export { AnchorText };

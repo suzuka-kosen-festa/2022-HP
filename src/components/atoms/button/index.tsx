@@ -1,8 +1,8 @@
 import tw from "twin.macro";
-import { ButtonProperties } from "../../../models";
+import { ButtonProperties } from "./type/model";
 import { Text } from "../text";
 
-const ButtonBox = tw.button`bg-white hover:bg-button-hover inline-block items-start px-8 py-2 gap-2.5 rounded-[2rem]`;
+const ButtonBox = tw.button`bg-white hover:bg-button-hover inline-block items-start px-2 py-0.5 sm:px-8 sm:py-2 gap-2.5 rounded-[2rem]`;
 
 const Button = <T extends AnyComponent>({
   children,
