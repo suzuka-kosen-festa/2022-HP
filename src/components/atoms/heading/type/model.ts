@@ -1,7 +1,6 @@
 import type { ComponentProps, ReactHTML } from "react";
-
-export type ColorVariant = "yellow" | "green" | "blue" | "purple" | "red";
+import type { ColorVariant } from "../../../../styles/type/model";
 
 export type HeadingProperties = ComponentProps<ReactHTML["h1"]> & {
-  color?: ColorVariant;
+  colorKey: Omit<ColorVariant, "twitter" | "instagram">;
 };

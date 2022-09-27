@@ -3,7 +3,7 @@ import "@testing-library/jest-dom";
 import { render } from "@testing-library/react";
 import * as stories from "./heading.stories";
 
-const { Default, Blue, Green, Red, Purple } = composeStories(stories);
+const { Default, Blue, Green, Red, Purple, Yellow } = composeStories(stories);
 
 const options = {
   name: "This is test",
@@ -22,20 +22,24 @@ describe("(components) atoms/heading", () => {
     const { container } = render(<Default />);
     expect(container).toMatchSnapshot();
   });
+  test("(yellow) take snap shot", () => {
+    const { container } = render(<Yellow />);
+    expect(container).toMatchSnapshot();
+  });
   test("(blue) take snap shot", () => {
-    const { container } = render(<Blue />)
+    const { container } = render(<Blue />);
     expect(container).toMatchSnapshot();
-  })
+  });
   test("(green) take snap shot", () => {
-    const { container } = render(<Green />)
+    const { container } = render(<Green />);
     expect(container).toMatchSnapshot();
-  })
+  });
   test("(red) take snap shot", () => {
-    const { container } = render(<Red />)
+    const { container } = render(<Red />);
     expect(container).toMatchSnapshot();
-  })
+  });
   test("(purple) take snap shot", () => {
-    const { container } = render(<Purple />)
+    const { container } = render(<Purple />);
     expect(container).toMatchSnapshot();
-  })
+  });
 });
