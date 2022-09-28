@@ -1,1 +1,1 @@
-export type ColorVariant = "yellow" | "green" | "blue" | "purple" | "red" | "twitter" | "instagram";
+export type ColorVariant = "yellow" | "green" | "blue" | "purple" | "red";

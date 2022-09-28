@@ -26,10 +26,6 @@ const Button = <T extends AnyComponent>({
         return tw`bg-primary-purple hover:bg-primary-purple-reaction`;
       case "red":
         return tw`bg-primary-red hover:bg-primary-red-reaction`;
-      case "twitter":
-        return tw``;
-      case "instagram":
-        return tw``;
       // no default
     }
   }, [colorKey]);
@@ -37,8 +33,6 @@ const Button = <T extends AnyComponent>({
     switch (colorKey) {
       case "yellow":
       case "green":
-      case "twitter":
-      case "instagram":
         return tw`text-text`;
       case "blue":
       case "purple":

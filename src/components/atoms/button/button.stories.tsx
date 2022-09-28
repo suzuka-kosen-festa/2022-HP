@@ -25,7 +25,7 @@ export default {
     },
     colorKey: {
       description: "Button color",
-      control: { type: "select", options: ["yellow", "green", "blue", "purple", "red", "twitter", "instagram"] },
+      control: { type: "select", options: ["yellow", "green", "blue", "purple", "red"] },
     },
     as: {
       description: "As props for button",
@@ -68,15 +68,5 @@ export const Purple: Story = {
 export const Red: Story = {
   args: {
     colorKey: "red",
-  },
-};
-export const Twitter: Story = {
-  args: {
-    colorKey: "twitter",
-  },
-};
-export const Instagram: Story = {
-  args: {
-    colorKey: "instagram",
   },
 };
