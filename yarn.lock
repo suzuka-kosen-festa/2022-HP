@@ -16824,7 +16824,39 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:3.1.3, vite@npm:^2.9.12 || ^3.0.0-0":
+"vite@npm:3.1.4":
+  version: 3.1.4
+  resolution: "vite@npm:3.1.4"
+  dependencies:
+    esbuild: ^0.15.6
+    fsevents: ~2.3.2
+    postcss: ^8.4.16
+    resolve: ^1.22.1
+    rollup: ~2.78.0
+  peerDependencies:
+    less: "*"
+    sass: "*"
+    stylus: "*"
+    terser: ^5.4.0
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  peerDependenciesMeta:
+    less:
+      optional: true
+    sass:
+      optional: true
+    stylus:
+      optional: true
+    terser:
+      optional: true
+  bin:
+    vite: bin/vite.js
+  checksum: f3e532952b896ca7f746de0e51fc8c98ac482b2a5f0b89538ec89ac615f6edbfe45628fe4fbabab4c5fe07f6e4c2e624360af00d8c5c454af31771952b8c6e72
+  languageName: node
+  linkType: hard
+
+"vite@npm:^2.9.12 || ^3.0.0-0":
   version: 3.1.3
   resolution: "vite@npm:3.1.3"
   dependencies:
@@ -17203,7 +17235,7 @@ __metadata:
     token-transformer: 0.0.27
     twin.macro: 2.8.2
     typescript: 4.8.4
-    vite: 3.1.3
+    vite: 3.1.4
     vite-plugin-pwa: 0.13.1
     vitest: 0.23.4
     wouter: 2.8.0-alpha.2
