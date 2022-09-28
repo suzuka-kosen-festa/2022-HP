@@ -10,7 +10,7 @@ const SnsSectionContainer = tw.section`flex flex-col space-y-[calc(200vw / 63)]`
 
 const SnsSection: FC<SnsSectionProperties> = ({ title, ...rest }) => (
   <SnsSectionContainer aria-label="SNS" {...rest}>
-    <Heading>{title}</Heading>
+    <Heading colorKey="yellow">{title}</Heading>
     <Suspense fallback={<div>Loading...</div>}>
       <Twitter />
     </Suspense>
