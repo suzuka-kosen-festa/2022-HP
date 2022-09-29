@@ -11,7 +11,7 @@ const MapBox = tw.div`flex flex-col space-y-[calc(200vw / 63)] lg:flex-row-rever
 
 const MapSection: FC<MapSectionProperties> = ({ center, children, label, title, zoom, ...rest }) => (
   <MapSectionContainer aria-label="アクセス" {...rest}>
-    <Heading>{title}</Heading>
+    <Heading colorKey="yellow">{title}</Heading>
     <MapBox>
       <Text css={tw`whitespace-pre-wrap select-text`}>&#12306;{children}</Text>
       <Map center={center} title={label} zoom={zoom} />

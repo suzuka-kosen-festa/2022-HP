@@ -10,10 +10,11 @@ const AboutSectionContainer = tw.section`space-y-[calc(200vw / 63)]`;
 
 const AboutSection: FC<AboutSectionProperties> = ({ buttonText, children, link, title }) => (
   <AboutSectionContainer aria-label="鈴鹿高専について">
-    <Heading>{title}</Heading>
+    <Heading colorKey="yellow">{title}</Heading>
     <Text>{children}</Text>
     <Button
       as="a"
+      colorKey="yellow"
       href={link}
       target="_brank"
       rel="noopener noreferrer"
