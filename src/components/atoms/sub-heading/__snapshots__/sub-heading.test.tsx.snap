@@ -1,0 +1,11 @@
+// Vitest Snapshot v1
+
+exports[`(components) atoms/text > take snap shot 1`] = `
+<div>
+  <h2
+    class="css-1a2c2qr"
+  >
+    This is test
+  </h2>
+</div>
+`;
