@@ -9,11 +9,11 @@ const data = {
 };
 
 export default {
-  args: {children: data.sentence},
+  args: { children: data.sentence },
   argTypes: {
-    children: {description: "Context of sub heading", control: {type: "text"}},
+    children: { description: "Context of sub heading", control: { type: "text" } },
   },
   component: SubHeading,
-} as ComponentMeta<T>
+} as ComponentMeta<T>;
 
-export const Default: Story = {}
+export const Default: Story = {};
