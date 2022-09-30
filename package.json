@@ -82,7 +82,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-storybook": "0.6.4",
     "jsdom": "20.0.0",
-    "postcss": "8.4.16",
+    "postcss": "8.4.17",
     "prettier": "2.7.1",
     "rimraf": "3.0.2",
     "rollup": "2.79.1",
