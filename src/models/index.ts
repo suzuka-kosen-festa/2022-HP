@@ -1,4 +1,3 @@
-export * from "./about-section";
 export * from "./contact-section";
 export * from "./festa-section";
 export * from "./footer";
