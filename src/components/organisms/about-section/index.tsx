@@ -10,7 +10,9 @@ const AboutSectionContainer = tw.section`flex flex-col justify-center items-cent
 
 const AboutSection: FC<AboutSectionProperties> = ({ buttonText, children, link, title }) => (
   <AboutSectionContainer aria-label="鈴鹿高専について">
-    <Heading css={tw`mb-4 sm:mb-8`} colorKey="purple">{title}</Heading>
+    <Heading css={tw`mb-4 sm:mb-8`} colorKey="purple">
+      {title}
+    </Heading>
     <Text css={tw`mb-8 sm:mb-16`}>{children}</Text>
     <Button
       as="a"

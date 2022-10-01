@@ -18,26 +18,26 @@ export default {
       description: "The text for button in section",
       control: {
         type: "text",
-      }
+      },
     },
     children: {
       description: "Value of main sentence in section",
       control: {
-        type: "text"
-      }
+        type: "text",
+      },
     },
     link: {
       description: "Href for button in section",
       control: {
-        type: "text"
-      }
+        type: "text",
+      },
     },
     title: {
       description: "Title of section",
       control: {
-        type: "text"
-      }
-    }
+        type: "text",
+      },
+    },
   },
   component: AboutSection,
 } as ComponentMeta<T>;
