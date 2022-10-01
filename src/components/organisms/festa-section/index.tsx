@@ -9,7 +9,9 @@ const FestaSectionContainer = tw.section`flex flex-col justify-center items-cent
 
 const FestaSection: FC<FestaSectionProperties> = ({ children, title, subtitle, ...rest }) => (
   <FestaSectionContainer aria-label="今年のテーマ「Re:ROAD」について" {...rest}>
-    <Heading css={tw`mb-4 sm:mb-8`} colorKey="red">{title}</Heading>
+    <Heading css={tw`mb-4 sm:mb-8`} colorKey="red">
+      {title}
+    </Heading>
     <SubHeading css={tw`mb-2 sm:mb-4`}>{subtitle}</SubHeading>
     <Text css={tw`whitespace-pre-wrap`}>{children}</Text>
   </FestaSectionContainer>
