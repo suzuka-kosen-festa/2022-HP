@@ -19,11 +19,28 @@
     "primary-blue": "#0184a6",
     "primary-blue-reaction": "#007594",
     "text": "#171020",
-    "social-twitter": "#00acee"
+    "caution": "#BB1D52",
+    "social-twitter": "#00acee",
+    "social-twitter-reaction": "#009ad4",
+    "social-youtube": "#DA1725",
+    "social-youtube-reaction": "#c31521",
+    "social-instagram-yellow": "#FFD600",
+    "social-instagram-yellow-reaction": "#e6c100",
+    "social-instagram-orange": "#FF7A00",
+    "social-instagram-orange-reaction": "#e66e00",
+    "social-instagram-pink": "#FF0069",
+    "social-instagram-pink-reaction": "#e6005f",
+    "social-instagram-purple": "#D300C5",
+    "social-instagram-purple-reaction": "#b900ad",
+    "social-instagram-blue": "#7638FA",
+    "social-instagram-blue-reaction": "#651ff9",
+    "social-spotify": "#1DB954",
+    "social-spotify-reaction": "#1aa34a"
   },
   "red": {
     "500": "#e02459",
-    "600": "#CF1D55"
+    "600": "#CF1D55",
+    "700": "#BB1D52"
   },
   "yellow": {
     "400": "#ffcb00",
