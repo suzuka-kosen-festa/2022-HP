@@ -8,7 +8,7 @@ const SponsorSectionContainar = tw.section`space-y-[calc(200vw / 63)]`;
 
 const SponsorSection: FC<SponsorSectionProperties> = ({ children, sponsors, title, ...rest }) => (
   <SponsorSectionContainar aria-label="協賛企業" {...rest}>
-    <Heading>{title}</Heading>
+    <Heading colorKey="yellow">{title}</Heading>
     <Text css={tw`whitespace-pre-wrap`}>{children}</Text>
     <ul>
       {sponsors.map(item => (

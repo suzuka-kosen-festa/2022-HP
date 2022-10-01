@@ -1,15 +1,15 @@
 // Vitest Snapshot v1
 
-exports[`(components) atoms/button > take anchor button's snap shot 1`] = `
+exports[`(components) atoms/button > (anchor) take snap shot 1`] = `
 <div>
   <a
-    class="css-104abqd"
+    class="css-1cgtpek-Button"
     href="#"
     role="button"
     tabindex="0"
   >
     <p
-      class="css-oc644a-Button"
+      class="css-mov47x-Button"
     >
       This is test
     </p>
@@ -17,14 +17,89 @@ exports[`(components) atoms/button > take anchor button's snap shot 1`] = `
 </div>
 `;
 
-exports[`(components) atoms/button > take default button's snap shot 1`] = `
+exports[`(components) atoms/button > (blue) take snap shot 1`] = `
 <div>
   <button
-    class="css-104abqd"
+    class="css-hxjfh4-Button"
     tabindex="0"
   >
     <p
-      class="css-oc644a-Button"
+      class="css-18zoh3s-Button"
+    >
+      This is test
+    </p>
+  </button>
+</div>
+`;
+
+exports[`(components) atoms/button > (default) take snap shot 1`] = `
+<div>
+  <button
+    class="css-1cgtpek-Button"
+    tabindex="0"
+  >
+    <p
+      class="css-mov47x-Button"
+    >
+      This is test
+    </p>
+  </button>
+</div>
+`;
+
+exports[`(components) atoms/button > (green) take snap shot 1`] = `
+<div>
+  <button
+    class="css-1nzvy4b-Button"
+    tabindex="0"
+  >
+    <p
+      class="css-9dl2uy-Button"
+    >
+      This is test
+    </p>
+  </button>
+</div>
+`;
+
+exports[`(components) atoms/button > (purple) take snap shot 1`] = `
+<div>
+  <button
+    class="css-hon4lh-Button"
+    tabindex="0"
+  >
+    <p
+      class="css-18zoh3s-Button"
+    >
+      This is test
+    </p>
+  </button>
+</div>
+`;
+
+exports[`(components) atoms/button > (red) take snap shot 1`] = `
+<div>
+  <button
+    class="css-1cawp1h-Button"
+    tabindex="0"
+  >
+    <p
+      class="css-18zoh3s-Button"
+    >
+      This is test
+    </p>
+  </button>
+</div>
+`;
+
+exports[`(components) atoms/button > (yellow) take snap shot 1`] = `
+<div>
+  <button
+    class="css-1wk5tet-Button"
+    tabindex="0"
+  >
+    <p
+      class="css-9dl2uy-Button"
     >
       This is test
     </p>

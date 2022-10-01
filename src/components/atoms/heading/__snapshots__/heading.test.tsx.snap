@@ -3,7 +3,7 @@
 exports[`(components) atoms/heading > (blue) take snap shot 1`] = `
 <div>
   <h1
-    class="css-19bydd8-Heading"
+    class="css-1jrmwqc-Heading"
   >
     This is test
   </h1>
@@ -13,7 +13,7 @@ exports[`(components) atoms/heading > (blue) take snap shot 1`] = `
 exports[`(components) atoms/heading > (default) take snap shot 1`] = `
 <div>
   <h1
-    class="css-xjoc4k-Heading"
+    class="css-3y5x3k-Heading"
   >
     This is test
   </h1>
@@ -23,7 +23,7 @@ exports[`(components) atoms/heading > (default) take snap shot 1`] = `
 exports[`(components) atoms/heading > (green) take snap shot 1`] = `
 <div>
   <h1
-    class="css-6wlfu-Heading"
+    class="css-774k90-Heading"
   >
     This is test
   </h1>
@@ -33,7 +33,7 @@ exports[`(components) atoms/heading > (green) take snap shot 1`] = `
 exports[`(components) atoms/heading > (purple) take snap shot 1`] = `
 <div>
   <h1
-    class="css-108ruf2-Heading"
+    class="css-bbjno2-Heading"
   >
     This is test
   </h1>
@@ -43,7 +43,17 @@ exports[`(components) atoms/heading > (purple) take snap shot 1`] = `
 exports[`(components) atoms/heading > (red) take snap shot 1`] = `
 <div>
   <h1
-    class="css-w5s3k0-Heading"
+    class="css-1xynw6x-Heading"
+  >
+    This is test
+  </h1>
+</div>
+`;
+
+exports[`(components) atoms/heading > (yellow) take snap shot 1`] = `
+<div>
+  <h1
+    class="css-h2on6j-Heading"
   >
     This is test
   </h1>

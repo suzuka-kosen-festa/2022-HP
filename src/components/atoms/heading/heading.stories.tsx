@@ -12,7 +12,7 @@ export default {
   args: { children: data.sentence },
   argTypes: {
     children: { description: "Context of heading", control: { type: "text" } },
-    color: {
+    colorKey: {
       description: "First letter color",
       control: { type: "select", options: ["yellow", "green", "blue", "purple", "red"] },
     },
@@ -21,23 +21,28 @@ export default {
 } as ComponentMeta<T>;
 
 export const Default: Story = {};
+export const Yellow: Story = {
+  args: {
+    colorKey: "yellow",
+  },
+};
 export const Green: Story = {
   args: {
-    color: "green",
+    colorKey: "green",
   },
 };
 export const Blue: Story = {
   args: {
-    color: "blue",
+    colorKey: "blue",
   },
 };
 export const Purple: Story = {
   args: {
-    color: "purple",
+    colorKey: "purple",
   },
 };
 export const Red: Story = {
   args: {
-    color: "red",
+    colorKey: "red",
   },
 };

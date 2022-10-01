@@ -10,10 +10,11 @@ const ContactSectionContainer = tw.section`space-y-[calc(200vw / 63)]`;
 
 const ContactSection: FC<ContactSectionProperties> = ({ buttonText, title, link, children, ...rest }) => (
   <ContactSectionContainer aria-label="お問い合わせ" {...rest}>
-    <Heading>{title}</Heading>
+    <Heading colorKey="yellow">{title}</Heading>
     <Text>{children}</Text>
     <Button
       as="a"
+      colorKey="yellow"
       href={link}
       target="_blank"
       rel="noopener noreferrer"
