@@ -4,13 +4,18 @@ exports[`(components) organisms/festa-section > take snap shot 1`] = `
 <div>
   <section
     aria-label="今年のテーマ「Re:ROAD」について"
-    class="css-1648j2y"
+    class="css-wkpw2c"
   >
     <h1
-      class="css-h2on6j-Heading"
+      class="css-1aaoobw-FestaSection"
+    >
+      About
+    </h1>
+    <h2
+      class="css-gko5cy-FestaSection"
     >
       今年のテーマ「Re:ROAD」について
-    </h1>
+    </h2>
     <p
       class="css-19xv45d-FestaSection"
     >
