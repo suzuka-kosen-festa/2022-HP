@@ -3,7 +3,7 @@ import type { FC } from "react";
 import { AboutSection } from "../components/organisms/about-section";
 import { ContactSection } from "../components/organisms/contact-section";
 import { FestaSection } from "../components/organisms/festa-section";
-import { MapSection } from "../components/organisms/map-section";
+import { AccessSection } from "../components/organisms/access-section";
 import { SnsSection } from "../components/organisms/sns-section";
 import { SponsorSection } from "../components/organisms/sponsor-section";
 import { Sponsors } from "../models";
@@ -29,7 +29,7 @@ const MainPage: FC = () => (
     >
       第57回鈴鹿高専祭に関するお問い合わせは下のボタンからお願いいたします。(google formsが開きます)
     </ContactSection>
-    <MapSection
+    <AccessSection
       center={{
         lat: 34.851_671_242_413_17,
         lng: 136.581_323_097_843_55,
@@ -39,7 +39,7 @@ const MainPage: FC = () => (
       label="鈴鹿工業高等専門学校"
     >
       {"510-0294 三重県鈴鹿市白子町\n近鉄白子駅から徒歩約30分\n三重交通バス東旭が丘3丁目から徒歩約7分"}
-    </MapSection>
+    </AccessSection>
     <AboutSection buttonText="鈴鹿高専ホームページ" link="https://www.suzuka-ct.ac.jp/" title="鈴鹿高専について">
       詳しくは本校ホームページをご覧ください。
     </AboutSection>
