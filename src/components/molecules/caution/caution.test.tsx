@@ -6,8 +6,8 @@ import * as stories from "./caution.stories";
 const { Default } = composeStories(stories);
 
 const options = {
-  name: "注意事項"
-}
+  name: "注意事項",
+};
 
 describe("(components) molecules/twitter", () => {
   test("to be molecules", () => {
