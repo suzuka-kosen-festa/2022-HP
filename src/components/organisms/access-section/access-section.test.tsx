@@ -10,8 +10,8 @@ const regionoptions = {
 };
 
 const documentoptions = {
-  name: "鈴鹿工業高等専門学校の地図"
-}
+  name: "鈴鹿工業高等専門学校の地図",
+};
 
 describe("(components) organisms/access-section", () => {
   test("to be organisms", () => {

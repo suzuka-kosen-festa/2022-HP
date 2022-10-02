@@ -15,20 +15,24 @@ const MapFrame = tw.iframe`w-full h-full`;
 
 const AccessSection: FC<MapSectionProperties> = ({ center, children, label, title, zoom, ...rest }) => (
   <MapSectionContainer aria-label="鈴鹿高専へのアクセス" {...rest}>
-    <Heading css={tw`text-center mb-4 sm:mb-8`} colorKey="green">{title}</Heading>
+    <Heading css={tw`text-center mb-4 sm:mb-8`} colorKey="green">
+      {title}
+    </Heading>
     <MapBox>
       <Text css={tw`whitespace-pre select-text`}>&#12306;{children}</Text>
-        <MapFrame
-          id="map"
-          title={`${label}の地図`}
-          role="document"
-          src={`https://www.google.com/maps/embed/v1/view?key=${GOOGLE_MAP_API_KEY}&center=${center.lat}%2C${center.lng}&zoom=${zoom}`}
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          allowFullScreen
-          css={css`aspect-ratio: 3 / 2;`}
-          {...rest}
-        />
+      <MapFrame
+        id="map"
+        title={`${label}の地図`}
+        role="document"
+        src={`https://www.google.com/maps/embed/v1/view?key=${GOOGLE_MAP_API_KEY}&center=${center.lat}%2C${center.lng}&zoom=${zoom}`}
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        allowFullScreen
+        css={css`
+          aspect-ratio: 3 / 2;
+        `}
+        {...rest}
+      />
     </MapBox>
   </MapSectionContainer>
 );

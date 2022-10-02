@@ -21,33 +21,33 @@ export default {
     center: {
       description: "Center of map",
       control: {
-        type: "object"
-      }
+        type: "object",
+      },
     },
     children: {
       description: "Value of main sentence in section",
       control: {
-        type: "text"
-      }
+        type: "text",
+      },
     },
     label: {
       description: "Label of map",
       control: {
-        type: "text"
-      }
+        type: "text",
+      },
     },
     title: {
       description: "Title of section",
       control: {
-        type: "text"
-      }
+        type: "text",
+      },
     },
     zoom: {
       description: "Zoom of map",
       control: {
-        type: "number"
-      }
-    }
+        type: "number",
+      },
+    },
   },
   component: AccessSection,
 } as ComponentMeta<T>;
