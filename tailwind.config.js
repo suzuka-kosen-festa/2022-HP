@@ -16,8 +16,8 @@ module.exports = {
         64.75: "16.1875rem",
       },
       padding: {
-        4.5: "1.125rem"
-      }
+        4.5: "1.125rem",
+      },
     },
   },
   variants: {

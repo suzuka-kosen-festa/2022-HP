@@ -1,5 +1,5 @@
 import type { ComponentStoryObj, ComponentMeta } from "@storybook/react";
-import tw from "twin.macro"
+import tw from "twin.macro";
 import Icon from ".";
 
 type T = typeof Icon;
@@ -7,7 +7,7 @@ type Story = ComponentStoryObj<T>;
 
 const data = {
   icon: "ant-design:warning-filled",
-  iconStyles: tw`text-caution`
+  iconStyles: tw`text-caution`,
 };
 
 export default {
@@ -16,21 +16,21 @@ export default {
     icon: {
       description: "Icon key for iconify",
       control: {
-        type: "text"
-      }
+        type: "text",
+      },
     },
     iconStyles: {
       description: "Icon style",
       control: {
-        type: "object"
-      }
+        type: "object",
+      },
     },
     css: {
       description: "Icon box style",
       control: {
-        type: "object"
-      }
-    }
+        type: "object",
+      },
+    },
   },
   component: Icon,
 } as ComponentMeta<T>;

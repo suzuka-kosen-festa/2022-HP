@@ -3,5 +3,5 @@ import type { CSSInterpolation } from "@emotion/serialize";
 
 export type IconProperties = IconProps & {
   ref?: never;
-  iconStyles?: CSSInterpolation
-}
+  iconStyles?: CSSInterpolation;
+};
