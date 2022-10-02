@@ -39,18 +39,19 @@ exports[`(components) templates/layout > take snap shot 1`] = `
         <section />
       </main>
       <footer
-        class="css-wkpw2c"
+        class="css-1a88kbw"
         role="contentinfo"
       >
         <a
-          class="css-zld2jk"
+          class="css-154ykdi-Footer"
           href="https://github.com/suzuka-kosen-festa/2022-HP/blob/main/LICENSE"
           rel="noopener noreferrer"
           role="link"
           tabindex="0"
           target="_blank"
         >
-          © 第57回鈴鹿高専祭実行委員会
+          © 
+          第57回鈴鹿高専祭実行委員会
         </a>
       </footer>
     </div>

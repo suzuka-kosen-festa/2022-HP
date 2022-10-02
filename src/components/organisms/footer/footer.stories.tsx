@@ -19,7 +19,7 @@ export default {
       },
     },
     link: {
-      description: "Href for License",
+      description: "Href to License",
       control: {
         type: "text",
       },

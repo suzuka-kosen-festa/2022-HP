@@ -10,7 +10,7 @@ const footeroptions = {
 };
 
 const linkoptions = {
-  name: "This is test",
+  name: "© This is test",
 };
 
 describe("(components) organisms/footer", () => {
