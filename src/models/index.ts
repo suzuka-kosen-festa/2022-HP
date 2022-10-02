@@ -1,5 +1,4 @@
 export * from "./contact-section";
-export * from "./festa-section";
 export * from "./hero-section";
 export * from "./layout";
 export * from "./map-section";

@@ -1,14 +1,18 @@
 import type { FC } from "react";
 import tw from "twin.macro";
-import type { FestaSectionProperties } from "../../../models";
+import type { FestaSectionProperties } from "./type/model";
 import { Heading } from "../../atoms/heading";
 import { Text } from "../../atoms/text";
+import { SubHeading } from "../../atoms/sub-heading";
 
-const FestaSectionContainer = tw.section`flex flex-col space-y-[calc(200vw / 63)]`;
+const FestaSectionContainer = tw.section`flex flex-col justify-center items-center`;
 
-const FestaSection: FC<FestaSectionProperties> = ({ children, title, ...rest }) => (
+const FestaSection: FC<FestaSectionProperties> = ({ children, title, subtitle, ...rest }) => (
   <FestaSectionContainer aria-label="今年のテーマ「Re:ROAD」について" {...rest}>
-    <Heading colorKey="yellow">{title}</Heading>
+    <Heading css={tw`mb-4 sm:mb-8`} colorKey="red">
+      {title}
+    </Heading>
+    <SubHeading css={tw`mb-2 sm:mb-4`}>{subtitle}</SubHeading>
     <Text css={tw`whitespace-pre-wrap`}>{children}</Text>
   </FestaSectionContainer>
 );
