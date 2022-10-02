@@ -4,15 +4,15 @@ exports[`(components) organisms/contact-section > take snap shot 1`] = `
 <div>
   <section
     aria-label="お問い合わせ"
-    class="css-1ei48q8"
+    class="css-wkpw2c"
   >
     <h1
-      class="css-h2on6j-Heading"
+      class="css-1ffzrer-ContactSection"
     >
-      お問い合わせ
+      Contact us
     </h1>
     <p
-      class="css-199inpx"
+      class="css-yl2cr2-ContactSection"
     >
       第57回鈴鹿高専祭に関するお問い合わせは下のボタンからお願いいたします。(google formsが開きます)
     </p>
