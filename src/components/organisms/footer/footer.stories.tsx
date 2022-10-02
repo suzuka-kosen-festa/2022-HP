@@ -9,6 +9,23 @@ const data = {
   sentence: "This is test",
 };
 
-export default { args: { children: data.sentence, link: data.link }, component: Footer } as ComponentMeta<T>;
+export default {
+  args: { children: data.sentence, link: data.link },
+  argTypes: {
+    children: {
+      description: "The text for footer",
+      control: {
+        type: "text",
+      },
+    },
+    link: {
+      description: "Href to License",
+      control: {
+        type: "text",
+      },
+    },
+  },
+  component: Footer,
+} as ComponentMeta<T>;
 
 export const Default: Story = {};

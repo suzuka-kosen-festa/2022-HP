@@ -15,9 +15,7 @@ const Layout: FC<LayoutProperties> = ({ children, ...rest }) => (
     <MainBox>
       <HeroSection date="2022.10.30-31" title="第57回鈴鹿高専祭" />
       <Main>{children}</Main>
-      <Footer link="https://github.com/suzuka-kosen-festa/2022-HP/blob/main/LICENSE">
-        &copy; 第57回鈴鹿高専祭実行委員会
-      </Footer>
+      <Footer link="https://github.com/suzuka-kosen-festa/2022-HP/blob/main/LICENSE">第57回鈴鹿高専祭実行委員会</Footer>
     </MainBox>
   </LayoutBox>
 );

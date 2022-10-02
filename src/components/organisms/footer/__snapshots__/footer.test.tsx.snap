@@ -3,17 +3,18 @@
 exports[`(components) organisms/footer > take snap shot 1`] = `
 <div>
   <footer
-    class="css-143yzj5"
+    class="css-1a88kbw"
     role="contentinfo"
   >
     <a
-      class="css-zld2jk"
+      class="css-154ykdi-Footer"
       href="#"
       rel="noopener noreferrer"
       role="link"
       tabindex="0"
       target="_blank"
     >
+      © 
       This is test
     </a>
   </footer>
