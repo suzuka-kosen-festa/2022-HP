@@ -14,7 +14,7 @@ const Caution: FC<CautionProperties> = ({ title, sentence }) => (
       <Icon icon="ant-design:warning-filled" iconStyles={tw`text-caution`} />
       <SubHeading css={tw`flex self-center`}>{title}</SubHeading>
     </CautionTitle>
-    <ul css={tw`list-disc list-outside`}>
+    <ul css={tw`list-disc list-outside space-y-0.5 sm:space-y-2`}>
       {sentence.map(value => (
         <li css={tw`ml-4.5`} key={`${value}`}>
           {value}
