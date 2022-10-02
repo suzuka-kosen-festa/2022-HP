@@ -1,0 +1,38 @@
+// Vitest Snapshot v1
+
+exports[`(components) organisms/access-section > take snap shot 1`] = `
+<div>
+  <section
+    aria-label="鈴鹿高専へのアクセス"
+    class="css-zg1vud"
+  >
+    <h1
+      class="css-1tlyxxg-AccessSection"
+    >
+      Access
+    </h1>
+    <div
+      class="css-16nfksn"
+    >
+      <p
+        class="css-10lknbw-AccessSection"
+      >
+        〒
+        510-0294 三重県鈴鹿市白子町
+近鉄白子駅から徒歩約30分
+三重交通バス東旭が丘3丁目から徒歩約7分
+      </p>
+      <iframe
+        allowfullscreen=""
+        class="css-wbwnj8-AccessSection"
+        id="map"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        role="document"
+        src="https://www.google.com/maps/embed/v1/view?key=AIzaSyCk9WMilIT2wiBMqcn1YZQKJz5Lzy9ipQg&center=34.85167124241317%2C136.58132309784355&zoom=15"
+        title="鈴鹿工業高等専門学校の地図"
+      />
+    </div>
+  </section>
+</div>
+`;
