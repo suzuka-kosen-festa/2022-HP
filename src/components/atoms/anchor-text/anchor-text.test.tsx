@@ -7,7 +7,7 @@ const { Default } = composeStories(stories);
 
 const options = { name: "This is test" };
 
-describe("(components) atoms/anchor", () => {
+describe("(components) atoms/anchor-text", () => {
   test("to be atoms", () => {
     const { container } = render(<Default />);
     expect(container).toBeAtom();

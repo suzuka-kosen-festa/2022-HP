@@ -13,7 +13,11 @@ module.exports = {
         zen: ["Zen KakuGothic New", "sans-serif"],
       },
       margin: {
+        4.5: "1.125rem",
         64.75: "16.1875rem",
+      },
+      padding: {
+        4.5: "1.125rem",
       },
     },
   },
