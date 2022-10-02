@@ -9,7 +9,7 @@ const CautionBox = tw.section`flex flex-col justify-center items-center border-2
 const CautionTitle = tw.div`flex space-x-1 mb-2 sm:(space-x-2 mb-4)`;
 
 const Caution: FC<CautionProperties> = ({ title, sentence }) => (
-  <CautionBox aria-label="alert">
+  <CautionBox aria-label="注意事項" role="alert">
     <CautionTitle>
       <Icon icon="ant-design:warning-filled" iconStyles={tw`text-caution`} />
       <SubHeading css={tw`flex self-center`}>{title}</SubHeading>
