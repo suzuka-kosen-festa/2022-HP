@@ -1,6 +1,6 @@
 import type { FC } from "react";
 import tw from "twin.macro";
-import type { FooterProperties } from "../../../models";
+import type { FooterProperties } from "./type/model";
 import { AnchorText } from "../../atoms/anchor-text";
 
 const FooterBox = tw.footer`flex flex-col justify-center py-6`;
