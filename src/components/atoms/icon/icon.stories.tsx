@@ -25,6 +25,12 @@ export default {
         type: "object",
       },
     },
+    as: {
+      description: "As properties for component",
+      control: {
+        type: "text"
+      }
+    },
     css: {
       description: "Icon box style",
       control: {
