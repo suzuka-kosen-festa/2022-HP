@@ -28,8 +28,8 @@ export default {
     as: {
       description: "As properties for component",
       control: {
-        type: "text"
-      }
+        type: "text",
+      },
     },
     css: {
       description: "Icon box style",
