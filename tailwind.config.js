@@ -6,6 +6,12 @@ module.exports = {
   content: ["./src/**/*.{ts,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "social-instagram":
+          "radial-gradient(circle farthest-corner at 28% 100%, #FFD600 0%, #FF7A00 22%, #FF0069 35%, transparent 65%), linear-gradient(145deg, #7638FA 10%, #D300C5 70%)",
+        "social-instagram-reaction":
+          "radial-gradient(circle farthest-corner at 28% 100%, #e6c100 0%, #e66e00 22%, #e6005f 35%, transparent 65%), linear-gradient(145deg, #651ff9 10%, #b900ad 70%)",
+      },
       colors: {
         ...valiables.color,
       },
