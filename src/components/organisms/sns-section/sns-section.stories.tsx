@@ -10,6 +10,18 @@ const args: ComponentPropsWithoutRef<T> = {
   children: "今年の鈴鹿高専祭では、史上初となるラジオの配信を行っています。\nご視聴はYouTube、Spotifyから！",
 };
 
-export default { args, component: SnsSection } as ComponentMeta<T>;
+export default {
+  args,
+  argTypes: {
+    title: { description: "Title of section", control: { type: "text" } },
+    children: {
+      description: "Value of main sentence in section",
+      control: {
+        type: "text",
+      },
+    },
+  },
+  component: SnsSection,
+} as ComponentMeta<T>;
 
 export const Default: Story = {};
