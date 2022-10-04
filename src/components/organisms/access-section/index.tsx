@@ -31,7 +31,6 @@ const AccessSection: FC<MapSectionProperties> = ({ center, children, label, titl
         css={css`
           aspect-ratio: 3 / 2;
         `}
-        {...rest}
       />
     </MapBox>
   </MapSectionContainer>
