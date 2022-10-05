@@ -4,7 +4,6 @@ import { AboutSection } from "../components/organisms/about-section";
 import { ContactSection } from "../components/organisms/contact-section";
 import { FestaSection } from "../components/organisms/festa-section";
 import { AccessSection } from "../components/organisms/access-section";
-import { SnsSection } from "../components/organisms/sns-section";
 import { SponsorSection } from "../components/organisms/sponsor-section";
 import { Sponsors } from "../models";
 
@@ -21,7 +20,6 @@ const MainPage: FC = () => (
     <SponsorSection title="協賛企業" sponsors={sponsors}>
       {"今年の高専祭は3年ぶりの開催。\n以下の企業様が鈴鹿高専祭を応援してくれています！"}
     </SponsorSection>
-    <SnsSection title="SNS" />
     <ContactSection
       buttonText="お問い合わせ"
       title="お問い合わせ"

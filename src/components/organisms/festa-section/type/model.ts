@@ -1,6 +1,6 @@
 import type { ComponentProps, ReactHTML } from "react";
 
-export type FestaSectionProperties = Omit<ComponentProps<ReactHTML["section"]>, "children"> & {
+export type FestaSectionProperties = ComponentProps<ReactHTML["section"]> & {
   title: string;
   subtitle: string;
   children: string;

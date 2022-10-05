@@ -1,6 +1,6 @@
 import type { ComponentProps, ReactHTML } from "react";
 
-export type ContactSectionProperties = Omit<ComponentProps<ReactHTML["section"]>, "children"> & {
+export type ContactSectionProperties = ComponentProps<ReactHTML["section"]> & {
   buttonText: string;
   title: string;
   link: string;
