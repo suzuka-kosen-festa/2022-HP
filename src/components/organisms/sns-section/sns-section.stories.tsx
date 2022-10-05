@@ -4,6 +4,7 @@ import { SnsSection } from ".";
 
 type T = typeof SnsSection;
 type Story = ComponentStoryObj<T>;
+type Meta = ComponentMeta<T>;
 
 const args: ComponentPropsWithoutRef<T> = {
   title: "SNS",
@@ -22,6 +23,6 @@ export default {
     },
   },
   component: SnsSection,
-} as ComponentMeta<T>;
+} as Meta;
 
 export const Default: Story = {};
