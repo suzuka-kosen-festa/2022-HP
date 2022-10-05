@@ -1,10 +1,12 @@
 import type { ComponentStoryObj, ComponentMeta } from "@storybook/react";
+import type { ComponentPropsWithoutRef } from "react";
 import { Caution } from ".";
 
 type T = typeof Caution;
 type Story = ComponentStoryObj<T>;
+type Meta = ComponentMeta<T>;
 
-const data = {
+const args: ComponentPropsWithoutRef<T> = {
   title: "バザーに関するお願い",
   sentence: [
     "学内における飲食物の食べ歩きはご遠慮ください。",
@@ -14,10 +16,7 @@ const data = {
 };
 
 export default {
-  args: {
-    title: data.title,
-    sentence: data.sentence,
-  },
+  args,
   argTypes: {
     title: {
       description: "Title of caution",
@@ -33,6 +32,6 @@ export default {
     },
   },
   component: Caution,
-} as ComponentMeta<T>;
+} as Meta;
 
 export const Default: Story = {};
