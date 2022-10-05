@@ -13,7 +13,7 @@ const AboutSection: FC<AboutSectionProperties> = ({ buttonText, children, link, 
     <Heading css={tw`mb-4 sm:mb-8`} colorKey="purple">
       {title}
     </Heading>
-    <Text css={tw`mb-8 sm:mb-16`}>{children}</Text>
+    <Text css={tw`mb-6 sm:mb-16`}>{children}</Text>
     <Button
       as="a"
       colorKey="purple"

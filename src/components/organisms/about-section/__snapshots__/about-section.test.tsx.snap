@@ -7,12 +7,12 @@ exports[`(components) organisms/about-section > take snap shot 1`] = `
     class="css-wkpw2c"
   >
     <h1
-      class="css-6nncz8-AboutSection"
+      class="css-9ill3l-AboutSection"
     >
       NIT,Suzuka College
     </h1>
     <p
-      class="css-lf0tnl-AboutSection"
+      class="css-1x1cl0z-AboutSection"
     >
       鈴鹿高専については本校ホームページをご覧ください。
     </p>
@@ -25,7 +25,7 @@ exports[`(components) organisms/about-section > take snap shot 1`] = `
       target="_brank"
     >
       <p
-        class="css-18zoh3s-Button"
+        class="css-oca8th-Button"
       >
         鈴鹿高専ホームページ
       </p>

@@ -9,7 +9,7 @@ exports[`(components) organisms/hero-section > take snap shot 1`] = `
       class="css-bg20hz-HeroSection"
     >
       <p
-        class="css-19ggdn4-HeroSection"
+        class="css-17rw2vo-HeroSection"
       >
         第57回鈴鹿高専祭
       </p>
@@ -21,7 +21,7 @@ exports[`(components) organisms/hero-section > take snap shot 1`] = `
         width="1212"
       />
       <p
-        class="css-19ggdn4-HeroSection"
+        class="css-17rw2vo-HeroSection"
       >
         2022.10.30-31
       </p>

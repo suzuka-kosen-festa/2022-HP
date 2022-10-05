@@ -12,7 +12,7 @@ const FestaSection: FC<FestaSectionProperties> = ({ children, title, subtitle, .
     <Heading css={tw`mb-4 sm:mb-8`} colorKey="red">
       {title}
     </Heading>
-    <SubHeading css={tw`mb-2 sm:mb-4`}>{subtitle}</SubHeading>
+    <SubHeading css={tw`mb-2.5 sm:mb-4`}>{subtitle}</SubHeading>
     <Text css={tw`whitespace-pre-wrap`}>{children}</Text>
   </FestaSectionContainer>
 );
