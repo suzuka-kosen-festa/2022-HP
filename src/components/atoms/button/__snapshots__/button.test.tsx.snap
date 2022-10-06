@@ -9,7 +9,7 @@ exports[`(components) atoms/button > (anchor) take snap shot 1`] = `
     tabindex="0"
   >
     <p
-      class="css-9dl2uy-Button"
+      class="css-7bzdgk-Button"
     >
       This is test
     </p>
@@ -24,7 +24,7 @@ exports[`(components) atoms/button > (blue) take snap shot 1`] = `
     tabindex="0"
   >
     <p
-      class="css-18zoh3s-Button"
+      class="css-oca8th-Button"
     >
       This is test
     </p>
@@ -39,7 +39,7 @@ exports[`(components) atoms/button > (default) take snap shot 1`] = `
     tabindex="0"
   >
     <p
-      class="css-9dl2uy-Button"
+      class="css-7bzdgk-Button"
     >
       This is test
     </p>
@@ -54,7 +54,7 @@ exports[`(components) atoms/button > (green) take snap shot 1`] = `
     tabindex="0"
   >
     <p
-      class="css-9dl2uy-Button"
+      class="css-7bzdgk-Button"
     >
       This is test
     </p>
@@ -69,7 +69,7 @@ exports[`(components) atoms/button > (purple) take snap shot 1`] = `
     tabindex="0"
   >
     <p
-      class="css-18zoh3s-Button"
+      class="css-oca8th-Button"
     >
       This is test
     </p>
@@ -84,7 +84,7 @@ exports[`(components) atoms/button > (red) take snap shot 1`] = `
     tabindex="0"
   >
     <p
-      class="css-18zoh3s-Button"
+      class="css-oca8th-Button"
     >
       This is test
     </p>
@@ -99,7 +99,7 @@ exports[`(components) atoms/button > (yellow) take snap shot 1`] = `
     tabindex="0"
   >
     <p
-      class="css-9dl2uy-Button"
+      class="css-7bzdgk-Button"
     >
       This is test
     </p>

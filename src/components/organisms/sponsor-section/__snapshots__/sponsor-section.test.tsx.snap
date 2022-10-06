@@ -7,19 +7,19 @@ exports[`(components) organisms/sponsor-section > take snap shot 1`] = `
     class="css-1ei48q8"
   >
     <h1
-      class="css-h2on6j-Heading"
+      class="css-18llolt-Heading"
     >
       協賛企業
     </h1>
     <p
-      class="css-5i9vob-SponsorSection"
+      class="css-14cjrzk-SponsorSection"
     >
       今年の高専祭は3年ぶりの開催。
 以下の企業様が鈴鹿高専祭を応援してくれています！
     </p>
     <ul>
       <li
-        class="css-12w83hw-SponsorSection"
+        class="css-wgq6dn-SponsorSection"
       >
         株式会社xx
       </li>

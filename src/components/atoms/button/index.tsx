@@ -44,7 +44,7 @@ const Button = <T extends AnyComponent>({
   /* eslint-enable consistent-return */
   return (
     <ButtonBox css={[buttonColor, boxStyles]} as={as} tabIndex={0} {...rest}>
-      <Text css={[tw`font-bold`, textColor, textStyles]}>{children}</Text>
+      <Text css={[textColor, textStyles]}>{children}</Text>
     </ButtonBox>
   );
 };

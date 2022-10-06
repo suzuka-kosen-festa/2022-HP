@@ -18,7 +18,14 @@ const AccessSection: FC<MapSectionProperties> = ({ center, children, label, titl
     <Heading css={tw`text-center mb-4 sm:mb-8`} colorKey="green">
       {title}
     </Heading>
-    <MapBox>
+    <MapBox
+      css={css`
+        @media (max-width: 768px) {
+          align-items: center;
+          justify-content: center;
+        }
+      `}
+    >
       <Text css={tw`whitespace-pre select-text`}>&#12306;{children}</Text>
       <MapFrame
         id="map"
