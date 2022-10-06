@@ -1,18 +1,18 @@
-import {ComponentProps} from "react";
+import { ComponentProps } from "react";
 
 export type TicketSectionProperties = ComponentProps<"section"> & {
   title: string;
   children: string;
-  anchorData: Array<AnchorData>
+  anchorData: Array<AnchorData>;
 };
 
 const Key = {
   JHS: "jhs",
   OB: "ob",
-} as const
+} as const;
 
 type AnchorData = {
-  context: string
+  context: string;
   link: string;
-  key: keyof typeof Key
-}
+  key: keyof typeof Key;
+};

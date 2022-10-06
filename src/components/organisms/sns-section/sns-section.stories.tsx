@@ -35,7 +35,7 @@ const args: ComponentPropsWithoutRef<T> = {
       link: "https://open.spotify.com/show/4n0D0dsaFaPbJTz7tGpfTR?si=8yZ1H8LzTM-ZJPyYN6CU-A",
       style: tw`text-social-spotify hover:text-social-spotify-reaction`,
     },
-  ]
+  ],
 };
 
 export default {
@@ -51,9 +51,9 @@ export default {
     socialData: {
       description: "Data of social media",
       control: {
-        type: "array"
-      }
-    }
+        type: "array",
+      },
+    },
   },
   component: SnsSection,
 } as Meta;
