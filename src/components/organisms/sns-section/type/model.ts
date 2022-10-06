@@ -5,7 +5,7 @@ import type { CSSInterpolation } from "@emotion/serialize";
 export type SnsSectionProperties = ComponentProps<ReactHTML["section"]> & {
   title: string;
   children: string;
-  socialData: Array<SocialData>
+  socialData: Array<SocialData>;
 };
 
 const Key = {
