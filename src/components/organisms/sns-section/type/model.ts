@@ -5,6 +5,7 @@ import type { CSSInterpolation } from "@emotion/serialize";
 export type SnsSectionProperties = ComponentProps<ReactHTML["section"]> & {
   title: string;
   children: string;
+  socialData: Array<SocialData>
 };
 
 const Key = {
@@ -14,7 +15,7 @@ const Key = {
   Spotify: "spotify",
 } as const;
 
-export type SocialData = {
+type SocialData = {
   icon: string | IconifyIcon;
   key: keyof typeof Key;
   link: string;
