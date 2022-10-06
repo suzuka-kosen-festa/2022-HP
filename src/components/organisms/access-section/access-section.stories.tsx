@@ -1,10 +1,12 @@
 import type { ComponentStoryObj, ComponentMeta } from "@storybook/react";
+import type { ComponentPropsWithoutRef } from "react";
 import { AccessSection } from ".";
 
 type T = typeof AccessSection;
 type Story = ComponentStoryObj<T>;
+type Meta = ComponentMeta<T>;
 
-const data = {
+const args: ComponentPropsWithoutRef<T> = {
   center: {
     lat: 34.851_671_242_413_17,
     lng: 136.581_323_097_843_55,
@@ -16,7 +18,7 @@ const data = {
 };
 
 export default {
-  args: { center: data.center, children: data.children, label: data.label, title: data.title, zoom: data.zoom },
+  args,
   argTypes: {
     center: {
       description: "Center of map",
@@ -50,6 +52,6 @@ export default {
     },
   },
   component: AccessSection,
-} as ComponentMeta<T>;
+} as Meta;
 
 export const Default: Story = {};

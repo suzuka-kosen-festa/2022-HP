@@ -13,7 +13,7 @@ exports[`(components) atoms/heading > (blue) take snap shot 1`] = `
 exports[`(components) atoms/heading > (default) take snap shot 1`] = `
 <div>
   <h1
-    class="css-3y5x3k-Heading"
+    class="css-h2on6j-Heading"
   >
     This is test
   </h1>
