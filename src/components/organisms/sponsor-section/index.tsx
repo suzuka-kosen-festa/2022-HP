@@ -8,7 +8,7 @@ import { Button } from "../../atoms/button";
 
 const SponsorSectionContainer = tw.section`flex flex-col justify-center items-center`;
 
-const SponsorSection: FC<SponsorSectionProperties> = ({ children, buttonText, link, title, ...rest }) => (
+const SponsorSection: FC<SponsorSectionProperties> = ({ children, buttonText, title, ...rest }) => (
   <SponsorSectionContainer aria-label="sponsors" {...rest}>
     <Heading css={tw`mb-4 sm:mb-8`} colorKey="blue">
       {title}

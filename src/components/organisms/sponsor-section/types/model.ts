@@ -4,5 +4,4 @@ export type SponsorSectionProperties = ComponentProps<ReactHTML["section"]> & {
   title: string;
   children: string;
   buttonText: string;
-  link: string;
 };

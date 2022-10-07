@@ -10,8 +10,7 @@ const args: ComponentPropsWithoutRef<T> = {
   children:
     "第57回鈴鹿高専祭を開催するにあたって、多くの方にご支援賜りました。\nこちらのページにてご協賛いただいた企業様、支援いただいた個人様のお名前を記載しておりますのでぜひご覧ください。",
   buttonText: "READ MORE",
-  link: "#",
-  title: "協賛企業",
+  title: "Sponsors",
 };
 
 export default {
@@ -25,12 +24,6 @@ export default {
     },
     children: {
       description: "Value of main sentence in section",
-      control: {
-        type: "text",
-      },
-    },
-    link: {
-      description: "Href to GoogleForms",
       control: {
         type: "text",
       },
