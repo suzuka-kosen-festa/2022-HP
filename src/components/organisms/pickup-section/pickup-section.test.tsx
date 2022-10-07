@@ -6,8 +6,8 @@ import * as stories from "./pickup-section.stories";
 const { Default } = composeStories(stories);
 
 const options = {
-  name: "pick up event"
-}
+  name: "pick up event",
+};
 
 describe("(components) organisms/pickup-section", () => {
   test("to be organisms", () => {

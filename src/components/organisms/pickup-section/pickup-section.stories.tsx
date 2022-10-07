@@ -1,5 +1,5 @@
 import type { ComponentStoryObj, ComponentMeta } from "@storybook/react";
-import { ComponentPropsWithoutRef } from 'react';
+import { ComponentPropsWithoutRef } from "react";
 import { PickupSection } from ".";
 
 type T = typeof PickupSection;
@@ -32,9 +32,9 @@ const args: ComponentPropsWithoutRef<T> = {
       description: "5年生のダンス披露！みんなで頑張って踊ります！",
       startTime: "2022-10-31 14:15",
       stage: "Main",
-    }
+    },
   ],
-  buttonText: "タイムスケジュールを見る"
+  buttonText: "タイムスケジュールを見る",
 };
 
 export default {
@@ -49,8 +49,8 @@ export default {
     cardData: {
       description: "Data for pick up event card",
       control: {
-        type: "array"
-      }
+        type: "array",
+      },
     },
     title: {
       description: "Title of section",
