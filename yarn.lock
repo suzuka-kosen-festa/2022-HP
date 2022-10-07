@@ -4040,10 +4040,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/google.maps@npm:3.50.2":
-  version: 3.50.2
-  resolution: "@types/google.maps@npm:3.50.2"
-  checksum: 7c54a735eb9c808ec90f5cc80791baaf6ed3d1b80d07470f0bdeb41488b0f8a26536d4883b693d9378d54d1c3ce12cdc6c1176734d90659cf2aa99b31ae9fb78
+"@types/google.maps@npm:3.50.3":
+  version: 3.50.3
+  resolution: "@types/google.maps@npm:3.50.3"
+  checksum: 7881c18191720c9cb8f70c61c464faacc433c69250ac3c0040ef48d4aa35973f6e76013ac0146dd3c9c54029053cc086737794a4f9dbfba02fecb263692ebfea
   languageName: node
   linkType: hard
 
@@ -17833,7 +17833,7 @@ __metadata:
     "@testing-library/jest-dom": 5.16.5
     "@testing-library/react": 13.4.0
     "@testing-library/user-event": 14.4.3
-    "@types/google.maps": 3.50.2
+    "@types/google.maps": 3.50.3
     "@types/gtag.js": 0.0.12
     "@types/node": 17.0.21
     "@types/react": 18.0.21
