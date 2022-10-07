@@ -10,7 +10,7 @@ const args: ComponentPropsWithoutRef<T> = {
   title: "へぇ王",
   description: "先生たちが自分の研究を紹介！4年生は卒研部を考えるいい機会に！高専生、中学生に向けた勉強イベント！",
   startTime: "2022-10-30 11:30",
-  stage: "Main"
+  stage: "Main",
 };
 
 export default {
@@ -19,28 +19,28 @@ export default {
     title: {
       description: "Title of event",
       control: {
-        type: "text"
-      }
+        type: "text",
+      },
     },
     description: {
       description: "Description of event",
       control: {
-        type: "text"
-      }
+        type: "text",
+      },
     },
     startTime: {
       description: "Start time of event",
       control: {
-        type: "date"
-      }
+        type: "date",
+      },
     },
     stage: {
       description: "Where the event will be held",
       control: {
         type: "select",
-        options: ["Main", "Sub", "Live", "Game"]
-      }
-    }
+        options: ["Main", "Sub", "Live", "Game"],
+      },
+    },
   },
   component: PickupCard,
 } as Meta;
