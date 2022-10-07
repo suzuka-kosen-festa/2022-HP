@@ -13,7 +13,7 @@ const MainPage: FC = () => (
         "第57回鈴鹿高専祭、テーマは「Re:ROAD」\n今回のテーマ「Re:ROAD」には「道（Road）」を創り直す（Re）という意味と、「弾をこめる・再補填する（Reload）」という意味を使い、「今年の準備をする」「来年以降、これから先のための高専祭を行う」という想いが込められています。\n\n2019年を最後に鈴鹿高専祭は行われていません。\nそのため過去のデータもあまり残っておらず本当に1から、いや0からのスタートです。\nまだ何色にも色づいていない第57回鈴鹿高専祭を今から色づけていきます。"
       }
     </FestaSection>
-    <SponsorSection title="協賛企業" link="#" buttonText="READ MORE">
+    <SponsorSection title="協賛企業" buttonText="READ MORE">
       {"今年の高専祭は3年ぶりの開催。\n以下の企業様が鈴鹿高専祭を応援してくれています！"}
     </SponsorSection>
     <ContactSection
