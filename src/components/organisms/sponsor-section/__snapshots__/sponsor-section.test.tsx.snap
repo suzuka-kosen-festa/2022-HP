@@ -19,11 +19,9 @@ exports[`(components) organisms/sponsor-section > take snap shot 1`] = `
     </p>
     <a
       class="css-1ye31l5-Button"
-      href="#"
-      rel="noopener noreferrer"
+      href="/sponsors"
       role="button"
       tabindex="0"
-      target="_blank"
     >
       <p
         class="css-oca8th-Button"

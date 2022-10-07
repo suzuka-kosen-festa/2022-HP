@@ -1,5 +1,6 @@
 import type { FC } from "react";
 import tw from "twin.macro";
+import { Link } from "wouter";
 import { SponsorSectionProperties } from "./types/model";
 import { Heading } from "../../atoms/heading";
 import { Text } from "../../atoms/text";
@@ -13,9 +14,11 @@ const SponsorSection: FC<SponsorSectionProperties> = ({ children, buttonText, li
       {title}
     </Heading>
     <Text css={tw`whitespace-pre-wrap mb-6 sm:mb-16`}>{children}</Text>
-    <Button colorKey="blue" as="a" href={link} target="_blank" rel="noopener noreferrer" role="button">
-      {buttonText}
-    </Button>
+    <Link to="/sponsors">
+      <Button colorKey="blue" as="a" role="button">
+        {buttonText}
+      </Button>
+    </Link>
   </SponsorSectionContainer>
 );
 
