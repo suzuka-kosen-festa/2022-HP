@@ -24,6 +24,7 @@ module.exports = {
       },
       padding: {
         4.5: "1.125rem",
+        13: "3.25rem",
         "hero-lg": "28.75vw",
         hero: "24vw",
       },
