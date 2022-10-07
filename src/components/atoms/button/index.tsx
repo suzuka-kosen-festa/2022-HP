@@ -1,6 +1,6 @@
 import tw from "twin.macro";
 import { useMemo } from "react";
-import { ButtonProperties } from "./type/model";
+import { ButtonProperties } from "./types/model";
 import { Text } from "../text";
 
 const ButtonBox = tw.button`inline-flex items-start px-2 py-0.5 sm:(px-8 py-2) gap-2.5 rounded-[2rem]`;

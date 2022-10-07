@@ -3,27 +3,32 @@
 exports[`(components) organisms/sponsor-section > take snap shot 1`] = `
 <div>
   <section
-    aria-label="協賛企業"
-    class="css-1ei48q8"
+    aria-label="sponsors"
+    class="css-wkpw2c"
   >
     <h1
-      class="css-18llolt-Heading"
+      class="css-zsevfz-SponsorSection"
     >
-      協賛企業
+      Sponsors
     </h1>
     <p
-      class="css-14cjrzk-SponsorSection"
+      class="css-vrdidw-SponsorSection"
     >
-      今年の高専祭は3年ぶりの開催。
-以下の企業様が鈴鹿高専祭を応援してくれています！
+      第57回鈴鹿高専祭を開催するにあたって、多くの方にご支援賜りました。
+こちらのページにてご協賛いただいた企業様、支援いただいた個人様のお名前を記載しておりますのでぜひご覧ください。
     </p>
-    <ul>
-      <li
-        class="css-wgq6dn-SponsorSection"
+    <a
+      class="css-1ye31l5-Button"
+      href="/sponsors"
+      role="button"
+      tabindex="0"
+    >
+      <p
+        class="css-oca8th-Button"
       >
-        株式会社xx
-      </li>
-    </ul>
+        READ MORE
+      </p>
+    </a>
   </section>
 </div>
 `;

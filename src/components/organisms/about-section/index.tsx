@@ -1,7 +1,7 @@
 import type { FC } from "react";
 import tw from "twin.macro";
 import { sendTransitionToOutsideOfHomepage } from "../../../infrastructures/gtm";
-import { AboutSectionProperties } from "./type/model";
+import { AboutSectionProperties } from "./types/model";
 import { Button } from "../../atoms/button";
 import { Heading } from "../../atoms/heading";
 import { Text } from "../../atoms/text";

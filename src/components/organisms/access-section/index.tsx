@@ -1,6 +1,6 @@
 import type { FC } from "react";
 import tw, { css } from "twin.macro";
-import type { MapSectionProperties } from "./type/model";
+import type { MapSectionProperties } from "./types/model";
 import { Heading } from "../../atoms/heading";
 import { Text } from "../../atoms/text";
 

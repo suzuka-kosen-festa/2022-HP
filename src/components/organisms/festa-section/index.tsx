@@ -1,6 +1,6 @@
 import type { FC } from "react";
 import tw from "twin.macro";
-import type { FestaSectionProperties } from "./type/model";
+import type { FestaSectionProperties } from "./types/model";
 import { Heading } from "../../atoms/heading";
 import { Text } from "../../atoms/text";
 import { SubHeading } from "../../atoms/sub-heading";
