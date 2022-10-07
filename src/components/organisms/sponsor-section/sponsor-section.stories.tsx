@@ -7,7 +7,8 @@ type Story = ComponentStoryObj<T>;
 type Meta = ComponentMeta<T>;
 
 const args: ComponentPropsWithoutRef<T> = {
-  children: "第57回鈴鹿高専祭を開催するにあたって、多くの方にご支援賜りました。\nこちらのページにてご協賛いただいた企業様、支援いただいた個人様のお名前を記載しておりますのでぜひご覧ください。",
+  children:
+    "第57回鈴鹿高専祭を開催するにあたって、多くの方にご支援賜りました。\nこちらのページにてご協賛いただいた企業様、支援いただいた個人様のお名前を記載しておりますのでぜひご覧ください。",
   buttonText: "READ MORE",
   link: "#",
   title: "協賛企業",
