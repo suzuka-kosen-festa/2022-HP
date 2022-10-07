@@ -7,24 +7,31 @@ type Story = ComponentStoryObj<T>;
 type Meta = ComponentMeta<T>;
 
 const args: ComponentPropsWithoutRef<T> = {
-  children: "今年の高専祭は3年ぶりの開催。\n以下の企業様が鈴鹿高専祭を応援してくれています！",
-  sponsors: ["株式会社xx"],
+  children: "第57回鈴鹿高専祭を開催するにあたって、多くの方にご支援賜りました。\nこちらのページにてご協賛いただいた企業様、支援いただいた個人様のお名前を記載しておりますのでぜひご覧ください。",
+  buttonText: "READ MORE",
+  link: "#",
   title: "協賛企業",
 };
 
 export default {
   args,
   argTypes: {
+    buttonText: {
+      description: "The text for button in section",
+      control: {
+        type: "text",
+      },
+    },
     children: {
       description: "Value of main sentence in section",
       control: {
         type: "text",
       },
     },
-    sponsors: {
-      description: "Sponsors list",
+    link: {
+      description: "Href to GoogleForms",
       control: {
-        type: "array",
+        type: "text",
       },
     },
     title: {
