@@ -1,6 +1,6 @@
 import tw from "twin.macro";
 import type { FC } from "react";
-import { CautionProperties } from "./type/model";
+import { CautionProperties } from "./types/model";
 import Icon from "../../atoms/icon";
 import { SubHeading } from "../../atoms/sub-heading";
 
