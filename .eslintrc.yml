@@ -34,3 +34,4 @@ rules:
     - namedComponents: arrow-function
   react/jsx-props-no-spreading: off
   react/no-unknown-property: off
+  react/prop-types: off
