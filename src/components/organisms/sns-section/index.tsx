@@ -1,6 +1,6 @@
 import type { FC } from "react";
 import tw from "twin.macro";
-import type { SnsSectionProperties, SocialData } from "./types/model";
+import type { SnsSectionProperties } from "./types/model";
 import { Heading } from "../../atoms/heading";
 import { Text } from "../../atoms/text";
 import Icon from "../../atoms/icon";
