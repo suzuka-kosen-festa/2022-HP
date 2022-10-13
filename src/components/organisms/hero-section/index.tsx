@@ -1,24 +1,27 @@
 import type { FC } from "react";
 import tw, { css } from "twin.macro";
-import type { HeroSectionProperties } from "../../../models";
-import { Text } from "../../atoms/text";
+import type { HeroSectionProperties } from "./types/model";
+import { SubHeading } from "../../atoms/sub-heading";
 
-const HeroSectionContainer = tw.header`flex flex-col`;
+const HeroSectionContainer = tw.section`flex flex-col`;
 
-const Background = tw.div`flex flex-col items-center justify-center space-y-[calc(200vw / 63)] w-full h-[calc(200vw / 3)] lg:h-screen bg-center bg-cover`;
+const Background = tw.div`flex flex-col items-center justify-center w-full bg-center bg-cover px-hero space-y-3 sm:space-y-6 lg:(space-y-12 h-screen px-hero-lg)`;
 
-const Logo = tw.img`w-[calc(8200vw / 189)]`;
+const Logo = tw.img`w-full`;
+
+const HeroText = tw(SubHeading)`font-medium text-xs sm:text-2xl lg:text-4xl`
 
 const HeroSection: FC<HeroSectionProperties> = ({ date, title, ...rest }) => (
-  <HeroSectionContainer {...rest}>
+  <HeroSectionContainer aria-label="第57回鈴鹿高専祭" {...rest}>
     <Background
       css={css`
-        background-image: linear-gradient(rgba(34, 31, 31, 0.9), rgba(34, 31, 31, 0.9)), url("/statics/gogo.webp");
+        background-image: url("/statics/back.webp");
+        aspect-ratio: 1920/ 1247;
       `}
     >
-      <Text css={tw`text-[calc(16px + 16 * ((100vw - 378px) / 1134))]`}>{title}</Text>
-      <Logo src="/statics/logo.webp" alt="第57回鈴鹿高専祭、Re:ROADのロゴ" width={1212} height={247} />
-      <Text css={tw`text-[calc(16px + 16 * ((100vw - 378px) / 1134))]`}>{date}</Text>
+      <HeroText>{title}</HeroText>
+      <Logo src="/statics/logo.png" alt="第57回鈴鹿高専祭、Re:ROADのロゴ" width={948} height={197} />
+      <HeroText>{date}</HeroText>
     </Background>
   </HeroSectionContainer>
 );
