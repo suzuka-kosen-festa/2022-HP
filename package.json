@@ -17,6 +17,7 @@
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "npm run lint --fix && npm run fmt",
     "fmt": "prettier -w -u .",
+    "fmt:check": "prettier -c -u .",
     "type": "tsc --noEmit",
     "test": "vitest",
     "test:ui": "vitest --ui",
