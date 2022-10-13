@@ -7,7 +7,7 @@ type Story = ComponentStoryObj<T>;
 type Meta = ComponentMeta<T>;
 
 const args: ComponentPropsWithoutRef<T> = {
-  attention: `駐車場はスペースに限りがございますのでご了承ください。\n30日(日)は鈴鹿医療科学大学 白子キャンパス 様\n31日(月)はMEGAドン・キホーテUNY鈴鹿店 様の屋上駐車場を\nご利用ください。`,
+  attention: `駐車場はスペースに限りがございますのでご了承ください。\n30日(日)は鈴鹿医療科学大学 白子キャンパス 様\n31日(月)はMEGAドン・キホーテUNY鈴鹿店 様の屋上駐車場をご利用ください。`,
   center: {
     lat: 34.851_671_242_413_17,
     lng: 136.581_323_097_843_55,
