@@ -8,8 +8,8 @@ const CautionBox = tw.section`flex flex-col justify-center items-center border-2
 
 const CautionTitle = tw.div`flex space-x-1 mb-2 sm:(space-x-2 mb-4)`;
 
-const Caution: FC<CautionProperties> = ({ title, sentence }) => (
-  <CautionBox aria-label="注意事項" role="alert">
+const Caution: FC<CautionProperties> = ({ title, sentence, ...rest }) => (
+  <CautionBox aria-label="注意事項" role="alert" {...rest}>
     <CautionTitle>
       <Icon icon="ant-design:warning-filled" iconStyles={tw`text-caution`} />
       <SubHeading css={tw`flex self-center`}>{title}</SubHeading>
