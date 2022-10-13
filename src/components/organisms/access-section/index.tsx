@@ -54,7 +54,7 @@ const AccessSection: FC<MapSectionProperties> = ({
     </MapBox>
     <AttentionContainer>
       <SubHeading css={tw`mb-2 sm:mb-4`}>{subtitle}</SubHeading>
-      <Text css={tw`whitespace-pre-wrap`}>{attention}</Text>
+      <Text css={tw`whitespace-pre-wrap mb-4 sm:mb-8`}>{attention}</Text>
       <img
         css={css`
           aspect-ratio: 40 / 29;
