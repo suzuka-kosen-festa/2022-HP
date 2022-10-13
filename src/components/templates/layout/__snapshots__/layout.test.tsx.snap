@@ -22,10 +22,11 @@ exports[`(components) templates/layout > take snap shot 1`] = `
           </h2>
           <img
             alt="第57回鈴鹿高専祭、Re:ROADのロゴ"
-            class="css-8atqhb"
-            height="197"
-            src="/statics/logo.png"
-            width="948"
+            class="css-1ysdsd"
+            height="247"
+            loading="eager"
+            src="/statics/logo.webp"
+            width="1212"
           />
           <h2
             class="css-4ovsui"
