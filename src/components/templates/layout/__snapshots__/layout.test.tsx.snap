@@ -24,6 +24,7 @@ exports[`(components) templates/layout > take snap shot 1`] = `
             alt="第57回鈴鹿高専祭、Re:ROADのロゴ"
             class="css-8atqhb"
             height="197"
+            loading="eager"
             src="/statics/logo.png"
             width="948"
           />

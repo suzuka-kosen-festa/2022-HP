@@ -3,17 +3,29 @@ import tw, { css } from "twin.macro";
 import type { MapSectionProperties } from "./types/model";
 import { Heading } from "../../atoms/heading";
 import { Text } from "../../atoms/text";
+import { SubHeading } from "../../atoms/sub-heading";
 
 const GOOGLE_MAP_API_KEY =
   import.meta.env.VITE_GOOGLE_MAP_API_KEY || import.meta.env.STORYBOOK_GOOGLE_MAP_API_KEY || "";
 
 const MapSectionContainer = tw.section`flex flex-col justify-center`;
 
-const MapBox = tw.div`flex flex-col space-x-0 space-y-4 md:(flex-row-reverse space-x-20 space-x-reverse space-y-0)`;
+const MapBox = tw.div`flex flex-col space-x-0 space-y-4 mb-12 sm:mb-4 md:(flex-row-reverse space-x-20 space-x-reverse space-y-0)`;
 
 const MapFrame = tw.iframe`w-full h-full`;
 
-const AccessSection: FC<MapSectionProperties> = ({ center, children, label, title, zoom, ...rest }) => (
+const AttentionContainer = tw.div`flex flex-col justify-center items-center`;
+
+const AccessSection: FC<MapSectionProperties> = ({
+  attention,
+  center,
+  info,
+  label,
+  subtitle,
+  title,
+  zoom,
+  ...rest
+}) => (
   <MapSectionContainer aria-label="鈴鹿高専へのアクセス" {...rest}>
     <Heading css={tw`text-center mb-4 sm:mb-8`} colorKey="green">
       {title}
@@ -26,7 +38,7 @@ const AccessSection: FC<MapSectionProperties> = ({ center, children, label, titl
         }
       `}
     >
-      <Text css={tw`whitespace-pre select-text`}>&#12306;{children}</Text>
+      <Text css={tw`whitespace-pre-wrap select-text`}>&#12306;{info}</Text>
       <MapFrame
         id="map"
         title={`${label}の地図`}
@@ -40,6 +52,20 @@ const AccessSection: FC<MapSectionProperties> = ({ center, children, label, titl
         `}
       />
     </MapBox>
+    <AttentionContainer>
+      <SubHeading css={tw`mb-2 sm:mb-4`}>{subtitle}</SubHeading>
+      <Text css={tw`whitespace-pre-wrap mb-4 sm:mb-8`}>{attention}</Text>
+      <img
+        css={css`
+          aspect-ratio: 40 / 29;
+        `}
+        src="/statics/parking.webp"
+        alt="周辺の駐車場の地図"
+        width={640}
+        height={464}
+        loading="lazy"
+      />
+    </AttentionContainer>
   </MapSectionContainer>
 );
 

@@ -12,10 +12,10 @@ exports[`(components) organisms/access-section > take snap shot 1`] = `
       Access
     </h1>
     <div
-      class="css-z16qhf-AccessSection"
+      class="css-1dydy61-AccessSection"
     >
       <p
-        class="css-19mkar8-AccessSection"
+        class="css-fgh3k-AccessSection"
       >
         〒
         510-0294 三重県鈴鹿市白子町
@@ -31,6 +31,30 @@ exports[`(components) organisms/access-section > take snap shot 1`] = `
         role="document"
         src="https://www.google.com/maps/embed/v1/view?key=AIzaSyCk9WMilIT2wiBMqcn1YZQKJz5Lzy9ipQg&center=34.85167124241317%2C136.58132309784355&zoom=15"
         title="鈴鹿工業高等専門学校の地図"
+      />
+    </div>
+    <div
+      class="css-wkpw2c"
+    >
+      <h2
+        class="css-1cr981d-AccessSection"
+      >
+        お車でお越しの方へ
+      </h2>
+      <p
+        class="css-q76i9-AccessSection"
+      >
+        駐車場はスペースに限りがございますのでご了承ください。
+30日(日)は鈴鹿医療科学大学 白子キャンパス 様
+31日(月)はMEGAドン・キホーテUNY鈴鹿店 様の屋上駐車場をご利用ください。
+      </p>
+      <img
+        alt="周辺の駐車場の地図"
+        class="css-oa44wn-AccessSection"
+        height="464"
+        loading="lazy"
+        src="/statics/parking.webp"
+        width="640"
       />
     </div>
   </section>
