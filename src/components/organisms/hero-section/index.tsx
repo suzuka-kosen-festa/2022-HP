@@ -20,7 +20,7 @@ const HeroSection: FC<HeroSectionProperties> = ({ date, title, ...rest }) => (
       `}
     >
       <HeroText>{title}</HeroText>
-      <Logo src="/statics/logo.png" alt="第57回鈴鹿高専祭、Re:ROADのロゴ" width={948} height={197} />
+      <Logo src="/statics/logo.png" alt="第57回鈴鹿高専祭、Re:ROADのロゴ" width={948} height={197} loading="eager" />
       <HeroText>{date}</HeroText>
     </Background>
   </HeroSectionContainer>
