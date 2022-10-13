@@ -9,7 +9,7 @@ const Background = tw.div`flex flex-col items-center justify-center w-full bg-ce
 
 const Logo = tw.img`w-full`;
 
-const HeroText = tw(SubHeading)`font-medium text-xs sm:text-2xl lg:text-4xl`
+const HeroText = tw(SubHeading)`font-medium text-xs sm:text-2xl lg:text-4xl`;
 
 const HeroSection: FC<HeroSectionProperties> = ({ date, title, ...rest }) => (
   <HeroSectionContainer aria-label="第57回鈴鹿高専祭" {...rest}>
