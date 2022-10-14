@@ -4,4 +4,5 @@ export type FestaSectionProperties = ComponentProps<ReactHTML["section"]> & {
   title: string;
   subtitle: string;
   children: string;
+  buttonText: string;
 };
