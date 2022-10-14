@@ -19,7 +19,7 @@ exports[`(components) organisms/map-section > take snap shot 1`] = `
     >
       <img
         alt="校内マップ"
-        class="css-15vegg5-MapSection"
+        class="css-1h35ydv-MapSection"
         height="2915"
         src="/statics/map.webp"
         width="4128"
