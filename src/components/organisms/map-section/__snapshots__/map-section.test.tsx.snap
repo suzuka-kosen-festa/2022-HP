@@ -1,0 +1,30 @@
+// Vitest Snapshot v1
+
+exports[`(components) organisms/map-section > take snap shot 1`] = `
+<div>
+  <section
+    aria-label="map"
+    class="css-wkpw2c"
+  >
+    <h1
+      class="css-4pmhej-MapSection"
+    >
+      Map
+    </h1>
+    <a
+      class="css-1l4w6pd"
+      href="https://res.cloudinary.com/dvgtaafq5/image/upload/q_60/f_auto/v1665765554/map_vjyaf2.webp"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="校内マップ"
+        class="css-15vegg5-MapSection"
+        height="2915"
+        src="/statics/map.webp"
+        width="4128"
+      />
+    </a>
+  </section>
+</div>
+`;
