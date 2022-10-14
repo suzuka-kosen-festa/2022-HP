@@ -1,6 +1,6 @@
-import type { ReactNode } from "react";
+import type { ComponentProps, ReactHTML, ReactNode } from "react";
 
-export type CautionProperties = {
+export type CautionProperties = ComponentProps<ReactHTML["section"]> & {
   title: string;
   sentence: ReadonlyArray<ReactNode> | ReadonlyArray<string>;
 };
