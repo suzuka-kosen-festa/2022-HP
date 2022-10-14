@@ -1,5 +1,5 @@
 import type { ComponentStoryObj, ComponentMeta } from "@storybook/react";
-import { ComponentPropsWithoutRef } from 'react';
+import { ComponentPropsWithoutRef } from "react";
 import { MapSection } from ".";
 
 type T = typeof MapSection;
@@ -7,7 +7,7 @@ type Story = ComponentStoryObj<T>;
 type Meta = ComponentMeta<T>;
 
 const args: ComponentPropsWithoutRef<T> = {
-  title: "Map"
+  title: "Map",
 };
 
 export default {
@@ -16,9 +16,9 @@ export default {
     title: {
       description: "Title of section",
       control: {
-        type: "text"
-      }
-    }
+        type: "text",
+      },
+    },
   },
   component: MapSection,
 } as Meta;

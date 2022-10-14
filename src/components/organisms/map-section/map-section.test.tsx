@@ -6,12 +6,12 @@ import * as stories from "./map-section.stories";
 const { Default } = composeStories(stories);
 
 const regionoptions = {
-  name: "map"
-}
+  name: "map",
+};
 
 const linkoptions = {
-  name: "校内マップ"
-}
+  name: "校内マップ",
+};
 
 describe("(components) organisms/map-section", () => {
   test("to be organisms", () => {
