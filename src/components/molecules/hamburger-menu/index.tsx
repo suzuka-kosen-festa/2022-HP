@@ -63,7 +63,7 @@ const HamburgerMenu: FC<HamburgerMenuProperties> = ({ headerLinks }) => {
               </MenuItem>
             ))}
           </HamburgerMenuWrapper>
-        ): null}
+        ) : null}
       </div>
     </div>
   );

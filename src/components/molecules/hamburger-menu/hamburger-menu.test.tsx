@@ -1,9 +1,9 @@
 import "@testing-library/jest-dom";
 import { render } from "@testing-library/react";
-import {InlineIcon} from "@iconify/react";
+import { InlineIcon } from "@iconify/react";
 import tw from "twin.macro";
-import {Link} from "wouter";
-import {AnchorText} from "../../atoms/anchor-text";
+import { Link } from "wouter";
+import { AnchorText } from "../../atoms/anchor-text";
 
 const headerLinks = [
   {
@@ -31,7 +31,7 @@ const headerLinks = [
     color: tw`text-primary-blue`,
     name: "Sponsors",
   },
-]
+];
 
 // Mocking because menu can't open in jsdom
 const Mock = () => (
@@ -50,7 +50,12 @@ const Mock = () => (
       </div>
     </button>
     <div css={tw`absolute top-0 left-0`}>
-      <ul css={tw`flex flex-col justify-center items-center px-4 py-2 rounded-lg bg-white max-w-min shadow-xl space-y-1 z-10`} role="menu" aria-orientation="vertical" id="hamburger-list">
+      <ul
+        css={tw`flex flex-col justify-center items-center px-4 py-2 rounded-lg bg-white max-w-min shadow-xl space-y-1 z-10`}
+        role="menu"
+        aria-orientation="vertical"
+        id="hamburger-list"
+      >
         {headerLinks.map(headerLink => (
           <li role="menuitem" key={headerLink.name}>
             <Link to={headerLink.link}>
@@ -61,7 +66,7 @@ const Mock = () => (
       </ul>
     </div>
   </div>
-)
+);
 
 describe("(components) molecules/hamburger-menu", () => {
   test("to be organisms", () => {

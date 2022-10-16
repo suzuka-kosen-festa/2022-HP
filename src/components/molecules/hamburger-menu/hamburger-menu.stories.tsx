@@ -1,7 +1,7 @@
 import type { ComponentStoryObj, ComponentMeta } from "@storybook/react";
 import type { ComponentPropsWithoutRef } from "react";
 import tw from "twin.macro";
-import {userEvent, within} from "@storybook/testing-library";
+import { userEvent, within } from "@storybook/testing-library";
 import { HamburgerMenu } from "./index";
 
 type T = typeof HamburgerMenu;
@@ -54,7 +54,7 @@ export default {
 export const Default: Story = {};
 export const Open: Story = {
   play: async ({ canvasElement }) => {
-    const canvas = within(canvasElement)
-    await userEvent.click(canvas.getByLabelText("menu button"))
-  }
-}
+    const canvas = within(canvasElement);
+    await userEvent.click(canvas.getByLabelText("menu button"));
+  },
+};
