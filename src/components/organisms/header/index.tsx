@@ -31,13 +31,7 @@ const Header: FC<HeaderProperties> = ({ headerLinks }) => (
     `}
   >
     <Link to="/">
-      <Logo
-        src="/statics/logo.png"
-        alt="第57回鈴鹿高専祭、Re:ROADのロゴ"
-        width={948}
-        height={197}
-        loading="eager"
-      />
+      <Logo src="/statics/logo.png" alt="第57回鈴鹿高専祭、Re:ROADのロゴ" width={948} height={197} loading="eager" />
     </Link>
     <LinkWrapper>
       {headerLinks.map(headerLink => (
