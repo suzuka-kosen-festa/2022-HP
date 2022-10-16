@@ -1,0 +1,91 @@
+// Vitest Snapshot v1
+
+exports[`(components) organisms/header > take snap shot 1`] = `
+<div>
+  <header
+    class="css-su132c-Header"
+  >
+    <a
+      alt="第57回鈴鹿高専祭、Re:ROADのロゴ"
+      class="css-pfnskm"
+      height="197"
+      href="/"
+      loading="eager"
+      src="/statics/logo.png"
+      width="948"
+    />
+    <ul
+      class="css-1ptipdp"
+    >
+      <li
+        role="menuitem"
+      >
+        <a
+          class="css-yzajyk-LinkItem"
+          href="/"
+        >
+          Top
+        </a>
+      </li>
+      <li
+        role="menuitem"
+      >
+        <a
+          class="css-s8xoeo-LinkItem"
+          href="/member"
+        >
+          Members
+        </a>
+      </li>
+      <li
+        role="menuitem"
+      >
+        <a
+          class="css-dgtzi5-LinkItem"
+          href="/timetable"
+        >
+          Schedule
+        </a>
+      </li>
+      <li
+        role="menuitem"
+      >
+        <a
+          class="css-1lc6xq8-LinkItem"
+          href="/bazaar"
+        >
+          Bazaar
+        </a>
+      </li>
+      <li
+        role="menuitem"
+      >
+        <a
+          class="css-zzwddn-LinkItem"
+          href="/sponsors"
+        >
+          Sponsors
+        </a>
+      </li>
+    </ul>
+    <div
+      class="css-1wlf7oa"
+    >
+      <button
+        aria-controls="hamburger-list"
+        aria-expanded="false"
+        aria-haspopup="menu"
+        aria-label="menu button"
+        class="css-cj7h3e"
+      >
+        <div
+          class="css-17dtj6s"
+        >
+          <span />
+        </div>
+      </button>
+      <div />
+    </div>
+  </header>
+</div>
+`;
