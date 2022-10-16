@@ -1,4 +1,4 @@
-const valiables = require("./src/styles/_variables.json");
+const variables = require("./src/styles/_variables.json");
 
 /** @type {import("@types/tailwindcss/tailwind-config").TailwindConfig} */
 module.exports = {
@@ -13,7 +13,7 @@ module.exports = {
           "radial-gradient(circle farthest-corner at 28% 100%, #e6c100 0%, #e66e00 22%, #e6005f 35%, transparent 65%), linear-gradient(145deg, #651ff9 10%, #b900ad 70%)",
       },
       colors: {
-        ...valiables.color,
+        ...variables.color,
       },
       fontFamily: {
         zen: ["Zen KakuGothic New", "sans-serif"],
@@ -25,6 +25,11 @@ module.exports = {
       padding: {
         4.5: "1.125rem",
         13: "3.25rem",
+        "header-x-md": "10vw",
+        "header-x": "2vw",
+        "header-y": "3.5vw",
+        "header-y-md": "2vw",
+        header: "20%",
         "hero-lg": "28.75vw",
         hero: "24vw",
       },
