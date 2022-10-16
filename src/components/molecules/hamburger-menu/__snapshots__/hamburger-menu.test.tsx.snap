@@ -1,0 +1,83 @@
+// Vitest Snapshot v1
+
+exports[`(components) molecules/hamburger-menu > take snap shot 1`] = `
+<div>
+  <div>
+    <button
+      aria-controls="hamburger-list"
+      aria-expanded="true"
+      aria-haspopup="menu"
+      aria-label="menu button"
+      class="css-cdnq9y-Mock"
+      type="button"
+    >
+      <div
+        class="css-15cs8in-Mock"
+      >
+        <span />
+      </div>
+    </button>
+    <div
+      class="css-3xglg4-Mock"
+    >
+      <ul
+        aria-orientation="vertical"
+        class="css-13737nk-Mock"
+        id="hamburger-list"
+        role="menu"
+      >
+        <li
+          role="menuitem"
+        >
+          <a
+            class="css-1vd7en6-Mock"
+            href="/"
+          >
+            Top
+          </a>
+        </li>
+        <li
+          role="menuitem"
+        >
+          <a
+            class="css-1ea5aff-Mock"
+            href="/member"
+          >
+            Members
+          </a>
+        </li>
+        <li
+          role="menuitem"
+        >
+          <a
+            class="css-xddjtl-Mock"
+            href="/timetable"
+          >
+            Schedule
+          </a>
+        </li>
+        <li
+          role="menuitem"
+        >
+          <a
+            class="css-16racjb-Mock"
+            href="/bazaar"
+          >
+            Bazaar
+          </a>
+        </li>
+        <li
+          role="menuitem"
+        >
+          <a
+            class="css-dgw1rc-Mock"
+            href="/sponsors"
+          >
+            Sponsors
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
