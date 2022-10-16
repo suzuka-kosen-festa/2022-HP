@@ -9,8 +9,8 @@ const banneroptions = {
   name: "",
 };
 
-const linkoptions = {
-  name: "",
+const imgoptions = {
+  name: "第57回鈴鹿高専祭、Re:ROADのロゴ",
 };
 
 describe("(components) organisms/header", () => {
@@ -22,9 +22,9 @@ describe("(components) organisms/header", () => {
     const { getByRole } = render(<Default />);
     expect(getByRole("banner", banneroptions)).toBeInTheDocument();
   });
-  test("to be [role=link]", () => {
+  test("to be [role=img]", () => {
     const { getByRole } = render(<Default />);
-    expect(getByRole("link", linkoptions)).toBeInTheDocument();
+    expect(getByRole("img", imgoptions)).toBeInTheDocument();
   });
   test("take snap shot", () => {
     const { container } = render(<Default />);

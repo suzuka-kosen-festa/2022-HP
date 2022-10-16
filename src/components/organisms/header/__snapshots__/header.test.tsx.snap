@@ -3,9 +3,9 @@
 exports[`(components) organisms/header > take snap shot 1`] = `
 <div>
   <header
-    class="css-su132c-Header"
+    class="css-fsassu-Header"
   >
-    <a
+    <img
       alt="第57回鈴鹿高専祭、Re:ROADのロゴ"
       class="css-pfnskm"
       height="197"

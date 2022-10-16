@@ -5,7 +5,7 @@ import type { HeaderProperties, HeaderLinkItemProperties } from "./types/model";
 import { AnchorText } from "../../atoms/anchor-text";
 import { HamburgerMenu } from "../../molecules/hamburger-menu";
 
-const HeaderContainer = tw.header`relative flex bg-center bg-cover justify-center px-header-x py-header-y md:(justify-between px-header-x-md py-header-y-md)`;
+const HeaderContainer = tw.header`fixed flex bg-center bg-cover justify-center px-header-x py-header-y md:(justify-between px-header-x-md py-header-y-md)`;
 
 const Logo = tw.img`w-min cursor-pointer`;
 
@@ -32,7 +32,6 @@ const Header: FC<HeaderProperties> = ({ headerLinks }) => (
   >
     <Link to="/">
       <Logo
-        as="a"
         src="/statics/logo.png"
         alt="第57回鈴鹿高専祭、Re:ROADのロゴ"
         width={948}
