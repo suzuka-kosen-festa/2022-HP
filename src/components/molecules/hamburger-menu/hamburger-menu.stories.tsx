@@ -9,7 +9,7 @@ type Story = ComponentStoryObj<T>;
 type Meta = ComponentMeta<T>;
 
 const args: ComponentPropsWithoutRef<T> = {
-  headerLinks: [
+  menuLinks: [
     {
       link: "/",
       color: tw`text-primary-yellow`,

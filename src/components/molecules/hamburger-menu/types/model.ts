@@ -1,6 +1,6 @@
 import type { CSSInterpolation } from "@emotion/serialize";
 
-export type HeaderLink = {
+export type LinkData = {
   color: CSSInterpolation;
   link: string;
   name: string;
@@ -13,5 +13,5 @@ export type HamburgerMenuItemProperties = {
 };
 
 export type HamburgerMenuProperties = {
-  headerLinks: ReadonlyArray<HeaderLink>;
+  menuLinks: ReadonlyArray<LinkData>;
 };
