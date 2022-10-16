@@ -35,9 +35,9 @@ const headerLinks = [
 
 // Mocking because menu can't open in jsdom
 const Mock = () => (
-  <div>
+  <div css={tw`absolute inset-y-0 right-4 inline-block md:hidden`}>
     <button
-      css={tw`p-1 w-8 h-8 min-w-min min-h-full flex justify-center items-center rounded-lg hover:border-2 hover:border-black mb-2`}
+      css={tw`p-0.5 w-4 h-4 min-w-min min-h-full flex justify-center items-center`}
       type="button"
       aria-label="menu button"
       aria-haspopup="menu"
