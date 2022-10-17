@@ -1,4 +1,5 @@
 import type { CSSInterpolation } from "@emotion/serialize";
+import type { ComponentProps, ReactHTML } from "react";
 import type { LinkData } from "../../../molecules/hamburger-menu/types/model";
 
 export type HeaderLinkItemProperties = {
@@ -7,6 +8,6 @@ export type HeaderLinkItemProperties = {
   color: CSSInterpolation;
 };
 
-export type HeaderProperties = {
+export type HeaderProperties = ComponentProps<ReactHTML["header"]> & {
   headerLinks: ReadonlyArray<LinkData>;
 };
