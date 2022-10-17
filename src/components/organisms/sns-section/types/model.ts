@@ -15,7 +15,7 @@ const Key = {
   Spotify: "spotify",
 } as const;
 
-type SocialData = {
+export type SocialData = {
   icon: string | IconifyIcon;
   key: keyof typeof Key;
   link: string;
