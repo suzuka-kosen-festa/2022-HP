@@ -23,6 +23,10 @@ module.exports = {
         21: "5.375rem",
         64.75: "16.1875rem",
       },
+      maxWidth: {
+        "main-md": "81.25vw",
+        main: "68.75vw",
+      },
       padding: {
         4.5: "1.125rem",
         13: "3.25rem",
@@ -33,6 +37,8 @@ module.exports = {
         header: "20%",
         "hero-lg": "28.75vw",
         hero: "24vw",
+        "main-md": "8vw",
+        main: "13.4vw",
       },
     },
   },
