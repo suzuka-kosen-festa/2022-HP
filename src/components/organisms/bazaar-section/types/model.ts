@@ -1,4 +1,4 @@
-import type {ComponentProps, ReactHTML, ReactNode} from "react";
+import type { ComponentProps, ReactHTML, ReactNode } from "react";
 
 export type BazaarSectionProperties = ComponentProps<ReactHTML["section"]> & {
   attentionTitle: string;

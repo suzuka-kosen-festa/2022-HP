@@ -76,7 +76,7 @@ const Layout: FC<LayoutProperties> = ({ children }) => {
         <Header headerLinks={lists} />
       )}
       {match ? <HeroSection date="2022.10.30-31" title="第57回鈴鹿高専祭" /> : null}
-      <MainBox css={match ? tw`pt-6 md:pt-16` : tw`pt-main md:pt-main-md`}>
+      <MainBox css={match ? tw`pt-6 md:pt-16` : tw`pt-main`}>
         <MainWrapper ref={ref}>{children}</MainWrapper>
         <Footer link="https://github.com/suzuka-kosen-festa/2022-HP/blob/main/LICENSE">
           第57回鈴鹿高専祭実行委員会
