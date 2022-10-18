@@ -18,7 +18,7 @@ exports[`(components) organisms/sponsor-section > take snap shot 1`] = `
 こちらのページにてご協賛いただいた企業様、支援いただいた個人様のお名前を記載しておりますのでぜひご覧ください。
     </p>
     <a
-      class="css-1ye31l5-Button"
+      class="css-rj4g9h-Button"
       href="/sponsors"
       role="button"
       tabindex="0"

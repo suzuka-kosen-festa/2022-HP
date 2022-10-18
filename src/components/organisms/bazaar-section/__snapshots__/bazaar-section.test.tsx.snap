@@ -56,7 +56,7 @@ exports[`(components) organisms/bazaar-section > take snap shot 1`] = `
       飲食団体は18団体、その他レクリエーションには17団体が出店しています！屋台・レク等のバザー詳細についてはこちらをクリック！
     </p>
     <a
-      class="css-t2w93t-Button"
+      class="css-fmcavb-Button"
       href="/bazaar"
       role="button"
       tabindex="0"
