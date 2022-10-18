@@ -79,6 +79,8 @@ const attentions = [
   "各出店バザーにお並びいただく際、1つの出店につきお並びいただく人数は5人までとしておりますので、当日は係員の指示に従ってください。",
 ];
 
+
+// TODO: Add pickup section and use props
 const Top: FC<TopProperties> = ({ events }) => (
   <Main aria-label="Top page">
     <CautionBox aria-label="『Re:ROAD』開催にあたってのお願い">
