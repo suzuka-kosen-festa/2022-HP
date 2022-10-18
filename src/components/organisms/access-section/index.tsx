@@ -12,7 +12,7 @@ const MapSectionContainer = tw.section`flex flex-col justify-center`;
 
 const MapBox = tw.div`flex flex-col space-x-0 space-y-4 mb-12 sm:mb-4 md:(flex-row-reverse space-x-20 space-x-reverse space-y-0)`;
 
-const MapFrame = tw.iframe`w-full h-full`;
+const MapFrame = tw.iframe`w-full md:w-3/5 h-full`;
 
 const AttentionContainer = tw.div`flex flex-col justify-center items-center`;
 
