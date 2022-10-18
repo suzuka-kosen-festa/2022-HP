@@ -5,7 +5,7 @@ import type { HeaderProperties, HeaderLinkItemProperties } from "./types/model";
 import { AnchorText } from "../../atoms/anchor-text";
 import { HamburgerMenu } from "../../molecules/hamburger-menu";
 
-const HeaderContainer = tw.header`fixed flex bg-center bg-cover justify-center px-header-x py-header-y md:(justify-between px-header-x-md py-header-y-md)`;
+const HeaderContainer = tw.header`fixed flex bg-center bg-cover z-30 justify-center px-header-x py-header-y md:(justify-between px-header-x-md py-header-y-md)`;
 
 const Logo = tw.img`w-min cursor-pointer`;
 
@@ -19,7 +19,7 @@ const LinkItem: FC<HeaderLinkItemProperties> = ({ children, link, color }) => (
   </li>
 );
 
-const Header: FC<HeaderProperties> = ({ headerLinks }) => (
+const Header: FC<HeaderProperties> = ({ headerLinks, ...rest }) => (
   <HeaderContainer
     css={css`
       background-image: url("/statics/header-md.webp");
@@ -29,6 +29,7 @@ const Header: FC<HeaderProperties> = ({ headerLinks }) => (
         aspect-ratio: 12 / 1;
       }
     `}
+    {...rest}
   >
     <Link to="/">
       <Logo src="/statics/logo.png" alt="第57回鈴鹿高専祭、Re:ROADのロゴ" width={948} height={197} loading="eager" />

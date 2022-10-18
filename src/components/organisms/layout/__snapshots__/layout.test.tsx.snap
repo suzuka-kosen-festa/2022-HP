@@ -1,0 +1,214 @@
+// Vitest Snapshot v1
+
+exports[`(components) organisms/layout > take snap shot 1`] = `
+<div>
+  <div
+    class="css-1bjjxsp"
+  >
+    <header
+      class="css-11easeq-Layout"
+    >
+      <img
+        alt="第57回鈴鹿高専祭、Re:ROADのロゴ"
+        class="css-pfnskm"
+        height="197"
+        href="/"
+        loading="eager"
+        src="/statics/logo.png"
+        width="948"
+      />
+      <ul
+        class="css-1ptipdp"
+      >
+        <li
+          role="menuitem"
+        >
+          <a
+            class="css-yzajyk-LinkItem"
+            href="/"
+          >
+            Top
+          </a>
+        </li>
+        <li
+          role="menuitem"
+        >
+          <a
+            class="css-s8xoeo-LinkItem"
+            href="/member"
+          >
+            Members
+          </a>
+        </li>
+        <li
+          role="menuitem"
+        >
+          <a
+            class="css-dgtzi5-LinkItem"
+            href="/timetable"
+          >
+            Schedule
+          </a>
+        </li>
+        <li
+          role="menuitem"
+        >
+          <a
+            class="css-1lc6xq8-LinkItem"
+            href="/bazaar"
+          >
+            Bazaar
+          </a>
+        </li>
+        <li
+          role="menuitem"
+        >
+          <a
+            class="css-zzwddn-LinkItem"
+            href="/sponsors"
+          >
+            Sponsors
+          </a>
+        </li>
+      </ul>
+      <div
+        class="css-1wlf7oa"
+      >
+        <button
+          aria-controls="hamburger-list"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="menu button"
+          class="css-cj7h3e"
+        >
+          <div
+            class="css-17dtj6s"
+          >
+            <span />
+          </div>
+        </button>
+        <div />
+      </div>
+    </header>
+    <section
+      aria-label="第57回鈴鹿高専祭"
+      class="css-j7qwjs"
+    >
+      <div
+        class="css-18gds0z-HeroSection"
+      >
+        <h2
+          class="css-4ovsui"
+        >
+          第57回鈴鹿高専祭
+        </h2>
+        <img
+          alt="第57回鈴鹿高専祭、Re:ROADのロゴ"
+          class="css-8atqhb"
+          height="197"
+          loading="eager"
+          src="/statics/logo.png"
+          width="948"
+        />
+        <h2
+          class="css-4ovsui"
+        >
+          2022.10.30-31
+        </h2>
+      </div>
+    </section>
+    <div
+      class="css-9xrjse"
+    >
+      <div
+        class="css-1u47ljs"
+      >
+        <div>
+          <h1>
+            Test
+          </h1>
+          <p>
+            this is test
+          </p>
+          <p>
+            this is test
+          </p>
+          <p>
+            this is test
+          </p>
+          <p>
+            this is test
+          </p>
+          <p>
+            this is test
+          </p>
+          <p>
+            this is test
+          </p>
+          <p>
+            this is test
+          </p>
+          <p>
+            this is test
+          </p>
+          <p>
+            this is test
+          </p>
+          <p>
+            this is test
+          </p>
+          <p>
+            this is test
+          </p>
+          <p>
+            this is test
+          </p>
+          <p>
+            this is test
+          </p>
+          <p>
+            this is test
+          </p>
+          <p>
+            this is test
+          </p>
+          <p>
+            this is test
+          </p>
+          <p>
+            this is test
+          </p>
+          <p>
+            this is test
+          </p>
+          <p>
+            this is test
+          </p>
+          <p>
+            this is test
+          </p>
+          <p>
+            this is test
+          </p>
+        </div>
+      </div>
+      <footer
+        class="css-1a88kbw"
+        role="contentinfo"
+      >
+        <a
+          class="css-486ym3-Footer"
+          href="https://github.com/suzuka-kosen-festa/2022-HP/blob/main/LICENSE"
+          rel="noopener noreferrer"
+          role="link"
+          tabindex="0"
+          target="_blank"
+        >
+          © 
+          第57回鈴鹿高専祭実行委員会
+        </a>
+      </footer>
+    </div>
+  </div>
+</div>
+`;
