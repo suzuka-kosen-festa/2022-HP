@@ -70,20 +70,20 @@ export default defineConfig({
           {
             src: "/seo/android-chrome-192x192.png",
             sizes: "192x192",
-            type: "image/png"
+            type: "image/png",
           },
           {
             src: "/seo/android-chrome-512x512.png",
             sizes: "512x512",
-            type: "image/png"
-          }
+            type: "image/png",
+          },
         ],
         theme_color: "#ffcb00",
         background_color: "#ffcb00",
         start_url: "https://reroad.site/",
         display: "standalone",
-        lang: "ja"
-      }
+        lang: "ja",
+      },
     }),
     splitVendorChunkPlugin(),
   ],
