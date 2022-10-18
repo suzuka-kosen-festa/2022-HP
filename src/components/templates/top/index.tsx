@@ -79,9 +79,8 @@ const attentions = [
   "各出店バザーにお並びいただく際、1つの出店につきお並びいただく人数は5人までとしておりますので、当日は係員の指示に従ってください。",
 ];
 
-
 // TODO: Add pickup section and use props
-const Top: FC<TopProperties> = ({ events }) => (
+const Top: FC<TopProperties> = () => (
   <Main aria-label="Top page">
     <CautionBox aria-label="『Re:ROAD』開催にあたってのお願い">
       <Caution sentence={cautions} title="『Re:ROAD』開催にあたってのお願い" />
@@ -99,7 +98,6 @@ const Top: FC<TopProperties> = ({ events }) => (
     <SnsSection socialData={socialLinks} title="SNS">
       {"今年の鈴鹿高専祭では、史上初となるラジオの配信を行っています。\nご視聴はYouTube、Spotifyから！"}
     </SnsSection>
-    <PickupSection buttonText="タイムスケジュールを見る" cardData={events} title="Pick up events" />
     <BazaarSection
       attentionTitle="バザーに関するお願い"
       attentions={attentions}
