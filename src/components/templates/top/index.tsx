@@ -15,21 +15,23 @@ import { ContactSection } from "../../organisms/contact-section";
 import { AccessSection } from "../../organisms/access-section";
 import { AboutSection } from "../../organisms/about-section";
 
-const Highlight = tw.span`text-primary-red`;
+const Highlight = tw.span`text-primary-red text-base`;
+
+const CautionText = tw(Text)`text-base sm:text-base`;
 
 const Main = tw.main`space-y-11 sm:space-y-20`;
 
 const CautionBox = tw.section`flex flex-col justify-center items-center`;
 
 const cautions = [
-  <Text key="1">
+  <CautionText key="1">
     Re:ROADでは、感染拡大防止のため<Highlight>入場制限</Highlight>を設けています。ご入場にはチケットが必要となります。
-  </Text>,
-  <Text key="2">発熱や風邪などの症状がある方のご入場はご遠慮ください。</Text>,
-  <Text key="3">
+  </CautionText>,
+  <CautionText key="2">発熱や風邪などの症状がある方のご入場はご遠慮ください。</CautionText>,
+  <CautionText key="3">
     イベントにおける<Highlight>声出し</Highlight>はご遠慮いただき、<Highlight>拍手</Highlight>での応援にご協力ください。
-  </Text>,
-  <Text key="4">駐車場はスペースが限られているため、できるだけ公共交通機関を使ってお越しください。</Text>,
+  </CautionText>,
+  <CautionText key="4">駐車場はスペースが限られているため、できるだけ公共交通機関を使ってお越しください。</CautionText>,
 ];
 
 const ticketLinks: Array<AnchorData> = [
@@ -73,9 +75,11 @@ const socialLinks: Array<SocialData> = [
 ];
 
 const attentions = [
-  "学内における飲食物の食べ歩きはご遠慮ください。",
-  "学内バザーにて購入した飲食物のお持ち帰りはご遠慮ください",
-  "各出店バザーにお並びいただく際、1つの出店につきお並びいただく人数は5人までとしておりますので、当日は係員の指示に従ってください。",
+  <CautionText key="1">学内における飲食物の食べ歩きはご遠慮ください。</CautionText>,
+  <CautionText key="2">学内バザーにて購入した飲食物のお持ち帰りはご遠慮ください</CautionText>,
+  <CautionText key="3">
+    各出店バザーにお並びいただく際、1つの出店につきお並びいただく人数は5人までとしておりますので、当日は係員の指示に従ってください。
+  </CautionText>,
 ];
 
 // TODO: Add pickup section and use props
