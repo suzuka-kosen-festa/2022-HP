@@ -5,7 +5,7 @@ import type { HeaderProperties, HeaderLinkItemProperties } from "./types/model";
 import { AnchorText } from "../../atoms/anchor-text";
 import { HamburgerMenu } from "../../molecules/hamburger-menu";
 
-const HeaderContainer = tw.header`fixed flex bg-center bg-cover z-30 w-full justify-center px-header-x py-header-y md:(justify-between px-header-x-md py-header-y-md)`;
+const HeaderContainer = tw.header`fixed flex bg-center bg-contain z-30 w-full justify-center px-header-x py-header-y md:(justify-between px-header-x-md py-header-y-md)`;
 
 const Logo = tw.img`w-max cursor-pointer`;
 
