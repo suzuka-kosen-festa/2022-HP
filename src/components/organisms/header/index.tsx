@@ -5,9 +5,9 @@ import type { HeaderProperties, HeaderLinkItemProperties } from "./types/model";
 import { AnchorText } from "../../atoms/anchor-text";
 import { HamburgerMenu } from "../../molecules/hamburger-menu";
 
-const HeaderContainer = tw.header`fixed flex bg-center bg-contain z-30 w-full justify-center px-header-x py-header-y md:(justify-between px-header-x-md py-header-y-md)`;
+const HeaderContainer = tw.header`fixed flex bg-center bg-contain bg-no-repeat z-30 w-full items-center justify-center px-header-x py-header-y md:(justify-between px-header-x-md py-header-y-md)`;
 
-const Logo = tw.img`w-max cursor-pointer`;
+const Logo = tw.img`w-20 sm:w-28 md:w-40 lg:w-52 cursor-pointer`;
 
 const LinkWrapper = tw.ul`hidden md:flex space-x-10 justify-center items-center`;
 
@@ -28,7 +28,7 @@ const Header: FC<HeaderProperties> = ({ headerLinks, ...rest }) => (
     {...rest}
   >
     <Link to="/">
-      <Logo src="/statics/logo.png" alt="第57回鈴鹿高専祭、Re:ROADのロゴ" width={948} height={197} loading="eager" />
+      <Logo css={css`flex-grow: 0;`} src="/statics/logo.png" alt="第57回鈴鹿高専祭、Re:ROADのロゴ" width={948} height={197} loading="eager" />
     </Link>
     <LinkWrapper>
       {headerLinks.map(headerLink => (
