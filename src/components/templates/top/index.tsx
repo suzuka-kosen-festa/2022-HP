@@ -8,7 +8,6 @@ import type { AnchorData } from "../../organisms/ticket-section/type/model";
 import { FestaSection } from "../../organisms/festa-section";
 import { SnsSection } from "../../organisms/sns-section";
 import type { SocialData } from "../../organisms/sns-section/types/model";
-import { PickupSection } from "../../organisms/pickup-section";
 import { BazaarSection } from "../../organisms/bazaar-section";
 import { MapSection } from "../../organisms/map-section";
 import { SponsorSection } from "../../organisms/sponsor-section";
