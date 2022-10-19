@@ -15,7 +15,7 @@ const IconWrapper = tw.div`flex items-center justify-center flex-shrink-0 w-4 h-
 
 const HamburgerMenuWrapper = tw.ul`absolute right-0 flex flex-col justify-center items-center px-4 py-2 rounded-lg bg-white max-w-min shadow-xl space-y-1 z-50`;
 
-const HamburgerWrapper = tw.div`absolute inset-y-0 right-4 inline-block md:hidden`;
+const HamburgerWrapper = tw.div`absolute inset-y-0 right-12 inline-block md:hidden`;
 
 const MenuItem: FC<HamburgerMenuItemProperties> = ({ children, link, color }) => (
   <li role="menuitem">

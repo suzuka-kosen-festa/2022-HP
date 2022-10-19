@@ -30,9 +30,9 @@ module.exports = {
       padding: {
         4.5: "1.125rem",
         13: "3.25rem",
-        "header-x-md": "10vw",
         "header-x": "2vw",
-        "header-y": "3.5vw",
+        "header-x-md": "10vw",
+        "header-y": "1vw",
         "header-y-md": "2vw",
         header: "20%",
         "hero-lg": "28.75vw",

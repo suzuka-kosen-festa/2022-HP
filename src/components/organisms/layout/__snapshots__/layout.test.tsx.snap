@@ -6,11 +6,11 @@ exports[`(components) organisms/layout > take snap shot 1`] = `
     class="css-1bjjxsp"
   >
     <header
-      class="css-11easeq-Layout"
+      class="css-1wxyqpd-Layout"
     >
       <img
         alt="第57回鈴鹿高専祭、Re:ROADのロゴ"
-        class="css-pfnskm"
+        class="css-1udc0he-Header"
         height="197"
         href="/"
         loading="eager"
@@ -72,7 +72,7 @@ exports[`(components) organisms/layout > take snap shot 1`] = `
         </li>
       </ul>
       <div
-        class="css-1wlf7oa"
+        class="css-57paqy"
       >
         <button
           aria-controls="hamburger-list"
@@ -118,7 +118,7 @@ exports[`(components) organisms/layout > take snap shot 1`] = `
       </div>
     </section>
     <div
-      class="css-9xrjse"
+      class="css-e5wq8r-Layout"
     >
       <div
         class="css-1u47ljs"

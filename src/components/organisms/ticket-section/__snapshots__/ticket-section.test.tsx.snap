@@ -25,7 +25,7 @@ exports[`(components) organisms/ticket-section > take snap shot 1`] = `
       class="css-1ipjmcm"
     >
       <a
-        class="css-jabq07-Button"
+        class="css-jhmgok-Button"
         href="#"
         rel="noopener noreferrer"
         tabindex="0"
@@ -38,7 +38,7 @@ exports[`(components) organisms/ticket-section > take snap shot 1`] = `
         </p>
       </a>
       <a
-        class="css-jabq07-Button"
+        class="css-jhmgok-Button"
         href="#"
         rel="noopener noreferrer"
         tabindex="0"

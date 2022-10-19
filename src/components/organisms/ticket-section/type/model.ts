@@ -11,7 +11,7 @@ const Key = {
   OB: "ob",
 } as const;
 
-type AnchorData = {
+export type AnchorData = {
   context: string;
   link: string;
   key: keyof typeof Key;

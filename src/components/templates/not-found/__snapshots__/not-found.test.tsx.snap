@@ -1,0 +1,69 @@
+// Vitest Snapshot v1
+
+exports[`(components) templates/not-found > take snap shot 1`] = `
+<div>
+  <main
+    aria-label="Not Found"
+    class="css-1snmjsk"
+  >
+    <section
+      aria-label="404"
+      class="css-1dwazb3"
+    >
+      <div
+        class="css-1y0riz5"
+      >
+        <div
+          class="css-zo9kfe-StatusMessageSection"
+        >
+          <h1
+            class="css-xv8iwh-StatusMessageSection"
+          >
+            404
+          </h1>
+        </div>
+        <div
+          class="css-jhqmv3"
+        >
+          <p
+            class="css-15kij1l-StatusMessageSection"
+          >
+            Not Found
+          </p>
+          <div
+            class="css-1tm5zuj-StatusMessageSection"
+          >
+            <p
+              class="css-17zcuf2"
+            >
+              現在このページは
+            </p>
+            <p
+              class="css-17zcuf2"
+            >
+              表示することができません。
+            </p>
+            <p
+              class="css-17zcuf2"
+            >
+              続報をお待ち下さい。
+            </p>
+            <a
+              class="css-jhmgok-Button"
+              href="/"
+              role="button"
+              tabindex="0"
+            >
+              <p
+                class="css-7bzdgk-Button"
+              >
+                トップページへ戻る
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+`;

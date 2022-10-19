@@ -3,11 +3,11 @@
 exports[`(components) organisms/header > take snap shot 1`] = `
 <div>
   <header
-    class="css-ojgxcq-Header"
+    class="css-1e08g5b-Header"
   >
     <img
       alt="第57回鈴鹿高専祭、Re:ROADのロゴ"
-      class="css-pfnskm"
+      class="css-1udc0he-Header"
       height="197"
       href="/"
       loading="eager"
@@ -69,7 +69,7 @@ exports[`(components) organisms/header > take snap shot 1`] = `
       </li>
     </ul>
     <div
-      class="css-1wlf7oa"
+      class="css-57paqy"
     >
       <button
         aria-controls="hamburger-list"
