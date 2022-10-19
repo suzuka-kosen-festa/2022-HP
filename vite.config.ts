@@ -82,6 +82,7 @@ export default defineConfig({
         background_color: "#ffcb00",
         start_url: "https://reroad.site/",
         display: "standalone",
+        description: "Re:ROAD、それぞれが色付けた3年ぶりの鈴鹿高専祭。",
         lang: "ja",
       },
     }),
