@@ -4,15 +4,20 @@ exports[`(components) organisms/festa-section > take snap shot 1`] = `
 <div>
   <section
     aria-label="今年のテーマ「Re:ROAD」について"
-    class="css-1648j2y"
+    class="css-wkpw2c"
   >
     <h1
-      class="css-6if9cu"
+      class="css-1uc4aan-FestaSection"
+    >
+      About
+    </h1>
+    <h2
+      class="css-kv5ug9-FestaSection"
     >
       今年のテーマ「Re:ROAD」について
-    </h1>
+    </h2>
     <p
-      class="css-z92nkr-FestaSection"
+      class="css-l2da8p-FestaSection"
     >
       第57回鈴鹿高専祭、テーマは「Re:ROAD」
 今回のテーマ「Re:ROAD」には「道（Road）」を創り直す（Re）という意味と、「弾をこめる・再補填する（Reload）」という意味を使い、「今年の準備をする」「来年以降、これから先のための高専祭を行う」という想いが込められています。
@@ -21,6 +26,18 @@ exports[`(components) organisms/festa-section > take snap shot 1`] = `
 そのため過去のデータもあまり残っておらず本当に1から、いや0からのスタートです。
 まだ何色にも色づいていない第57回鈴鹿高専祭を今から色づけていきます。
     </p>
+    <a
+      class="css-voqv4l-Button"
+      href="/member"
+      role="button"
+      tabindex="0"
+    >
+      <p
+        class="css-oca8th-Button"
+      >
+        第57回鈴鹿高専祭メンバー
+      </p>
+    </a>
   </section>
 </div>
 `;

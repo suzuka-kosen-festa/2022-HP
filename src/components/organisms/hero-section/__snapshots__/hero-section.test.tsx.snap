@@ -2,30 +2,32 @@
 
 exports[`(components) organisms/hero-section > take snap shot 1`] = `
 <div>
-  <header
+  <section
+    aria-label="第57回鈴鹿高専祭"
     class="css-j7qwjs"
   >
     <div
-      class="css-bg20hz-HeroSection"
+      class="css-18gds0z-HeroSection"
     >
-      <p
-        class="css-8shmws-HeroSection"
+      <h2
+        class="css-4ovsui"
       >
         第57回鈴鹿高専祭
-      </p>
+      </h2>
       <img
         alt="第57回鈴鹿高専祭、Re:ROADのロゴ"
-        class="css-1ysdsd"
-        height="247"
-        src="/statics/logo.webp"
-        width="1212"
+        class="css-8atqhb"
+        height="197"
+        loading="eager"
+        src="/statics/logo.png"
+        width="948"
       />
-      <p
-        class="css-8shmws-HeroSection"
+      <h2
+        class="css-4ovsui"
       >
         2022.10.30-31
-      </p>
+      </h2>
     </div>
-  </header>
+  </section>
 </div>
 `;

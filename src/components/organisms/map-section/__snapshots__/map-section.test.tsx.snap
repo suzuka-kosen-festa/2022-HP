@@ -3,44 +3,28 @@
 exports[`(components) organisms/map-section > take snap shot 1`] = `
 <div>
   <section
-    aria-label="アクセス"
-    class="css-1648j2y"
+    aria-label="map"
+    class="css-wkpw2c"
   >
     <h1
-      class="css-6if9cu"
+      class="css-4pmhej-MapSection"
     >
-      アクセス
+      Map
     </h1>
-    <div
-      class="css-rwuboe"
+    <a
+      class="css-1l4w6pd"
+      href="https://res.cloudinary.com/dvgtaafq5/image/upload/q_60/f_auto/v1665765554/map_vjyaf2.webp"
+      rel="noopener noreferrer"
+      target="_blank"
     >
-      <p
-        class="css-1c4qfhf-MapSection"
-      >
-        〒
-        510-0294 三重県鈴鹿市白子町
-近鉄白子駅から徒歩約30分
-三重交通バス東旭が丘3丁目から徒歩約7分
-      </p>
-      <figure
-        class="css-s3afwo"
-      >
-        <div
-          class="css-1yuaof5"
-        >
-          <iframe
-            allowfullscreen=""
-            class="css-u7aauf"
-            id="map"
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            role="document"
-            src="https://www.google.com/maps/embed/v1/view?key=AIzaSyCk9WMilIT2wiBMqcn1YZQKJz5Lzy9ipQg&center=34.85167124241317%2C136.58132309784355&zoom=15"
-            title="鈴鹿工業高等専門学校の地図"
-          />
-        </div>
-      </figure>
-    </div>
+      <img
+        alt="校内マップ"
+        class="css-1h35ydv-MapSection"
+        height="2915"
+        src="/statics/map.webp"
+        width="4128"
+      />
+    </a>
   </section>
 </div>
 `;

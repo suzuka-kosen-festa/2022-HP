@@ -4,9 +4,10 @@ import { GlobalStyles as BaseStyles } from "twin.macro";
 
 const customStyle = css`
   @font-face {
-    font-family: "Zen Kurenaido";
-    src: url("/fonts/ZenKurenaido.woff2") format("woff2"), url("/fonts/ZenKurenaido.woff") format("woff"),
-      url("/fonts/ZenKurenaido.ttf") format("truetype"), url("/fonts/ZenKurenaido.eot") format("embedded-opentype");
+    font-family: "Zen KakuGothic New";
+    src: url("/fonts/ZenKakuGothicNew.woff2") format("woff2"), url("/fonts/ZenKakuGothicNew.woff") format("woff"),
+      url("/fonts/ZenKakuGothicNew.ttf") format("truetype"),
+      url("/fonts/ZenKakuGothicNew.eot") format("embedded-opentype");
     font-style: normal;
     font-weight: 400;
     /* https://styled-components.com/docs/faqs#how-do-i-fix-flickering-text-after-server-side-rendering */

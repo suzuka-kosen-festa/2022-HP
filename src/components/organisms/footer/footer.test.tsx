@@ -10,7 +10,7 @@ const footeroptions = {
 };
 
 const linkoptions = {
-  name: "This is test",
+  name: "© This is test",
 };
 
 describe("(components) organisms/footer", () => {
@@ -22,12 +22,10 @@ describe("(components) organisms/footer", () => {
     const { getByRole } = render(<Default />);
     expect(getByRole("contentinfo", footeroptions)).toBeInTheDocument();
   });
-
   test("to be [role=link]", () => {
     const { getByRole } = render(<Default />);
     expect(getByRole("link", linkoptions)).toBeInTheDocument();
   });
-
   test("take snap shot", () => {
     const { container } = render(<Default />);
     expect(container).toMatchSnapshot();

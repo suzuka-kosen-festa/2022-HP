@@ -18,17 +18,65 @@ jobs:
           cache: yarn
       - name: Install Dependencies
         run: yarn install --immutable
-      - name: Check codes types
-        run: yarn run type
       - name: Build the project
         run: yarn run build
       - name: Test
         run: yarn run test
         env:
           VITE_GOOGLE_MAP_API_KEY: ${{ secrets.VITE_GOOGLE_MAP_API_KEY }}
+  run-storybook-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: yarn
+      - name: Install Dependencies
+        run: yarn install --immutable
+      - name: Build the project
+        run: yarn run build
+      - name: Build Storybook test
+        run: yarn run build-storybook
+  run-type:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: yarn
+      - name: Install Dependencies
+        run: yarn install --immutable
+      - name: Build the project
+        run: yarn run build
+      - name: Type check test
+        run: yarn run type
+  run-prettier:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: yarn
+      - name: Install Dependencies
+        run: yarn install --immutable
+      - name: Format the code
+        run: yarn run fmt:check
   run-test-check:
     if: ${{ ! failure() }}
-    needs: run-test
+    needs:
+      - run-test
+      - run-storybook-test
+      - run-type
+      - run-prettier
     runs-on: ubuntu-latest
     steps:
       - run: echo "Type check, Build, Test are successfully executed."

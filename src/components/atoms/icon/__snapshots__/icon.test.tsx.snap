@@ -1,0 +1,11 @@
+// Vitest Snapshot v1
+
+exports[`(components) atoms/icon > take snap shot 1`] = `
+<div>
+  <div
+    class="css-1vlcokg"
+  >
+    <span />
+  </div>
+</div>
+`;

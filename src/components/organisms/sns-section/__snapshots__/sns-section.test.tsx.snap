@@ -4,15 +4,54 @@ exports[`(components) organisms/sns-section > take snap shot 1`] = `
 <div>
   <section
     aria-label="SNS"
-    class="css-1648j2y"
+    class="css-wkpw2c"
   >
     <h1
-      class="css-6if9cu"
+      class="css-1sj4na4-SnsSection"
     >
       SNS
     </h1>
-    <div>
-      Loading...
+    <p
+      class="css-1kjefg3-SnsSection"
+    >
+      今年の鈴鹿高専祭では、史上初となるラジオの配信を行っています。
+ご視聴はYouTube、Spotifyから！
+    </p>
+    <div
+      class="css-yczkn0"
+    >
+      <a
+        class="css-9uxhpu-SnsSection"
+        href="https://twitter.com/KOSENFESTA"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <span />
+      </a>
+      <a
+        class="css-9uxhpu-SnsSection"
+        href="https://www.instagram.com/kosenfesta/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <span />
+      </a>
+      <a
+        class="css-9uxhpu-SnsSection"
+        href="https://www.youtube.com/channel/UCV4zdsdagV2N3juHRz2dqQQ"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <span />
+      </a>
+      <a
+        class="css-9uxhpu-SnsSection"
+        href="https://open.spotify.com/show/4n0D0dsaFaPbJTz7tGpfTR?si=8yZ1H8LzTM-ZJPyYN6CU-A"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <span />
+      </a>
     </div>
   </section>
 </div>

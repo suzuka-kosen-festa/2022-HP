@@ -1,0 +1,72 @@
+// Vitest Snapshot v1
+
+exports[`(components) organisms/bazaar-section > take snap shot 1`] = `
+<div>
+  <section
+    aria-label="bazaar"
+    class="css-wkpw2c"
+  >
+    <h1
+      class="css-wtcl1w-BazaarSection"
+    >
+      Bazaar
+    </h1>
+    <section
+      aria-label="注意事項"
+      class="css-1kphsmg-BazaarSection"
+      role="alert"
+    >
+      <div
+        class="css-1m7spai"
+      >
+        <div
+          class="css-1vlcokg"
+        >
+          <span />
+        </div>
+        <h2
+          class="css-qt9rcz-Caution"
+        >
+          バザーに関するお願い
+        </h2>
+      </div>
+      <ul
+        class="css-mvofyw-Caution"
+      >
+        <li
+          class="css-u80qbw-Caution"
+        >
+          学内における飲食物の食べ歩きはご遠慮ください。
+        </li>
+        <li
+          class="css-u80qbw-Caution"
+        >
+          学内バザーにて購入した飲食物のお持ち帰りはご遠慮ください
+        </li>
+        <li
+          class="css-u80qbw-Caution"
+        >
+          各出店バザーにお並びいただく際、1つの出店につきお並びいただく人数は5人までとしておりますので、当日は係員の指示に従ってください。
+        </li>
+      </ul>
+    </section>
+    <p
+      class="css-sr7z0r-BazaarSection"
+    >
+      飲食団体は18団体、その他レクリエーションには17団体が出店しています！屋台・レク等のバザー詳細についてはこちらをクリック！
+    </p>
+    <a
+      class="css-fmcavb-Button"
+      href="/bazaar"
+      role="button"
+      tabindex="0"
+    >
+      <p
+        class="css-oca8th-Button"
+      >
+        バザーの詳細を見る
+      </p>
+    </a>
+  </section>
+</div>
+`;

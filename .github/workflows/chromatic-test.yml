@@ -7,8 +7,6 @@ on:
     paths:
       - src/components/**
       - src/stories/**
-      - package.json
-      - yarn.lock
 
 jobs:
   run-chromatic-test:

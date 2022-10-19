@@ -1,15 +1,15 @@
 // Vitest Snapshot v1
 
-exports[`(components) atoms/button > take anchor button's snap shot 1`] = `
+exports[`(components) atoms/button > (anchor) take snap shot 1`] = `
 <div>
   <a
-    class="css-1a492j3"
+    class="css-jhmgok-Button"
     href="#"
     role="button"
     tabindex="0"
   >
     <p
-      class="css-9rw4zt-Button"
+      class="css-7bzdgk-Button"
     >
       This is test
     </p>
@@ -17,14 +17,89 @@ exports[`(components) atoms/button > take anchor button's snap shot 1`] = `
 </div>
 `;
 
-exports[`(components) atoms/button > take default button's snap shot 1`] = `
+exports[`(components) atoms/button > (blue) take snap shot 1`] = `
 <div>
   <button
-    class="css-1a492j3"
+    class="css-rj4g9h-Button"
     tabindex="0"
   >
     <p
-      class="css-9rw4zt-Button"
+      class="css-oca8th-Button"
+    >
+      This is test
+    </p>
+  </button>
+</div>
+`;
+
+exports[`(components) atoms/button > (default) take snap shot 1`] = `
+<div>
+  <button
+    class="css-jhmgok-Button"
+    tabindex="0"
+  >
+    <p
+      class="css-7bzdgk-Button"
+    >
+      This is test
+    </p>
+  </button>
+</div>
+`;
+
+exports[`(components) atoms/button > (green) take snap shot 1`] = `
+<div>
+  <button
+    class="css-3os8bq-Button"
+    tabindex="0"
+  >
+    <p
+      class="css-7bzdgk-Button"
+    >
+      This is test
+    </p>
+  </button>
+</div>
+`;
+
+exports[`(components) atoms/button > (purple) take snap shot 1`] = `
+<div>
+  <button
+    class="css-fmcavb-Button"
+    tabindex="0"
+  >
+    <p
+      class="css-oca8th-Button"
+    >
+      This is test
+    </p>
+  </button>
+</div>
+`;
+
+exports[`(components) atoms/button > (red) take snap shot 1`] = `
+<div>
+  <button
+    class="css-voqv4l-Button"
+    tabindex="0"
+  >
+    <p
+      class="css-oca8th-Button"
+    >
+      This is test
+    </p>
+  </button>
+</div>
+`;
+
+exports[`(components) atoms/button > (yellow) take snap shot 1`] = `
+<div>
+  <button
+    class="css-jhmgok-Button"
+    tabindex="0"
+  >
+    <p
+      class="css-7bzdgk-Button"
     >
       This is test
     </p>

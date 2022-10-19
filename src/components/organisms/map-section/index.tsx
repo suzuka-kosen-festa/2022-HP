@@ -1,21 +1,34 @@
 import type { FC } from "react";
-import tw from "twin.macro";
-import type { MapSectionProperties } from "../../../models";
+import tw, { css } from "twin.macro";
+import type { MapSectionProperties } from "./types/model";
 import { Heading } from "../../atoms/heading";
-import { Text } from "../../atoms/text";
-import { Map } from "../../molecules/map";
 
-const MapSectionContainer = tw.section`flex flex-col space-y-[calc(200vw / 63)]`;
+const MapSectionContainer = tw.section`flex flex-col justify-center items-center`;
 
-const MapBox = tw.div`flex flex-col space-y-[calc(200vw / 63)] lg:flex-row-reverse lg:space-x-[calc(800vw / 189)] lg:space-y-0 lg:space-x-reverse justify-end`;
+const MapContainer = tw.a`flex justify-center`;
 
-const MapSection: FC<MapSectionProperties> = ({ center, children, label, title, zoom, ...rest }) => (
-  <MapSectionContainer aria-label="アクセス" {...rest}>
-    <Heading>{title}</Heading>
-    <MapBox>
-      <Text css={tw`whitespace-pre-wrap select-text`}>&#12306;{children}</Text>
-      <Map center={center} title={label} zoom={zoom} />
-    </MapBox>
+const Map = tw.img`w-4/5`;
+
+const MapSection: FC<MapSectionProperties> = ({ title, ...rest }) => (
+  <MapSectionContainer aria-label="map" {...rest}>
+    <Heading css={tw`mb-4 sm:mb-21`} colorKey="red">
+      {title}
+    </Heading>
+    <MapContainer
+      href="https://res.cloudinary.com/dvgtaafq5/image/upload/q_60/f_auto/v1665765554/map_vjyaf2.webp"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Map
+        css={css`
+          aspect-ratio: 4128 / 2915;
+        `}
+        src="/statics/map.webp"
+        alt="校内マップ"
+        width={4128}
+        height={2915}
+      />
+    </MapContainer>
   </MapSectionContainer>
 );
 

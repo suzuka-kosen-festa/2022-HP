@@ -5,8 +5,12 @@ import * as stories from "./map-section.stories";
 
 const { Default } = composeStories(stories);
 
-const options = {
-  name: "アクセス",
+const regionoptions = {
+  name: "map",
+};
+
+const linkoptions = {
+  name: "校内マップ",
 };
 
 describe("(components) organisms/map-section", () => {
@@ -16,7 +20,11 @@ describe("(components) organisms/map-section", () => {
   });
   test("to be [role=region]", () => {
     const { getByRole } = render(<Default />);
-    expect(getByRole("region", options));
+    expect(getByRole("region", regionoptions));
+  });
+  test("to be [role=link]", () => {
+    const { getByRole } = render(<Default />);
+    expect(getByRole("link", linkoptions));
   });
   test("take snap shot", () => {
     const { container } = render(<Default />);
