@@ -25,7 +25,7 @@
     "gen:style": "token-transformer data/tokens.json data/tmp.json && node ./scripts/build.js && rimraf data/tmp.json",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "chromatic": "npx chromatic --project-token=89a2c36a25bf"
+    "chromatic": "npx chromatic --project-token=YOUR_TOKEN"
   },
   "dependencies": {
     "@emotion/cache": "11.10.3",
