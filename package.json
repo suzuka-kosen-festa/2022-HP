@@ -42,7 +42,7 @@
     "wouter": "2.8.0-alpha.2"
   },
   "devDependencies": {
-    "@babel/core": "7.19.3",
+    "@babel/core": "7.19.6",
     "@babel/plugin-transform-react-jsx": "7.19.0",
     "@emotion/babel-plugin-jsx-pragmatic": "0.2.0",
     "@emotion/css": "11.10.0",
