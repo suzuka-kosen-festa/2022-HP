@@ -6,8 +6,8 @@ import * as stories from "./title.stories";
 const { Default, Yellow, Blue, Green, Red, Purple } = composeStories(stories);
 
 const options = {
-  name: "This is test"
-}
+  name: "This is test",
+};
 
 describe("(components) molecules/title", () => {
   test("to be Molecules", () => {

@@ -20,13 +20,13 @@ module.exports = {
       },
       fontSize: {
         "ink-md": "4.5vw",
-        ink: "7.2vw"
+        ink: "7.2vw",
       },
       inset: {
         "ink-top-md": "8.75vw",
         "ink-left-md": "10vw",
         "ink-top": "15vw",
-        "ink-left": "16.5vw"
+        "ink-left": "16.5vw",
       },
       margin: {
         4.5: "1.125rem",
