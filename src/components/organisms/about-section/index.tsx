@@ -1,20 +1,22 @@
 import type { FC } from "react";
 import tw from "twin.macro";
 import { sendTransitionToOutsideOfHomepage } from "../../../infrastructures/gtm";
-import { AboutSectionProperties } from "../../../models";
+import { AboutSectionProperties } from "./types/model";
 import { Button } from "../../atoms/button";
 import { Heading } from "../../atoms/heading";
 import { Text } from "../../atoms/text";
 
-const AboutSectionContainer = tw.section`space-y-[calc(200vw / 63)]`;
+const AboutSectionContainer = tw.section`flex flex-col justify-center items-center`;
 
 const AboutSection: FC<AboutSectionProperties> = ({ buttonText, children, link, title }) => (
   <AboutSectionContainer aria-label="鈴鹿高専について">
-    <Heading colorKey="yellow">{title}</Heading>
-    <Text>{children}</Text>
+    <Heading css={tw`mb-4 sm:mb-8`} colorKey="purple">
+      {title}
+    </Heading>
+    <Text css={tw`mb-6 sm:mb-16`}>{children}</Text>
     <Button
       as="a"
-      colorKey="yellow"
+      colorKey="purple"
       href={link}
       target="_brank"
       rel="noopener noreferrer"

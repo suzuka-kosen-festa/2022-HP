@@ -1,16 +1,14 @@
 import type { FC } from "react";
 import { useRegisterSW } from "virtual:pwa-register/react";
-import { Redirect, Route, Switch } from "wouter";
-import { MainPage } from "./pages";
+import { Route, Switch } from "wouter";
+import { TopPage, ComingSoonPage } from "./pages";
 
 const Router: FC = () => {
   useRegisterSW();
   return (
     <Switch>
-      <Route path="/" component={MainPage} />
-      <Route path="*">
-        <Redirect to="/" />
-      </Route>
+      <Route path="/" component={TopPage} />
+      <Route component={ComingSoonPage} />
     </Switch>
   );
 };

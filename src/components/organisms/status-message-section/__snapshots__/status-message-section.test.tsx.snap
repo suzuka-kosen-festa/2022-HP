@@ -1,0 +1,48 @@
+// Vitest Snapshot v1
+
+exports[`(components) organisms/status-message-section > take snap shot 1`] = `
+<div>
+  <section
+    aria-label="404"
+    class="css-1dwazb3"
+  >
+    <div
+      class="css-1y0riz5"
+    >
+      <div
+        class="css-zo9kfe-StatusMessageSection"
+      >
+        <h1
+          class="css-xv8iwh-StatusMessageSection"
+        >
+          404
+        </h1>
+      </div>
+      <div
+        class="css-jhqmv3"
+      >
+        <p
+          class="css-15kij1l-StatusMessageSection"
+        >
+          Not found
+        </p>
+        <div
+          class="css-1tm5zuj-StatusMessageSection"
+        >
+          <div>
+            <p>
+              Page not implemented or not found.
+            </p>
+            <p>
+              Please check the URL again.
+            </p>
+            <p>
+              top
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

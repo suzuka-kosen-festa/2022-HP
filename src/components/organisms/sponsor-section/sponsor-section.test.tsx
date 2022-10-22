@@ -5,13 +5,10 @@ import * as stories from "./sponsor-section.stories";
 
 const { Default } = composeStories(stories);
 
-const sponsoroptions = {
-  name: "協賛企業",
+const options = {
+  name: "sponsors",
 };
 
-const listoptions = {
-  name: "",
-};
 describe("(components) organisms/sponsor-section", () => {
   test("to be organisms", () => {
     const { container } = render(<Default />);
@@ -19,11 +16,7 @@ describe("(components) organisms/sponsor-section", () => {
   });
   test("to be [role=region]", () => {
     const { getByRole } = render(<Default />);
-    expect(getByRole("region", sponsoroptions));
-  });
-  test("to be [role=list]", () => {
-    const { getByRole } = render(<Default />);
-    expect(getByRole("list", listoptions));
+    expect(getByRole("region", options));
   });
   test("take snap shot", () => {
     const { container } = render(<Default />);

@@ -1,17 +1,19 @@
 import type { FC } from "react";
 import tw from "twin.macro";
 import { sendTransitionToOutsideOfHomepage } from "../../../infrastructures/gtm";
-import { ContactSectionProperties } from "../../../models";
+import { ContactSectionProperties } from "./types/model";
 import { Button } from "../../atoms/button";
 import { Heading } from "../../atoms/heading";
 import { Text } from "../../atoms/text";
 
-const ContactSectionContainer = tw.section`space-y-[calc(200vw / 63)]`;
+const ContactSectionContainer = tw.section`flex flex-col justify-center items-center`;
 
 const ContactSection: FC<ContactSectionProperties> = ({ buttonText, title, link, children, ...rest }) => (
   <ContactSectionContainer aria-label="お問い合わせ" {...rest}>
-    <Heading colorKey="yellow">{title}</Heading>
-    <Text>{children}</Text>
+    <Heading css={tw`mb-4 sm:mb-8`} colorKey="yellow">
+      {title}
+    </Heading>
+    <Text css={tw`mb-6 sm:mb-16`}>{children}</Text>
     <Button
       as="a"
       colorKey="yellow"

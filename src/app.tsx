@@ -1,7 +1,7 @@
 import createCache from "@emotion/cache";
 import { CacheProvider } from "@emotion/react";
 import React from "react";
-import { Layout } from "./components/templates/layout";
+import { Layout } from "./components/organisms/layout";
 import { GoogleTagManager, googleTagManagerId } from "./infrastructures/gtm";
 import Router from "./routes";
 import { GlobalStyles } from "./styles/global";

@@ -1,9 +1,9 @@
 // Vitest Snapshot v1
 
-exports[`(components) atoms/anchor > take snap shot 1`] = `
+exports[`(components) atoms/anchor-text > take snap shot 1`] = `
 <div>
   <a
-    class="css-zld2jk"
+    class="css-1u8hrce"
     href="#"
     tabindex="0"
   >

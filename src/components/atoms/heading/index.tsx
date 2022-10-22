@@ -1,9 +1,9 @@
 import type { FC } from "react";
 import tw, { css } from "twin.macro";
 import { useMemo } from "react";
-import type { HeadingProperties } from "./type/model";
+import type { HeadingProperties } from "./types/model";
 
-const HeadingBase = tw.h1`font-zen text-text text-xl sm:text-5xl select-none`;
+const HeadingBase = tw.h1`font-zen text-text text-2xl sm:text-5xl font-bold select-none`;
 
 const Heading: FC<HeadingProperties> = ({ colorKey, children, ...rest }) => {
   // eslint-disable-next-line consistent-return

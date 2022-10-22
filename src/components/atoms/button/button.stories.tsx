@@ -1,15 +1,18 @@
 import type { ComponentStoryObj, ComponentMeta } from "@storybook/react";
+import type { ComponentPropsWithoutRef } from "react";
 import { Button } from ".";
 
 type T = typeof Button;
 type Story = ComponentStoryObj<T>;
+type Meta = ComponentMeta<T>;
 
-const data = {
-  sentence: "This is test",
+const args: ComponentPropsWithoutRef<T> = {
+  children: "This is test",
+  colorKey: "yellow",
 };
 
 export default {
-  args: { children: data.sentence },
+  args,
   argTypes: {
     boxStyles: {
       description: "Button box styles",
@@ -35,7 +38,7 @@ export default {
     },
   },
   component: Button,
-} as ComponentMeta<T>;
+} as Meta;
 
 export const Default: Story = {};
 export const Anchor: Story = {
