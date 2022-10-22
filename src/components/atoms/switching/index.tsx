@@ -19,12 +19,14 @@ const SwitchingButton: FC<SwitchingButtonProperties> = ({ buttonData, color }) =
         return {
           buttonColor: tw`bg-primary-yellow hover:bg-primary-yellow-reaction`,
           borderColor: tw`border-primary-yellow hover:border-primary-yellow-reaction`,
+          hoverColor: tw`hover:bg-white-reaction-yellow`,
           textColor: tw`text-primary-yellow`,
         };
       case "green":
         return {
           buttonColor: tw`bg-primary-green hover:bg-primary-green-reaction`,
           borderColor: tw`border-primary-green hover:border-primary-green-reaction`,
+          hoverColor: tw`hover:bg-white-reaction-green`,
           textColor: tw`text-primary-green`,
         };
       // no default
@@ -33,7 +35,7 @@ const SwitchingButton: FC<SwitchingButtonProperties> = ({ buttonData, color }) =
   return (
     <SwitchingButtonBox
       tabIndex={0}
-      css={[colors.borderColor, selected && colors.buttonColor]}
+      css={[colors.borderColor, selected ? colors.buttonColor : colors.hoverColor]}
       onClick={() => {
         window.location.search = `select=${buttonData.query}`;
       }}

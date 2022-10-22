@@ -6,7 +6,7 @@ exports[`(components) molecules/switching > take snap shot 1`] = `
     class="css-1qq4q19"
   >
     <button
-      class="css-109tye1-SwitchingButton"
+      class="css-1vjtn3a-SwitchingButton"
       tabindex="0"
     >
       <p
@@ -16,7 +16,7 @@ exports[`(components) molecules/switching > take snap shot 1`] = `
       </p>
     </button>
     <button
-      class="css-109tye1-SwitchingButton"
+      class="css-1vjtn3a-SwitchingButton"
       tabindex="0"
     >
       <p
