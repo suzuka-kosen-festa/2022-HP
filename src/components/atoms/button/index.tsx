@@ -13,38 +13,25 @@ const Button = <T extends AnyComponent>({
   as,
   ...rest
 }: ButtonProperties<T>): JSX.Element => {
-  /* eslint-disable consistent-return */
-  const buttonColor = useMemo(() => {
+  // eslint-disable-next-line consistent-return
+  const colors = useMemo(() => {
     switch (colorKey) {
       case "yellow":
-        return tw`bg-primary-yellow hover:bg-primary-yellow-reaction`;
+        return { buttonColor: tw`bg-primary-yellow hover:bg-primary-yellow-reaction`, textColor: tw`text-text`};
       case "green":
-        return tw`bg-primary-green hover:bg-primary-green-reaction`;
+        return { buttonColor: tw`bg-primary-green hover:bg-primary-green-reaction`, textColor: tw`text-text`};
       case "blue":
-        return tw`bg-primary-blue hover:bg-primary-blue-reaction`;
+        return { buttonColor: tw`bg-primary-blue hover:bg-primary-blue-reaction`, textColor: tw`text-white`};
       case "purple":
-        return tw`bg-primary-purple hover:bg-primary-purple-reaction`;
+        return { buttonColor: tw`bg-primary-purple hover:bg-primary-purple-reaction`, textColor: tw`text-white`};
       case "red":
-        return tw`bg-primary-red hover:bg-primary-red-reaction`;
+        return { buttonColor: tw`bg-primary-red hover:bg-primary-red-reaction`, textColor: tw`text-white`};
       // no default
     }
   }, [colorKey]);
-  const textColor = useMemo(() => {
-    switch (colorKey) {
-      case "yellow":
-      case "green":
-        return tw`text-text`;
-      case "blue":
-      case "purple":
-      case "red":
-        return tw`text-white`;
-      // no default
-    }
-  }, [colorKey]);
-  /* eslint-enable consistent-return */
   return (
-    <ButtonBox css={[buttonColor, boxStyles]} as={as} tabIndex={0} {...rest}>
-      <Text css={[textColor, textStyles]}>{children}</Text>
+    <ButtonBox css={[colors.buttonColor, boxStyles]} as={as} tabIndex={0} {...rest}>
+      <Text css={[colors.textColor, textStyles]}>{children}</Text>
     </ButtonBox>
   );
 };
