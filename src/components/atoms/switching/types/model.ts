@@ -9,10 +9,10 @@ type Color = Extract<ColorVariant, "yellow" | "green">;
 
 export type SwitchingButtonProperties = {
   buttonData: ButtonContent;
-  color: Color
-}
+  color: Color;
+};
 
 export type SwitchingProperties = {
   buttonData: ReadonlyArray<ButtonContent>;
-  color: Color
+  color: Color;
 };

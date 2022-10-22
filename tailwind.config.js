@@ -13,7 +13,7 @@ module.exports = {
           "radial-gradient(circle farthest-corner at 28% 100%, #e6c100 0%, #e66e00 22%, #e6005f 35%, transparent 65%), linear-gradient(145deg, #651ff9 10%, #b900ad 70%)",
       },
       borderWidth: {
-        5: "5px"
+        5: "5px",
       },
       colors: {
         ...variables.color,
@@ -42,11 +42,11 @@ module.exports = {
         main: "68.75vw",
       },
       minHeight: {
-        switching: "6.25vw"
+        switching: "6.25vw",
       },
       minWidth: {
         "switching-md": "42.1vw",
-        switching: "31.25vw"
+        switching: "31.25vw",
       },
       padding: {
         4.5: "1.125rem",
@@ -62,7 +62,7 @@ module.exports = {
         main: "13.4vw",
       },
       space: {
-        2.25: "0.5625rem"
+        2.25: "0.5625rem",
       },
     },
   },

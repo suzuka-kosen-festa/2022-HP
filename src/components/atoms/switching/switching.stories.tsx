@@ -1,5 +1,5 @@
 import type { ComponentStoryObj, ComponentMeta } from "@storybook/react";
-import { ComponentPropsWithoutRef } from 'react';
+import { ComponentPropsWithoutRef } from "react";
 import { Switching } from "./index";
 
 type T = typeof Switching;
@@ -10,14 +10,14 @@ const args: ComponentPropsWithoutRef<T> = {
   buttonData: [
     {
       buttonText: "10.30",
-      query: "30"
+      query: "30",
     },
     {
       buttonText: "10.31",
-      query: "31"
-    }
+      query: "31",
+    },
   ],
-  color: "yellow"
+  color: "yellow",
 };
 
 export default {
@@ -26,16 +26,16 @@ export default {
     buttonData: {
       description: "Data of button",
       control: {
-        type: "array"
-      }
+        type: "array",
+      },
     },
     color: {
       description: "Color of button",
       control: {
         type: "select",
-        options: ["yellow", "green"]
-      }
-    }
+        options: ["yellow", "green"],
+      },
+    },
   },
   component: Switching,
 } as Meta;
@@ -43,11 +43,11 @@ export default {
 export const Default: Story = {};
 export const Yellow: Story = {
   args: {
-    color: "yellow"
-  }
-}
+    color: "yellow",
+  },
+};
 export const Green: Story = {
   args: {
-    color: "green"
-  }
-}
+    color: "green",
+  },
+};
