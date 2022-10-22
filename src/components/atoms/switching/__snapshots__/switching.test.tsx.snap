@@ -1,0 +1,30 @@
+// Vitest Snapshot v1
+
+exports[`(components) molecules/switching > take snap shot 1`] = `
+<div>
+  <div
+    class="css-1qq4q19"
+  >
+    <button
+      class="css-109tye1-SwitchingButton"
+      tabindex="0"
+    >
+      <p
+        class="css-1as8kh0-SwitchingButton"
+      >
+        10.30
+      </p>
+    </button>
+    <button
+      class="css-109tye1-SwitchingButton"
+      tabindex="0"
+    >
+      <p
+        class="css-1as8kh0-SwitchingButton"
+      >
+        10.31
+      </p>
+    </button>
+  </div>
+</div>
+`;
