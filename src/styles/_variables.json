@@ -37,7 +37,8 @@
     "social-spotify": "#1DB954",
     "social-spotify-reaction": "#1aa34a",
     "white-reaction-yellow": "#fff9e0",
-    "white-reaction-green": "#e1eddf"
+    "white-reaction-green": "#e1eddf",
+    "border-primary": "#17102099"
   },
   "red": {
     "500": "#e02459",
