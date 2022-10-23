@@ -34,6 +34,7 @@ module.exports = {
       },
       margin: {
         4.5: "1.125rem",
+        5.5: "1.375rem",
         21: "5.375rem",
         64.75: "16.1875rem",
       },
@@ -58,8 +59,7 @@ module.exports = {
         header: "20%",
         "hero-lg": "28.75vw",
         hero: "24vw",
-        "main-md": "8vw",
-        main: "13.4vw",
+        main: "8vw",
       },
       screens: {
         xs: "360px",
