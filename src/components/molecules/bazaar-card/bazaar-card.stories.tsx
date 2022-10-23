@@ -16,7 +16,38 @@ const args: ComponentPropsWithoutRef<T> = {
 
 export default {
   args,
-  argTypes: {},
+  argTypes: {
+    name: {
+      description: "Title of bazaar",
+      control: {
+        type: "text",
+      },
+    },
+    description: {
+      description: "Description of bazaar",
+      control: {
+        type: "text",
+      },
+    },
+    image: {
+      description: "Image of bazaar",
+      control: {
+        type: "text",
+      },
+    },
+    prices: {
+      description: "Prices of bazaar",
+      control: {
+        type: "array",
+      },
+    },
+    group: {
+      description: "Place of bazaar",
+      control: {
+        type: "text",
+      },
+    },
+  },
   component: BazaarCard,
 } as Meta;
 
