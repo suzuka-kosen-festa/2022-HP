@@ -1,0 +1,25 @@
+// Vitest Snapshot v1
+
+exports[`(components) atoms/time-table-element > take snap shot 1`] = `
+<div>
+  <div
+    class="css-1ycdo6t-TimeTableElement"
+  >
+    <time
+      class="css-1phduix-TimeTableElement"
+    >
+      <span
+        class="css-zu2x60-TimeTableElement"
+      >
+        09:00
+      </span>
+      09:30
+    </time>
+    <p
+      class="css-1phduix-TimeTableElement"
+    >
+      オープニング
+    </p>
+  </div>
+</div>
+`;
