@@ -11,7 +11,7 @@ const LayoutBox = tw.div`min-h-screen bg-white`;
 
 const MainBox = tw.div`flex flex-col items-center relative z-10 space-y-6 sm:space-y-16`;
 
-const MainWrapper = tw.div`mx-auto w-full max-w-main md:max-w-main-md  space-y-10 sm:space-y-20`;
+const MainWrapper = tw.div`mx-auto w-full max-w-main md:max-w-main-md space-y-10 sm:space-y-20`;
 
 const lists = [
   {
