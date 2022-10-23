@@ -1,3 +1,3 @@
 export type SponsorProperties = {
-  sponsors: ReadonlyArray<string>
+  sponsors: ReadonlyArray<string>;
 };

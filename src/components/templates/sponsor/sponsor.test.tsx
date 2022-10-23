@@ -6,8 +6,8 @@ import * as stories from "./sponsor.stories";
 const { Default } = composeStories(stories);
 
 const options = {
-  name: "Sponsor page"
-}
+  name: "Sponsor page",
+};
 
 describe("(components) templates/sponsor", () => {
   test("to be templates", () => {
