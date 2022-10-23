@@ -24,32 +24,11 @@ exports[`(components) organisms/ticket-section > take snap shot 1`] = `
     <nav
       class="css-1ipjmcm"
     >
-      <a
-        class="css-jhmgok-Button"
-        href="#"
-        rel="noopener noreferrer"
-        tabindex="0"
-        target="_blank"
+      <p
+        class="css-17zcuf2"
       >
-        <p
-          class="css-7bzdgk-Button"
-        >
-          中学生とその保護者の皆様の入場受付はこちら
-        </p>
-      </a>
-      <a
-        class="css-jhmgok-Button"
-        href="#"
-        rel="noopener noreferrer"
-        tabindex="0"
-        target="_blank"
-      >
-        <p
-          class="css-7bzdgk-Button"
-        >
-          OB・OGの皆様の入場受付はこちら
-        </p>
-      </a>
+        フォームでの受付終了しました。たくさんのご応募ありがとうございました。
+      </p>
     </nav>
   </section>
 </div>
