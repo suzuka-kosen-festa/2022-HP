@@ -23,6 +23,7 @@ module.exports = {
       },
       fontSize: {
         "3.5xl": "2rem",
+        "4.5xl": "2.5rem",
         "ink-md": "4.5vw",
         ink: "7.2vw",
       },
@@ -62,13 +63,14 @@ module.exports = {
         main: "8vw",
       },
       screens: {
-        xs: "360px",
+        "3xl": "1727px",
+        bazaar: "640px",
       },
       space: {
         2.25: "0.5625rem",
       },
       width: {
-        75: "18.75rem",
+        112.5: "28.125rem",
       },
     },
   },
