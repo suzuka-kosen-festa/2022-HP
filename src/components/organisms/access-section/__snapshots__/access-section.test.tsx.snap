@@ -50,7 +50,7 @@ exports[`(components) organisms/access-section > take snap shot 1`] = `
       </p>
       <img
         alt="周辺の駐車場の地図"
-        class="css-oa44wn-AccessSection"
+        class="css-1tfgm5w-AccessSection"
         height="464"
         loading="lazy"
         src="/statics/parking.webp"

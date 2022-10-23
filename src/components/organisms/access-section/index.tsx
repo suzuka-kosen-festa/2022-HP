@@ -57,7 +57,7 @@ const AccessSection: FC<MapSectionProperties> = ({
       <Text css={tw`whitespace-pre-wrap mb-4 sm:mb-8`}>{attention}</Text>
       <img
         css={css`
-          aspect-ratio: 40 / 29;
+          aspect-ratio: 2049 / 1478;
         `}
         src="/statics/parking.webp"
         alt="周辺の駐車場の地図"
