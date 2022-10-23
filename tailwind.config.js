@@ -29,6 +29,7 @@ module.exports = {
         xss: "2.4vw",
         "3.5xl": "2rem",
         "4.5xl": "2.5rem",
+        "4.5xl": "2.5rem",
         "ink-md": "4.5vw",
         ink: "7.2vw",
       },
