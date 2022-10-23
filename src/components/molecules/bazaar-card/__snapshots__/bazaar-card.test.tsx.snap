@@ -1,0 +1,51 @@
+// Vitest Snapshot v1
+
+exports[`(components) molecules/bazaar-card > take snap shot 1`] = `
+<div>
+  <li
+    class="css-16wvccd"
+  >
+    <img
+      alt="バザーに関するイメージ画像"
+      class="css-61q9gc-BazaarCard"
+      height="200"
+      src="https://panproduct.com/blog/wp-content/uploads/2021/07/32.png"
+      width="300"
+    />
+    <div
+      class="css-z0erpm"
+    >
+      <div
+        class="css-1q8fkzn"
+      >
+        <p
+          class="css-jprqak"
+        >
+          美術部
+        </p>
+      </div>
+      <h2
+        class="css-hh2gwj"
+      >
+        A.作品展示
+      </h2>
+      <p
+        class="css-vaqku0-BazaarCard"
+      >
+        美術部員が描き溜めてきた作品たちを展示します。ぜひ見に来てね！
+      </p>
+      <ul
+        class="css-luxo22"
+      >
+        <li>
+          <p
+            class="css-4gn9jk"
+          >
+            無料
+          </p>
+        </li>
+      </ul>
+    </div>
+  </li>
+</div>
+`;

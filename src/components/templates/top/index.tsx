@@ -4,7 +4,6 @@ import type { TopProperties } from "./types/model";
 import { Caution } from "../../molecules/caution";
 import { Text } from "../../atoms/text";
 import { TicketSection } from "../../organisms/ticket-section";
-import type { AnchorData } from "../../organisms/ticket-section/type/model";
 import { FestaSection } from "../../organisms/festa-section";
 import { SnsSection } from "../../organisms/sns-section";
 import type { SocialData } from "../../organisms/sns-section/types/model";
@@ -32,19 +31,6 @@ const cautions = [
     イベントにおける<Highlight>声出し</Highlight>はご遠慮いただき、<Highlight>拍手</Highlight>での応援にご協力ください。
   </CautionText>,
   <CautionText key="4">駐車場はスペースが限られているため、できるだけ公共交通機関を使ってお越しください。</CautionText>,
-];
-
-const ticketLinks: Array<AnchorData> = [
-  {
-    context: "中学生とその保護者の皆様の入場受付はこちら",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOW-ZRsgRQFaZfdusbo_7IycPz6i0dgo2ou-TEk_UEZZIfrw/viewform",
-    key: "JHS",
-  },
-  {
-    context: "OB・OGの皆様の入場受付はこちら",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSeuij0pjIOD8JTS__argba787SJ6Mj-hkpUNlDiPfo7ezrf5A/viewform",
-    key: "OB",
-  },
 ];
 
 const socialLinks: Array<SocialData> = [
@@ -88,7 +74,7 @@ const Top: FC<TopProperties> = () => (
     <CautionBox aria-label="『Re:ROAD』開催にあたってのお願い">
       <Caution sentence={cautions} title="『Re:ROAD』開催にあたってのお願い" />
     </CautionBox>
-    <TicketSection anchorData={ticketLinks} title="Tickets">
+    <TicketSection title="Tickets">
       {
         "入場制限により、ご入場いただける方を一部の方のみに限定させていただいております。\n締切: 10/23 (日)\n\nまた、中学生の皆様向けに 中学生受験相談室 というイベントを実施いたしますので、ぜひご参加ください。\n日時：10/30（日)　10:30~12:00、14:00~15:30\n場所：マルチメディア棟1階 図書館"
       }

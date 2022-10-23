@@ -1,0 +1,73 @@
+// Vitest Snapshot v1
+
+exports[`(components) templates/sponsor > take snap shot 1`] = `
+<div>
+  <main
+    aria-label="Sponsor page"
+    class="css-10jk6q1"
+  >
+    <div
+      class="css-159ot27-Sponsor"
+    >
+      <img
+        alt="ink"
+        class="css-mhf7w5-Title"
+        height="580"
+        src="/statics/Ink3_red.webp"
+        width="592"
+      />
+      <h1
+        class="css-1ueto1"
+      >
+        Sponsor
+      </h1>
+    </div>
+    <div
+      class="css-dvxtzn"
+    >
+      <h2
+        class="css-1mrebfa-Sponsor"
+      >
+        第57回鈴鹿高専祭を開催するにあたり、支援してくださった企業様のお名前を以下に記載させていただきます。
+      </h2>
+      <ul
+        class="css-onaqla-Sponsor"
+      >
+        <li>
+          <p
+            class="css-13o8352-Sponsor"
+          >
+            株式会社 鈴鹿
+          </p>
+        </li>
+        <li>
+          <p
+            class="css-13o8352-Sponsor"
+          >
+            有限会社 高専
+          </p>
+        </li>
+        <li>
+          <p
+            class="css-13o8352-Sponsor"
+          >
+            〇〇クリニック
+          </p>
+        </li>
+      </ul>
+      <a
+        class="css-voqv4l-Button"
+        href="/"
+        role="button"
+        tabindex="0"
+      >
+        <p
+          class="css-48eax3-Button"
+        >
+          トップページに戻る
+        </p>
+      </a>
+    </div>
+  </main>
+</div>
+`;

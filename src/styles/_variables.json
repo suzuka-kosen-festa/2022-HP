@@ -35,7 +35,10 @@
     "social-instagram-blue": "#7638FA",
     "social-instagram-blue-reaction": "#651ff9",
     "social-spotify": "#1DB954",
-    "social-spotify-reaction": "#1aa34a"
+    "social-spotify-reaction": "#1aa34a",
+    "white-reaction-yellow": "#fff9e0",
+    "white-reaction-green": "#e1eddf",
+    "border-primary": "#17102099"
   },
   "red": {
     "500": "#e02459",
@@ -43,10 +46,12 @@
     "700": "#BB1D52"
   },
   "yellow": {
+    "50": "#fff9e0",
     "400": "#ffcb00",
     "500": "#FFC200"
   },
   "green": {
+    "50": "#e1eddf",
     "400": "#6eb35a",
     "500": "#57A73E"
   },

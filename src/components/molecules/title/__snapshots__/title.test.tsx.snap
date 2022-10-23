@@ -1,0 +1,127 @@
+// Vitest Snapshot v1
+
+exports[`(components) molecules/title > (blue) take snap shot 1`] = `
+<div>
+  <div
+    class="css-79elbk"
+  >
+    <img
+      alt="ink"
+      class="css-mhf7w5-Title"
+      height="580"
+      src="/statics/Ink3_blue.webp"
+      width="592"
+    />
+    <h1
+      class="css-1ueto1"
+    >
+      This is test
+    </h1>
+  </div>
+</div>
+`;
+
+exports[`(components) molecules/title > (default) take snap shot 1`] = `
+<div>
+  <div
+    class="css-79elbk"
+  >
+    <img
+      alt="ink"
+      class="css-mhf7w5-Title"
+      height="580"
+      src="/statics/Ink3_yellow.webp"
+      width="592"
+    />
+    <h1
+      class="css-1ueto1"
+    >
+      This is test
+    </h1>
+  </div>
+</div>
+`;
+
+exports[`(components) molecules/title > (green) take snap shot 1`] = `
+<div>
+  <div
+    class="css-79elbk"
+  >
+    <img
+      alt="ink"
+      class="css-mhf7w5-Title"
+      height="580"
+      src="/statics/Ink3_green.webp"
+      width="592"
+    />
+    <h1
+      class="css-1ueto1"
+    >
+      This is test
+    </h1>
+  </div>
+</div>
+`;
+
+exports[`(components) molecules/title > (purple) take snap shot 1`] = `
+<div>
+  <div
+    class="css-79elbk"
+  >
+    <img
+      alt="ink"
+      class="css-mhf7w5-Title"
+      height="580"
+      src="/statics/Ink3_purple.webp"
+      width="592"
+    />
+    <h1
+      class="css-1ueto1"
+    >
+      This is test
+    </h1>
+  </div>
+</div>
+`;
+
+exports[`(components) molecules/title > (red) take snap shot 1`] = `
+<div>
+  <div
+    class="css-79elbk"
+  >
+    <img
+      alt="ink"
+      class="css-mhf7w5-Title"
+      height="580"
+      src="/statics/Ink3_red.webp"
+      width="592"
+    />
+    <h1
+      class="css-1ueto1"
+    >
+      This is test
+    </h1>
+  </div>
+</div>
+`;
+
+exports[`(components) molecules/title > (yellow) take snap shot 1`] = `
+<div>
+  <div
+    class="css-79elbk"
+  >
+    <img
+      alt="ink"
+      class="css-mhf7w5-Title"
+      height="580"
+      src="/statics/Ink3_yellow.webp"
+      width="592"
+    />
+    <h1
+      class="css-1ueto1"
+    >
+      This is test
+    </h1>
+  </div>
+</div>
+`;

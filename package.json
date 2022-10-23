@@ -25,7 +25,7 @@
     "gen:style": "token-transformer data/tokens.json data/tmp.json && node ./scripts/build.js && rimraf data/tmp.json",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "chromatic": "npx chromatic --project-token=89a2c36a25bf"
+    "chromatic": "npx chromatic --project-token=YOUR_TOKEN"
   },
   "dependencies": {
     "@emotion/cache": "11.10.3",
@@ -33,7 +33,7 @@
     "@emotion/styled": "11.10.4",
     "@iconify/react": "4.0.0",
     "@popperjs/core": "2.11.6",
-    "dayjs": "1.11.5",
+    "dayjs": "1.11.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-intersection-observer": "9.4.0",
@@ -42,7 +42,7 @@
     "wouter": "2.8.0-alpha.2"
   },
   "devDependencies": {
-    "@babel/core": "7.19.3",
+    "@babel/core": "7.19.6",
     "@babel/plugin-transform-react-jsx": "7.19.0",
     "@emotion/babel-plugin-jsx-pragmatic": "0.2.0",
     "@emotion/css": "11.10.0",
@@ -77,9 +77,9 @@
     "autoprefixer": "10.4.12",
     "babel-loader": "8.2.5",
     "babel-plugin-macros": "3.1.0",
-    "chromatic": "6.10.4",
+    "chromatic": "6.10.5",
     "cross-env": "7.0.3",
-    "eslint": "8.25.0",
+    "eslint": "8.26.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-typescript": "17.0.0",
     "eslint-config-prettier": "8.5.0",
@@ -95,7 +95,7 @@
     "rimraf": "3.0.2",
     "rollup": "3.2.3",
     "style-dictionary": "3.7.1",
-    "tailwindcss": "3.2.0",
+    "tailwindcss": "3.2.1",
     "terser": "5.15.1",
     "token-transformer": "0.0.27",
     "typescript": "4.8.4",

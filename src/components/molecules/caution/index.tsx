@@ -15,8 +15,9 @@ const Caution: FC<CautionProperties> = ({ title, sentence, ...rest }) => (
       <SubHeading css={tw`flex self-center`}>{title}</SubHeading>
     </CautionTitle>
     <ul css={tw`list-disc list-outside space-y-0.5 sm:space-y-2`}>
-      {sentence.map(value => (
-        <li css={tw`ml-4.5`} key={`${value}`}>
+      {sentence.map((value, index) => (
+        // eslint-disable-next-line react/no-array-index-key
+        <li css={tw`ml-4.5`} key={index}>
           {value}
         </li>
       ))}
