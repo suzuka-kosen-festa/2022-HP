@@ -12,6 +12,9 @@ module.exports = {
         "social-instagram-reaction":
           "radial-gradient(circle farthest-corner at 28% 100%, #e6c100 0%, #e66e00 22%, #e6005f 35%, transparent 65%), linear-gradient(145deg, #651ff9 10%, #b900ad 70%)",
       },
+      borderWidth: {
+        5: "5px",
+      },
       colors: {
         ...variables.color,
       },
@@ -19,6 +22,7 @@ module.exports = {
         zen: ["Zen KakuGothic New", "sans-serif"],
       },
       fontSize: {
+        "3.5xl": "2rem",
         "ink-md": "4.5vw",
         ink: "7.2vw",
       },
@@ -37,6 +41,13 @@ module.exports = {
         "main-md": "81.25vw",
         main: "68.75vw",
       },
+      minHeight: {
+        switching: "6.25vw",
+      },
+      minWidth: {
+        "switching-md": "42.1vw",
+        switching: "31.25vw",
+      },
       padding: {
         4.5: "1.125rem",
         13: "3.25rem",
@@ -49,6 +60,9 @@ module.exports = {
         hero: "24vw",
         "main-md": "8vw",
         main: "13.4vw",
+      },
+      space: {
+        2.25: "0.5625rem",
       },
     },
   },
