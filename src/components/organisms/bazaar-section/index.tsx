@@ -23,7 +23,7 @@ const BazaarSection: FC<BazaarSectionProperties> = ({
     </Heading>
     <Caution title={attentionTitle} sentence={attentions} css={tw`mb-4 sm:mb-8`} />
     <Text css={tw`whitespace-pre-wrap mb-6 sm:mb-16`}>{description}</Text>
-    <Link to="/bazaar">
+    <Link to="/bazaar?select=eating">
       <Button colorKey="purple" as="a" role="button">
         {buttonText}
       </Button>

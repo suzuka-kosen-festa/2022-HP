@@ -55,7 +55,7 @@ exports[`(components) organisms/layout > take snap shot 1`] = `
         >
           <a
             class="css-1lc6xq8-LinkItem"
-            href="/bazaar"
+            href="/bazaar?select=eating"
           >
             Bazaar
           </a>
