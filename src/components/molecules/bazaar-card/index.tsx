@@ -6,7 +6,7 @@ const ChipBox = tw.div`inline-flex items-start bg-primary-purple px-4 py-1 round
 
 const ChipText = tw.p`font-zen text-white font-bold text-xs sm:text-base select-none`;
 
-const BazaarCardBox = tw.li`inline-flex flex-col xs:w-75 border border-border-primary rounded-2xl overflow-hidden`;
+const BazaarCardBox = tw.li`inline-flex flex-col bazaar:w-112.5 border border-border-primary rounded-2xl overflow-hidden`;
 
 const BazaarCardImage = tw.img`h-full`;
 
@@ -34,8 +34,8 @@ const BazaarCard: FC<BazaarCardProperties> = ({ name, description, image, prices
       `}
       src={image}
       alt="バザーに関するイメージ画像"
-      width={300}
-      height={200}
+      width={450}
+      height={300}
     />
     <BazaarCardContent>
       <Chip group={group} />

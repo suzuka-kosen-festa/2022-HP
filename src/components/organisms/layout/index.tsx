@@ -30,7 +30,7 @@ const lists = [
     name: "Schedule",
   },
   {
-    link: "/bazaar",
+    link: "/bazaar?select=eating",
     color: tw`text-primary-purple`,
     name: "Bazaar",
   },

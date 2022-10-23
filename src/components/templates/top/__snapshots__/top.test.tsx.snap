@@ -271,7 +271,7 @@ exports[`(components) templates/top > take snap shot 1`] = `
       </p>
       <a
         class="css-fmcavb-Button"
-        href="/bazaar"
+        href="/bazaar?select=eating"
         role="button"
         tabindex="0"
       >
