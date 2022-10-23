@@ -1,5 +1,5 @@
 import type { ComponentStoryObj, ComponentMeta } from "@storybook/react";
-import { ComponentPropsWithoutRef } from 'react';
+import { ComponentPropsWithoutRef } from "react";
 import { BazaarCard } from ".";
 
 type T = typeof BazaarCard;
@@ -11,7 +11,7 @@ const args: ComponentPropsWithoutRef<T> = {
   description: "美術部員が描き溜めてきた作品たちを展示します。ぜひ見に来てね！",
   image: "https://panproduct.com/blog/wp-content/uploads/2021/07/32.png",
   prices: ["無料"],
-  group: "美術部"
+  group: "美術部",
 };
 
 export default {

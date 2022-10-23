@@ -1,6 +1,6 @@
 export type ChipProperties = {
-  group: string
-}
+  group: string;
+};
 
 export type BazaarCardProperties = {
   name: string;
