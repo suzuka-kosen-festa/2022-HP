@@ -61,9 +61,15 @@ module.exports = {
         "main-md": "8vw",
         main: "13.4vw",
       },
+      screens: {
+        xs: "360px"
+      },
       space: {
         2.25: "0.5625rem",
       },
+      width: {
+        75: "18.75rem"
+      }
     },
   },
   variants: {
