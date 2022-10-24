@@ -16,12 +16,12 @@ const ModalWrapper = tw.section`flex items-center bg-white border-primary-yellow
 
 const ModalBox = tw.div`relative w-full max-w-lg mx-auto text-center space-y-4 space-x-4`;
 
-const TimeTableElement: FC<TimeTableElementProperties> = ({ title, descriptions, start_time, end_time, stage }) => {
+const TimeTableElement: FC<TimeTableElementProperties> = ({ event }) => {
   const [isShow, setShow] = useState<boolean>(false);
   const ref = useRef<HTMLDivElement>(null);
   // eslint-disable-next-line consistent-return
   const backgroundColor = useMemo(() => {
-    switch (stage) {
+    switch (event.stage) {
       case "main":
         return tw`bg-primary-red`;
       case "sub":
@@ -32,12 +32,12 @@ const TimeTableElement: FC<TimeTableElementProperties> = ({ title, descriptions,
         return tw`bg-primary-green`;
       // no default
     }
-  }, [stage]);
+  }, [event.stage]);
   const times = useMemo(() => {
-    const start = dayjs(start_time).format("HH:mm");
-    const end = dayjs(end_time).format("HH:mm");
+    const start = dayjs(event.start_time).format("HH:mm");
+    const end = dayjs(event.end_time).format("HH:mm");
     return { start, end };
-  }, [end_time, start_time]);
+  }, [event.end_time, event.start_time]);
   useClickAway(ref, () => setShow(false));
   useKeyPress("Escape", () => setShow(false));
   return (
@@ -47,7 +47,7 @@ const TimeTableElement: FC<TimeTableElementProperties> = ({ title, descriptions,
           <span css={tw`after:content-["~"]`}>{times.start}</span>
           {times.end}
         </time>
-        <p css={tw`font-zen font-bold text-white text-xss md:text-xl select-none`}>{title}</p>
+        <p css={tw`font-zen font-bold text-white text-xss md:text-xl select-none`}>{event.title}</p>
       </TimeTableElementBox>
       <Portal portalId="#modal">
         {isShow ? (
@@ -61,8 +61,8 @@ const TimeTableElement: FC<TimeTableElementProperties> = ({ title, descriptions,
                   tabIndex={0}
                   onClick={() => setShow(false)}
                 />
-                <h2 css={tw`font-zen font-medium text-text text-base md:text-3.5xl select-none`}>{title}</h2>
-                <p css={tw`font-zen font-medium text-text text-xs md:text-2xl select-none`}>{descriptions}</p>
+                <h2 css={tw`font-zen font-medium text-text text-base md:text-3.5xl select-none`}>{event.title}</h2>
+                <p css={tw`font-zen font-medium text-text text-xs md:text-2xl select-none`}>{event.descriptions}</p>
               </ModalBox>
             </ModalWrapper>
           </Overlay>

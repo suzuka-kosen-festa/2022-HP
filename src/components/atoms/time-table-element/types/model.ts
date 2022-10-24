@@ -1,3 +1,5 @@
-import type { LiveEventWithoutId } from "../../../../api/liveevent";
+import type { LiveEvent } from "../../../../api/prisma";
 
-export type TimeTableElementProperties = Omit<LiveEventWithoutId, "date" | "venue">;
+export type TimeTableElementProperties = {
+  event: LiveEvent;
+};
