@@ -2,7 +2,7 @@
 
 exports[`(components) atoms/time-table-element > take snap shot 1`] = `
 <div>
-  <div
+  <li
     class="css-1ycdo6t-TimeTableElement"
   >
     <time
@@ -20,6 +20,6 @@ exports[`(components) atoms/time-table-element > take snap shot 1`] = `
     >
       オープニング
     </p>
-  </div>
+  </li>
 </div>
 `;

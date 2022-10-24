@@ -1,4 +1,4 @@
-import type { Bazaar, BazaarPrices, BazaarType } from "./prisma";
+import type { Bazaar, BazaarPrices } from "./prisma";
 
 export type BazaarWithoutId = Omit<Bazaar, "id"> & {
   prices: ReadonlyArray<BazaarPrices>;

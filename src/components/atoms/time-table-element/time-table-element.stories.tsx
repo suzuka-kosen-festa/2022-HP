@@ -16,7 +16,7 @@ const args: ComponentPropsWithoutRef<T> = {
     start_time: "2022-10-30 9:00",
     end_time: "2022-10-30 9:30",
     stage: "main",
-  }
+  },
 };
 
 export default {
@@ -25,9 +25,9 @@ export default {
     event: {
       description: "LiveEvent without id",
       control: {
-        type: "object"
-      }
-    }
+        type: "object",
+      },
+    },
   },
   component: TimeTableElement,
 } as Meta;
@@ -38,7 +38,7 @@ export const Main: Story = {
     event: {
       ...args.event,
       stage: "main",
-    }
+    },
   },
 };
 export const Sub: Story = {
@@ -46,7 +46,7 @@ export const Sub: Story = {
     event: {
       ...args.event,
       stage: "sub",
-    }
+    },
   },
 };
 export const Live: Story = {
@@ -54,7 +54,7 @@ export const Live: Story = {
     event: {
       ...args.event,
       stage: "live",
-    }
+    },
   },
 };
 export const Game: Story = {
@@ -62,6 +62,6 @@ export const Game: Story = {
     event: {
       ...args.event,
       stage: "game",
-    }
+    },
   },
 };

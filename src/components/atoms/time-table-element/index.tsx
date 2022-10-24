@@ -8,7 +8,7 @@ import { useClickAway } from "../../../hooks/useClickAway";
 import { Portal } from "../portal";
 import Icon from "../icon";
 
-const TimeTableElementBox = tw.div`flex flex-col cursor-pointer px-1 py-0.5 sm:(px-6 py-4)`;
+const TimeTableElementBox = tw.li`flex flex-col cursor-pointer px-1 py-0.5 sm:(px-6 py-4)`;
 
 const Overlay = tw.div`flex fixed justify-center items-center inset-0 z-50 overflow-y-auto bg-gray-300 bg-opacity-70`;
 
