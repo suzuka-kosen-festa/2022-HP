@@ -29,13 +29,13 @@ const TimeTableRow: FC<TimeTableRowProperties> = ({ events, intervals, stage }) 
   const color = useMemo(() => {
     switch (stage) {
       case "main":
-        return tw`border-primary-red border md:border-5`;
+        return tw`border-primary-red bg-red-50 border md:border-5`;
       case "sub":
-        return tw`border-primary-blue border md:border-5`;
+        return tw`border-primary-blue bg-blue-50 border md:border-5`;
       case "live":
-        return tw`border-primary-purple border md:border-5`;
+        return tw`border-primary-purple bg-purple-50 border md:border-5`;
       case "game":
-        return tw`border-primary-green border md:border-5`;
+        return tw`border-primary-green bg-green-50 border md:border-5`;
       // no default
     }
   }, [stage]);
