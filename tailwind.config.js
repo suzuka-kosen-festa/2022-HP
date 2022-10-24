@@ -32,6 +32,9 @@ module.exports = {
         "ink-md": "4.5vw",
         ink: "7.2vw",
       },
+      height: {
+        "time-table-row": "120vw",
+      },
       inset: {
         "ink-top-md": "8.75vw",
         "ink-left-md": "10vw",
