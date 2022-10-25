@@ -6,8 +6,8 @@ import * as stories from "./member-card.stories";
 const { Default } = composeStories(stories);
 
 const options = {
-  name: ""
-}
+  name: "",
+};
 
 describe("(components) molecules/member", () => {
   test("to be molecules", () => {

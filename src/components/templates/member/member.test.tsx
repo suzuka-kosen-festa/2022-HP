@@ -6,8 +6,8 @@ import * as stories from "./member.stories";
 const { Default } = composeStories(stories);
 
 const options = {
-  name: "member page"
-}
+  name: "member page",
+};
 
 describe("(components) templates/member", () => {
   test("to be templates", () => {

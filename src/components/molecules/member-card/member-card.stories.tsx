@@ -1,5 +1,5 @@
 import type { ComponentStoryObj, ComponentMeta } from "@storybook/react";
-import { ComponentPropsWithoutRef } from 'react';
+import { ComponentPropsWithoutRef } from "react";
 import { MemberCard } from ".";
 
 type T = typeof MemberCard;
@@ -8,7 +8,7 @@ type Meta = ComponentMeta<T>;
 
 const args: ComponentPropsWithoutRef<T> = {
   imagePath: "/statics/members/rintaro_itokawa.webp",
-  name: "Rintaro Itokawa"
+  name: "Rintaro Itokawa",
 };
 
 export default {
@@ -17,21 +17,21 @@ export default {
     imagePath: {
       description: "Pass the path to photo",
       control: {
-        type: "text"
-      }
+        type: "text",
+      },
     },
     name: {
       description: "Name of member",
       control: {
-        type: "text"
-      }
+        type: "text",
+      },
     },
     position: {
       description: "Position in the members",
       control: {
-        type: "text"
-      }
-    }
+        type: "text",
+      },
+    },
   },
   component: MemberCard,
 } as Meta;
@@ -41,13 +41,13 @@ export const LEADER: Story = {
   args: {
     imagePath: "/statics/members/rikuto_kuwahara.webp",
     name: "Rikuto Kuwahara",
-    position: "leader"
-  }
-}
+    position: "leader",
+  },
+};
 export const SUB: Story = {
   args: {
     imagePath: "/statics/members/shoma_kobayashi.webp",
     name: "Shoma Kobayashi",
-    position: "sub"
-  }
-}
+    position: "sub",
+  },
+};
