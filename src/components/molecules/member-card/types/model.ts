@@ -4,7 +4,7 @@ const Position = {
   other: ""
 }
 
-export type MemberProperties = {
+export type MemberCardProperties = {
   imagePath: string;
   name: string;
   position?: keyof typeof Position

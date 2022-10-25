@@ -1,8 +1,8 @@
 import type { ComponentStoryObj, ComponentMeta } from "@storybook/react";
 import { ComponentPropsWithoutRef } from 'react';
-import { Member } from ".";
+import { MemberCard } from ".";
 
-type T = typeof Member;
+type T = typeof MemberCard;
 type Story = ComponentStoryObj<T>;
 type Meta = ComponentMeta<T>;
 
@@ -33,7 +33,7 @@ export default {
       }
     }
   },
-  component: Member,
+  component: MemberCard,
 } as Meta;
 
 export const Default: Story = {};

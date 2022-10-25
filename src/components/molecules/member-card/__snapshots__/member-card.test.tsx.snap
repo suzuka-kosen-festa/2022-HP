@@ -5,14 +5,14 @@ exports[`(components) molecules/member > take snap shot 1`] = `
   <figure>
     <img
       alt="Rintaro Itokawa"
-      class="css-12d0tpu-Member"
+      class="css-8lx7w1-MemberCard"
       height="300"
       loading="lazy"
       src="/statics/members/rintaro_itokawa.webp"
       width="450"
     />
     <figcaption
-      class="css-hqvhe0-Member"
+      class="css-1mlw4fg-MemberCard"
     >
       <p
         class="css-uqq0xe"
