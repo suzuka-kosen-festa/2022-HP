@@ -9,6 +9,7 @@ exports[`(components) molecules/bazaar-card > take snap shot 1`] = `
       alt="バザーに関するイメージ画像"
       class="css-61q9gc-BazaarCard"
       height="300"
+      loading="lazy"
       src="https://panproduct.com/blog/wp-content/uploads/2021/07/32.png"
       width="450"
     />
