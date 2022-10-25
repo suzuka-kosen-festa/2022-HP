@@ -26,14 +26,21 @@ module.exports = {
         zen: ["Zen KakuGothic New", "sans-serif"],
       },
       fontSize: {
-        xss: "0.5rem",
+        xss: "2.4vw",
         "3.5xl": "2rem",
         "4.5xl": "2.5rem",
         "ink-md": "4.5vw",
         ink: "7.2vw",
       },
+      gridTemplateColumns: {
+        timetable: "1fr repeat(4, minmax(0, 10fr))",
+      },
+      gridTemplateRows: {
+        7: "repeat(7, minmax(0, 4fr))",
+      },
       height: {
-        "time-table-row": "120vw",
+        "time-table-row-md": "120vw",
+        "time-table-row": "125vw",
       },
       inset: {
         "ink-top-md": "8.75vw",
@@ -63,6 +70,7 @@ module.exports = {
         5.5: "1.375rem",
         13: "3.25rem",
         21: "5.25rem",
+        21.25: "5.3125rem",
         "header-x": "2vw",
         "header-x-md": "10vw",
         "header-y": "1vw",
@@ -73,6 +81,7 @@ module.exports = {
         main: "8vw",
       },
       screens: {
+        xs: "320px",
         "3xl": "1727px",
         bazaar: "640px",
       },
