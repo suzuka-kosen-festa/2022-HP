@@ -84,7 +84,7 @@ exports[`(components) templates/member > take snap shot 1`] = `
         </figure>
       </div>
       <div
-        class="css-1gbr933-Member"
+        class="css-1ndo8yw-Member"
       >
         <figure>
           <img
@@ -277,6 +277,18 @@ exports[`(components) templates/member > take snap shot 1`] = `
           </figcaption>
         </figure>
       </div>
+      <a
+        class="css-rj4g9h-Button"
+        href="/"
+        role="button"
+        tabindex="0"
+      >
+        <p
+          class="css-48eax3-Button"
+        >
+          トップページに戻る
+        </p>
+      </a>
     </div>
   </main>
 </div>
