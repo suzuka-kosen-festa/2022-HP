@@ -1,0 +1,283 @@
+// Vitest Snapshot v1
+
+exports[`(components) templates/member > take snap shot 1`] = `
+<div>
+  <main
+    aria-label="member page"
+    class="css-10jk6q1"
+  >
+    <div
+      class="css-v1klec-Member"
+    >
+      <img
+        alt="ink"
+        class="css-mhf7w5-Title"
+        height="580"
+        loading="eager"
+        src="/statics/Ink3_blue.webp"
+        width="592"
+      />
+      <h1
+        class="css-1ueto1"
+      >
+        Members
+      </h1>
+    </div>
+    <div
+      class="css-wkpw2c"
+    >
+      <h2
+        class="css-1sz2wzf-Member"
+      >
+        第57回鈴鹿高専祭 Re:ROADの実行委員をご紹介します！
+      </h2>
+      <div
+        class="css-14jner2-Member"
+      >
+        <figure>
+          <img
+            alt="Rikuto Kuwahara"
+            class="css-5ressk-MemberCard"
+            height="300"
+            loading="lazy"
+            src="/statics/members/rikuto_kuwahara.webp"
+            width="450"
+          />
+          <figcaption
+            class="css-fyk2nh-MemberCard"
+          >
+            <p
+              class="css-1cv9gjo"
+            >
+              LEADER
+            </p>
+            <p
+              class="css-uqq0xe"
+            >
+              Rikuto Kuwahara
+            </p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            alt="Shoma Kobayashi"
+            class="css-5ressk-MemberCard"
+            height="300"
+            loading="lazy"
+            src="/statics/members/shoma_kobayashi.webp"
+            width="450"
+          />
+          <figcaption
+            class="css-fyk2nh-MemberCard"
+          >
+            <p
+              class="css-1cv9gjo"
+            >
+              SUB LEADER
+            </p>
+            <p
+              class="css-uqq0xe"
+            >
+              Shoma Kobayashi
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+      <div
+        class="css-1gbr933-Member"
+      >
+        <figure>
+          <img
+            alt="Rintaro Itokawa"
+            class="css-5ressk-MemberCard"
+            height="300"
+            loading="lazy"
+            src="/statics/members/rintaro_itokawa.webp"
+            width="450"
+          />
+          <figcaption
+            class="css-1mlw4fg-MemberCard"
+          >
+            <p
+              class="css-uqq0xe"
+            >
+              Rintaro Itokawa
+            </p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            alt="Rintaro Itokawa"
+            class="css-5ressk-MemberCard"
+            height="300"
+            loading="lazy"
+            src="/statics/members/rintaro_itokawa.webp"
+            width="450"
+          />
+          <figcaption
+            class="css-1mlw4fg-MemberCard"
+          >
+            <p
+              class="css-uqq0xe"
+            >
+              Rintaro Itokawa
+            </p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            alt="Rintaro Itokawa"
+            class="css-5ressk-MemberCard"
+            height="300"
+            loading="lazy"
+            src="/statics/members/rintaro_itokawa.webp"
+            width="450"
+          />
+          <figcaption
+            class="css-1mlw4fg-MemberCard"
+          >
+            <p
+              class="css-uqq0xe"
+            >
+              Rintaro Itokawa
+            </p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            alt="Rintaro Itokawa"
+            class="css-5ressk-MemberCard"
+            height="300"
+            loading="lazy"
+            src="/statics/members/rintaro_itokawa.webp"
+            width="450"
+          />
+          <figcaption
+            class="css-1mlw4fg-MemberCard"
+          >
+            <p
+              class="css-uqq0xe"
+            >
+              Rintaro Itokawa
+            </p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            alt="Rintaro Itokawa"
+            class="css-5ressk-MemberCard"
+            height="300"
+            loading="lazy"
+            src="/statics/members/rintaro_itokawa.webp"
+            width="450"
+          />
+          <figcaption
+            class="css-1mlw4fg-MemberCard"
+          >
+            <p
+              class="css-uqq0xe"
+            >
+              Rintaro Itokawa
+            </p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            alt="Rintaro Itokawa"
+            class="css-5ressk-MemberCard"
+            height="300"
+            loading="lazy"
+            src="/statics/members/rintaro_itokawa.webp"
+            width="450"
+          />
+          <figcaption
+            class="css-1mlw4fg-MemberCard"
+          >
+            <p
+              class="css-uqq0xe"
+            >
+              Rintaro Itokawa
+            </p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            alt="Rintaro Itokawa"
+            class="css-5ressk-MemberCard"
+            height="300"
+            loading="lazy"
+            src="/statics/members/rintaro_itokawa.webp"
+            width="450"
+          />
+          <figcaption
+            class="css-1mlw4fg-MemberCard"
+          >
+            <p
+              class="css-uqq0xe"
+            >
+              Rintaro Itokawa
+            </p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            alt="Rintaro Itokawa"
+            class="css-5ressk-MemberCard"
+            height="300"
+            loading="lazy"
+            src="/statics/members/rintaro_itokawa.webp"
+            width="450"
+          />
+          <figcaption
+            class="css-1mlw4fg-MemberCard"
+          >
+            <p
+              class="css-uqq0xe"
+            >
+              Rintaro Itokawa
+            </p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            alt="Rintaro Itokawa"
+            class="css-5ressk-MemberCard"
+            height="300"
+            loading="lazy"
+            src="/statics/members/rintaro_itokawa.webp"
+            width="450"
+          />
+          <figcaption
+            class="css-1mlw4fg-MemberCard"
+          >
+            <p
+              class="css-uqq0xe"
+            >
+              Rintaro Itokawa
+            </p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            alt="Rintaro Itokawa"
+            class="css-5ressk-MemberCard"
+            height="300"
+            loading="lazy"
+            src="/statics/members/rintaro_itokawa.webp"
+            width="450"
+          />
+          <figcaption
+            class="css-1mlw4fg-MemberCard"
+          >
+            <p
+              class="css-uqq0xe"
+            >
+              Rintaro Itokawa
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </main>
+</div>
+`;
