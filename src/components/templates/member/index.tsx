@@ -1,10 +1,10 @@
 import type { FC } from "react";
 import tw from "twin.macro";
-import {Link} from "wouter";
+import { Link } from "wouter";
 import type { MemberProperties } from "./types/model";
 import { Title } from "../../molecules/title";
 import { MemberCard } from "../../molecules/member-card";
-import {Button} from "../../atoms/button";
+import { Button } from "../../atoms/button";
 
 const Main = tw.main`pt-1 pb-8 sm:(pt-6 pb-40)`;
 
