@@ -12,7 +12,11 @@ module.exports = {
         "social-instagram-reaction":
           "radial-gradient(circle farthest-corner at 28% 100%, #e6c100 0%, #e66e00 22%, #e6005f 35%, transparent 65%), linear-gradient(145deg, #651ff9 10%, #b900ad 70%)",
       },
+      borderRadius: {
+        "5xl": "2.5rem",
+      },
       borderWidth: {
+        3: "3px",
         5: "5px",
       },
       colors: {
@@ -22,10 +26,21 @@ module.exports = {
         zen: ["Zen KakuGothic New", "sans-serif"],
       },
       fontSize: {
+        xss: "2.4vw",
         "3.5xl": "2rem",
         "4.5xl": "2.5rem",
         "ink-md": "4.5vw",
         ink: "7.2vw",
+      },
+      gridTemplateColumns: {
+        timetable: "1fr repeat(4, minmax(0, 10fr))",
+      },
+      gridTemplateRows: {
+        7: "repeat(7, minmax(0, 4fr))",
+      },
+      height: {
+        "time-table-row-md": "120vw",
+        "time-table-row": "125vw",
       },
       inset: {
         "ink-top-md": "8.75vw",
@@ -52,7 +67,10 @@ module.exports = {
       },
       padding: {
         4.5: "1.125rem",
+        5.5: "1.375rem",
         13: "3.25rem",
+        21: "5.25rem",
+        21.25: "5.3125rem",
         "header-x": "2vw",
         "header-x-md": "10vw",
         "header-y": "1vw",
@@ -63,6 +81,7 @@ module.exports = {
         main: "8vw",
       },
       screens: {
+        xs: "320px",
         "3xl": "1727px",
         bazaar: "640px",
       },
@@ -71,6 +90,7 @@ module.exports = {
       },
       width: {
         112.5: "28.125rem",
+        180: "45rem",
       },
     },
   },
