@@ -1,5 +1,5 @@
 import type { FC } from "react";
-import tw, { css } from "twin.macro";
+import tw from "twin.macro";
 import { useMemo } from "react";
 import type {
   TimeTableProperties,
