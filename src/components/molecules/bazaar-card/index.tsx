@@ -36,6 +36,7 @@ const BazaarCard: FC<BazaarCardProperties> = ({ name, description, image, prices
       alt="バザーに関するイメージ画像"
       width={450}
       height={300}
+      loading="lazy"
     />
     <BazaarCardContent>
       <Chip group={group} />

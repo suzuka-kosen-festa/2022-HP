@@ -36,17 +36,12 @@ exports[`(components) templates/not-found > take snap shot 1`] = `
             <p
               class="css-17zcuf2"
             >
-              現在このページは
+              このページは
             </p>
             <p
               class="css-17zcuf2"
             >
               表示することができません。
-            </p>
-            <p
-              class="css-17zcuf2"
-            >
-              続報をお待ち下さい。
             </p>
             <a
               class="css-jhmgok-Button"

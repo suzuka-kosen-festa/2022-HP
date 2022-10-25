@@ -38,6 +38,7 @@ const Title: FC<TitleProperties> = ({ children, colorKey, ...rest }) => {
         alt="ink"
         width={592}
         height={580}
+        loading="eager"
       />
       <TitleContainer>{children}</TitleContainer>
     </TitleWrapper>

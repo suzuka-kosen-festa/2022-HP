@@ -1,0 +1,25 @@
+// Vitest Snapshot v1
+
+exports[`(components) molecules/member > take snap shot 1`] = `
+<div>
+  <figure>
+    <img
+      alt="Rintaro Itokawa"
+      class="css-crfi3p-MemberCard"
+      height="300"
+      loading="lazy"
+      src="/statics/members/rintaro_itokawa.webp"
+      width="450"
+    />
+    <figcaption
+      class="css-1mlw4fg-MemberCard"
+    >
+      <p
+        class="css-uqq0xe"
+      >
+        Rintaro Itokawa
+      </p>
+    </figcaption>
+  </figure>
+</div>
+`;

@@ -13,6 +13,7 @@ exports[`(components) templates/sponsor > take snap shot 1`] = `
         alt="ink"
         class="css-mhf7w5-Title"
         height="580"
+        loading="eager"
         src="/statics/Ink3_red.webp"
         width="592"
       />

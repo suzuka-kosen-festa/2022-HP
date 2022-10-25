@@ -13,6 +13,7 @@ exports[`(components) templates/bazaar > take snap shot 1`] = `
         alt="ink"
         class="css-mhf7w5-Title"
         height="580"
+        loading="eager"
         src="/statics/Ink3_green.webp"
         width="592"
       />
@@ -59,6 +60,7 @@ exports[`(components) templates/bazaar > take snap shot 1`] = `
             alt="バザーに関するイメージ画像"
             class="css-61q9gc-BazaarCard"
             height="300"
+            loading="lazy"
             src="https://panproduct.com/blog/wp-content/uploads/2021/07/32.png"
             width="450"
           />
@@ -104,6 +106,7 @@ exports[`(components) templates/bazaar > take snap shot 1`] = `
             alt="バザーに関するイメージ画像"
             class="css-61q9gc-BazaarCard"
             height="300"
+            loading="lazy"
             src="https://panproduct.com/blog/wp-content/uploads/2021/07/32.png"
             width="450"
           />
@@ -149,6 +152,7 @@ exports[`(components) templates/bazaar > take snap shot 1`] = `
             alt="バザーに関するイメージ画像"
             class="css-61q9gc-BazaarCard"
             height="300"
+            loading="lazy"
             src="https://panproduct.com/blog/wp-content/uploads/2021/07/32.png"
             width="450"
           />
@@ -194,6 +198,7 @@ exports[`(components) templates/bazaar > take snap shot 1`] = `
             alt="バザーに関するイメージ画像"
             class="css-61q9gc-BazaarCard"
             height="300"
+            loading="lazy"
             src="https://panproduct.com/blog/wp-content/uploads/2021/07/32.png"
             width="450"
           />
@@ -239,6 +244,7 @@ exports[`(components) templates/bazaar > take snap shot 1`] = `
             alt="バザーに関するイメージ画像"
             class="css-61q9gc-BazaarCard"
             height="300"
+            loading="lazy"
             src="https://panproduct.com/blog/wp-content/uploads/2021/07/32.png"
             width="450"
           />
@@ -284,6 +290,7 @@ exports[`(components) templates/bazaar > take snap shot 1`] = `
             alt="バザーに関するイメージ画像"
             class="css-61q9gc-BazaarCard"
             height="300"
+            loading="lazy"
             src="https://panproduct.com/blog/wp-content/uploads/2021/07/32.png"
             width="450"
           />
@@ -329,6 +336,7 @@ exports[`(components) templates/bazaar > take snap shot 1`] = `
             alt="バザーに関するイメージ画像"
             class="css-61q9gc-BazaarCard"
             height="300"
+            loading="lazy"
             src="https://panproduct.com/blog/wp-content/uploads/2021/07/32.png"
             width="450"
           />
