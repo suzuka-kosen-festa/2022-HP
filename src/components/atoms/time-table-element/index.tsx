@@ -8,7 +8,7 @@ import { useClickAway } from "../../../hooks/useClickAway";
 import { Portal } from "../portal";
 import Icon from "../icon";
 
-const TimeTableElementBox = tw.li`flex flex-col cursor-pointer px-1 py-0.5 sm:(px-6 py-4)`;
+const TimeTableElementBox = tw.li`flex flex-col cursor-pointer min-w-0 px-1 py-0.5 sm:(px-6 py-4)`;
 
 const Overlay = tw.div`flex fixed justify-center items-center inset-0 z-50 overflow-y-auto bg-gray-300 bg-opacity-70`;
 
@@ -43,11 +43,11 @@ const TimeTableElement: FC<TimeTableElementProperties> = ({ event }) => {
   return (
     <>
       <TimeTableElementBox css={backgroundColor} onClick={() => setShow(true)}>
-        <time css={tw`font-zen font-bold text-white text-xss md:text-xl select-none`}>
+        <time css={tw`font-zen font-bold text-white hidden sm:(text-xs inline) lg:(text-xl inline) select-none`}>
           <span css={tw`after:content-["~"]`}>{times.start}</span>
           {times.end}
         </time>
-        <p css={tw`font-zen font-bold text-white text-xss md:text-xl select-none`}>{event.title}</p>
+        <p css={tw`font-zen font-bold text-white truncate text-xss md:text-xs lg:text-xl select-none`}>{event.title}</p>
       </TimeTableElementBox>
       <Portal portalId="#modal">
         {isShow ? (
@@ -62,7 +62,9 @@ const TimeTableElement: FC<TimeTableElementProperties> = ({ event }) => {
                   onClick={() => setShow(false)}
                 />
                 <h2 css={tw`font-zen font-medium text-text text-base md:text-3.5xl select-none`}>{event.title}</h2>
-                <p css={tw`font-zen font-medium text-text text-xs md:text-2xl select-none`}>{event.descriptions}</p>
+                <p css={tw`font-zen font-medium text-text whitespace-pre-wrap text-xs md:text-2xl select-none`}>
+                  {event.descriptions}
+                </p>
               </ModalBox>
             </ModalWrapper>
           </Overlay>

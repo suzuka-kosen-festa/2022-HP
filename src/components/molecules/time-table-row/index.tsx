@@ -6,7 +6,7 @@ import type { TimeTableRowProperties } from "./types/model";
 import { TimeTableElement } from "../../atoms/time-table-element";
 import { LiveEvent } from "../../../api/prisma";
 
-const TimeTableRowBox = tw.ul`grid h-time-table-row gap-1 md:gap-3`;
+const TimeTableRowBox = tw.ul`grid h-time-table-row gap-0.5 md:(h-time-table-row-md gap-3)`;
 
 const TimeTableRow: FC<TimeTableRowProperties> = ({ events, intervals, stage }) => {
   const templateRows = useMemo(() => intervals.map(interval => `${interval}fr`).join(" "), [intervals]);

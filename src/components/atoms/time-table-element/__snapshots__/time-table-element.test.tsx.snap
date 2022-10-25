@@ -3,10 +3,10 @@
 exports[`(components) atoms/time-table-element > take snap shot 1`] = `
 <div>
   <li
-    class="css-1ycdo6t-TimeTableElement"
+    class="css-1melwrt-TimeTableElement"
   >
     <time
-      class="css-1phduix-TimeTableElement"
+      class="css-cj0c87-TimeTableElement"
     >
       <span
         class="css-zu2x60-TimeTableElement"
@@ -16,7 +16,7 @@ exports[`(components) atoms/time-table-element > take snap shot 1`] = `
       09:30
     </time>
     <p
-      class="css-1phduix-TimeTableElement"
+      class="css-1e4vuyv-TimeTableElement"
     >
       オープニング
     </p>
