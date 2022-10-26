@@ -35,7 +35,7 @@ export const members: ReadonlyArray<MemberCardProperties> = [
   },
   {
     imagePath: "/statics/members/hina_inagaki.webp",
-    name: "Hina Inaigaki",
+    name: "Hina Inagaki",
   },
   {
     imagePath: "/statics/members/iota_komatani.webp",
