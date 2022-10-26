@@ -1,13 +1,5 @@
-const Stage = {
-  Main: "main",
-  Sub: "sub",
-  Live: "live",
-  Game: "game",
-} as const;
+import type { LiveEvent } from "../../../../api/prisma";
 
 export type PickupCardProperties = {
-  title: string;
-  description: string;
-  startTime: string;
-  stage: keyof typeof Stage;
+  event: LiveEvent;
 };

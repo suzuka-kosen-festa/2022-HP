@@ -21,8 +21,8 @@ const Sponsor: FC<SponsorProperties> = ({ sponsors }) => (
       </h2>
       <ul css={tw`mb-8 sm:mb-40`}>
         {sponsors.map(sponsor => (
-          <li key={sponsor}>
-            <Text css={tw`text-base sm:text-2xl after:content-[" 様"]`}>{sponsor}</Text>
+          <li key={sponsor.id}>
+            <Text css={tw`text-base sm:text-2xl after:content-[" 様"]`}>{sponsor.name}</Text>
           </li>
         ))}
       </ul>

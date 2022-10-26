@@ -27,6 +27,7 @@ const MapSection: FC<MapSectionProperties> = ({ title, ...rest }) => (
         alt="校内マップ"
         width={4128}
         height={2915}
+        loading="lazy"
       />
     </MapContainer>
   </MapSectionContainer>

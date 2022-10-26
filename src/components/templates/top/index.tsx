@@ -13,6 +13,7 @@ import { SponsorSection } from "../../organisms/sponsor-section";
 import { ContactSection } from "../../organisms/contact-section";
 import { AccessSection } from "../../organisms/access-section";
 import { AboutSection } from "../../organisms/about-section";
+import { PickupSection } from "../../organisms/pickup-section";
 
 const Highlight = tw.span`text-primary-red text-base`;
 
@@ -68,8 +69,7 @@ const attentions = [
   </CautionText>,
 ];
 
-// TODO: Add pickup section and use props
-const Top: FC<TopProperties> = () => (
+const Top: FC<TopProperties> = ({ events }) => (
   <Main aria-label="Top page">
     <CautionBox aria-label="『Re:ROAD』開催にあたってのお願い">
       <Caution sentence={cautions} title="『Re:ROAD』開催にあたってのお願い" />
@@ -87,6 +87,7 @@ const Top: FC<TopProperties> = () => (
     <SnsSection socialData={socialLinks} title="SNS">
       {"今年の鈴鹿高専祭では、史上初となるラジオの配信を行っています。\nご視聴はYouTube、Spotifyから！"}
     </SnsSection>
+    <PickupSection buttonText="タイムスケジュールを見る" title="Pick up events" events={events} />
     <BazaarSection
       attentionTitle="バザーに関するお願い"
       attentions={attentions}

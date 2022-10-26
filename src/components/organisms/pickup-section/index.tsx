@@ -10,20 +10,14 @@ const PickupSectionContainer = tw.section`flex flex-col justify-center items-cen
 
 const CardList = tw.ul`grid mb-6 grid-cols-1 gap-2 sm:(mb-16 grid-cols-2 gap-6)`;
 
-const PickupSection: FC<PickupSectionProperties> = ({ title, buttonText, cardData, ...rest }) => (
+const PickupSection: FC<PickupSectionProperties> = ({ title, buttonText, events, ...rest }) => (
   <PickupSectionContainer aria-label="pick up event" {...rest}>
     <Heading css={tw`mb-4 sm:mb-16`} colorKey="green">
       {title}
     </Heading>
     <CardList>
-      {cardData.map(data => (
-        <PickupCard
-          title={data.title}
-          description={data.description}
-          startTime={data.startTime}
-          stage={data.stage}
-          key={data.startTime}
-        />
+      {events.map(event => (
+        <PickupCard event={event} key={event.id} />
       ))}
     </CardList>
     <Link to="/timetable">

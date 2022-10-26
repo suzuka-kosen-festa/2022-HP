@@ -63,7 +63,7 @@ exports[`(components) molecules/hamburger-menu > take snap shot 1`] = `
         >
           <a
             class="css-16racjb-Mock"
-            href="/bazaar"
+            href="/bazaar?select=eating"
           >
             Bazaar
           </a>
