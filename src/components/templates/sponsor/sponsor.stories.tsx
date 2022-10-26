@@ -7,7 +7,20 @@ type Story = ComponentStoryObj<T>;
 type Meta = ComponentMeta<T>;
 
 const args: ComponentPropsWithoutRef<T> = {
-  sponsors: ["株式会社 鈴鹿", "有限会社 高専", "〇〇クリニック"],
+  sponsors: [
+    {
+      name: "株式会社 鈴鹿",
+      id: 1,
+    },
+    {
+      name: "有限会社 高専",
+      id: 2,
+    },
+    {
+      name: "〇〇クリニック",
+      id: 3,
+    },
+  ],
 };
 
 export default {
