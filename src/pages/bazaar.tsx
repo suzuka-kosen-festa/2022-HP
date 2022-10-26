@@ -12,8 +12,8 @@ const BazaarPage: FC = () => {
     isRecreation ? "/bazaar/data/recreation" : "/bazaar/data/eating",
     fetcher,
   );
-  if (!data) return <p>Loading...</p>;
   if (error) return <Redirect to="/error" />;
+  if (!data) return <p>Loading...</p>;
   return <Bazaar bazaars={data} />;
 };
 

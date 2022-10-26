@@ -17,10 +17,10 @@ const PickupSection: FC<PickupSectionProperties> = ({ title, buttonText, events,
     </Heading>
     <CardList>
       {events.map(event => (
-        <PickupCard event={event} key={event.id} />
+        <PickupCard event={event} key={event.title} />
       ))}
     </CardList>
-    <Link to="/timetable">
+    <Link to="/timetable?select=30">
       <Button colorKey="green" as="a" role="button">
         {buttonText}
       </Button>
