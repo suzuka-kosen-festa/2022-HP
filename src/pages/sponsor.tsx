@@ -7,8 +7,8 @@ import type { SponsorCompany } from "../api/prisma";
 
 const SponsorPage: FC = () => {
   const { data, error } = useSWR<ReadonlyArray<SponsorCompany>>("/sponsorcompany", fetcher);
-  if (!data) return <p>Loading...</p>;
   if (error) return <Redirect to="/error" />;
+  if (!data) return <p>Loading...</p>;
   return <Sponsor sponsors={data} />;
 };
 
