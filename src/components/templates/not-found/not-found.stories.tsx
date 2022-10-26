@@ -13,7 +13,20 @@ const args: ComponentPropsWithoutRef<T> = {
 
 export default {
   args,
-  argTypes: {},
+  argTypes: {
+    status: {
+      description: "Status code",
+      control: {
+        type: "number",
+      },
+    },
+    message: {
+      description: "Message of error",
+      control: {
+        type: "text",
+      },
+    },
+  },
   component: NotFound,
 } as Meta;
 

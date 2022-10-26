@@ -26,32 +26,32 @@ const Chip: FC<ChipProperties> = ({ group }) => (
   </ChipBox>
 );
 
-const BazaarCard: FC<BazaarCardProperties> = ({ name, description, image, prices, group }) => (
+const BazaarCard: FC<BazaarCardProperties> = ({ bazaar }) => (
   <BazaarCardBox>
     <BazaarCardImage
       css={css`
         aspect-ratio: 3 / 2;
       `}
-      src={image}
+      src={bazaar.image}
       alt="バザーに関するイメージ画像"
       width={450}
       height={300}
       loading="lazy"
     />
     <BazaarCardContent>
-      <Chip group={group} />
-      <BazaarCardHeading>{name}</BazaarCardHeading>
+      <Chip group={bazaar.group} />
+      <BazaarCardHeading>{bazaar.name}</BazaarCardHeading>
       <BazaarCardDescription
         css={css`
           width: fit-content;
         `}
       >
-        {description}
+        {bazaar.descriptions}
       </BazaarCardDescription>
       <BazaarCardPrices>
-        {prices.map(price => (
-          <li key={price}>
-            <BazaarCardPrice>{price}</BazaarCardPrice>
+        {bazaar.prices.map(price => (
+          <li key={price.id}>
+            <BazaarCardPrice>{price.price}</BazaarCardPrice>
           </li>
         ))}
       </BazaarCardPrices>

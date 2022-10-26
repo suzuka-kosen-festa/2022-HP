@@ -1,11 +1,7 @@
-export type ChipProperties = {
-  group: string;
-};
+import type { BazaarWithId } from "../../../../api/bazaar";
+
+export type ChipProperties = Pick<BazaarWithId, "group">;
 
 export type BazaarCardProperties = {
-  name: string;
-  description: string;
-  image: string;
-  prices: ReadonlyArray<string>;
-  group: string;
+  bazaar: BazaarWithId;
 };
