@@ -8,12 +8,12 @@ exports[`(components) molecules/pickup-card > take snap shot 1`] = `
     <h2
       class="css-1a2c2qr"
     >
-      へぇ王
+      オープニング
     </h2>
     <p
       class="css-y87pn1"
     >
-      先生たちが自分の研究を紹介！4年生は卒研部を考えるいい機会に！高専生、中学生に向けた勉強イベント！
+      空白の2年間、たくさんの協力を得て遂に開催！溜め込んだものを全て出し切れ！高専祭開幕です！
     </p>
     <div
       class="css-18lwsxv"
@@ -22,7 +22,7 @@ exports[`(components) molecules/pickup-card > take snap shot 1`] = `
         class="css-y87pn1"
       >
         日時: 
-        10/30 (日) 11:30~
+        10/30 (日) 09:00~
       </p>
       <p
         class="css-y87pn1"

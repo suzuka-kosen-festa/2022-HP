@@ -7,38 +7,25 @@ type Story = ComponentStoryObj<T>;
 type Meta = ComponentMeta<T>;
 
 const args: ComponentPropsWithoutRef<T> = {
-  title: "へぇ王",
-  description: "先生たちが自分の研究を紹介！4年生は卒研部を考えるいい機会に！高専生、中学生に向けた勉強イベント！",
-  startTime: "2022-10-30 11:30",
-  stage: "Main",
+  event: {
+    id: 1,
+    title: "オープニング",
+    descriptions: "空白の2年間、たくさんの協力を得て遂に開催！溜め込んだものを全て出し切れ！高専祭開幕です！",
+    date: "2022-10-30 09:00",
+    venue: "メインステージ",
+    start_time: "2022-10-30 09:00",
+    end_time: "2022-10-30 09:30",
+    stage: "main",
+  },
 };
 
 export default {
   args,
   argTypes: {
-    title: {
-      description: "Title of event",
+    event: {
+      description: "Event data",
       control: {
-        type: "text",
-      },
-    },
-    description: {
-      description: "Description of event",
-      control: {
-        type: "text",
-      },
-    },
-    startTime: {
-      description: "Start time of event",
-      control: {
-        type: "date",
-      },
-    },
-    stage: {
-      description: "Where the event will be held",
-      control: {
-        type: "select",
-        options: ["Main", "Sub", "Live", "Game"],
+        type: "object",
       },
     },
   },

@@ -1,8 +1,8 @@
 import type { ComponentProps, ReactHTML } from "react";
-import type { PickupCardProperties } from "../../../molecules/pickup-card/types/model";
+import type { LiveEvent } from "../../../../api/prisma";
 
 export type PickupSectionProperties = ComponentProps<ReactHTML["section"]> & {
   title: string;
   buttonText: string;
-  cardData: ReadonlyArray<PickupCardProperties>;
+  events: ReadonlyArray<LiveEvent>;
 };

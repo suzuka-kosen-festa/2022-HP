@@ -1,5 +1,5 @@
-import type { PickupCardProperties } from "../../../molecules/pickup-card/types/model";
+import type { LiveEvent } from "../../../../api/prisma";
 
 export type TopProperties = {
-  events: ReadonlyArray<PickupCardProperties>;
+  events: ReadonlyArray<LiveEvent>;
 };
