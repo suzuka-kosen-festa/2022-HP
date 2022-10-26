@@ -1,3 +1,5 @@
+import type { SponsorCompany } from "../../../../api/prisma";
+
 export type SponsorProperties = {
-  sponsors: ReadonlyArray<string>;
+  sponsors: ReadonlyArray<SponsorCompany>;
 };
