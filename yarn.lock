@@ -82,7 +82,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.19.6":
+"@babel/core@npm:7.19.6, @babel/core@npm:^7.19.6":
   version: 7.19.6
   resolution: "@babel/core@npm:7.19.6"
   dependencies:
@@ -1341,7 +1341,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-react-jsx@npm:7.19.0, @babel/plugin-transform-react-jsx@npm:^7.12.12, @babel/plugin-transform-react-jsx@npm:^7.18.10, @babel/plugin-transform-react-jsx@npm:^7.18.6":
+"@babel/plugin-transform-react-jsx-source@npm:^7.19.6":
+  version: 7.19.6
+  resolution: "@babel/plugin-transform-react-jsx-source@npm:7.19.6"
+  dependencies:
+    "@babel/helper-plugin-utils": ^7.19.0
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: 1e9e29a4efc5b79840bd4f68e404f5ab7765ce48c7bd22f12f2b185f9c782c66933bdf54a1b21879e4e56e6b50b4e88aca82789ecb1f61123af6dfa9ab16c555
+  languageName: node
+  linkType: hard
+
+"@babel/plugin-transform-react-jsx@npm:7.19.0, @babel/plugin-transform-react-jsx@npm:^7.12.12, @babel/plugin-transform-react-jsx@npm:^7.18.10, @babel/plugin-transform-react-jsx@npm:^7.18.6, @babel/plugin-transform-react-jsx@npm:^7.19.0":
   version: 7.19.0
   resolution: "@babel/plugin-transform-react-jsx@npm:7.19.0"
   dependencies:
@@ -4916,7 +4927,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitejs/plugin-react@npm:2.1.0, @vitejs/plugin-react@npm:^2.0.0":
+"@vitejs/plugin-react@npm:2.2.0":
+  version: 2.2.0
+  resolution: "@vitejs/plugin-react@npm:2.2.0"
+  dependencies:
+    "@babel/core": ^7.19.6
+    "@babel/plugin-transform-react-jsx": ^7.19.0
+    "@babel/plugin-transform-react-jsx-development": ^7.18.6
+    "@babel/plugin-transform-react-jsx-self": ^7.18.6
+    "@babel/plugin-transform-react-jsx-source": ^7.19.6
+    magic-string: ^0.26.7
+    react-refresh: ^0.14.0
+  peerDependencies:
+    vite: ^3.0.0
+  checksum: cc85ab31b4689ab137c4b1e65383dccce494371523eb164c579096e513a2abbaa7efb49ba08655fae9f6692f5b7b2602ad339bdce4ae5982fc08fe444fb8a4e5
+  languageName: node
+  linkType: hard
+
+"@vitejs/plugin-react@npm:^2.0.0":
   version: 2.1.0
   resolution: "@vitejs/plugin-react@npm:2.1.0"
   dependencies:
@@ -12315,6 +12343,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"magic-string@npm:^0.26.7":
+  version: 0.26.7
+  resolution: "magic-string@npm:0.26.7"
+  dependencies:
+    sourcemap-codec: ^1.4.8
+  checksum: 89b0d60cbb32bbf3d1e23c46ea93db082d18a8230b972027aecb10a40bba51be519ecce0674f995571e3affe917b76b09f59d8dbc9a1b2c9c4102a2b6e8a2b01
+  languageName: node
+  linkType: hard
+
 "make-dir@npm:^2.0.0, make-dir@npm:^2.1.0":
   version: 2.1.0
   resolution: "make-dir@npm:2.1.0"
@@ -18054,7 +18091,7 @@ __metadata:
     "@types/tailwindcss": 3.0.11
     "@typescript-eslint/eslint-plugin": 5.41.0
     "@typescript-eslint/parser": 5.41.0
-    "@vitejs/plugin-react": 2.1.0
+    "@vitejs/plugin-react": 2.2.0
     "@vitest/ui": 0.24.3
     autoprefixer: 10.4.12
     axios: 1.1.3
