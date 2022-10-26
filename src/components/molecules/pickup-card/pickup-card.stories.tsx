@@ -16,8 +16,8 @@ const args: ComponentPropsWithoutRef<T> = {
     start_time: "2022-10-30 09:00",
     end_time: "2022-10-30 09:30",
     stage: "main",
-  }
-}
+  },
+};
 
 export default {
   args,
@@ -25,9 +25,9 @@ export default {
     event: {
       description: "Event data",
       control: {
-        type: "object"
-      }
-    }
+        type: "object",
+      },
+    },
   },
   component: PickupCard,
 } as Meta;

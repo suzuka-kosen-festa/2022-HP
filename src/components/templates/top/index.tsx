@@ -13,7 +13,7 @@ import { SponsorSection } from "../../organisms/sponsor-section";
 import { ContactSection } from "../../organisms/contact-section";
 import { AccessSection } from "../../organisms/access-section";
 import { AboutSection } from "../../organisms/about-section";
-import {PickupSection} from "../../organisms/pickup-section";
+import { PickupSection } from "../../organisms/pickup-section";
 
 const Highlight = tw.span`text-primary-red text-base`;
 

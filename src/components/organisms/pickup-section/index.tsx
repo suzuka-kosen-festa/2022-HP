@@ -17,10 +17,7 @@ const PickupSection: FC<PickupSectionProperties> = ({ title, buttonText, events,
     </Heading>
     <CardList>
       {events.map(event => (
-        <PickupCard
-          event={event}
-          key={event.id}
-        />
+        <PickupCard event={event} key={event.id} />
       ))}
     </CardList>
     <Link to="/timetable">
