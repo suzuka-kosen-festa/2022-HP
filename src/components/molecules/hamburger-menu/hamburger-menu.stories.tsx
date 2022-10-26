@@ -21,7 +21,7 @@ const args: ComponentPropsWithoutRef<T> = {
       name: "Members",
     },
     {
-      link: "/timetable",
+      link: "/timetable?select=30",
       color: tw`text-primary-green`,
       name: "Schedule",
     },

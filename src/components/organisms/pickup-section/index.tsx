@@ -20,7 +20,7 @@ const PickupSection: FC<PickupSectionProperties> = ({ title, buttonText, events,
         <PickupCard event={event} key={event.id} />
       ))}
     </CardList>
-    <Link to="/timetable">
+    <Link to="/timetable?select=30">
       <Button colorKey="green" as="a" role="button">
         {buttonText}
       </Button>

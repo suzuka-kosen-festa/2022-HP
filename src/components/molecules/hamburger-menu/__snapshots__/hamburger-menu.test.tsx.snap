@@ -53,7 +53,7 @@ exports[`(components) molecules/hamburger-menu > take snap shot 1`] = `
         >
           <a
             class="css-xddjtl-Mock"
-            href="/timetable"
+            href="/timetable?select=30"
           >
             Schedule
           </a>
