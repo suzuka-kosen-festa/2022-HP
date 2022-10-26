@@ -27,10 +27,8 @@ const buttonData = [
 ];
 
 const Bazaar: FC<BazaarProperties> = ({ bazaars }) => {
-  const isRecreation = useMemo(() => {
-    const query = new URLSearchParams(window.location.search);
-    return query.get("select") === "recreation";
-  }, []);
+  const query = new URLSearchParams(window.location.search);
+  const isRecreation = query.get("select") === "recreation";
   return (
     <Main aria-label="Bazaar page">
       <Title colorKey="green">Bazaar</Title>
@@ -38,19 +36,12 @@ const Bazaar: FC<BazaarProperties> = ({ bazaars }) => {
         <Switching buttonData={buttonData} color="green" />
         <BazaarCardBox>
           {bazaars.map(bazaar => (
-            <BazaarCard
-              name={bazaar.name}
-              description={bazaar.description}
-              image={bazaar.image}
-              prices={bazaar.prices}
-              group={bazaar.group}
-              key={bazaar.name}
-            />
+            <BazaarCard bazaar={bazaar} key={bazaar.id} />
           ))}
         </BazaarCardBox>
         {isRecreation ? (
           <Text css={tw`mb-8 md:mb-36 lg:mb-40`}>
-            これらの団体のほかに、C.専攻科・E.化学マジック・Q.プロコン・S.エコカーも展示を行っています！ぜひ見に行ってみてください！
+            これらの団体のほかに、C.専攻科・E.化学マジック・S.エコカーも展示を行っています！ぜひ見に行ってみてください！
           </Text>
         ) : null}
         <Link to="/">

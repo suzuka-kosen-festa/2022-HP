@@ -1,5 +1,5 @@
-import type { BazaarCardProperties } from "../../../molecules/bazaar-card/types/model";
+import type { BazaarWithId } from "../../../../api/bazaar";
 
 export type BazaarProperties = {
-  bazaars: ReadonlyArray<BazaarCardProperties>;
+  bazaars: ReadonlyArray<BazaarWithId>;
 };
