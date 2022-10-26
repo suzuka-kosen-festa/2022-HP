@@ -1,7 +1,6 @@
 import type { FC } from "react";
 import tw from "twin.macro";
 import { Link } from "wouter";
-import { useMemo } from "react";
 import type { BazaarProperties } from "./types/model";
 import { Title } from "../../molecules/title";
 import { Switching } from "../../atoms/switching";
