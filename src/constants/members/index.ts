@@ -150,6 +150,10 @@ export const members: ReadonlyArray<MemberCardProperties> = [
     name: "Sara Inukai",
   },
   {
+    imagePath: "/statics/members/shodai_nagai.webp",
+    name: "Shodai Nagai"
+  },
+  {
     imagePath: "/statics/members/shoya_hasegawa.webp",
     name: "Shoya Hasegawa",
   },
@@ -178,6 +182,10 @@ export const members: ReadonlyArray<MemberCardProperties> = [
     name: "Yoshiki Chuma",
   },
   {
+    imagePath: "/statics/members/yuduki_ichikawa.webp",
+    name: "Yuduki Ichikawa",
+  },
+  {
     imagePath: "/statics/members/yuki_miyata.webp",
     name: "Yuki Miyata",
   },
@@ -192,9 +200,5 @@ export const members: ReadonlyArray<MemberCardProperties> = [
   {
     imagePath: "/statics/members/yuuno_yamamoto.webp",
     name: "Yuuno Yamamoto",
-  },
-  {
-    imagePath: "/statics/members/yuzuki_ichikawa.webp",
-    name: "Yuzuki Ichikawa",
   },
 ];
