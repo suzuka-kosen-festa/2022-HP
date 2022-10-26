@@ -151,7 +151,7 @@ export const members: ReadonlyArray<MemberCardProperties> = [
   },
   {
     imagePath: "/statics/members/shodai_nagai.webp",
-    name: "Shodai Nagai"
+    name: "Shodai Nagai",
   },
   {
     imagePath: "/statics/members/shoya_hasegawa.webp",
