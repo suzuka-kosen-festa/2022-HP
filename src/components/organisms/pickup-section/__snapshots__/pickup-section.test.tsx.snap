@@ -137,7 +137,7 @@ exports[`(components) organisms/pickup-section > take snap shot 1`] = `
     </ul>
     <a
       class="css-3os8bq-Button"
-      href="/timetable"
+      href="/timetable?select=30"
       role="button"
       tabindex="0"
     >

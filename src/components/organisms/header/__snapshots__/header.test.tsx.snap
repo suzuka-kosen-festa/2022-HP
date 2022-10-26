@@ -42,7 +42,7 @@ exports[`(components) organisms/header > take snap shot 1`] = `
       >
         <a
           class="css-dgtzi5-LinkItem"
-          href="/timetable"
+          href="/timetable?select=30"
         >
           Schedule
         </a>
