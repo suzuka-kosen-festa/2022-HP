@@ -46,6 +46,10 @@ export const members: ReadonlyArray<MemberCardProperties> = [
     name: "Junsei Yahata",
   },
   {
+    imagePath: "/statics/members/kana_maruta.webp",
+    name: "Kana Maruta",
+  },
+  {
     imagePath: "/statics/members/kanta_maeda.webp",
     name: "Kanta Maeda",
   },
@@ -56,6 +60,10 @@ export const members: ReadonlyArray<MemberCardProperties> = [
   {
     imagePath: "/statics/members/keiichiro_masuda.webp",
     name: "Keiichiro Masuda",
+  },
+  {
+    imagePath: "/statics/members/keisuke_tominaga.webp",
+    name: "Keisuke Tominaga",
   },
   {
     imagePath: "/statics/members/keito_kobayashi.webp",
@@ -88,6 +96,10 @@ export const members: ReadonlyArray<MemberCardProperties> = [
   {
     imagePath: "/statics/members/minami_iwasaki.webp",
     name: "Minami Iwasaki",
+  },
+  {
+    imagePath: "/statics/members/mio_arita.webp",
+    name: "Mio Arita",
   },
   {
     imagePath: "/statics/members/nana_tsutsui.webp",
@@ -134,8 +146,20 @@ export const members: ReadonlyArray<MemberCardProperties> = [
     name: "Sakura Tanaka",
   },
   {
+    imagePath: "/statics/members/sara_inukai.webp",
+    name: "Sara Inukai",
+  },
+  {
     imagePath: "/statics/members/shoya_hasegawa.webp",
     name: "Shoya Hasegawa",
+  },
+  {
+    imagePath: "/statics/members/shunta_yamagiwa.webp",
+    name: "Shunta Yamagiwa",
+  },
+  {
+    imagePath: "/statics/members/takahiro_uemura.webp",
+    name: "Takahiro Uemura",
   },
   {
     imagePath: "/statics/members/takuma_koto.webp",
@@ -144,6 +168,10 @@ export const members: ReadonlyArray<MemberCardProperties> = [
   {
     imagePath: "/statics/members/tatsuki_nagaoka.webp",
     name: "Tatsuki Nagaoka",
+  },
+  {
+    imagePath: "/statics/members/wakana_toyoda.webp",
+    name: "Wakana Toyoda",
   },
   {
     imagePath: "/statics/members/yoshiki_chuma.webp",
