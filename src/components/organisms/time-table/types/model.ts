@@ -1,4 +1,4 @@
-import type { SeparationEventList, EventInterval } from "../../../../api/liveevent";
+import type { SeparationEventList } from "../../../../api/liveevent";
 import type { LiveEvent, LiveStage } from "../../../../api/prisma";
 
 export type TimetableHeadProperties = {
@@ -17,5 +17,4 @@ export type TimeTableAxisProperties = {
 
 export type TimeTableProperties = {
   events: SeparationEventList;
-  intervals: EventInterval;
 };

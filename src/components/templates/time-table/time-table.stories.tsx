@@ -201,12 +201,12 @@ const args: ComponentPropsWithoutRef<T> = {
         stage: "game",
       },
     ],
-  },
-  intervals: {
-    main: [2, 2, 2, 1, 2, 1, 2, 2, 2, 1, 2, 1, 3, 5],
-    sub: [2, 6, 2, 2, 2, 8, 2, 3, 1],
-    live: [10, 2, 1, 2, 1, 2, 1, 2, 7],
-    game: [2, 17, 9],
+    interval: {
+      main: [2, 2, 2, 1, 2, 1, 2, 2, 2, 1, 2, 1, 3, 5],
+      sub: [2, 6, 2, 2, 2, 8, 2, 3, 1],
+      live: [10, 2, 1, 2, 1, 2, 1, 2, 7],
+      game: [2, 17, 9],
+    },
   },
 };
 
@@ -215,12 +215,6 @@ export default {
   argTypes: {
     events: {
       description: "Data of event",
-      control: {
-        type: "array",
-      },
-    },
-    intervals: {
-      description: "Intervals of table",
       control: {
         type: "array",
       },

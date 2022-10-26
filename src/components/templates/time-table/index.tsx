@@ -20,12 +20,12 @@ const buttonData = [
   },
 ];
 
-const TimeTable: FC<TimeTableProperties> = ({ events, intervals }) => (
+const TimeTable: FC<TimeTableProperties> = ({ events }) => (
   <Main aria-label="Time table">
     <Title colorKey="yellow">Time schedule</Title>
     <TimetablePageBox>
       <Switching buttonData={buttonData} color="yellow" />
-      <TT events={events} intervals={intervals} />
+      <TT events={events} />
     </TimetablePageBox>
   </Main>
 );
