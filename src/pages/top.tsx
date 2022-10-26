@@ -7,8 +7,8 @@ import type { LiveEvent } from "../api/prisma";
 
 const TopPage: FC = () => {
   const { data, error } = useSWR<ReadonlyArray<LiveEvent>>("/liveevent/near", fetcher);
-  if (!data) return <p>Loading...</p>;
   if (error) return <Redirect to="/error" />;
+  if (!data) return <p>Loading...</p>;
   return <Top events={data} />;
 };
 

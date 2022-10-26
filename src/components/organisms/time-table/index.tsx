@@ -51,13 +51,13 @@ const TimeTableAxis: FC<TimeTableAxisProperties> = ({ axes }) => (
   </section>
 );
 
-const TimeTable: FC<TimeTableProperties> = ({ events, intervals }) => (
+const TimeTable: FC<TimeTableProperties> = ({ events }) => (
   <section aria-label="Time table" css={tw`grid grid-cols-timetable gap-1 lg:gap-10`}>
     <TimeTableAxis axes={["09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00"]} />
-    <TimeTableColumn events={events.main} intervals={intervals.main} stage="main" />
-    <TimeTableColumn events={events.sub} intervals={intervals.sub} stage="sub" />
-    <TimeTableColumn events={events.live} intervals={intervals.live} stage="live" />
-    <TimeTableColumn events={events.game} intervals={intervals.game} stage="game" />
+    <TimeTableColumn events={events.main} intervals={events.interval.main} stage="main" />
+    <TimeTableColumn events={events.sub} intervals={events.interval.sub} stage="sub" />
+    <TimeTableColumn events={events.live} intervals={events.interval.live} stage="live" />
+    <TimeTableColumn events={events.game} intervals={events.interval.game} stage="game" />
   </section>
 );
 
