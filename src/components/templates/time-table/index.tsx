@@ -1,9 +1,9 @@
 import type { FC } from "react";
 import tw from "twin.macro";
 import type { TimeTableProperties } from "./types/model";
-import {Title} from "../../molecules/title";
-import {Switching} from "../../atoms/switching";
-import {TimeTable as TT} from "../../organisms/time-table";
+import { Title } from "../../molecules/title";
+import { Switching } from "../../atoms/switching";
+import { TimeTable as TT } from "../../organisms/time-table";
 
 const Main = tw.main`pt-1 pb-8 sm:(pt-6 pb-40)`;
 

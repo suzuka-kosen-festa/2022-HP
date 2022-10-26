@@ -1,7 +1,7 @@
 import type { FC } from "react";
 import { useRegisterSW } from "virtual:pwa-register/react";
 import { Route, Switch } from "wouter";
-import {TopPage, SponsorPage, BazaarPage, MemberPage, NotFoundPage, TimeTablePage} from "./pages";
+import { TopPage, SponsorPage, BazaarPage, MemberPage, NotFoundPage, TimeTablePage } from "./pages";
 import { useScrollToTop } from "./hooks/useScrollToTop";
 import { useJwt } from "./hooks/useJwt";
 

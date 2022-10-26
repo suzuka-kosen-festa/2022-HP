@@ -6,8 +6,8 @@ import * as stories from "./time-table.stories";
 const { Default } = composeStories(stories);
 
 const options = {
-  name: "Time table"
-}
+  name: "Time table",
+};
 
 describe("(components) templates/time-table", () => {
   beforeAll(() => {

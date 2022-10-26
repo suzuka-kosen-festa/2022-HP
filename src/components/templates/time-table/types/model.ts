@@ -1,4 +1,4 @@
-import type {SeparationEventList} from "../../../../api/liveevent";
+import type { SeparationEventList } from "../../../../api/liveevent";
 
 export type TimeTableProperties = {
   events: SeparationEventList;
