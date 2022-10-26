@@ -38,6 +38,15 @@ exports[`(components) templates/top > take snap shot 1`] = `
             <p
               class="css-p6ze6c"
             >
+              30日(日)は午前9時より午後3時、31日(月)は午前9時より午後4時に参加いただけます。
+            </p>
+          </li>
+          <li
+            class="css-u80qbw-Caution"
+          >
+            <p
+              class="css-p6ze6c"
+            >
               Re:ROADでは、感染拡大防止のため
               <span
                 class="css-1ldb251"

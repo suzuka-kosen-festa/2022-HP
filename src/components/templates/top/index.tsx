@@ -24,6 +24,7 @@ const Main = tw.main`space-y-11 sm:space-y-20`;
 const CautionBox = tw.section`flex flex-col justify-center items-center`;
 
 const cautions = [
+  <CautionText key="0">30日(日)は午前9時より午後3時、31日(月)は午前9時より午後4時に参加いただけます。</CautionText>,
   <CautionText key="1">
     Re:ROADでは、感染拡大防止のため<Highlight>入場制限</Highlight>を設けています。ご入場にはチケットが必要となります。
   </CautionText>,
