@@ -23,7 +23,7 @@ export const members: ReadonlyArray<MemberCardProperties> = [
   },
   {
     imagePath: "/statics/members/amon_kitayama.webp",
-    name: "Amon Kitayama"
+    name: "Amon Kitayama",
   },
   {
     imagePath: "/statics/members/ayaka_ito.webp",
