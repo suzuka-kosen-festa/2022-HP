@@ -19,7 +19,7 @@ exports[`(components) templates/top > take snap shot 1`] = `
           class="css-1m7spai"
         >
           <div
-            class="css-1vlcokg"
+            class="css-qitdt8"
           >
             <span />
           </div>
@@ -191,7 +191,7 @@ exports[`(components) templates/top > take snap shot 1`] = `
         class="css-yczkn0"
       >
         <a
-          class="css-9uxhpu-SnsSection"
+          class="css-2cdkd3-SnsSection"
           href="https://twitter.com/KOSENFESTA"
           rel="noopener noreferrer"
           target="_blank"
@@ -199,7 +199,7 @@ exports[`(components) templates/top > take snap shot 1`] = `
           <span />
         </a>
         <a
-          class="css-9uxhpu-SnsSection"
+          class="css-2cdkd3-SnsSection"
           href="https://www.instagram.com/kosenfesta/"
           rel="noopener noreferrer"
           target="_blank"
@@ -207,7 +207,7 @@ exports[`(components) templates/top > take snap shot 1`] = `
           <span />
         </a>
         <a
-          class="css-9uxhpu-SnsSection"
+          class="css-2cdkd3-SnsSection"
           href="https://www.youtube.com/channel/UCV4zdsdagV2N3juHRz2dqQQ"
           rel="noopener noreferrer"
           target="_blank"
@@ -215,7 +215,7 @@ exports[`(components) templates/top > take snap shot 1`] = `
           <span />
         </a>
         <a
-          class="css-9uxhpu-SnsSection"
+          class="css-2cdkd3-SnsSection"
           href="https://open.spotify.com/show/4n0D0dsaFaPbJTz7tGpfTR?si=8yZ1H8LzTM-ZJPyYN6CU-A"
           rel="noopener noreferrer"
           target="_blank"
@@ -388,7 +388,7 @@ exports[`(components) templates/top > take snap shot 1`] = `
           class="css-1m7spai"
         >
           <div
-            class="css-1vlcokg"
+            class="css-qitdt8"
           >
             <span />
           </div>
@@ -558,7 +558,7 @@ exports[`(components) templates/top > take snap shot 1`] = `
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           role="document"
-          src="https://www.google.com/maps/embed/v1/view?key=AIzaSyCk9WMilIT2wiBMqcn1YZQKJz5Lzy9ipQg&center=34.85167124241317%2C136.58132309784355&zoom=15"
+          src="https://www.google.com/maps/embed/v1/view?key=&center=34.85167124241317%2C136.58132309784355&zoom=15"
           title="鈴鹿工業高等専門学校の地図"
         />
       </div>

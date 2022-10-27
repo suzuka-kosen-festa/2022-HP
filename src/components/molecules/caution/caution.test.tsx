@@ -9,7 +9,7 @@ const options = {
   name: "注意事項",
 };
 
-describe("(components) molecules/twitter", () => {
+describe("(components) molecules/caution", () => {
   test("to be molecules", () => {
     const { container } = render(<Default />);
     expect(container).toBeMolecule();
