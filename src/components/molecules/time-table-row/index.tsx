@@ -16,7 +16,7 @@ const TimeTableRow: FC<TimeTableRowProperties> = ({ events, intervals, stage }) 
       if (i === 0) {
         return dayjs(event.start_time).format("HH:mm") === "09:00" ? arr.push(event) : arr.push("gap", event);
       }
-      if (events.length - 1 === i) {
+      if (i === a.length - 1) {
         return dayjs(event.end_time).format("HH:mm") === "16:00" ? arr.push(event) : arr.push("gap", event);
       }
       return dayjs(a[i - 1].end_time).format("HH:mm") === dayjs(a[i].start_time).format("HH:mm")
