@@ -29,7 +29,8 @@ const cautions = [
     に参加いただけます。
   </CautionText>,
   <CautionText key="1">
-    Re:ROADでは、感染拡大防止のため<Highlight>入場制限</Highlight>を設けています。ご入場にはチケットが必要となります。
+    Re:ROADでは、感染拡大防止のため<Highlight>入場制限</Highlight>
+    を設けています。ご入場には事前にメールに添付されたQRコードが必要となります。
   </CautionText>,
   <CautionText key="2">発熱や風邪などの症状がある方のご入場はご遠慮ください。</CautionText>,
   <CautionText key="3">
@@ -107,7 +108,7 @@ const Top: FC<TopProperties> = ({ events }) => (
         "第57回鈴鹿高専祭を開催するにあたり、多くの方にご支援賜りました。\nこちらのページにてご協賛いただいた企業様、ご支援いただいた個人様のお名前を記載しておりますのでぜひご覧ください。"
       }
     </SponsorSection>
-    <ContactSection buttonText="お問い合わせ" link="https://forms.gle/MU9338vfudKPEnwS7" title="Contact us">
+    <ContactSection buttonText="お問い合わせ" link="https://forms.gle/SdtmScNMpAFDjftD6" title="Contact us">
       第57回鈴鹿高専祭に関するお問い合わせは下のボタンからお願いいたします（google formsが開きます）
     </ContactSection>
     <AccessSection
