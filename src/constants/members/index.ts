@@ -22,6 +22,10 @@ export const members: ReadonlyArray<MemberCardProperties> = [
     name: "Akinori Asai",
   },
   {
+    imagePath: "/statics/members/amon_kitayama.webp",
+    name: "Amon Kitayama",
+  },
+  {
     imagePath: "/statics/members/ayaka_ito.webp",
     name: "Ayaka Ito",
   },

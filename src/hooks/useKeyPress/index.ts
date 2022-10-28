@@ -5,7 +5,6 @@ const useKeyPress = (key: string, handler: () => void): void => {
   useEffect(() => {
     savedHandler.current = handler;
   }, [handler]);
-
   useEffect(() => {
     const onKeyup = (event: KeyboardEvent) => {
       if (event.key === key) {

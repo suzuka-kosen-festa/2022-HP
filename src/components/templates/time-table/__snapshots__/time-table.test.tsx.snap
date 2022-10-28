@@ -276,6 +276,7 @@ exports[`(components) templates/time-table > take snap shot 1`] = `
                 EXBALLON
               </p>
             </li>
+            <div />
           </ul>
         </section>
         <section
@@ -397,6 +398,7 @@ exports[`(components) templates/time-table > take snap shot 1`] = `
                 出張Radio
               </p>
             </li>
+            <div />
           </ul>
         </section>
         <section
@@ -500,6 +502,7 @@ exports[`(components) templates/time-table > take snap shot 1`] = `
                 あどばん
               </p>
             </li>
+            <div />
           </ul>
         </section>
         <section

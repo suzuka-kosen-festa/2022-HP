@@ -16,8 +16,20 @@ const TimeTableRow: FC<TimeTableRowProperties> = ({ events, intervals, stage }) 
       if (i === 0) {
         return dayjs(event.start_time).format("HH:mm") === "09:00" ? arr.push(event) : arr.push("gap", event);
       }
-      if (events.length - 1 === i) {
-        return dayjs(event.end_time).format("HH:mm") === "16:00" ? arr.push(event) : arr.push("gap", event);
+      if (i === a.length - 1) {
+        /* eslint-disable no-nested-ternary */
+        return dayjs(a[i - 1].end_time).format("HH:mm") === dayjs(a[i].start_time).format("HH:mm") &&
+          dayjs(event.end_time).format("HH:mm") === "16:00"
+          ? arr.push(event)
+          : dayjs(a[i - 1].end_time).format("HH:mm") === dayjs(a[i].start_time).format("HH:mm")
+          ? arr.push(event, "gap")
+          : dayjs(event.end_time).format("HH:mm") === "16:00"
+          ? arr.push("gap", event)
+          : arr.push("gap", event, "gap");
+        /* eslint-enable no-nested-ternary */
+      }
+      if (i === a.length - 1) {
+        return dayjs(event.end_time).format("HH:mm") === "16:00" ? arr.push(event) : arr.push(event, "gap");
       }
       return dayjs(a[i - 1].end_time).format("HH:mm") === dayjs(a[i].start_time).format("HH:mm")
         ? arr.push(event)
