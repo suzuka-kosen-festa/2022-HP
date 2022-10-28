@@ -108,7 +108,7 @@ const Top: FC<TopProperties> = ({ events }) => (
         "第57回鈴鹿高専祭を開催するにあたり、多くの方にご支援賜りました。\nこちらのページにてご協賛いただいた企業様、ご支援いただいた個人様のお名前を記載しておりますのでぜひご覧ください。"
       }
     </SponsorSection>
-    <ContactSection buttonText="お問い合わせ" link="https://forms.gle/MU9338vfudKPEnwS7" title="Contact us">
+    <ContactSection buttonText="お問い合わせ" link="https://forms.gle/SdtmScNMpAFDjftD6" title="Contact us">
       第57回鈴鹿高専祭に関するお問い合わせは下のボタンからお願いいたします（google formsが開きます）
     </ContactSection>
     <AccessSection
