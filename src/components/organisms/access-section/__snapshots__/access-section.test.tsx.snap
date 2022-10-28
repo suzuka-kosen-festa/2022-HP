@@ -29,7 +29,7 @@ exports[`(components) organisms/access-section > take snap shot 1`] = `
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
         role="document"
-        src="https://www.google.com/maps/embed/v1/view?key=&center=34.85167124241317%2C136.58132309784355&zoom=15"
+        src="https://www.google.com/maps/embed/v1/view?key=AIzaSyCk9WMilIT2wiBMqcn1YZQKJz5Lzy9ipQg&center=34.85167124241317%2C136.58132309784355&zoom=15"
         title="鈴鹿工業高等専門学校の地図"
       />
     </div>
