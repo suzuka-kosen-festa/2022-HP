@@ -52,7 +52,7 @@ exports[`(components) templates/time-table > take snap shot 1`] = `
       </div>
       <section
         aria-label="Time table"
-        class="css-1uyb8rf-TimeTable"
+        class="css-79eef2-TimeTable"
       >
         <section
           class="css-paib3t-TimeTableAxis"
@@ -549,6 +549,18 @@ exports[`(components) templates/time-table > take snap shot 1`] = `
           </ul>
         </section>
       </section>
+      <a
+        class="css-jhmgok-Button"
+        href="/"
+        role="button"
+        tabindex="0"
+      >
+        <p
+          class="css-1t0ga8k-Button"
+        >
+          トップページに戻る
+        </p>
+      </a>
     </div>
   </main>
 </div>

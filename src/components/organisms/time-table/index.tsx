@@ -51,8 +51,8 @@ const TimeTableAxis: FC<TimeTableAxisProperties> = ({ axes }) => (
   </section>
 );
 
-const TimeTable: FC<TimeTableProperties> = ({ events }) => (
-  <section aria-label="Time table" css={tw`grid grid-cols-timetable gap-1 lg:gap-10`}>
+const TimeTable: FC<TimeTableProperties> = ({ events, ...rest }) => (
+  <section aria-label="Time table" css={tw`grid grid-cols-timetable gap-1 lg:gap-10`} {...rest}>
     <TimeTableAxis axes={["09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00"]} />
     <TimeTableColumn events={events.main} intervals={events.interval.main} stage="main" />
     <TimeTableColumn events={events.sub} intervals={events.interval.sub} stage="sub" />
