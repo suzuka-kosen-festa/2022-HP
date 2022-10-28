@@ -162,6 +162,7 @@ exports[`(components) molecules/time-table-row > take snap shot 1`] = `
         EXBALLON
       </p>
     </li>
+    <div />
   </ul>
 </div>
 `;

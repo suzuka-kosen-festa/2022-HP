@@ -1,6 +1,6 @@
 // Vitest Snapshot v1
 
-exports[`(components) molecules/twitter > take snap shot 1`] = `
+exports[`(components) molecules/caution > take snap shot 1`] = `
 <div>
   <section
     aria-label="注意事項"
@@ -11,7 +11,7 @@ exports[`(components) molecules/twitter > take snap shot 1`] = `
       class="css-1m7spai"
     >
       <div
-        class="css-1vlcokg"
+        class="css-qitdt8"
       >
         <span />
       </div>
