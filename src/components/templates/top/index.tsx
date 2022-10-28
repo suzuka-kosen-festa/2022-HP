@@ -29,7 +29,8 @@ const cautions = [
     に参加いただけます。
   </CautionText>,
   <CautionText key="1">
-    Re:ROADでは、感染拡大防止のため<Highlight>入場制限</Highlight>を設けています。ご入場にはチケットが必要となります。
+    Re:ROADでは、感染拡大防止のため<Highlight>入場制限</Highlight>
+    を設けています。ご入場には事前にメールに添付されたQRコードが必要となります。
   </CautionText>,
   <CautionText key="2">発熱や風邪などの症状がある方のご入場はご遠慮ください。</CautionText>,
   <CautionText key="3">

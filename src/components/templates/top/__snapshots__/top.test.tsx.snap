@@ -65,7 +65,7 @@ exports[`(components) templates/top > take snap shot 1`] = `
               >
                 入場制限
               </span>
-              を設けています。ご入場にはチケットが必要となります。
+              を設けています。ご入場には事前にメールに添付されたQRコードが必要となります。
             </p>
           </li>
           <li
