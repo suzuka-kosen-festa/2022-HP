@@ -17699,7 +17699,7 @@ __metadata:
     vite: 3.2.1
     vite-plugin-pwa: 0.13.1
     vitest: 0.24.3
-    wouter: 2.8.0-alpha.2
+    wouter: 2.9.0
   languageName: unknown
   linkType: soft
 
@@ -18051,12 +18051,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wouter@npm:2.8.0-alpha.2":
-  version: 2.8.0-alpha.2
-  resolution: "wouter@npm:2.8.0-alpha.2"
+"wouter@npm:2.9.0":
+  version: 2.9.0
+  resolution: "wouter@npm:2.9.0"
   peerDependencies:
     react: ">=16.8.0"
-  checksum: 748002712b6511ec2b93bd18966ae85ac99e66aa344b672c92f972bf4332d809d6466e831017bdf3030f4163d5cdb04a6993b27dea68993f2a3d845ed08f2b02
+  checksum: 3f437930bae99178ab185268514b85dead693eceb860c62e7b6e0c3bb62d23c060afbbe5b5f26380c59be64d40cae5d5493b08c45e5593bdc3b259e6aa07174a
   languageName: node
   linkType: hard
 
